@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "fa2dae95bfc773d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "量化研究方法/Memory Heirarchy Design.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analog Circuit/CMOS超大规模集成电路设计/MOS Utility/直流传输特性.md",
+                "file": "量化研究方法/Memory Heirarchy Design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analog Circuit/CMOS超大规模集成电路设计/MOS Utility/直流传输特性.md",
+                "file": "量化研究方法/Memory Heirarchy Design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analog Circuit/CMOS超大规模集成电路设计/MOS Utility/直流传输特性.md"
+                "file": "量化研究方法/Memory Heirarchy Design.md"
               }
             }
           }
@@ -159,10 +171,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2fd97cb827b9533c",
+  "active": "fa2dae95bfc773d9",
   "lastOpenFiles": [
-    "Analog Circuit/CMOS超大规模集成电路设计/MOS Utility/非理想I-V特性.md",
     "Analog Circuit/CMOS超大规模集成电路设计/MOS Utility/直流传输特性.md",
+    "量化研究方法/Memory Heirarchy Design.md",
+    "量化研究方法",
+    "Analog Circuit/CMOS超大规模集成电路设计/MOS Utility/非理想I-V特性.md",
     "Analog Circuit/CMOS超大规模集成电路设计/MOS Utility/电容特性.md",
     "Analog Circuit/CMOS超大规模集成电路设计/MOS Utility/img/Pasted image 20230308171850.png",
     "Analog Circuit/CMOS超大规模集成电路设计/MOS Utility/img/Pasted image 20230308171609.png",
