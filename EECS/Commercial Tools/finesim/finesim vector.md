@@ -116,5 +116,47 @@ Mask
 Sets a mask function for signals defined in the vector file. It works on all keywords such as vil/vih/trise/tfall/slope/tunit/delay. It is used when signals require special values other than the values defined globally.
 he signals used in check_window statement also can be defined with mask.
 ```
- mask mask_name signal1 [signal2 signal3 ......]
+mask mask_name signal1 [signal2 signal3 ......]
 ```
+or
+```
+mask mask_name mask_pattern
+```
+
+#### check_window
+Specifies the time window of the vector strobe that is defined as an output of the io statement. The output comparison is done within the time window
+![[Pasted image 20230309161456.png]]
+
+第一种声明， the begin_offset and end_offset are the start and stop offset values. The default value and unit are 0 and ns.
+The time window is \[t – begin_offset, t + end_offset\], t is vector stop time. 
+steady 是1或0.
+If steady=1 and the unexpected output range or time exists in the check window, the result is an error. 
+If steady=0 and the expected output range or time exists in the check window, the result is correct.
+If mask_name is specified, the check window is applied to the signals defined in the mask statement. mask可以选择signal
+
+第二种使用方式：
+The time window is \[t – begin_offset, t + end_offset\], where “t” is first_time.
+The check will be repeated every period_time.
+相当于定期检查
+
+*steady*相当于维持在一个稳态？不管是低于VOL还是高于VOH都行
+
+### Tabular Data
+三种tabular data：
+![[Pasted image 20230309163247.png]]
+![[Pasted image 20230309163254.png]]
+![[Pasted image 20230309163300.png]]
+*没懂cascade是干啥的*
+#### State
+![[Pasted image 20230309163321.png]]
+z是高阻抗 
+
+#### period
+可以快捷地生成周期激励
+Defines the time interval of the tabular data. If a period statement is specified, the tabular data contains not only signal values but times.
+![[Pasted image 20230309163503.png]]
+
+#### “-”
+In the period during which an output variable has ‘-‘ values, output comparison is disabled during simulation time. The ‘-‘ character in an IO vector file implies a **don’t care** region of out comparison checking.
+用“-”表示的信号意思是不关心，不会被output检查。the output comparison will be disabled for the period of ‘-‘
+*和x/ui有啥区别？*
