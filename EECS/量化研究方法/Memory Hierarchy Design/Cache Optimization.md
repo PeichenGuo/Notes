@@ -1,5 +1,3 @@
-## Cache
-
 ### 10 advanced optimizations of Cache performance
 
 #### Small and Simple First-Level Caches
@@ -36,3 +34,24 @@ miss penalty --
 critical word first: 先请求需要的，然后立刻返回它，然后再请求剩下的
 early restart：正常请求，当请求到需要的内容时立刻返回
 cacheline越大 bonus越大
+
+#### merging write buffer
+miss penalty --
+实现write buffer，并实现stb合并。即新来的store可以直接更改在stb上，新来的load可以直接从stb里读东西。
+一次写多个字可以写的更快
+注意：IO不能映射到stb里，这样会错
+
+#### 编译器优化
+miss rate --
+- loop interchange：可以更改loop的顺序来增强数据的空间一致性
+- blocking：可以把loop分块，从而减少循环的区间，让数据可以放在cache中，从而减少capcity miss。如果block size足够多，所有数据都能放在寄存器里
+
+#### hardware prefetching 
+可以用stream buffer。prefetch来的东西可以放在stream buffer里，然后对比req和stream buffer内的内容。
+可以减少大概50%-70%的miss
+prefetch的关键在于，可以一边执行prefetch 一边处理器继续流水线运行
+
+#### 编译器控制的prefetch
+编译器要控制的prefetch要注意nonfaulting，也就是不要产生exception也不产生violation
+
+#### 加HBM来拓宽memory heirarchy

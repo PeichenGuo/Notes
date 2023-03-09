@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "量化研究方法/Memory Heirarchy Design.md",
+                "file": "量化研究方法/Memory Hierarchy Design/Cache Optimization.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "量化研究方法/Memory Heirarchy Design.md",
+                "file": "量化研究方法/Memory Hierarchy Design/Cache Optimization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "量化研究方法/Memory Heirarchy Design.md",
+                "file": "量化研究方法/Memory Hierarchy Design/Cache Optimization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "量化研究方法/Memory Heirarchy Design.md"
+                "file": "量化研究方法/Memory Hierarchy Design/Cache Optimization.md"
               }
             }
           }
@@ -173,8 +173,9 @@
   },
   "active": "fa2dae95bfc773d9",
   "lastOpenFiles": [
+    "量化研究方法/Memory Hierarchy Design",
     "Analog Circuit/CMOS超大规模集成电路设计/MOS Utility/直流传输特性.md",
-    "量化研究方法/Memory Heirarchy Design.md",
+    "量化研究方法/Memory Hierarchy Design/Cache Optimization.md",
     "量化研究方法",
     "Analog Circuit/CMOS超大规模集成电路设计/MOS Utility/非理想I-V特性.md",
     "Analog Circuit/CMOS超大规模集成电路设计/MOS Utility/电容特性.md",
