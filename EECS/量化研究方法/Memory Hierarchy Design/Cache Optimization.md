@@ -55,3 +55,6 @@ prefetch的关键在于，可以一边执行prefetch 一边处理器继续流水
 编译器要控制的prefetch要注意nonfaulting，也就是不要产生exception也不产生violation
 
 #### 加HBM来拓宽memory heirarchy
+
+
+![[Pasted image 20230310211054.png]]

@@ -8,31 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "17683ac2d3dc4961",
+            "id": "75e2a7b2cd94ef0f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analog Circuit/CMOS超大规模集成电路设计/MOS Utility/非理想I-V特性.md",
+                "file": "Analog Circuit/CMOS超大规模集成电路设计/延时/RC延时模型.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "13cdc077c792ec9f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analog Circuit/CMOS超大规模集成电路设计/MOS Utility/直流传输特性.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fa2dae95bfc773d9",
+            "id": "a7fcee59ecc3e8d5",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -42,33 +30,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "10a4043e6959f9fe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Commercial Tools/finesim/Usage.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "394054c2bbc53581",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Commercial Tools/finesim/finesim vector.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -134,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Commercial Tools/finesim/finesim vector.md",
+                "file": "量化研究方法/Memory Hierarchy Design/Cache Optimization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Commercial Tools/finesim/finesim vector.md",
+                "file": "量化研究方法/Memory Hierarchy Design/Cache Optimization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Commercial Tools/finesim/finesim vector.md"
+                "file": "量化研究方法/Memory Hierarchy Design/Cache Optimization.md"
               }
             }
           }
@@ -195,22 +159,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "394054c2bbc53581",
+  "active": "a7fcee59ecc3e8d5",
   "lastOpenFiles": [
-    "Pasted image 20230309163503.png",
-    "Commercial Tools/finesim/img/Pasted image 20230309163321.png",
+    "Pasted image 20230310211054.png",
+    "Analog Circuit/CMOS超大规模集成电路设计/延时/img/Pasted image 20230310210412.png",
+    "Analog Circuit/CMOS超大规模集成电路设计/延时/路径逻辑努力.md",
+    "Analog Circuit/CMOS超大规模集成电路设计/延时/RC延时模型.md",
+    "Analog Circuit/CMOS超大规模集成电路设计/延时/img/Pasted image 20230310210110.png",
+    "Analog Circuit/CMOS超大规模集成电路设计/延时/img/Pasted image 20230310200508.png",
+    "Analog Circuit/CMOS超大规模集成电路设计/延时/img/Pasted image 20230310200122.png",
+    "Analog Circuit/CMOS超大规模集成电路设计/延时/img/Pasted image 20230310195841.png",
+    "Analog Circuit/CMOS超大规模集成电路设计/延时/img/Pasted image 20230310195316.png",
+    "Analog Circuit/CMOS超大规模集成电路设计/延时/img/Pasted image 20230310195204.png",
+    "Analog Circuit/CMOS超大规模集成电路设计/延时/瞬态响应 transient response.md",
+    "Analog Circuit/CMOS超大规模集成电路设计/延时/mos管延时.md",
+    "Analog Circuit/CMOS超大规模集成电路设计/延时/img/Pasted image 20230310194806.png",
+    "Analog Circuit/CMOS超大规模集成电路设计/延时/img",
+    "Analog Circuit/CMOS超大规模集成电路设计/延时/img/Pasted image 20230310194718.png",
+    "Analog Circuit/CMOS超大规模集成电路设计/延时",
+    "Commercial Tools/finesim/img/Pasted image 20230309163503.png",
     "Commercial Tools/finesim/finesim vector.md",
-    "Commercial Tools/finesim/img/Pasted image 20230309163300.png",
-    "Commercial Tools/finesim/img/Pasted image 20230309163254.png",
-    "Commercial Tools/finesim/img/Pasted image 20230309163247.png",
-    "Commercial Tools/finesim/img/Pasted image 20230309161456.png",
-    "Commercial Tools/finesim/img/Pasted image 20230309155131.png",
-    "Commercial Tools/finesim/img/Pasted image 20230309155104.png",
-    "Commercial Tools/finesim/img/Pasted image 20230309155037.png",
     "Commercial Tools/finesim/Usage.md",
-    "Commercial Tools/finesim/img/Pasted image 20230309154958.png",
     "Commercial Tools/finesim/img",
-    "Commercial Tools/finesim/img/Pasted image 20230309154233.png",
     "量化研究方法/Memory Hierarchy Design/Cache Optimization.md",
     "Commercial Tools/finesim",
     "Commercial Tools",
@@ -223,7 +193,6 @@
     "Untitled.canvas",
     "Analog Circuit/CMOS超大规模集成电路设计/MOS Utility/img",
     "Analog Circuit/CMOS超大规模集成电路设计/MOS Utility",
-    "Analog Circuit/CMOS超大规模集成电路设计",
-    "Analog Circuit"
+    "Analog Circuit/CMOS超大规模集成电路设计"
   ]
 }
