@@ -161,3 +161,39 @@ Defines the time interval of the tabular data. If a period statement is specifie
 In the period during which an output variable has ‘-‘ values, output comparison is disabled during simulation time. The ‘-‘ character in an IO vector file implies a **don’t care** region of out comparison checking.
 用“-”表示的信号意思是不关心，不会被output检查。the output comparison will be disabled for the period of ‘-‘
 *和x/ui有啥区别？*
+
+A good example
+```
+; enable generation of expected output vectors and comparison result waveforms. output_wf 1 
+; radix specifies the number of bit of the vector. 
+radix 2 2 4 
+; io defines the vector as an input or output vector. 
+io i i o 
+; vname assigns the name to the vector. 
+vname A[1:0] B[1:0] P[3:0] 
+; tunit sets the time unit. 
+tunit ns 
+; trise specifies the rise time of each input vector. 
+trise 1 
+; tfall specifies the fall time of each input vector. 
+tfall 1 
+; vih specifies the logic high voltage of each input vector. 
+vih 2.5 
+; vil specifies the logic low voltage of each input vector 
+vil 0.0 
+; voh specifies the logic high voltage of each output vector 
+voh 2.0 
+; vol specifies the logic low voltage of each output vector 
+vol 0.5 
+0 0 0 x 
+200 3 3 x 
+400 1 2 0 
+600 2 1 9 
+800 3 1 2 
+1000 1 3 2 
+1200 2 2 3 
+1400 3 2 3 
+1600 2 3 4 
+1800 0 0 6 
+2000 0 0 7
+```
