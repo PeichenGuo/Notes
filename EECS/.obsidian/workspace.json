@@ -85,7 +85,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Commercial Tools/finesim/finesim vector.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +101,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Commercial Tools/finesim/finesim vector.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +122,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Commercial Tools/finesim/finesim vector.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,8 +142,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fa204e766d42f352",
+  "active": "2fd97cb827b9533c",
   "lastOpenFiles": [
+    "Commercial Tools/finesim/finesim vector.md",
+    "Commercial Tools/finesim/fscript.md",
     "Computer Architecture in Genaral/量化研究方法/Memory Hierarchy Design/img/Pasted image 20230310211054.png",
     "Computer Architecture in Genaral/量化研究方法/Memory Hierarchy Design/img",
     "Computer Architecture in Genaral",
@@ -167,7 +165,6 @@
     "Analog Circuit/CMOS超大规模集成电路设计/延时/img",
     "Analog Circuit/CMOS超大规模集成电路设计/延时/img/Pasted image 20230310194718.png",
     "Analog Circuit/CMOS超大规模集成电路设计/延时",
-    "Commercial Tools/finesim/finesim vector.md",
     "Commercial Tools/finesim/Usage.md",
     "Commercial Tools/finesim/img",
     "Commercial Tools/finesim",
