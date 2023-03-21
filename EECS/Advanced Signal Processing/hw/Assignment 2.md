@@ -5,7 +5,10 @@ In the last week's course, we learned about Laplace Transform, DTFT/CTFT and sam
 In this week's course, we learned about vector space which is a pretty straightforward but important concept in linear algebra.
 
 #### (b) ChatGPT
-
+I have tried a lot about writing Verilog with gpt or do the architecture explorition with it. 
+Now I tried some new. 
+![[Pasted image 20230321102453.png]]
+It seems that chatgpt3.5 do not understand contradiction and absurdity. lol
 
 ## 2.2 
 ![[Pasted image 20230320150159.png]]
@@ -266,3 +269,20 @@ The multi-path phenomenon is alleviated because:
 2. The noise change from $s(t-t_0)$ to $s(t-2t_0)$, which has less depentancy across time.
 
 #### (b)
+$$
+\begin{aligned}
+s(t) &= s(t) * h(t) + as(t-t_0)*h(t) \\
+S(\omega) &= R(\omega)H(\omega) + aS(\omega)H(\omega)e^{-j\omega t_0} \\
+H(\omega) &= {1\over{1 + ae^{-j\omega t_0}}} = \sum_{k=0}^{\infty}(-a)^k e^{-j\omega t_0}
+\end{aligned}
+$$
+So, 
+$$
+\begin{aligned}
+h(t) &= \mathcal{F}^{-1}[H(\omega)] \\
+&= {1\over2\pi} \int_{-\infty}^{\infty}{\sum_{k=0}^{\infty}(-a)^k e^{-j\omega t_0}e^{j\omega t}}d\omega \\
+&= {1\over2\pi}\sum_{k=0}^{\infty}(-a)^k  \int_{-\infty}^{\infty}e^{j\omega (t - t_0)}d\omega
+\end{aligned}
+
+$$
+And I have no idea how to do this math.
