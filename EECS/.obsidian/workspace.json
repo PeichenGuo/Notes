@@ -4,21 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9a3dd699bfdcc0a1",
+        "id": "bd58c8d120fc0ee0",
         "type": "tabs",
         "children": [
           {
-            "id": "27e14d44e9c7e377",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Advanced Signal Processing/hw/img/Pasted image 20230321102453.png"
-              }
-            }
-          },
-          {
-            "id": "e22066cdc1dcf0fb",
+            "id": "449c93c6f6fd49a8",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -29,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -157,10 +146,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e22066cdc1dcf0fb",
+  "active": "2fd97cb827b9533c",
   "lastOpenFiles": [
-    "Advanced Signal Processing/hw/img/Pasted image 20230410172125.png",
+    "Advanced Signal Processing/hw/img/Pasted image 20230321102453.png",
+    "Advanced Signal Processing/Completeness of Linear Space.pdf",
     "Advanced Signal Processing/hw/Assignment3.md",
+    "Advanced Signal Processing/hw/img/Pasted image 20230410193418.png",
+    "Advanced Signal Processing/hw/img/Pasted image 20230410193412.png",
+    "Advanced Signal Processing/hw/img/Pasted image 20230410193329.png",
+    "Advanced Signal Processing/hw/img/Pasted image 20230410172125.png",
     "Programming Language/Markdown & LaTex/Markdown数学公式语法.md",
     "Programming Language/Markdown & LaTex/Markdown特殊字母.md",
     "Advanced Signal Processing/hw/img/Pasted image 20230410165826.png",
@@ -176,10 +170,6 @@
     "Untitled.md",
     "Programming Language/C++",
     "Programming Language",
-    "Advanced Signal Processing/hw/img/Pasted image 20230321102453.png",
-    "Advanced Signal Processing/hw/img/Pasted image 20230320195424.png",
-    "Advanced Signal Processing/hw/img/Pasted image 20230320193937.png",
-    "Pasted image 20230320193016.png",
     "Advanced Signal Processing/fourier.pdf",
     "Commercial Tools/finesim/finesim vector.md",
     "Advanced Signal Processing/hw/img",
@@ -187,7 +177,6 @@
     "Advanced Signal Processing",
     "Commercial Tools/finesim/fscript.md",
     "Computer Architecture in Genaral/量化研究方法/Memory Hierarchy Design/img",
-    "Computer Architecture in Genaral",
     "Computer Architecture in Genaral/量化研究方法/Memory Hierarchy Design/Cache Optimization.md",
     "Analog Circuit/CMOS超大规模集成电路设计/延时/路径逻辑努力.md",
     "Analog Circuit/CMOS超大规模集成电路设计/延时/RC延时模型.md",
