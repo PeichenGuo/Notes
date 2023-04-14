@@ -1,0 +1,175 @@
+{
+  "main": {
+    "id": "8c040a576c91c1ab",
+    "type": "split",
+    "children": [
+      {
+        "id": "d96a62e6669a72e9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3b91b0135edb94b6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Brief.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1c3051faed4c5261",
+    "type": "split",
+    "children": [
+      {
+        "id": "93ff23a95e075ab5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b07a964644460af0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e9da61dd5ca89c34",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b0f53ba2144b818c",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a38b6f14fd552765",
+    "type": "split",
+    "children": [
+      {
+        "id": "5524da8237b17a3b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "47e01d02c8c294a6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Brief.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4fc133d684834a25",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Brief.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7bd812e739caddbd",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "457f544015e19bf0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Brief.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "3b91b0135edb94b6",
+  "lastOpenFiles": [
+    "Eureka.md",
+    "Questions.md",
+    "Brief.md",
+    "FrontEnd/Dynamic Register Renaming Through Virtual-Physical Registers.md",
+    "FrontEnd/Cherry---Checkpointed Early Resource Recycling in Out-of-order Microprocessors.md",
+    "FrontEnd/Reducing the Complexity of the Register File in Dynamic Superscalar Processor.md",
+    "FrontEnd/img/Pasted image 20230414134608.png",
+    "FrontEnd/img/Pasted image 20230414134747.png",
+    "FrontEnd/img/Pasted image 20230414131011.png",
+    "FrontEnd/img/Pasted image 20230414130929.png",
+    "FrontEnd/img/Pasted image 20230414130808.png",
+    "FrontEnd/img/Pasted image 20230414130522.png",
+    "FrontEnd/img/Pasted image 20230414130725.png",
+    "FrontEnd/img/Pasted image 20230414130459.png",
+    "FrontEnd/img/Pasted image 20230413235709.png",
+    "FrontEnd/img/Pasted image 20230413235631.png",
+    "FrontEnd/img",
+    "FrontEnd/Banked Multiported Register Files for High-Frequency Superscalar Microprocessors.md",
+    "FrontEnd/Virtual-Physical Registers.md",
+    "FrontEnd/Multiple-Banked Register File Architectures.md",
+    "FrontEnd/Delaying Physical Register Allocation Through Virtual-Physical Registers.md",
+    "FrontEnd/Checkpoint Processing and Recovery---Towards Scalable Large Instruction Window Processors.md",
+    "FrontEnd"
+  ]
+}

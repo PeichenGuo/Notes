@@ -1,10 +1,11 @@
 ---
-Name: "Checkpoint Processing and Recovery: Towards Scalable Large Instruction Window Processors"
 Author: "Haitham Akkary Ravi Rajwar Srikanth T. Srinivasan"
-Year: 2023
+Year: 2003
 Journel/Conference: "MICRO"
 Summary: " 用branch confidence的方式和定期checkpoint的方式做recovery"
 Rate: 4
+Question: "None"
+Eureka: "None"
 ---
 ### Abstract
 We focus on four critical aspects of a microarchitecture: 

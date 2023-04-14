@@ -13,10 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PaperReading/FrontEnd/Checkpoint Processing and Recovery(CPR).md",
+                "file": "PaperReading/FrontEnd/Checkpoint Processing and Recovery---Towards Scalable Large Instruction Window Processors.md",
                 "mode": "source",
                 "source": false
               }
+            }
+          },
+          {
+            "id": "26e23207e5f1cda3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PaperReading/FrontEnd/Dynamic Register Renaming Through Virtual-Physical Registers.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "08e84fea4d5f2bd8",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
             }
           },
           {
@@ -25,19 +45,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PaperReading/FrontEnd/Cherry---Checkpointed Early Resource Recycling in Out-of-order Microprocessors.md",
+                "file": "PaperReading/Questions.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "862a6d3f57f116b1",
+            "id": "c87d0bcdee0fdd8d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming Language/C++/Lamda表达式.md",
+                "file": "PaperReading/Eureka.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +142,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming Language/C++/Lamda表达式.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +158,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming Language/C++/Lamda表达式.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,9 +179,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Programming Language/C++/Lamda表达式.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -183,41 +199,47 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "862a6d3f57f116b1",
+  "active": "08e84fea4d5f2bd8",
   "lastOpenFiles": [
+    "PaperReading/FrontEnd/Virtual-Physical Registers.md",
+    "PaperReading/FrontEnd/Delaying Physical Register Allocation Through Virtual-Physical Registers.md",
+    "PaperReading/FrontEnd/Dynamic Register Renaming Through Virtual-Physical Registers.md",
     "PaperReading/FrontEnd/Reducing the Complexity of the Register File in Dynamic Superscalar Processor.md",
+    "PaperReading/Brief.md",
+    "PaperReading/FrontEnd/Multiple-Banked Register File Architectures.md",
+    "Templates/PaperReadingTemplate.md",
+    "PaperReading/FrontEnd/Checkpoint Processing and Recovery---Towards Scalable Large Instruction Window Processors.md",
+    "PaperReading/FrontEnd/img/Pasted image 20230414134608.png",
+    "PaperReading/FrontEnd/Banked Multiported Register Files for High-Frequency Superscalar Microprocessors.md",
+    "PaperReading/FrontEnd/img/Pasted image 20230414134747.png",
+    "PaperReading/FrontEnd/Cherry---Checkpointed Early Resource Recycling in Out-of-order Microprocessors.md",
+    "PaperReading/Eureka.md",
+    "PaperReading/Questions.md",
+    "PaperReading/FrontEnd/img/Pasted image 20230414130459.png",
+    "PaperReading/FrontEnd/img/Pasted image 20230414131011.png",
+    "PaperReading/FrontEnd/img/Pasted image 20230414130929.png",
+    "PaperReading/FrontEnd/img/Pasted image 20230414130808.png",
+    "PaperReading/FrontEnd/img/Pasted image 20230414130725.png",
+    "PaperReading/FrontEnd/img/Pasted image 20230414130522.png",
+    "Programming Language/C++/Lamda表达式.md",
     "PaperReading/FrontEnd/img/Pasted image 20230413221731.png",
     "PaperReading/FrontEnd/img/Pasted image 20230413235709.png",
-    "PaperReading/FrontEnd/img/Pasted image 20230413235631.png",
-    "PaperReading/FrontEnd/img/Pasted image 20230413235557.png",
-    "PaperReading/FrontEnd/img/Pasted image 20230413235502.png",
-    "PaperReading/Brief.md",
-    "PaperReading/FrontEnd/Cherry---Checkpointed Early Resource Recycling in Out-of-order Microprocessors.md",
-    "PaperReading/FrontEnd/img/Pasted image 20230413221829.png",
-    "Templates/PaperReadingTemplate.md",
-    "PaperReading/FrontEnd/Checkpoint Processing and Recovery(CPR).md",
-    "PaperReading/FrontEnd/img/Pasted image 20230413213106.png",
     "PaperReading/FrontEnd/img",
-    "PaperReading/FrontEnd/img/Pasted image 20230413212403.png",
     "PaperReading/FrontEnd/test1.md",
     "Templates/Temp2.md",
-    "Untitled.md",
     "Templates",
     "PaperReading/IssueQueue",
     "Untitled.canvas",
     "PaperReading/FrontEnd",
     "PaperReading",
     "Advanced Signal Processing/hw/Assignment3.md",
-    "Advanced Signal Processing/hw/img/Pasted image 20230321102453.png",
     "Advanced Signal Processing/Completeness of Linear Space.pdf",
-    "Advanced Signal Processing/hw/img/Pasted image 20230410193418.png",
     "Programming Language/Markdown & LaTex/Markdown数学公式语法.md",
     "Programming Language/Markdown & LaTex/Markdown特殊字母.md",
     "Advanced Signal Processing/hw/Assignment 2.md",
     "Programming Language/Untitled.md",
     "Programming Language/Markdown & LaTex/img",
     "Programming Language/Markdown & LaTex",
-    "Programming Language/C++/Lamda表达式.md",
     "Programming Language/C++",
     "Programming Language",
     "Commercial Tools/finesim/finesim vector.md",
@@ -225,11 +247,6 @@
     "Computer Architecture in Genaral/量化研究方法/Memory Hierarchy Design/Cache Optimization.md",
     "Analog Circuit/CMOS超大规模集成电路设计/延时/路径逻辑努力.md",
     "Analog Circuit/CMOS超大规模集成电路设计/延时/RC延时模型.md",
-    "Analog Circuit/CMOS超大规模集成电路设计/延时/瞬态响应 transient response.md",
-    "Analog Circuit/CMOS超大规模集成电路设计/延时/mos管延时.md",
-    "Commercial Tools/finesim/Usage.md",
-    "Analog Circuit/CMOS超大规模集成电路设计/MOS Utility/直流传输特性.md",
-    "Analog Circuit/CMOS超大规模集成电路设计/MOS Utility/非理想I-V特性.md",
-    "Analog Circuit/CMOS超大规模集成电路设计/MOS Utility/电容特性.md"
+    "Analog Circuit/CMOS超大规模集成电路设计/延时/瞬态响应 transient response.md"
   ]
 }

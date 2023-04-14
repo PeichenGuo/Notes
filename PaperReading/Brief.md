@@ -1,7 +1,8 @@
 ## FrontEnd
 ```dataview
 table Year,Rate,Summary
-from "PaperReading/FrontEnd"
+from "FrontEnd"
 sort Rate desc
 ```
+
 

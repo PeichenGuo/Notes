@@ -1,7 +1,6 @@
 ## FrontEnd
 ```dataview
-table Year,Rate,Summary
+table Eureka
 from "PaperReading/FrontEnd"
-sort Rate desc
+sort Question desc
 ```
-
