@@ -1,9 +1,9 @@
 ---
-Author: "PeichenGuo"
-Year: 2023
-Journel/Conference: "RIOSJournel"
+Author: "Adrian Cristal"
+Year: 2004
+Journel/Conference: "HPCA"
 Summary: "BlaBlaBla"
-Rate: 5
+Rate: 3
 Question: "None"
 Eureka: "None"
 ---

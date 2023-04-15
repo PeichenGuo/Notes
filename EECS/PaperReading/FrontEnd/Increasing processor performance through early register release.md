@@ -1,9 +1,9 @@
 ---
-Author: "PeichenGuo"
-Year: 2023
-Journel/Conference: "RIOSJournel"
+Author: "O. Ergin, D. Balkan, D. Ponomarev, and K. Ghose"
+Year: 2004
+Journel/Conference: "ICCD"
 Summary: "BlaBlaBla"
-Rate: 5
+Rate: 2
 Question: "None"
 Eureka: "None"
 ---

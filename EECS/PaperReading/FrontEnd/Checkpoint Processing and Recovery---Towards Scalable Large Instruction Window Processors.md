@@ -2,7 +2,7 @@
 Author: "Haitham Akkary Ravi Rajwar Srikanth T. Srinivasan"
 Year: 2003
 Journel/Conference: "MICRO"
-Summary: " 用branch confidence的方式和定期checkpoint的方式做recovery"
+Summary: " 用branch confidence的方式和定期checkpoint的方式做recovery，并提出了一些STQ和PRF早回收的策略"
 Rate: 4
 Question: "None"
 Eureka: "None"
@@ -27,19 +27,24 @@ Our CPR proposal incorporates novel microarchitectural schemes for addressing th
 3. Scheduling window的size没有那么重要。128 entry的scheduling window就能满足一个2048 entry的scheduling window
 4. bulk retirement。一次可以retire很多条指令。
 
-### sw的大小不重要
+#### sw的大小不重要
 ![[Pasted image 20230413212403.png]]
 可以看到instruction window都是2k的时候，schedule window大小对性能的影响不大。
 
-### checkpoint
+#### checkpoint
 在missprediction之后需要回复rename table这种buffer，所以需要做checkpoint。这个的做法就是猜那条branch更容易miss，然后在他上面做断点，如果每256条指令没做断点，就加个默认断点。
 每次恢复是恢复到最近的断点，然后重新执行到错误预测的branch。
 ![[Pasted image 20230413213106.png]]
 可以看出性能不错（sel-ckpt)，和开销很大的history based map + walk机制有来有回，而且很接近ideal了。
 **zlt说这个东西做太快没用，因为前端fetch周期是固定的，比如四周期fetch。你恢复再快也没用，前段flush完了新的指令还没取回来。**
 
-### STQ
+#### STQ
 实现了一个两级STQ。第一级存最近n个store，第二级存其他store。L1的st过期了会移到L2。通过一个叫membership test buffer(MTB)的东西简化查找ld是不是hit二级stq，大概就是把地址的一部分映射到一个counter上，如果这个counter是0，就说明二级stq里没对应的st。
 **没太懂这个MTB到底有啥用**
+
+#### register file reclaimation
+在没有人读且被重写后可以释放
+同时为了保证checkpoint好使，在checkpoint release前，checkpoint内的preg不能释放（因为恢复状态的时候需要从这个时候重新开始执行）。因此checkpoint也算是preg的consumer，打断点的时候counter++，断点结束的时候counter--
+
 ### Evaluation
 见前文

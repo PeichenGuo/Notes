@@ -1,9 +1,9 @@
 ---
-Author: "PeichenGuo"
-Year: 2023
-Journel/Conference: "RIOSJournel"
+Author: "M. Franklin"
+Year: 1992
+Journel/Conference: "SIGMICRO"
 Summary: "BlaBlaBla"
-Rate: 5
+Rate: 2
 Question: "None"
 Eureka: "None"
 ---

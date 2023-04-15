@@ -2,7 +2,7 @@
 Author: "Rajeev Balasubramonian， David H. Albonesi"
 Year: 2001
 Journel/Conference: "MICRO-34"
-Summary: "搞了个2-level和banked prf"
+Summary: "搞了个2-level和banked prf。把没有cosumer的preg放到L2，并有两种fetch机制来把东西从L2拿到L1"
 Rate: 3
 Question: "None"
 Eureka: "None"

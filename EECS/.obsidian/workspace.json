@@ -4,79 +4,46 @@
     "type": "split",
     "children": [
       {
-        "id": "bd58c8d120fc0ee0",
+        "id": "7326a89c39d8c04e",
         "type": "tabs",
         "children": [
           {
-            "id": "449c93c6f6fd49a8",
+            "id": "2c78d41ad76d0d4a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PaperReading/FrontEnd/Checkpoint Processing and Recovery---Towards Scalable Large Instruction Window Processors.md",
+                "file": "PaperReading/FrontEnd/Increasing processor performance through early register release.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "26e23207e5f1cda3",
+            "id": "83dd09a14fdad46a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PaperReading/FrontEnd/Dynamic Register Renaming Through Virtual-Physical Registers.md",
+                "file": "PaperReading/FrontEnd/Continual Flow Pipelines.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "08e84fea4d5f2bd8",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "a63302ba316cb6e7",
+            "id": "9f6ed19e26e10893",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PaperReading/Questions.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c87d0bcdee0fdd8d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PaperReading/Eureka.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "960960a0df2e1a41",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PaperReading/Brief.md",
+                "file": "PaperReading/FrontEnd/Out-of-Order Commit Processors.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -142,6 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "PaperReading/FrontEnd/Increasing processor performance through early register release.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,6 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "PaperReading/FrontEnd/Increasing processor performance through early register release.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +148,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "PaperReading/FrontEnd/Increasing processor performance through early register release.md"
+              }
             }
           }
         ]
@@ -199,31 +170,41 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "08e84fea4d5f2bd8",
+  "active": "2c78d41ad76d0d4a",
   "lastOpenFiles": [
+    "PaperReading/FrontEnd/img/Pasted image 20230415140900.png",
+    "PaperReading/FrontEnd/A novel register renaming technique for out-of-order processors.md",
+    "PaperReading/FrontEnd/img/Pasted image 20230415141321.png",
+    "PaperReading/FrontEnd/img/Pasted image 20230415141316.png",
+    "PaperReading/FrontEnd/img/Pasted image 20230415141022.png",
+    "PaperReading/FrontEnd/img/Pasted image 20230415140956.png",
+    "PaperReading/FrontEnd/Increasing processor performance through early register release.md",
+    "PaperReading/FrontEnd/Spartan --- Speculative avoidance of register allocations to transient values for performance and energy efficiency,.md",
+    "PaperReading/FrontEnd/Continual Flow Pipelines.md",
+    "PaperReading/FrontEnd/Out-of-Order Commit Processors.md",
+    "PaperReading/FrontEnd/img/Pasted image 20230415132423.png",
+    "PaperReading/FrontEnd/img/Pasted image 20230415133256.png",
+    "PaperReading/FrontEnd/img/Pasted image 20230415133038.png",
+    "PaperReading/FrontEnd/img/Pasted image 20230415133025.png",
+    "PaperReading/FrontEnd/Register Packing --- Exploiting Narrow-Width Operands for Reducing Register File Pressure.md",
+    "PaperReading/FrontEnd/Register Traffic Analysis for Streamlining Inter-Operation Communicationin Fine-Grain ParaIIei Processors.md",
+    "PaperReading/Brief.md",
+    "PaperReading/FrontEnd/img/Pasted image 20230415124152.png",
+    "PaperReading/FrontEnd/Speculative Register Reclamation.md",
+    "PaperReading/FrontEnd/Reducing the Complexity of the Register File in Dynamic Superscalar Processor.md",
     "PaperReading/FrontEnd/Virtual-Physical Registers.md",
+    "PaperReading/FrontEnd/Checkpoint Processing and Recovery---Towards Scalable Large Instruction Window Processors.md",
+    "PaperReading/FrontEnd/Register renaming and dynamic speculation --- an alternative approach.md",
+    "Commercial Tools/finesim/Usage.md",
     "PaperReading/FrontEnd/Delaying Physical Register Allocation Through Virtual-Physical Registers.md",
     "PaperReading/FrontEnd/Dynamic Register Renaming Through Virtual-Physical Registers.md",
-    "PaperReading/FrontEnd/Reducing the Complexity of the Register File in Dynamic Superscalar Processor.md",
-    "PaperReading/Brief.md",
     "PaperReading/FrontEnd/Multiple-Banked Register File Architectures.md",
+    "PaperReading/Questions.md",
     "Templates/PaperReadingTemplate.md",
-    "PaperReading/FrontEnd/Checkpoint Processing and Recovery---Towards Scalable Large Instruction Window Processors.md",
-    "PaperReading/FrontEnd/img/Pasted image 20230414134608.png",
     "PaperReading/FrontEnd/Banked Multiported Register Files for High-Frequency Superscalar Microprocessors.md",
-    "PaperReading/FrontEnd/img/Pasted image 20230414134747.png",
     "PaperReading/FrontEnd/Cherry---Checkpointed Early Resource Recycling in Out-of-order Microprocessors.md",
     "PaperReading/Eureka.md",
-    "PaperReading/Questions.md",
-    "PaperReading/FrontEnd/img/Pasted image 20230414130459.png",
-    "PaperReading/FrontEnd/img/Pasted image 20230414131011.png",
-    "PaperReading/FrontEnd/img/Pasted image 20230414130929.png",
-    "PaperReading/FrontEnd/img/Pasted image 20230414130808.png",
-    "PaperReading/FrontEnd/img/Pasted image 20230414130725.png",
-    "PaperReading/FrontEnd/img/Pasted image 20230414130522.png",
     "Programming Language/C++/Lamda表达式.md",
-    "PaperReading/FrontEnd/img/Pasted image 20230413221731.png",
-    "PaperReading/FrontEnd/img/Pasted image 20230413235709.png",
     "PaperReading/FrontEnd/img",
     "PaperReading/FrontEnd/test1.md",
     "Templates/Temp2.md",
@@ -232,21 +213,10 @@
     "Untitled.canvas",
     "PaperReading/FrontEnd",
     "PaperReading",
-    "Advanced Signal Processing/hw/Assignment3.md",
     "Advanced Signal Processing/Completeness of Linear Space.pdf",
-    "Programming Language/Markdown & LaTex/Markdown数学公式语法.md",
-    "Programming Language/Markdown & LaTex/Markdown特殊字母.md",
-    "Advanced Signal Processing/hw/Assignment 2.md",
-    "Programming Language/Untitled.md",
     "Programming Language/Markdown & LaTex/img",
     "Programming Language/Markdown & LaTex",
     "Programming Language/C++",
-    "Programming Language",
-    "Commercial Tools/finesim/finesim vector.md",
-    "Commercial Tools/finesim/fscript.md",
-    "Computer Architecture in Genaral/量化研究方法/Memory Hierarchy Design/Cache Optimization.md",
-    "Analog Circuit/CMOS超大规模集成电路设计/延时/路径逻辑努力.md",
-    "Analog Circuit/CMOS超大规模集成电路设计/延时/RC延时模型.md",
-    "Analog Circuit/CMOS超大规模集成电路设计/延时/瞬态响应 transient response.md"
+    "Programming Language"
   ]
 }
