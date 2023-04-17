@@ -1,15 +1,13 @@
 ---
-Author: "Heiner Litz"
-Year: 2022
-Journel/Conference: "ASPLOS"
-Summary: "软硬结合的方式来更好地预测load miss，==但这篇我还没看=="
+Author: "Karthikeyan Sankaralingam"
+Year: 2006
+Journel/Conference: "MICRO"
+Summary: "BlaBlaBla"
 Rate: 3
 Question: "None"
 Eureka: "None"
 ---
 ### Abstract
-
-### Contribution
 
 
 ### Motivation
