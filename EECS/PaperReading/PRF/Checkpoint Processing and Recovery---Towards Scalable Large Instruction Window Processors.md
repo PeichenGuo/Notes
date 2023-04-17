@@ -2,7 +2,7 @@
 Author: "Haitham Akkary Ravi Rajwar Srikanth T. Srinivasan"
 Year: 2003
 Journel/Conference: "MICRO"
-Summary: " 用branch confidence的方式和定期checkpoint的方式做recovery，并提出了一些STQ和PRF早回收的策略"
+Summary: " 用branch confidence的方式和定期checkpoint的方式做recovery，并对STQ和PRF进行早回收。"
 Rate: 4
 Question: "None"
 Eureka: "None"

@@ -2,7 +2,7 @@
 Author: "Teresa Monreal, Antonio González, José González"
 Year: 1998
 Journel/Conference: "HPCA"
-Summary: "提出了一种利用virtual physical register来在wb阶段做allocation的办法"
+Summary: "利用virtual physical register将prf存数据和用来wake up的id解耦合，从而在wb阶段做allocation的办法"
 Rate: 3
 Question: "None"
 Eureka: "None"

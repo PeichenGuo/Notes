@@ -8,24 +8,36 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2c78d41ad76d0d4a",
+            "id": "83dd09a14fdad46a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PaperReading/FrontEnd/Increasing processor performance through early register release.md",
+                "file": "PaperReading/PRF/Spartan --- Speculative avoidance of register allocations to transient values for performance and energy efficiency,.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "83dd09a14fdad46a",
+            "id": "13194c8983743908",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PaperReading/FrontEnd/Continual Flow Pipelines.md",
+                "file": "PaperReading/Brief.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "54e538e65ae48acb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PaperReading/PRF/Long Term Parking (LTP) --- Criticality-aware Resource Allocation in OOO Processors.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,13 +49,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PaperReading/FrontEnd/Out-of-Order Commit Processors.md",
+                "file": "PaperReading/PRF/Checkpoint Processing and Recovery---Towards Scalable Large Instruction Window Processors.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ab105ae520e4abd7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PaperReading/Brief.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PaperReading/FrontEnd/Increasing processor performance through early register release.md",
+                "file": "PaperReading/Brief.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PaperReading/FrontEnd/Increasing processor performance through early register release.md",
+                "file": "PaperReading/Brief.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PaperReading/FrontEnd/Increasing processor performance through early register release.md"
+                "file": "PaperReading/Brief.md"
               }
             }
           }
@@ -170,53 +195,54 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2c78d41ad76d0d4a",
+  "active": "13194c8983743908",
   "lastOpenFiles": [
-    "PaperReading/FrontEnd/img/Pasted image 20230415140900.png",
-    "PaperReading/FrontEnd/A novel register renaming technique for out-of-order processors.md",
-    "PaperReading/FrontEnd/img/Pasted image 20230415141321.png",
-    "PaperReading/FrontEnd/img/Pasted image 20230415141316.png",
-    "PaperReading/FrontEnd/img/Pasted image 20230415141022.png",
-    "PaperReading/FrontEnd/img/Pasted image 20230415140956.png",
-    "PaperReading/FrontEnd/Increasing processor performance through early register release.md",
-    "PaperReading/FrontEnd/Spartan --- Speculative avoidance of register allocations to transient values for performance and energy efficiency,.md",
-    "PaperReading/FrontEnd/Continual Flow Pipelines.md",
-    "PaperReading/FrontEnd/Out-of-Order Commit Processors.md",
-    "PaperReading/FrontEnd/img/Pasted image 20230415132423.png",
-    "PaperReading/FrontEnd/img/Pasted image 20230415133256.png",
-    "PaperReading/FrontEnd/img/Pasted image 20230415133038.png",
-    "PaperReading/FrontEnd/img/Pasted image 20230415133025.png",
-    "PaperReading/FrontEnd/Register Packing --- Exploiting Narrow-Width Operands for Reducing Register File Pressure.md",
-    "PaperReading/FrontEnd/Register Traffic Analysis for Streamlining Inter-Operation Communicationin Fine-Grain ParaIIei Processors.md",
+    "PaperReading/zlt/CRISP --- Critical Slice Prefetching.md",
+    "PaperReading/PRF/Spartan --- Speculative avoidance of register allocations to transient values for performance and energy efficiency,.md",
+    "PaperReading/zlt",
     "PaperReading/Brief.md",
-    "PaperReading/FrontEnd/img/Pasted image 20230415124152.png",
-    "PaperReading/FrontEnd/Speculative Register Reclamation.md",
-    "PaperReading/FrontEnd/Reducing the Complexity of the Register File in Dynamic Superscalar Processor.md",
-    "PaperReading/FrontEnd/Virtual-Physical Registers.md",
-    "PaperReading/FrontEnd/Checkpoint Processing and Recovery---Towards Scalable Large Instruction Window Processors.md",
+    "PaperReading/OOO Commit/Out-of-Order Commit Processors.md",
+    "Pasted image 20230417113815.png",
+    "Pasted image 20230417113559.png",
+    "Pasted image 20230417113114.png",
+    "PaperReading/OOO Commit/img",
+    "PaperReading/OOO Commit/img/Pasted image 20230417112931.png",
+    "PaperReading/PRF/Checkpoint Processing and Recovery---Towards Scalable Large Instruction Window Processors.md",
+    "PaperReading/OOO Commit",
+    "PaperReading/Questions.md",
+    "PaperReading/Eureka.md",
+    "PaperReading/PRF/img/Pasted image 20230416195731.png",
+    "PaperReading/PRF/Continual Flow Pipelines.md",
+    "PaperReading/PRF/img/Pasted image 20230416201341.png",
+    "PaperReading/PRF/img/Pasted image 20230416201302.png",
+    "PaperReading/PRF/Long Term Parking (LTP) --- Criticality-aware Resource Allocation in OOO Processors.md",
+    "PaperReading/PRF/img/Pasted image 20230416142424.png",
+    "Templates/PaperReadingTemplate.md",
+    "PaperReading/PRF/Increasing processor performance through early register release.md",
+    "PaperReading/PRF/img/Pasted image 20230416150659.png",
+    "PaperReading/PRF/img/Pasted image 20230416150453.png",
+    "PaperReading/PRF/Speculative Register Reclamation.md",
+    "PaperReading/PRF/Reducing the Complexity of the Register File in Dynamic Superscalar Processor.md",
+    "PaperReading/PRF/A novel register renaming technique for out-of-order processors.md",
+    "PaperReading/PRF/Virtual-Physical Registers.md",
+    "PaperReading/PRF/Register Packing --- Exploiting Narrow-Width Operands for Reducing Register File Pressure.md",
+    "PaperReading/FrontEnd/Register Traffic Analysis for Streamlining Inter-Operation Communicationin Fine-Grain ParaIIei Processors.md",
     "PaperReading/FrontEnd/Register renaming and dynamic speculation --- an alternative approach.md",
     "Commercial Tools/finesim/Usage.md",
-    "PaperReading/FrontEnd/Delaying Physical Register Allocation Through Virtual-Physical Registers.md",
-    "PaperReading/FrontEnd/Dynamic Register Renaming Through Virtual-Physical Registers.md",
-    "PaperReading/FrontEnd/Multiple-Banked Register File Architectures.md",
-    "PaperReading/Questions.md",
-    "Templates/PaperReadingTemplate.md",
-    "PaperReading/FrontEnd/Banked Multiported Register Files for High-Frequency Superscalar Microprocessors.md",
-    "PaperReading/FrontEnd/Cherry---Checkpointed Early Resource Recycling in Out-of-order Microprocessors.md",
-    "PaperReading/Eureka.md",
+    "PaperReading/PRF/Delaying Physical Register Allocation Through Virtual-Physical Registers.md",
+    "PaperReading/PRF/Dynamic Register Renaming Through Virtual-Physical Registers.md",
+    "PaperReading/PRF/Multiple-Banked Register File Architectures.md",
+    "PaperReading/PRF/Banked Multiported Register Files for High-Frequency Superscalar Microprocessors.md",
+    "PaperReading/PRF/Cherry---Checkpointed Early Resource Recycling in Out-of-order Microprocessors.md",
     "Programming Language/C++/Lamda表达式.md",
-    "PaperReading/FrontEnd/img",
+    "PaperReading/PRF/img",
     "PaperReading/FrontEnd/test1.md",
-    "Templates/Temp2.md",
     "Templates",
     "PaperReading/IssueQueue",
     "Untitled.canvas",
-    "PaperReading/FrontEnd",
+    "PaperReading/PRF",
     "PaperReading",
     "Advanced Signal Processing/Completeness of Linear Space.pdf",
-    "Programming Language/Markdown & LaTex/img",
-    "Programming Language/Markdown & LaTex",
-    "Programming Language/C++",
-    "Programming Language"
+    "Programming Language/Markdown & LaTex/img"
   ]
 }

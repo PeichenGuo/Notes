@@ -1,6 +1,6 @@
 ## FrontEnd
 ```dataview
 table Question
-from "PaperReading/FrontEnd"
+from "PaperReading"
 sort Question desc
 ```
