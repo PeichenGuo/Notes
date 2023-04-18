@@ -47,7 +47,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PaperReading/LSQ/Using Virtual Load Store Queues (VLSQs) to Reduce the Negative Effects of Reordered Memory Instructions.md",
+                "file": "Advanced Signal Processing/hw/Assignment 4.md",
                 "mode": "source",
                 "source": false
               }
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PaperReading/LSQ/Using Virtual Load Store Queues (VLSQs) to Reduce the Negative Effects of Reordered Memory Instructions.md",
+                "file": "Advanced Signal Processing/hw/Assignment 4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PaperReading/LSQ/Using Virtual Load Store Queues (VLSQs) to Reduce the Negative Effects of Reordered Memory Instructions.md",
+                "file": "Advanced Signal Processing/hw/Assignment 4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PaperReading/LSQ/Using Virtual Load Store Queues (VLSQs) to Reduce the Negative Effects of Reordered Memory Instructions.md"
+                "file": "Advanced Signal Processing/hw/Assignment 4.md"
               }
             }
           }
@@ -183,8 +183,13 @@
   },
   "active": "5191b4c06f3f7215",
   "lastOpenFiles": [
-    "PaperReading/LSQ/img/Pasted image 20230417204222.png",
+    "Pasted image 20230418171035.png",
+    "Advanced Signal Processing/hw/img/Pasted image 20230418152527.png",
     "PaperReading/LSQ/Using Virtual Load Store Queues (VLSQs) to Reduce the Negative Effects of Reordered Memory Instructions.md",
+    "Programming Language/Markdown & LaTex/Markdown数学公式语法.md",
+    "Advanced Signal Processing/hw/Assignment 4.md",
+    "Advanced Signal Processing/hw/img/Pasted image 20230418112220.png",
+    "PaperReading/LSQ/img/Pasted image 20230417204222.png",
     "PaperReading/LSQ/Late-Binding --- Enabling Unordered Load-Store Queues.md",
     "PaperReading/LSQ/img/Pasted image 20230417203913.png",
     "PaperReading/zlt/Distributed Microarchitectural Protocols in the TRIPS Prototype Processor.md",
@@ -218,11 +223,7 @@
     "PaperReading/OOO Commit/img",
     "PaperReading/OOO Commit/img/Pasted image 20230417112931.png",
     "PaperReading/OOO Commit",
-    "PaperReading/Questions.md",
-    "PaperReading/Eureka.md",
     "PaperReading/PRF/img/Pasted image 20230416195731.png",
-    "PaperReading/PRF/img/Pasted image 20230416201341.png",
-    "PaperReading/PRF/img/Pasted image 20230416201302.png",
     "PaperReading/PRF/img",
     "Templates",
     "PaperReading/IssueQueue",
