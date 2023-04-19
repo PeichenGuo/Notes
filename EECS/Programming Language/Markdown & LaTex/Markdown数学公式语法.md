@@ -134,3 +134,16 @@
 25.  竖直对齐的省略号，符号：`\vdots`，如：$\vdots$
 26.  斜对齐的省略号，符号：`\ddots`，如：$\ddots$
 
+## 矩阵
+$$ \left\{ \begin{matrix} 1 & 2 & 3 \\ 4 & 5 & 6 \\ 7 & 8 & 9 \end{matrix} \right\} \tag{2} $$
+$$ \left[ \begin{matrix} 1 & 2 & 3 \\ 4 & 5 & 6 \\ 7 & 8 & 9 \end{matrix} \right] \tag{3} $$
+$$
+\left[
+\begin{matrix}
+ 1      & 2      & \cdots & 4      \\
+ 7      & 6      & \cdots & 5      \\
+ \vdots & \vdots & \ddots & \vdots \\
+ 8      & 9      & \cdots & 0      \\
+\end{matrix}
+\right]
+$$
