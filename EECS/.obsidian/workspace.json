@@ -35,9 +35,11 @@
             "id": "275ab3682d22b439",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "PaperReading/LSQ/img/Pasted image 20230417204222.png"
+                "file": "PaperReading/LSQ/Late-Binding --- Enabling Unordered Load-Store Queues.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -183,14 +185,16 @@
   },
   "active": "5191b4c06f3f7215",
   "lastOpenFiles": [
+    "Programming Language/Markdown & LaTex/Markdown特殊字母.md",
+    "Advanced Signal Processing/hw/Assignment 4.md",
+    "Advanced Signal Processing/hw/Assignment 3.md",
+    "PaperReading/LSQ/Late-Binding --- Enabling Unordered Load-Store Queues.md",
+    "PaperReading/LSQ/img/Pasted image 20230417204222.png",
+    "Programming Language/Markdown & LaTex/Markdown数学公式语法.md",
     "Pasted image 20230418171035.png",
     "Advanced Signal Processing/hw/img/Pasted image 20230418152527.png",
     "PaperReading/LSQ/Using Virtual Load Store Queues (VLSQs) to Reduce the Negative Effects of Reordered Memory Instructions.md",
-    "Programming Language/Markdown & LaTex/Markdown数学公式语法.md",
-    "Advanced Signal Processing/hw/Assignment 4.md",
     "Advanced Signal Processing/hw/img/Pasted image 20230418112220.png",
-    "PaperReading/LSQ/img/Pasted image 20230417204222.png",
-    "PaperReading/LSQ/Late-Binding --- Enabling Unordered Load-Store Queues.md",
     "PaperReading/LSQ/img/Pasted image 20230417203913.png",
     "PaperReading/zlt/Distributed Microarchitectural Protocols in the TRIPS Prototype Processor.md",
     "PaperReading/zlt/Scaling to the end of silicon with EDGE architectures.md",
@@ -218,12 +222,10 @@
     "PaperReading/PRF/Spartan --- Speculative avoidance of register allocations to transient values for performance and energy efficiency,.md",
     "PaperReading/PRF/A novel register renaming technique for out-of-order processors.md",
     "PaperReading/zlt",
-    "PaperReading/OOO Commit/Out-of-Order Commit Processors.md",
     "PaperReading/OOO Commit/img/Pasted image 20230417113815.png",
     "PaperReading/OOO Commit/img",
     "PaperReading/OOO Commit/img/Pasted image 20230417112931.png",
     "PaperReading/OOO Commit",
-    "PaperReading/PRF/img/Pasted image 20230416195731.png",
     "PaperReading/PRF/img",
     "Templates",
     "PaperReading/IssueQueue",
