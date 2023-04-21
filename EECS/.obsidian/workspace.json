@@ -4,59 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "7326a89c39d8c04e",
+        "id": "3faedbd307399986",
         "type": "tabs",
         "children": [
           {
-            "id": "83dd09a14fdad46a",
+            "id": "79973c628c060975",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PaperReading/PRF/Banked Multiported Register Files for High-Frequency Superscalar Microprocessors.md",
+                "file": "PaperReading/LSQ/Store vectors for scalable memory dependence prediction and scheduling.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "54e538e65ae48acb",
+            "id": "3ce7b35c421b75a3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PaperReading/zlt/Distributed Microarchitectural Protocols in the TRIPS Prototype Processor.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "275ab3682d22b439",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PaperReading/LSQ/Late-Binding --- Enabling Unordered Load-Store Queues.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5191b4c06f3f7215",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Advanced Signal Processing/hw/Assignment 4.md",
+                "file": "PaperReading/LSQ/Memory Renaming --- Fast, Early and Accurate Processing ofMemory Communication.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -122,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Advanced Signal Processing/hw/Assignment 4.md",
+                "file": "PaperReading/LSQ/Memory Renaming --- Fast, Early and Accurate Processing ofMemory Communication.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Advanced Signal Processing/hw/Assignment 4.md",
+                "file": "PaperReading/LSQ/Memory Renaming --- Fast, Early and Accurate Processing ofMemory Communication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Advanced Signal Processing/hw/Assignment 4.md"
+                "file": "PaperReading/LSQ/Memory Renaming --- Fast, Early and Accurate Processing ofMemory Communication.md"
               }
             }
           }
@@ -183,29 +159,41 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5191b4c06f3f7215",
+  "active": "3ce7b35c421b75a3",
   "lastOpenFiles": [
-    "Programming Language/Markdown & LaTex/Markdown数学公式语法.md",
+    "PaperReading/LSQ/Store vectors for scalable memory dependence prediction and scheduling.md",
+    "PaperReading/LSQ/Memory Renaming --- Fast, Early and Accurate Processing ofMemory Communication.md",
+    "PaperReading/unsorted/img",
+    "PaperReading/unsorted",
+    "PaperReading/Untitled.md",
+    "PaperReading/LSQ/img/Pasted image 20230421163206.png",
+    "PaperReading/LSQ/img/Pasted image 20230421153724.png",
+    "PaperReading/LSQ/img/Pasted image 20230421152706.png",
+    "PaperReading/LSQ/img/Pasted image 20230421152802.png",
+    "PaperReading/LSQ/img/Pasted image 20230421140415.png",
+    "PaperReading/unsorted/Select-free instruction scheduling logic.md",
+    "PaperReading/unsorted/A High-Speed Dynamic Instruction Scheduling Schemefor Superscalar Processors.md",
+    "PaperReading/LSQ/Memory Dependence Prediction using Store Sets.md",
+    "PaperReading/LSQ/Reducing Design Complexity of the Load Store Queue.md",
+    "PaperReading/PRF/Banked Multiported Register Files for High-Frequency Superscalar Microprocessors.md",
+    "PaperReading/zlt/Distributed Microarchitectural Protocols in the TRIPS Prototype Processor.md",
+    "PaperReading/LSQ/img/Pasted image 20230421132237.png",
+    "PaperReading/LSQ/Feedback-directed MemoryDisambiguation Through Store Distance Analysis.md",
+    "PaperReading/LSQ/img/Pasted image 20230421124117.png",
+    "PaperReading/LSQ/img/Pasted image 20230421123711.png",
+    "PaperReading/LSQ/Using Virtual Load Store Queues (VLSQs) to Reduce the Negative Effects of Reordered Memory Instructions.md",
+    "PaperReading/LSQ/img/Pasted image 20230421102612.png",
+    "Pasted image 20230421102611.png",
     "PaperReading/LSQ/Late-Binding --- Enabling Unordered Load-Store Queues.md",
     "Advanced Signal Processing/hw/Assignment 4.md",
+    "Programming Language/Markdown & LaTex/Markdown数学公式语法.md",
     "Programming Language/Markdown & LaTex/Markdown特殊字母.md",
     "Advanced Signal Processing/hw/Assignment 3.md",
-    "PaperReading/LSQ/img/Pasted image 20230417204222.png",
-    "Pasted image 20230418171035.png",
-    "Advanced Signal Processing/hw/img/Pasted image 20230418152527.png",
-    "PaperReading/LSQ/Using Virtual Load Store Queues (VLSQs) to Reduce the Negative Effects of Reordered Memory Instructions.md",
-    "Advanced Signal Processing/hw/img/Pasted image 20230418112220.png",
-    "PaperReading/LSQ/img/Pasted image 20230417203913.png",
-    "PaperReading/zlt/Distributed Microarchitectural Protocols in the TRIPS Prototype Processor.md",
     "PaperReading/zlt/Scaling to the end of silicon with EDGE architectures.md",
     "PaperReading/zlt/Long Term Parking (LTP) --- Criticality-aware Resource Allocation in OOO Processors.md",
     "Templates/PaperReadingTemplate.md",
-    "PaperReading/LSQ/img/Pasted image 20230417194810.png",
-    "PaperReading/OOO Commit/img/Pasted image 20230417113114.png",
-    "PaperReading/OOO Commit/img/Pasted image 20230417113559.png",
     "PaperReading/Brief.md",
     "PaperReading/zlt/CRISP --- Critical Slice Prefetching.md",
-    "PaperReading/PRF/Banked Multiported Register Files for High-Frequency Superscalar Microprocessors.md",
     "PaperReading/LSQ/img",
     "PaperReading/LSQ",
     "PaperReading/PRF/PRF Breif.md",
@@ -213,24 +201,12 @@
     "PaperReading/PRF/Speculative Register Reclamation.md",
     "PaperReading/PRF/Register Packing --- Exploiting Narrow-Width Operands for Reducing Register File Pressure.md",
     "PaperReading/PRF/Reducing the Complexity of the Register File in Dynamic Superscalar Processor.md",
-    "PaperReading/PRF/Multiple-Banked Register File Architectures.md",
-    "PaperReading/PRF/Increasing processor performance through early register release.md",
-    "PaperReading/PRF/Dynamic Register Renaming Through Virtual-Physical Registers.md",
-    "PaperReading/PRF/Delaying Physical Register Allocation Through Virtual-Physical Registers.md",
-    "PaperReading/PRF/Continual Flow Pipelines.md",
-    "PaperReading/PRF/Cherry---Checkpointed Early Resource Recycling in Out-of-order Microprocessors.md",
-    "PaperReading/PRF/Spartan --- Speculative avoidance of register allocations to transient values for performance and energy efficiency,.md",
-    "PaperReading/PRF/A novel register renaming technique for out-of-order processors.md",
     "PaperReading/zlt",
-    "PaperReading/OOO Commit/img/Pasted image 20230417113815.png",
     "PaperReading/OOO Commit/img",
-    "PaperReading/OOO Commit/img/Pasted image 20230417112931.png",
     "PaperReading/OOO Commit",
     "PaperReading/PRF/img",
     "Templates",
     "PaperReading/IssueQueue",
-    "Untitled.canvas",
-    "PaperReading/PRF",
-    "PaperReading"
+    "Untitled.canvas"
   ]
 }
