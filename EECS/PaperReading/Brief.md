@@ -16,3 +16,11 @@ table Year,Rate,Summary
 from "PaperReading/OOO Commit"
 sort Rate desc
 ```
+
+###  LSQ
+```dataview
+table Year,Rate,Summary
+from "PaperReading/LSQ"
+sort Rate desc
+```
+

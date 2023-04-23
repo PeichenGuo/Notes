@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PaperReading/Brief.md",
+                "file": "PaperReading/LSQ/Highly accurate data value prediction using hybrid predictors.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PaperReading/Brief.md",
+                "file": "PaperReading/LSQ/Highly accurate data value prediction using hybrid predictors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PaperReading/Brief.md",
+                "file": "PaperReading/LSQ/Highly accurate data value prediction using hybrid predictors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PaperReading/Brief.md"
+                "file": "PaperReading/LSQ/Highly accurate data value prediction using hybrid predictors.md"
               }
             }
           }
@@ -149,29 +149,30 @@
   "active": "78846c795fc10fca",
   "lastOpenFiles": [
     "PaperReading/LSQ/The Predictability of Data Values.md",
+    "Pasted image 20230423230249.png",
+    "Pasted image 20230423192348.png",
+    "PaperReading/LSQ/img/Pasted image 20230423191915.png",
+    "PaperReading/LSQ/img/Pasted image 20230423192251.png",
+    "PaperReading/LSQ/img/Pasted image 20230423192018.png",
+    "PaperReading/LSQ/img/Pasted image 20230423192011.png",
+    "PaperReading/LSQ/img/Pasted image 20230422181119.png",
+    "PaperReading/LSQ/img/Pasted image 20230423191523.png",
+    "PaperReading/Brief.md",
     "PaperReading/LSQ/Value locality and load value prediction.md",
-    "Pasted image 20230422181119.png",
     "PaperReading/LSQ/img/Pasted image 20230422181019.png",
     "PaperReading/LSQ/img/Pasted image 20230422180918.png",
-    "PaperReading/LSQ/img/Pasted image 20230422180821.png",
-    "PaperReading/LSQ/img/Pasted image 20230422173318.png",
-    "PaperReading/LSQ/img/Pasted image 20230422172952.png",
     "PaperReading/LSQ/Practical data value speculation for future high-end processors.md",
     "PaperReading/LSQ/Highly accurate data value prediction using hybrid predictors.md",
     "PaperReading/LSQ/Using Virtual Load Store Queues (VLSQs) to Reduce the Negative Effects of Reordered Memory Instructions.md",
     "PaperReading/Using Value Prediction to Increase thePower of Speculative Execution Hardware.md",
     "PaperReading/LSQ/Load Value Prediction via Path-based Address Prediction --- Avoiding Mispredictions due to Conflicting Stores.md",
     "PaperReading/LSQ/Improving the accuracy and performance of memory communication through renaming.md",
-    "PaperReading/LSQ/img/Pasted image 20230422153706.png",
     "PaperReading/LSQ/Memory Dependence Prediction using Store Sets.md",
     "PaperReading/LSQ/Memory Renaming --- Fast, Early and Accurate Processing ofMemory Communication.md",
     "PaperReading/LSQ/Dynamic Speculation and Synchronization of Data Dependences.md",
-    "PaperReading/LSQ/img/Pasted image 20230422140457.png",
-    "PaperReading/LSQ/img/Pasted image 20230422153321.png",
     "PaperReading/LSQ/Store vectors for scalable memory dependence prediction and scheduling.md",
     "PaperReading/unsorted/img",
     "PaperReading/unsorted",
-    "PaperReading/LSQ/img/Pasted image 20230421163206.png",
     "PaperReading/unsorted/Select-free instruction scheduling logic.md",
     "PaperReading/unsorted/A High-Speed Dynamic Instruction Scheduling Schemefor Superscalar Processors.md",
     "PaperReading/LSQ/Reducing Design Complexity of the Load Store Queue.md",
@@ -184,7 +185,6 @@
     "Programming Language/Markdown & LaTex/Markdown特殊字母.md",
     "Advanced Signal Processing/hw/Assignment 3.md",
     "PaperReading/zlt/Scaling to the end of silicon with EDGE architectures.md",
-    "PaperReading/zlt/Long Term Parking (LTP) --- Criticality-aware Resource Allocation in OOO Processors.md",
     "PaperReading/LSQ/img",
     "PaperReading/LSQ",
     "PaperReading/zlt",
