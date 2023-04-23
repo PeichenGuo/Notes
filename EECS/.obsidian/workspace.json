@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PaperReading/LSQ/The Predictability of Data Values.md",
+                "file": "PaperReading/Brief.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PaperReading/LSQ/The Predictability of Data Values.md",
+                "file": "PaperReading/Brief.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PaperReading/LSQ/The Predictability of Data Values.md",
+                "file": "PaperReading/Brief.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PaperReading/LSQ/The Predictability of Data Values.md"
+                "file": "PaperReading/Brief.md"
               }
             }
           }
@@ -146,8 +146,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2fd97cb827b9533c",
+  "active": "78846c795fc10fca",
   "lastOpenFiles": [
+    "PaperReading/LSQ/The Predictability of Data Values.md",
     "PaperReading/LSQ/Value locality and load value prediction.md",
     "Pasted image 20230422181119.png",
     "PaperReading/LSQ/img/Pasted image 20230422181019.png",
@@ -158,7 +159,6 @@
     "PaperReading/LSQ/Practical data value speculation for future high-end processors.md",
     "PaperReading/LSQ/Highly accurate data value prediction using hybrid predictors.md",
     "PaperReading/LSQ/Using Virtual Load Store Queues (VLSQs) to Reduce the Negative Effects of Reordered Memory Instructions.md",
-    "PaperReading/LSQ/The Predictability of Data Values.md",
     "PaperReading/Using Value Prediction to Increase thePower of Speculative Execution Hardware.md",
     "PaperReading/LSQ/Load Value Prediction via Path-based Address Prediction --- Avoiding Mispredictions due to Conflicting Stores.md",
     "PaperReading/LSQ/Improving the accuracy and performance of memory communication through renaming.md",
