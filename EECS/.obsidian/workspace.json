@@ -8,31 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "79973c628c060975",
+            "id": "78846c795fc10fca",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PaperReading/LSQ/Store vectors for scalable memory dependence prediction and scheduling.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3ce7b35c421b75a3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PaperReading/LSQ/Memory Renaming --- Fast, Early and Accurate Processing ofMemory Communication.md",
+                "file": "PaperReading/LSQ/The Predictability of Data Values.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PaperReading/LSQ/Memory Renaming --- Fast, Early and Accurate Processing ofMemory Communication.md",
+                "file": "PaperReading/LSQ/The Predictability of Data Values.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PaperReading/LSQ/Memory Renaming --- Fast, Early and Accurate Processing ofMemory Communication.md",
+                "file": "PaperReading/LSQ/The Predictability of Data Values.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PaperReading/LSQ/Memory Renaming --- Fast, Early and Accurate Processing ofMemory Communication.md"
+                "file": "PaperReading/LSQ/The Predictability of Data Values.md"
               }
             }
           }
@@ -159,31 +146,38 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3ce7b35c421b75a3",
+  "active": "2fd97cb827b9533c",
   "lastOpenFiles": [
-    "PaperReading/LSQ/Store vectors for scalable memory dependence prediction and scheduling.md",
+    "PaperReading/LSQ/Value locality and load value prediction.md",
+    "Pasted image 20230422181119.png",
+    "PaperReading/LSQ/img/Pasted image 20230422181019.png",
+    "PaperReading/LSQ/img/Pasted image 20230422180918.png",
+    "PaperReading/LSQ/img/Pasted image 20230422180821.png",
+    "PaperReading/LSQ/img/Pasted image 20230422173318.png",
+    "PaperReading/LSQ/img/Pasted image 20230422172952.png",
+    "PaperReading/LSQ/Practical data value speculation for future high-end processors.md",
+    "PaperReading/LSQ/Highly accurate data value prediction using hybrid predictors.md",
+    "PaperReading/LSQ/Using Virtual Load Store Queues (VLSQs) to Reduce the Negative Effects of Reordered Memory Instructions.md",
+    "PaperReading/LSQ/The Predictability of Data Values.md",
+    "PaperReading/Using Value Prediction to Increase thePower of Speculative Execution Hardware.md",
+    "PaperReading/LSQ/Load Value Prediction via Path-based Address Prediction --- Avoiding Mispredictions due to Conflicting Stores.md",
+    "PaperReading/LSQ/Improving the accuracy and performance of memory communication through renaming.md",
+    "PaperReading/LSQ/img/Pasted image 20230422153706.png",
+    "PaperReading/LSQ/Memory Dependence Prediction using Store Sets.md",
     "PaperReading/LSQ/Memory Renaming --- Fast, Early and Accurate Processing ofMemory Communication.md",
+    "PaperReading/LSQ/Dynamic Speculation and Synchronization of Data Dependences.md",
+    "PaperReading/LSQ/img/Pasted image 20230422140457.png",
+    "PaperReading/LSQ/img/Pasted image 20230422153321.png",
+    "PaperReading/LSQ/Store vectors for scalable memory dependence prediction and scheduling.md",
     "PaperReading/unsorted/img",
     "PaperReading/unsorted",
-    "PaperReading/Untitled.md",
     "PaperReading/LSQ/img/Pasted image 20230421163206.png",
-    "PaperReading/LSQ/img/Pasted image 20230421153724.png",
-    "PaperReading/LSQ/img/Pasted image 20230421152706.png",
-    "PaperReading/LSQ/img/Pasted image 20230421152802.png",
-    "PaperReading/LSQ/img/Pasted image 20230421140415.png",
     "PaperReading/unsorted/Select-free instruction scheduling logic.md",
     "PaperReading/unsorted/A High-Speed Dynamic Instruction Scheduling Schemefor Superscalar Processors.md",
-    "PaperReading/LSQ/Memory Dependence Prediction using Store Sets.md",
     "PaperReading/LSQ/Reducing Design Complexity of the Load Store Queue.md",
     "PaperReading/PRF/Banked Multiported Register Files for High-Frequency Superscalar Microprocessors.md",
     "PaperReading/zlt/Distributed Microarchitectural Protocols in the TRIPS Prototype Processor.md",
-    "PaperReading/LSQ/img/Pasted image 20230421132237.png",
     "PaperReading/LSQ/Feedback-directed MemoryDisambiguation Through Store Distance Analysis.md",
-    "PaperReading/LSQ/img/Pasted image 20230421124117.png",
-    "PaperReading/LSQ/img/Pasted image 20230421123711.png",
-    "PaperReading/LSQ/Using Virtual Load Store Queues (VLSQs) to Reduce the Negative Effects of Reordered Memory Instructions.md",
-    "PaperReading/LSQ/img/Pasted image 20230421102612.png",
-    "Pasted image 20230421102611.png",
     "PaperReading/LSQ/Late-Binding --- Enabling Unordered Load-Store Queues.md",
     "Advanced Signal Processing/hw/Assignment 4.md",
     "Programming Language/Markdown & LaTex/Markdown数学公式语法.md",
@@ -191,16 +185,8 @@
     "Advanced Signal Processing/hw/Assignment 3.md",
     "PaperReading/zlt/Scaling to the end of silicon with EDGE architectures.md",
     "PaperReading/zlt/Long Term Parking (LTP) --- Criticality-aware Resource Allocation in OOO Processors.md",
-    "Templates/PaperReadingTemplate.md",
-    "PaperReading/Brief.md",
-    "PaperReading/zlt/CRISP --- Critical Slice Prefetching.md",
     "PaperReading/LSQ/img",
     "PaperReading/LSQ",
-    "PaperReading/PRF/PRF Breif.md",
-    "PaperReading/PRF/Checkpoint Processing and Recovery---Towards Scalable Large Instruction Window Processors.md",
-    "PaperReading/PRF/Speculative Register Reclamation.md",
-    "PaperReading/PRF/Register Packing --- Exploiting Narrow-Width Operands for Reducing Register File Pressure.md",
-    "PaperReading/PRF/Reducing the Complexity of the Register File in Dynamic Superscalar Processor.md",
     "PaperReading/zlt",
     "PaperReading/OOO Commit/img",
     "PaperReading/OOO Commit",
