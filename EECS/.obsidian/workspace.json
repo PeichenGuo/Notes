@@ -13,7 +13,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PaperReading/LSQ/Highly accurate data value prediction using hybrid predictors.md",
+                "file": "PaperReading/LSQ/Load Value Prediction via Path-based Address Prediction --- Avoiding Mispredictions due to Conflicting Stores.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9cf387e8eec42a31",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PaperReading/BPU/Probabilistic Counter Updates for Predictor Hysteresis and Stratification.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0d7a7447cc06e992",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PaperReading/BPU/A case for (partially) TAgged GEometric history length branch prediction.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PaperReading/LSQ/Highly accurate data value prediction using hybrid predictors.md",
+                "file": "PaperReading/LSQ/Load Value Prediction via Path-based Address Prediction --- Avoiding Mispredictions due to Conflicting Stores.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PaperReading/LSQ/Highly accurate data value prediction using hybrid predictors.md",
+                "file": "PaperReading/LSQ/Load Value Prediction via Path-based Address Prediction --- Avoiding Mispredictions due to Conflicting Stores.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PaperReading/LSQ/Highly accurate data value prediction using hybrid predictors.md"
+                "file": "PaperReading/LSQ/Load Value Prediction via Path-based Address Prediction --- Avoiding Mispredictions due to Conflicting Stores.md"
               }
             }
           }
@@ -148,21 +172,25 @@
   },
   "active": "78846c795fc10fca",
   "lastOpenFiles": [
+    "PaperReading/LSQ/Practical data value speculation for future high-end processors.md",
+    "Pasted image 20230424165417.png",
+    "PaperReading/BPU/Probabilistic Counter Updates for Predictor Hysteresis and Stratification.md",
+    "PaperReading/BPU/A case for (partially) TAgged GEometric history length branch prediction.md",
+    "PaperReading/BPU/img",
+    "PaperReading/BPU",
+    "PaperReading/Brief.md",
+    "PaperReading/LSQ/Highly accurate data value prediction using hybrid predictors.md",
+    "PaperReading/LSQ/img/Pasted image 20230424151546.png",
+    "PaperReading/LSQ/img/Pasted image 20230424150222.png",
+    "PaperReading/LSQ/img/Pasted image 20230423192348.png",
+    "PaperReading/LSQ/img/Pasted image 20230424144828.png",
     "PaperReading/LSQ/The Predictability of Data Values.md",
-    "Pasted image 20230423230249.png",
-    "Pasted image 20230423192348.png",
+    "PaperReading/LSQ/img/Pasted image 20230423230249.png",
     "PaperReading/LSQ/img/Pasted image 20230423191915.png",
     "PaperReading/LSQ/img/Pasted image 20230423192251.png",
     "PaperReading/LSQ/img/Pasted image 20230423192018.png",
     "PaperReading/LSQ/img/Pasted image 20230423192011.png",
-    "PaperReading/LSQ/img/Pasted image 20230422181119.png",
-    "PaperReading/LSQ/img/Pasted image 20230423191523.png",
-    "PaperReading/Brief.md",
     "PaperReading/LSQ/Value locality and load value prediction.md",
-    "PaperReading/LSQ/img/Pasted image 20230422181019.png",
-    "PaperReading/LSQ/img/Pasted image 20230422180918.png",
-    "PaperReading/LSQ/Practical data value speculation for future high-end processors.md",
-    "PaperReading/LSQ/Highly accurate data value prediction using hybrid predictors.md",
     "PaperReading/LSQ/Using Virtual Load Store Queues (VLSQs) to Reduce the Negative Effects of Reordered Memory Instructions.md",
     "PaperReading/Using Value Prediction to Increase thePower of Speculative Execution Hardware.md",
     "PaperReading/LSQ/Load Value Prediction via Path-based Address Prediction --- Avoiding Mispredictions due to Conflicting Stores.md",
@@ -183,16 +211,12 @@
     "Advanced Signal Processing/hw/Assignment 4.md",
     "Programming Language/Markdown & LaTex/Markdown数学公式语法.md",
     "Programming Language/Markdown & LaTex/Markdown特殊字母.md",
-    "Advanced Signal Processing/hw/Assignment 3.md",
-    "PaperReading/zlt/Scaling to the end of silicon with EDGE architectures.md",
     "PaperReading/LSQ/img",
     "PaperReading/LSQ",
     "PaperReading/zlt",
     "PaperReading/OOO Commit/img",
     "PaperReading/OOO Commit",
     "PaperReading/PRF/img",
-    "Templates",
-    "PaperReading/IssueQueue",
     "Untitled.canvas"
   ]
 }
