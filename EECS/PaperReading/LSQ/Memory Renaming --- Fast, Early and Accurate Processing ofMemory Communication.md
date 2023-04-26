@@ -2,7 +2,7 @@
 Author: "Gary S."
 Year: 1999
 Journel/Conference: "International Journal of Parallel Programming"
-Summary: "BlaBlaBla"
+Summary: "用类似寄存器重命名的方式将memory dependency也进行重命名，在寄存器而非cache中解决依赖"
 Rate: 2
 Question: "None"
 Eureka: "None"

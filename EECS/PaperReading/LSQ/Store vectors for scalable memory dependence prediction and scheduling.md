@@ -2,7 +2,7 @@
 Author: "Samantika Subramaniam"
 Year: 2006
 Journel/Conference: "HPCA"
-Summary: "BlaBlaBla"
+Summary: "通过存load-store相对位置+bit matrix的方式来简化之前memory dependency prediction的CAM结构"
 Rate: 3
 Question: "None"
 Eureka: "None"

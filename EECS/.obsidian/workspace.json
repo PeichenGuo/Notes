@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "78846c795fc10fca",
+            "id": "d146ddae251a239f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PaperReading/LSQ/Load Value Prediction via Path-based Address Prediction --- Avoiding Mispredictions due to Conflicting Stores.md",
+                "file": "PaperReading/LSQ/Dynamic Speculation and Synchronization of Data Dependences.md",
                 "mode": "source",
                 "source": false
               }
@@ -23,12 +23,8 @@
             "id": "9cf387e8eec42a31",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PaperReading/BPU/Probabilistic Counter Updates for Predictor Hysteresis and Stratification.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           },
           {
@@ -109,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PaperReading/LSQ/Load Value Prediction via Path-based Address Prediction --- Avoiding Mispredictions due to Conflicting Stores.md",
+                "file": "PaperReading/LSQ/Dynamic Speculation and Synchronization of Data Dependences.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PaperReading/LSQ/Load Value Prediction via Path-based Address Prediction --- Avoiding Mispredictions due to Conflicting Stores.md",
+                "file": "PaperReading/LSQ/Dynamic Speculation and Synchronization of Data Dependences.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PaperReading/LSQ/Load Value Prediction via Path-based Address Prediction --- Avoiding Mispredictions due to Conflicting Stores.md"
+                "file": "PaperReading/LSQ/Dynamic Speculation and Synchronization of Data Dependences.md"
               }
             }
           }
@@ -170,15 +166,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "78846c795fc10fca",
+  "active": "d146ddae251a239f",
   "lastOpenFiles": [
-    "PaperReading/LSQ/Practical data value speculation for future high-end processors.md",
-    "Pasted image 20230424165417.png",
-    "PaperReading/BPU/Probabilistic Counter Updates for Predictor Hysteresis and Stratification.md",
     "PaperReading/BPU/A case for (partially) TAgged GEometric history length branch prediction.md",
+    "PaperReading/LSQ/Dynamic Speculation and Synchronization of Data Dependences.md",
+    "PaperReading/BPU/Probabilistic Counter Updates for Predictor Hysteresis and Stratification.md",
+    "PaperReading/Brief.md",
+    "PaperReading/PRF/PRF Breif.md",
+    "PaperReading/PRF/Multiple-Banked Register File Architectures.md",
+    "PaperReading/LSQ/Memory Renaming --- Fast, Early and Accurate Processing ofMemory Communication.md",
+    "PaperReading/LSQ/Store vectors for scalable memory dependence prediction and scheduling.md",
+    "PaperReading/LSQ/Correlated Load-Address Predictors.md",
+    "PaperReading/LSQ/Value locality and load value prediction.md",
+    "PaperReading/Eureka.md",
+    "PaperReading/LSQ/Load Value Prediction via Path-based Address Prediction --- Avoiding Mispredictions due to Conflicting Stores.md",
+    "PaperReading/LSQ/Pasted image 20230426154905.png",
+    "PaperReading/LSQ/img/Pasted image 20230424165417.png",
+    "PaperReading/LSQ/img/Pasted image 20230426154825.png",
+    "PaperReading/LSQ/Practical data value speculation for future high-end processors.md",
     "PaperReading/BPU/img",
     "PaperReading/BPU",
-    "PaperReading/Brief.md",
     "PaperReading/LSQ/Highly accurate data value prediction using hybrid predictors.md",
     "PaperReading/LSQ/img/Pasted image 20230424151546.png",
     "PaperReading/LSQ/img/Pasted image 20230424150222.png",
@@ -188,17 +195,10 @@
     "PaperReading/LSQ/img/Pasted image 20230423230249.png",
     "PaperReading/LSQ/img/Pasted image 20230423191915.png",
     "PaperReading/LSQ/img/Pasted image 20230423192251.png",
-    "PaperReading/LSQ/img/Pasted image 20230423192018.png",
-    "PaperReading/LSQ/img/Pasted image 20230423192011.png",
-    "PaperReading/LSQ/Value locality and load value prediction.md",
     "PaperReading/LSQ/Using Virtual Load Store Queues (VLSQs) to Reduce the Negative Effects of Reordered Memory Instructions.md",
     "PaperReading/Using Value Prediction to Increase thePower of Speculative Execution Hardware.md",
-    "PaperReading/LSQ/Load Value Prediction via Path-based Address Prediction --- Avoiding Mispredictions due to Conflicting Stores.md",
     "PaperReading/LSQ/Improving the accuracy and performance of memory communication through renaming.md",
     "PaperReading/LSQ/Memory Dependence Prediction using Store Sets.md",
-    "PaperReading/LSQ/Memory Renaming --- Fast, Early and Accurate Processing ofMemory Communication.md",
-    "PaperReading/LSQ/Dynamic Speculation and Synchronization of Data Dependences.md",
-    "PaperReading/LSQ/Store vectors for scalable memory dependence prediction and scheduling.md",
     "PaperReading/unsorted/img",
     "PaperReading/unsorted",
     "PaperReading/unsorted/Select-free instruction scheduling logic.md",
@@ -208,9 +208,6 @@
     "PaperReading/zlt/Distributed Microarchitectural Protocols in the TRIPS Prototype Processor.md",
     "PaperReading/LSQ/Feedback-directed MemoryDisambiguation Through Store Distance Analysis.md",
     "PaperReading/LSQ/Late-Binding --- Enabling Unordered Load-Store Queues.md",
-    "Advanced Signal Processing/hw/Assignment 4.md",
-    "Programming Language/Markdown & LaTex/Markdown数学公式语法.md",
-    "Programming Language/Markdown & LaTex/Markdown特殊字母.md",
     "PaperReading/LSQ/img",
     "PaperReading/LSQ",
     "PaperReading/zlt",

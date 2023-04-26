@@ -2,7 +2,7 @@
 Author: "Mikko H. Lipasti, John Paul Shen"
 Year: 1996
 Journel/Conference: "ASPLOS"
-Summary: "BlaBlaBla"
+Summary: "第一次提出了load value prediction，使用了last value predictor"
 Rate: 4
 Question: "None"
 Eureka: "None"

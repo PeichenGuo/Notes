@@ -2,7 +2,7 @@
 Author: "Andreas Moshovos"
 Year: 1997
 Journel/Conference: "ISCA"
-Summary: "BlaBlaBla"
+Summary: "通过记录store-load pair，如果对应的store没有执行，则load也不会发射。（这篇看的有点草率了，有空review）"
 Rate: 4
 Question: "None"
 Eureka: "None"
