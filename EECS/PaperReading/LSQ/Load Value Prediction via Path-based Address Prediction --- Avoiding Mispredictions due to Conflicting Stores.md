@@ -2,7 +2,7 @@
 Author: "Rami Sheikh"
 Year: 2017
 Journel/Conference: "MICRO"
-Summary: "用预测load的地址来代替预测load的值，从而减少load-store conflict。"
+Summary: "DLVP：用预测load的地址来代替预测load的值，从而减少load-store conflict。"
 Rate: 3
 Question: "None"
 Eureka: "None"

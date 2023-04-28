@@ -2,8 +2,8 @@
 Author: "Arthur Perais, Andre Seznec"
 Year: 2014
 Journel/Conference: "HPCA"
-Summary: "利用上了branch history来做prdiction"
-Rate: 1
+Summary: "VTAGE：利用上了branch history来做prdiction。还没仔细看"
+Rate: 3
 Question: "None"
 Eureka: "None"
 ---
