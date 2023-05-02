@@ -8,67 +8,30 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d146ddae251a239f",
+            "id": "5450cf5d91bae7c3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PaperReading/LSQ/Load Value Prediction via Path-based Address Prediction --- Avoiding Mispredictions due to Conflicting Stores.md",
+                "file": "PaperReading/LSQ/Store Vulnerability Window (SVW) --- Re-Execution Filtering for Enhanced Load Optimization.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "64965c76ce71a8ae",
+            "id": "72356458318b8d52",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PaperReading/LSQ/Exploring value prediction with the EVES predictor.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8bd27dc7456eb24d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PaperReading/LSQ/Memory Renaming --- Fast, Early and Accurate Processing ofMemory Communication.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "56ec17ea4b34e624",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PaperReading/LSQ/Memory Ordering --- A Value-Based Approach.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0d7a7447cc06e992",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PaperReading/BPU/A case for (partially) TAgged GEometric history length branch prediction.md",
+                "file": "PaperReading/LSQ/Dynamic Instruction Reuse.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,9 +61,9 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": false,
+                "matchingCase": true,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -134,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PaperReading/LSQ/Memory Ordering --- A Value-Based Approach.md",
+                "file": "PaperReading/LSQ/Store Vulnerability Window (SVW) --- Re-Execution Filtering for Enhanced Load Optimization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PaperReading/LSQ/Memory Ordering --- A Value-Based Approach.md",
+                "file": "PaperReading/LSQ/Store Vulnerability Window (SVW) --- Re-Execution Filtering for Enhanced Load Optimization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PaperReading/LSQ/Memory Ordering --- A Value-Based Approach.md"
+                "file": "PaperReading/LSQ/Store Vulnerability Window (SVW) --- Re-Execution Filtering for Enhanced Load Optimization.md"
               }
             }
           }
@@ -195,13 +158,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "56ec17ea4b34e624",
+  "active": "5450cf5d91bae7c3",
   "lastOpenFiles": [
-    "PaperReading/LSQ/img/Pasted image 20230428170959.png",
+    "PaperReading/LSQ/Scalable Hardware Memory Disambiguation for High ILP Processors.md",
+    "PaperReading/LSQ/Store Vulnerability Window (SVW) --- Re-Execution Filtering for Enhanced Load Optimization.md",
+    "PaperReading/LSQ/Dynamic Instruction Reuse.md",
+    "PaperReading/Brief.md",
+    "PaperReading/LSQ/Store vectors for scalable memory dependence prediction and scheduling.md",
     "PaperReading/LSQ/Memory Ordering --- A Value-Based Approach.md",
+    "PaperReading/LSQ/img/Pasted image 20230428170959.png",
     "PaperReading/LSQ/img/Pasted image 20230501144111.png",
     "PaperReading/LSQ/Memory Renaming --- Fast, Early and Accurate Processing ofMemory Communication.md",
-    "PaperReading/LSQ/Scalable Hardware Memory Disambiguation for High ILP Processors.md",
     "PaperReading/LSQ/img/Pasted image 20230428165615.png",
     "PaperReading/LSQ/Exploring value prediction with the EVES predictor.md",
     "PaperReading/LSQ/Efficient Load Value Prediction using Multiple Predictors and Filters.md",
@@ -216,7 +183,6 @@
     "PaperReading/LSQ/Memory Dependence Prediction using Store Sets.md",
     "PaperReading/LSQ/img/Pasted image 20230426154905.png",
     "PaperReading/LSQ/Reducing Design Complexity of the Load Store Queue.md",
-    "PaperReading/LSQ/Store vectors for scalable memory dependence prediction and scheduling.md",
     "PaperReading/LSQ/The Predictability of Data Values.md",
     "PaperReading/LSQ/Using Virtual Load Store Queues (VLSQs) to Reduce the Negative Effects of Reordered Memory Instructions.md",
     "PaperReading/LSQ/Value locality and load value prediction.md",
@@ -225,7 +191,6 @@
     "PaperReading/LSQ/Dynamic Speculation and Synchronization of Data Dependences.md",
     "PaperReading/BPU/A case for (partially) TAgged GEometric history length branch prediction.md",
     "PaperReading/BPU/Probabilistic Counter Updates for Predictor Hysteresis and Stratification.md",
-    "PaperReading/Brief.md",
     "PaperReading/PRF/PRF Breif.md",
     "PaperReading/PRF/Multiple-Banked Register File Architectures.md",
     "PaperReading/Eureka.md",
@@ -234,7 +199,6 @@
     "PaperReading/BPU",
     "PaperReading/LSQ/Highly accurate data value prediction using hybrid predictors.md",
     "PaperReading/Using Value Prediction to Increase thePower of Speculative Execution Hardware.md",
-    "PaperReading/LSQ/Improving the accuracy and performance of memory communication through renaming.md",
     "PaperReading/unsorted/img",
     "PaperReading/unsorted",
     "PaperReading/LSQ/img",

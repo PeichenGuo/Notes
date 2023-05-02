@@ -25,9 +25,11 @@ Eureka: "None"
 2. 所有load必须以program order进行
 3. 造成replay squash的load不应该被执行第二遍。
 
-由于replay的开销不小，可以通过filter的方式来选取需要replay的load从而减少replay的load的总量。
-### Evaluation
+由于replay的开销不小，可以通过filter的方式来选取需要replay的load从而减少replay的load的总量
+==具体没看==
 
+### Evaluation
+==没看==
 
 ### Unsolved Question
 
