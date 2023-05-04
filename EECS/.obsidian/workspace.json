@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PaperReading/LSQ/Store Vulnerability Window (SVW) --- Re-Execution Filtering for Enhanced Load Optimization.md",
+                "file": "PaperReading/Brief.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -105,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PaperReading/LSQ/Store Vulnerability Window (SVW) --- Re-Execution Filtering for Enhanced Load Optimization.md",
+                "file": "PaperReading/LSQ/Dynamic Instruction Reuse.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PaperReading/LSQ/Store Vulnerability Window (SVW) --- Re-Execution Filtering for Enhanced Load Optimization.md",
+                "file": "PaperReading/LSQ/Dynamic Instruction Reuse.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PaperReading/LSQ/Store Vulnerability Window (SVW) --- Re-Execution Filtering for Enhanced Load Optimization.md"
+                "file": "PaperReading/LSQ/Dynamic Instruction Reuse.md"
               }
             }
           }
@@ -166,12 +167,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5450cf5d91bae7c3",
+  "active": "72356458318b8d52",
   "lastOpenFiles": [
-    "PaperReading/LSQ/Scalable Hardware Memory Disambiguation for High ILP Processors.md",
     "PaperReading/LSQ/Store Vulnerability Window (SVW) --- Re-Execution Filtering for Enhanced Load Optimization.md",
     "PaperReading/LSQ/Dynamic Instruction Reuse.md",
     "PaperReading/Brief.md",
+    "Templates/PaperReadingTemplate.md",
+    "PaperReading/LSQ/Scalable Hardware Memory Disambiguation for High ILP Processors.md",
     "PaperReading/LSQ/Store vectors for scalable memory dependence prediction and scheduling.md",
     "PaperReading/LSQ/Memory Ordering --- A Value-Based Approach.md",
     "PaperReading/LSQ/img/Pasted image 20230428170959.png",
@@ -206,7 +208,6 @@
     "PaperReading/BPU/img",
     "PaperReading/BPU",
     "PaperReading/LSQ/Highly accurate data value prediction using hybrid predictors.md",
-    "PaperReading/Using Value Prediction to Increase thePower of Speculative Execution Hardware.md",
     "PaperReading/unsorted/img",
     "PaperReading/unsorted",
     "PaperReading/LSQ/img",

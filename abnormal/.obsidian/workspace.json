@@ -8,11 +8,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3b91b0135edb94b6",
+            "id": "b30361d9819c209f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Brief.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Brief.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Brief.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Brief.md"
+              }
             }
           }
         ]
@@ -146,11 +154,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3b91b0135edb94b6",
+  "active": "b07a964644460af0",
   "lastOpenFiles": [
+    "Templates/Stuffs Template.md",
+    "stuffs/Untitled.md",
+    "stuffs/一个树莓派 (A Raspberry Pi).md",
+    "stuffs/老大哥雕像.md",
+    "stuffs/黑色的白石头.md",
+    "stuffs/“陨石”.md",
+    "Brief.md",
+    "Templates",
+    "stuffs",
     "Eureka.md",
     "Questions.md",
-    "Brief.md",
     "FrontEnd/Dynamic Register Renaming Through Virtual-Physical Registers.md",
     "FrontEnd/Cherry---Checkpointed Early Resource Recycling in Out-of-order Microprocessors.md",
     "FrontEnd/Reducing the Complexity of the Register File in Dynamic Superscalar Processor.md",
