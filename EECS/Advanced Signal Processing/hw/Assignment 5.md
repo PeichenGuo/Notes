@@ -5,6 +5,7 @@ In practice, the sym+def matrices are relatively rare to find. The singular valu
 
 Then we learned about pseudo inverse. 
 
+After that we learned about stable reconstruction with the Tikhonov regularization.
 ## 5.2 SVD
 ![[Pasted image 20230508135642.png]]
 Solve:
@@ -178,3 +179,30 @@ x &= V\Sigma^{-1}V^Ty \\
 \end{aligned}
 $$
 ## 5.3 Convolution Theorem
+![[Pasted image 20230509205849.png]]
+### a
+We have:
+$$
+\begin{aligned}
+Hf_k &= \left [
+\begin{matrix}
+h[0] + h[N-1]e^{j2\pi k / N} + h[N-2]e^{j2\pi2k / N} + \cdots + h[1]e^{j2\pi2(N-1)k / N} \\
+h[1] + h[0]e^{j2\pi k / N} + h[N-1]e^{j2\pi2k / N} + \cdots + h[2]e^{j2\pi2(N-1)k / N} \\
+\vdots \\
+h[N-1] + h[N-2]e^{j2\pi k / N} + h[N-1]e^{j2\pi2k / N} + \cdots + h[0]e^{j2\pi2(-1)k / N} \\
+\end{matrix}
+\right ] \\
+&= (h[0] + h[N-1]e^{j2\pi2k / N} + \cdots + h[1]e^{j2\pi2(N-1)k / N}) f_k \\
+&= \lambda_k f_k
+
+\end{aligned}
+$$
+So $f_k$ is eigenvector. 
+### b
+$$
+y = Hx = FDF^Hx
+$$
+We find that F is made up by fk and D is a diagonal matrix with eigenvalues like $(h[0] + h[N-1]e^{j2\pi2k / N} + \cdots + h[1]e^{j2\pi2(N-1)k / N})$. We knows that $f_k$ is discrete Fourier vector, so actually $F^Hx$ is actually doing DFT and $Fx$ is doing IDFT. While $Dx$ is like doing the multiplication. 
+So, $FDF^Hx$ is like do a DFT first, and then do a multiplication and do an IDFT again. 
+## 5.4 SVD Regularization
+![[Pasted image 20230509210003.png]]
