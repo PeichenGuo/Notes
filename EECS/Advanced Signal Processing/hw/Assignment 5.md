@@ -204,5 +204,55 @@ y = Hx = FDF^Hx
 $$
 We find that F is made up by fk and D is a diagonal matrix with eigenvalues like $(h[0] + h[N-1]e^{j2\pi2k / N} + \cdots + h[1]e^{j2\pi2(N-1)k / N})$. We knows that $f_k$ is discrete Fourier vector, so actually $F^Hx$ is actually doing DFT and $Fx$ is doing IDFT. While $Dx$ is like doing the multiplication. 
 So, $FDF^Hx$ is like do a DFT first, and then do a multiplication and do an IDFT again. 
+reference:https://brianmcfee.net/dstbook-site/content/ch10-convtheorem/ConvolutionTheorem.html
 ## 5.4 SVD Regularization
 ![[Pasted image 20230509210003.png]]
+### a.
+$$
+A = 
+\left[
+\begin{matrix}
+h[0] & 0 &     0 & \cdots & 0\\
+h[1] & h[0]  & 0  & \cdots & 0\\
+h[2] & h[1]  & h[0]  & \cdots & 0\\
+\vdots & \vdots & \vdots & \ddots &\vdots \\
+0 & 0 & 0 & \cdots & h[29]
+\end{matrix}
+\right] 
+= 
+\left[
+\begin{matrix}
+{1\over3} & 0 &     0 & \cdots & 0\\
+{1\over3} & {1\over3}  & 0  & \cdots & 0\\
+{1\over3} & {1\over3}  & {1\over3}  & \cdots & 0\\
+\vdots & \vdots & \vdots & \ddots &\vdots \\
+0 & 0 & 0 & \cdots & {1\over3}
+\end{matrix}
+\right] \in \mathbb{R}^{541\times 512}
+$$
+Kind of like a 30-in-width belt under diagonal.
+### b.
+```matlab
+A = zeros(541, 512);
+
+for i = 1:512
+
+for j = 0 : 29
+
+A(i+j, i) = 1/3;
+
+end
+
+end
+
+[U, S, V] = svd(A);
+
+A_ = pinv(A);
+
+x_bar = A_ * yn;
+
+norm(x_bar - x, 2)
+```
+So, $||\hat{x} - x||_2 = 50.183$
+
+### c.

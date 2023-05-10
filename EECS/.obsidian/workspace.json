@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "62480062817bb1f3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PaperReading/LSQ/Fire-and-Forget --- Load Store Scheduling with No Store Queue at All.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -106,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Advanced Signal Processing/hw/Assignment 5.md",
+                "file": "PaperReading/LSQ/Fire-and-Forget --- Load Store Scheduling with No Store Queue at All.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Advanced Signal Processing/hw/Assignment 5.md",
+                "file": "PaperReading/LSQ/Fire-and-Forget --- Load Store Scheduling with No Store Queue at All.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Advanced Signal Processing/hw/Assignment 5.md"
+                "file": "PaperReading/LSQ/Fire-and-Forget --- Load Store Scheduling with No Store Queue at All.md"
               }
             }
           }
@@ -167,11 +179,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "72356458318b8d52",
+  "active": "62480062817bb1f3",
   "lastOpenFiles": [
+    "PaperReading/BPU/A case for (partially) TAgged GEometric history length branch prediction.md",
+    "PaperReading/LSQ/Fire-and-Forget --- Load Store Scheduling with No Store Queue at All.md",
+    "PaperReading/unsorted/Dynamic Instruction Reuse.md",
+    "Pasted image 20230510164625.png",
+    "PaperReading/unsorted/img/Pasted image 20230510163032.png",
+    "PaperReading/LSQ/Dynamic Speculation and Synchronization of Data Dependences.md",
     "Programming Language/Markdown & LaTex/Markdown特殊字母.md",
-    "Programming Language/Markdown & LaTex/Markdown数学公式语法.md",
     "Advanced Signal Processing/hw/Assignment 5.md",
+    "Programming Language/Markdown & LaTex/Markdown数学公式语法.md",
     "Advanced Signal Processing/hw/img/Pasted image 20230509210003.png",
     "Advanced Signal Processing/hw/img/Pasted image 20230509205849.png",
     "Advanced Signal Processing/hw/Assignment 4.md",
@@ -191,8 +209,6 @@
     "PaperReading/LSQ/Efficient Load Value Prediction using Multiple Predictors and Filters.md",
     "PaperReading/LSQ/img/Pasted image 20230427223807.png",
     "PaperReading/LSQ/img/Pasted image 20230427223335.png",
-    "PaperReading/LSQ/img/Pasted image 20230427222251.png",
-    "PaperReading/LSQ/img/Pasted image 20230427221706.png",
     "PaperReading/LSQ/Load Value Prediction via Path-based Address Prediction --- Avoiding Mispredictions due to Conflicting Stores.md",
     "PaperReading/LSQ/Practical data value speculation for future high-end processors.md",
     "PaperReading/LSQ/Correlated Load-Address Predictors.md",
@@ -201,10 +217,7 @@
     "PaperReading/LSQ/Reducing Design Complexity of the Load Store Queue.md",
     "PaperReading/LSQ/The Predictability of Data Values.md",
     "PaperReading/LSQ/Using Virtual Load Store Queues (VLSQs) to Reduce the Negative Effects of Reordered Memory Instructions.md",
-    "PaperReading/LSQ/Value locality and load value prediction.md",
     "Untitled.canvas",
-    "PaperReading/LSQ/Dynamic Speculation and Synchronization of Data Dependences.md",
-    "PaperReading/BPU/A case for (partially) TAgged GEometric history length branch prediction.md",
     "PaperReading/BPU/img",
     "PaperReading/BPU",
     "PaperReading/unsorted/img",
