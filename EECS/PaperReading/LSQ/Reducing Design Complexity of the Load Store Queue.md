@@ -2,7 +2,7 @@
 Author: "I. Park"
 Year: 2003
 Journel/Conference: "MICRO"
-Summary: "用store-load pair predictor（预测需不需要search）和load buffer（存放oooload）的方式减少search bandwidth，哟个segment（切成段）的方式增加scaling ability"
+Summary: "用store-load pair predictor（预测需不需要search）和load buffer（存放oooload）的方式减少search bandwidth，用segment（切成段）的方式增加scaling ability"
 Rate: 3
 Question: "None"
 Eureka: "None"

@@ -1,9 +1,9 @@
 ---
-Author: "Avinash Sodani and Gurindar S. Sohi"
-Year: 1997
-Journel/Conference: "SIGARCH"
+Author: "Jie S. Hu, N. Vijaykrishnan, and Mary Jane Irwin"
+Year: 2004
+Journel/Conference: "HPCA"
 Summary: "BlaBlaBla"
-Rate: 4
+Rate: 3
 Question: "None"
 Eureka: "None"
 ---

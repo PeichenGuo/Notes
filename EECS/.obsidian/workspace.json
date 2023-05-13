@@ -8,43 +8,30 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5450cf5d91bae7c3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programming Language/Markdown & LaTex/Markdown特殊字母.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "72356458318b8d52",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Advanced Signal Processing/hw/Assignment 5.md",
+                "file": "PaperReading/IQ/Exploring Wakeup-Free Instruction Scheduling.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "62480062817bb1f3",
+            "id": "8c138de9406fd605",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PaperReading/LSQ/Fire-and-Forget --- Load Store Scheduling with No Store Queue at All.md",
+                "file": "PaperReading/Brief.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PaperReading/LSQ/Fire-and-Forget --- Load Store Scheduling with No Store Queue at All.md",
+                "file": "PaperReading/IQ/Exploring Wakeup-Free Instruction Scheduling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PaperReading/LSQ/Fire-and-Forget --- Load Store Scheduling with No Store Queue at All.md",
+                "file": "PaperReading/IQ/Exploring Wakeup-Free Instruction Scheduling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PaperReading/LSQ/Fire-and-Forget --- Load Store Scheduling with No Store Queue at All.md"
+                "file": "PaperReading/IQ/Exploring Wakeup-Free Instruction Scheduling.md"
               }
             }
           }
@@ -179,44 +166,46 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "62480062817bb1f3",
+  "active": "2fd97cb827b9533c",
   "lastOpenFiles": [
-    "PaperReading/BPU/A case for (partially) TAgged GEometric history length branch prediction.md",
+    "PaperReading/IQ/Cyclone --- A Broadcast-Free Dynamic Instruction Scheduler with Selective Replay.md",
+    "PaperReading/IQ/Exploring Wakeup-Free Instruction Scheduling.md",
+    "PaperReading/IQ/img/Pasted image 20230513122923.png",
+    "PaperReading/Brief.md",
+    "PaperReading/LSQ/LSQ Brief.md",
+    "PaperReading/IQ/img",
+    "PaperReading/LSQ/The Predictability of Data Values.md",
+    "PaperReading/LSQ/Value locality and load value prediction.md",
+    "PaperReading/LSQ/Using Virtual Load Store Queues (VLSQs) to Reduce the Negative Effects of Reordered Memory Instructions.md",
+    "PaperReading/LSQ/Store Vulnerability Window (SVW) --- Re-Execution Filtering for Enhanced Load Optimization.md",
+    "PaperReading/LSQ/Store vectors for scalable memory dependence prediction and scheduling.md",
+    "PaperReading/LSQ/Scalable Hardware Memory Disambiguation for High ILP Processors.md",
+    "PaperReading/LSQ/Reducing Design Complexity of the Load Store Queue.md",
+    "PaperReading/LSQ/Practical data value speculation for future high-end processors.md",
+    "PaperReading/LSQ/Memory Renaming --- Fast, Early and Accurate Processing ofMemory Communication.md",
+    "PaperReading/LSQ/Memory Ordering --- A Value-Based Approach.md",
+    "PaperReading/LSQ/Memory Dependence Prediction using Store Sets.md",
+    "PaperReading/LSQ/Load Value Prediction via Path-based Address Prediction --- Avoiding Mispredictions due to Conflicting Stores.md",
+    "PaperReading/LSQ/Late-Binding --- Enabling Unordered Load-Store Queues.md",
+    "PaperReading/LSQ/Improving the accuracy and performance of memory communication through renaming.md",
+    "PaperReading/LSQ/Highly accurate data value prediction using hybrid predictors.md",
     "PaperReading/LSQ/Fire-and-Forget --- Load Store Scheduling with No Store Queue at All.md",
-    "PaperReading/unsorted/Dynamic Instruction Reuse.md",
-    "Pasted image 20230510164625.png",
-    "PaperReading/unsorted/img/Pasted image 20230510163032.png",
+    "PaperReading/LSQ/Feedback-directed MemoryDisambiguation Through Store Distance Analysis.md",
+    "PaperReading/LSQ/Efficient Load Value Prediction using Multiple Predictors and Filters.md",
     "PaperReading/LSQ/Dynamic Speculation and Synchronization of Data Dependences.md",
-    "Programming Language/Markdown & LaTex/Markdown特殊字母.md",
-    "Advanced Signal Processing/hw/Assignment 5.md",
-    "Programming Language/Markdown & LaTex/Markdown数学公式语法.md",
+    "PaperReading/LSQ/Correlated Load-Address Predictors.md",
+    "PaperReading/LSQ/Dynamic Instruction Reuse.md",
+    "PaperReading/unsorted/Dynamic Instruction Reuse.md",
+    "PaperReading/IQ",
+    "PaperReading/LSQ/img/Pasted image 20230513105644.png",
+    "PaperReading/LSQ/img/Pasted image 20230510164625.png",
+    "PaperReading/LSQ/img/Pasted image 20230512211930.png",
+    "PaperReading/unsorted/img/Pasted image 20230510163032.png",
     "Advanced Signal Processing/hw/img/Pasted image 20230509210003.png",
     "Advanced Signal Processing/hw/img/Pasted image 20230509205849.png",
-    "Advanced Signal Processing/hw/Assignment 4.md",
-    "PaperReading/LSQ/Dynamic Instruction Reuse.md",
-    "PaperReading/Brief.md",
     "Advanced Signal Processing/hw/img/Pasted image 20230508135642.png",
-    "PaperReading/LSQ/Store Vulnerability Window (SVW) --- Re-Execution Filtering for Enhanced Load Optimization.md",
-    "Templates/PaperReadingTemplate.md",
-    "PaperReading/LSQ/Scalable Hardware Memory Disambiguation for High ILP Processors.md",
-    "PaperReading/LSQ/Store vectors for scalable memory dependence prediction and scheduling.md",
-    "PaperReading/LSQ/Memory Ordering --- A Value-Based Approach.md",
     "PaperReading/LSQ/img/Pasted image 20230428170959.png",
     "PaperReading/LSQ/img/Pasted image 20230501144111.png",
-    "PaperReading/LSQ/Memory Renaming --- Fast, Early and Accurate Processing ofMemory Communication.md",
-    "PaperReading/LSQ/img/Pasted image 20230428165615.png",
-    "PaperReading/LSQ/Exploring value prediction with the EVES predictor.md",
-    "PaperReading/LSQ/Efficient Load Value Prediction using Multiple Predictors and Filters.md",
-    "PaperReading/LSQ/img/Pasted image 20230427223807.png",
-    "PaperReading/LSQ/img/Pasted image 20230427223335.png",
-    "PaperReading/LSQ/Load Value Prediction via Path-based Address Prediction --- Avoiding Mispredictions due to Conflicting Stores.md",
-    "PaperReading/LSQ/Practical data value speculation for future high-end processors.md",
-    "PaperReading/LSQ/Correlated Load-Address Predictors.md",
-    "PaperReading/LSQ/Late-Binding --- Enabling Unordered Load-Store Queues.md",
-    "PaperReading/LSQ/Memory Dependence Prediction using Store Sets.md",
-    "PaperReading/LSQ/Reducing Design Complexity of the Load Store Queue.md",
-    "PaperReading/LSQ/The Predictability of Data Values.md",
-    "PaperReading/LSQ/Using Virtual Load Store Queues (VLSQs) to Reduce the Negative Effects of Reordered Memory Instructions.md",
     "Untitled.canvas",
     "PaperReading/BPU/img",
     "PaperReading/BPU",
@@ -225,8 +214,6 @@
     "PaperReading/LSQ/img",
     "PaperReading/LSQ",
     "PaperReading/zlt",
-    "PaperReading/OOO Commit/img",
-    "PaperReading/OOO Commit",
-    "PaperReading/PRF/img"
+    "PaperReading/OOO Commit/img"
   ]
 }

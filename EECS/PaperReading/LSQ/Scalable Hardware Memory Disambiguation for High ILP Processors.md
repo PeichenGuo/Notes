@@ -2,7 +2,7 @@
 Author: "Simha Sethumadhavan"
 Year: 2003
 Journel/Conference: "MICRO"
-Summary: "通过hashing的方式来减少能耗"
+Summary: "通过hashing的方式来减少search能耗"
 Rate: 3
 Question: "None"
 Eureka: "None"
