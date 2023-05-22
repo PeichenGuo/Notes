@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PaperReading/core/Complexity-Effective Superscalar Processors.md",
+                "file": "Advanced Signal Processing/hw/Assignment 6.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PaperReading/core/Complexity-Effective Superscalar Processors.md",
+                "file": "Advanced Signal Processing/hw/Assignment 6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PaperReading/core/Complexity-Effective Superscalar Processors.md",
+                "file": "Advanced Signal Processing/hw/Assignment 6.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PaperReading/core/Complexity-Effective Superscalar Processors.md"
+                "file": "Advanced Signal Processing/hw/Assignment 6.md"
               }
             }
           }
@@ -156,9 +156,13 @@
   },
   "active": "8c138de9406fd605",
   "lastOpenFiles": [
+    "Advanced Signal Processing/hw/img/Pasted image 20230521193308.png",
+    "Advanced Signal Processing/hw/Assignment 5.md",
+    "Advanced Signal Processing/hw/Assignment 6.md",
+    "Advanced Signal Processing/hw/img/Pasted image 20230521165829.png",
+    "PaperReading/core/Complexity-Effective Superscalar Processors.md",
     "PaperReading/core/img/Pasted image 20230517210943.png",
     "PaperReading/IQ/img/Pasted image 20230514183959.png",
-    "PaperReading/core/Complexity-Effective Superscalar Processors.md",
     "PaperReading/core/img/Pasted image 20230517214844.png",
     "PaperReading/core/img/Pasted image 20230517211835.png",
     "PaperReading/IQ/A Scalable Instruction Queue Design Using Dependence Chains.md",
@@ -191,10 +195,7 @@
     "PaperReading/LSQ/Load Value Prediction via Path-based Address Prediction --- Avoiding Mispredictions due to Conflicting Stores.md",
     "PaperReading/LSQ/Late-Binding --- Enabling Unordered Load-Store Queues.md",
     "PaperReading/LSQ/Improving the accuracy and performance of memory communication through renaming.md",
-    "PaperReading/LSQ/Highly accurate data value prediction using hybrid predictors.md",
-    "PaperReading/LSQ/Fire-and-Forget --- Load Store Scheduling with No Store Queue at All.md",
     "PaperReading/IQ",
-    "PaperReading/LSQ/img/Pasted image 20230513105644.png",
     "Untitled.canvas",
     "PaperReading/BPU/img",
     "PaperReading/BPU",
