@@ -3,6 +3,10 @@ We have just enjoyed a interesting class last week which divided us into 4 group
 
 Our topic is Recursive Least Square method which is pretty intuitive. The origin least square problem need a full matrix A with all of the observations in it which may take a lot of time to get the ovservations. So, this motivated recursive method to be carried out. The crucial idea of recursive method is that the observation and the calculation can be done parallely. Once some new obsevation is carried out, the matrix A can be updated and the $\hat{x}$ can be calculated.
 
+Two groups discussed the Steepest Descent method and the Conjugate Gradient method. Those two methods basically are recursively approaching the least square problem. 
+
+The last group, who is also the best presenter, carried out the kalman filter 
+
 ## 2.
 ![[Pasted image 20230521165829.png]]
 The least square problem is solving Ax = b and find the  $\hat{x}$ to minimize the Ax.
@@ -60,7 +64,7 @@ So, $\hat{x}$ is the least square answer.
 ## 3. 
 ![[Pasted image 20230521193308.png]]
 #### SD
-step 2:
+step 1:
 $$
 \begin{aligned}
 r_0 &= b - Hx_0 \\
@@ -169,7 +173,7 @@ r_1 &= b - Hx_1 \\
 -{1\over3} \\
 \end{matrix}
 \right] \\
-\alpha_0 &= {r_0^Tr_0 \over r_0^THr_0} \\
+\alpha_1 &= {r_10^Tr_1 \over r_1^THr_1} \\
 &= 
 {
 \left[
@@ -206,7 +210,7 @@ r_1 &= b - Hx_1 \\
 } \\
 &= 
 0 \\
-x_1 &= x_0 + \alpha_0 x_0 \\
+x_2 &= x_1 + \alpha_1 x_1 \\
 &= 
 \left[
 \begin{matrix}
@@ -216,3 +220,78 @@ x_1 &= x_0 + \alpha_0 x_0 \\
 \right]
 \end{aligned}
 $$
+#### CG
+init:
+$$
+\begin{aligned}
+r_0 &= b - Hx_0 \\
+&= 
+\left[
+\begin{matrix}
+1 \\
+0 \\
+\end{matrix}
+\right] 
+-
+\left[
+\begin{matrix}
+3 & -1 \\
+-1 & 2 \\
+\end{matrix}
+\right]
+\left[
+\begin{matrix}
+1 \\
+1 \\
+\end{matrix}
+\right]\\
+&= 
+\left[
+\begin{matrix}
+-1 \\
+-1 \\
+\end{matrix}
+\right] \\
+d_0 &= r_0 = \left[
+\begin{matrix}
+-1 \\
+-1 \\
+\end{matrix}
+\right] \\
+\end{aligned}
+$$
+step0:
+$$
+\begin{aligned}
+\alpha_0 &= {r_0^Tr_0 \over d_0^THd_0} \\
+&= {2\over3} \\
+\\
+x_1 &= x_0 + \alpha_0 d_0 \\
+&= \left[
+\begin{matrix}
+{1\over3} \\
+-{1\over3} \\
+\end{matrix}
+\right] \\
+\\
+r_1 &= r_0 - \alpha_0 H d_0 \\
+&= 
+\left[
+\begin{matrix}
+{7\over3} \\
+{5\over3} \\
+\end{matrix}
+\right]
+\end{aligned}
+$$
+$$
+\begin{aligned}
+\beta_1 &= {r_1^Tr_1\over r_0^Tr_0} \\
+&= {37\over9}
+\\
+d_1 &= r_1 + \beta_1d_0 \\
+&= 
+\end{aligned}
+$$
+## 6.4 Kalman Filter
+![[Pasted image 20230522125427.png]]
