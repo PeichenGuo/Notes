@@ -295,3 +295,73 @@ d_1 &= r_1 + \beta_1d_0 \\
 $$
 ## 6.4 Kalman Filter
 ![[Pasted image 20230522125427.png]]
+#### a.
+We have the following at first:
+$$
+\begin{aligned}
+y_0 = A_0x_0 + e_0 \\
+\end{aligned}
+$$
+Then we have:
+$$
+\begin{aligned}
+0 &= F_0x_0-x_1+\epsilon_0 \\
+y_1 &= A_1x_1+e_1
+\end{aligned}
+$$
+In other words:
+$$
+\begin{aligned}
+\left[
+\begin{matrix}
+y_0 \\
+0 \\
+y_1 \\
+\end{matrix}
+\right]
+&= 
+\left[
+\begin{matrix}
+A_0 & 0 \\
+F_0 & -I \\
+0 & A_1 \\
+\end{matrix}
+\right]
+\left[
+\begin{matrix}
+x_0 \\
+x_1 \\
+\end{matrix}
+\right]
++
+\left[
+\begin{matrix}
+e_0 \\
+\epsilon_0 \\
+e_1 \\
+\end{matrix}
+\right]
+\end{aligned}
+$$
+We call the matrix $\bar{A_1}$:
+$$
+\left[
+\begin{matrix}
+A_0 & 0 \\
+F_0 & -I \\
+0 & A_1 \\
+\end{matrix}
+\right]
+$$
+We can calculate the least square problem by calculating:
+$$
+\left[
+\begin{matrix}
+\hat{x_{0|1}} \\
+\hat{x_{1|1}} \\
+\end{matrix}
+\right]
+=
+(\bar{A_1}^T\bar{A_1})^{-1}\bar{A_1}^T\bar{y_k}
+$$
+#### b.
