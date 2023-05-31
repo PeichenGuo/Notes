@@ -5,7 +5,7 @@ Our topic is Recursive Least Square method which is pretty intuitive. The origin
 
 Two groups discussed the Steepest Descent method and the Conjugate Gradient method. Those two methods basically are recursively approaching the least square problem. 
 
-The last group, who is also the best presenter, carried out the kalman filter 
+The last group, who is also the best presenter, carried out the kalman filter. Kalman filter is kind of like a better version of Recursive Least Square method. It requires less complexity.
 
 ## 2.
 ![[Pasted image 20230521165829.png]]
@@ -270,7 +270,7 @@ x_1 &= x_0 + \alpha_0 d_0 \\
 &= \left[
 \begin{matrix}
 {1\over3} \\
--{1\over3} \\
+{1\over3} \\
 \end{matrix}
 \right] \\
 \\
@@ -278,8 +278,8 @@ r_1 &= r_0 - \alpha_0 H d_0 \\
 &= 
 \left[
 \begin{matrix}
-{7\over3} \\
-{5\over3} \\
+{4\over3} \\
+{2\over3} \\
 \end{matrix}
 \right]
 \end{aligned}
@@ -287,12 +287,34 @@ $$
 $$
 \begin{aligned}
 \beta_1 &= {r_1^Tr_1\over r_0^Tr_0} \\
-&= {37\over9}
+&= {10\over9}
 \\
 d_1 &= r_1 + \beta_1d_0 \\
 &= 
+\left[
+\begin{matrix}
+{2\over9} \\
+-{4\over9} \\
+\end{matrix}
+\right]
 \end{aligned}
 $$
+step1:
+$$
+\begin{aligned}
+\alpha_1 &= {r_1^Tr_1 \over d_1^THd_1} \\
+&= 3 \\
+\\
+x_2 &= x_1 + \alpha_1 d_1 \\
+&= \left[
+\begin{matrix}
+{1} \\
+{-1} \\
+\end{matrix}
+\right] \\
+\end{aligned}
+$$
+
 ## 6.4 Kalman Filter
 ![[Pasted image 20230522125427.png]]
 #### a.
@@ -365,3 +387,23 @@ $$
 (\bar{A_1}^T\bar{A_1})^{-1}\bar{A_1}^T\bar{y_k}
 $$
 #### b.
+When k is very big, the following equations:
+$$
+x_{k+1} = F_kx_k+\epsilon_k
+$$
+$$
+y_{k+1} = A_{k+1} x_{k+1} + e_{k+1}
+$$
+can be simplized into:
+$$
+x_{k+1} = x_k+\epsilon_k
+$$
+$$
+y_{k+1} = x_{k+1} + e_{k+1}
+$$
+Now, $x_{k+1|k+1}$ is:
+$$
+x_{k+1|k+1} = K_{k+1} (y_{k+1} - x_{k|k}) + x_{k|k}
+$$
+where $K_{k+1}$ is Kalman gain which can be approximated to $\sqrt{5} - 1 \over 2$.
+
