@@ -4,22 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "3faedbd307399986",
+        "id": "95162bab60fa7524",
         "type": "tabs",
         "children": [
           {
-            "id": "8c138de9406fd605",
+            "id": "80a0ee4276f39c88",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "58729fb53e3b5016",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Advanced Signal Processing/hw/Assignment 6.md",
+                "file": "Computer Architecture in Genaral/Modern Processor Design/PowerPC 620.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Advanced Signal Processing/hw/Assignment 6.md",
+                "file": "Computer Architecture in Genaral/Modern Processor Design/PowerPC 620.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Advanced Signal Processing/hw/Assignment 6.md",
+                "file": "Computer Architecture in Genaral/Modern Processor Design/PowerPC 620.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Advanced Signal Processing/hw/Assignment 6.md"
+                "file": "Computer Architecture in Genaral/Modern Processor Design/PowerPC 620.md"
               }
             }
           }
@@ -154,12 +163,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8c138de9406fd605",
+  "active": "2fd97cb827b9533c",
   "lastOpenFiles": [
+    "Computer Architecture in Genaral/Modern Processor Design/img",
+    "Computer Architecture in Genaral/Modern Processor Design/img/Pasted image 20230603132933.png",
+    "Computer Architecture in Genaral/Modern Processor Design/PowerPC 620.md",
+    "Computer Architecture in Genaral/Modern Processor Design",
+    "Advanced Signal Processing/hw/Assignment 6.md",
     "Advanced Signal Processing/hw/img/Pasted image 20230522125427.png",
     "Advanced Signal Processing/hw/img/Pasted image 20230521193308.png",
     "Advanced Signal Processing/hw/Assignment 5.md",
-    "Advanced Signal Processing/hw/Assignment 6.md",
     "Advanced Signal Processing/hw/img/Pasted image 20230521165829.png",
     "PaperReading/core/Complexity-Effective Superscalar Processors.md",
     "PaperReading/core/img/Pasted image 20230517210943.png",
@@ -175,8 +188,6 @@
     "PaperReading/IQ/Exploring Wakeup-Free Instruction Scheduling.md",
     "PaperReading/IQ/img/Pasted image 20230514171844.png",
     "Pasted image 20230514171312.png",
-    "PaperReading/IQ/img/Pasted image 20230514165110.png",
-    "PaperReading/IQ/img/Pasted image 20230514165131.png",
     "PaperReading/IQ/Cyclone --- A Broadcast-Free Dynamic Instruction Scheduler with Selective Replay.md",
     "PaperReading/Brief.md",
     "PaperReading/LSQ/LSQ Brief.md",
@@ -194,14 +205,12 @@
     "PaperReading/LSQ/Memory Dependence Prediction using Store Sets.md",
     "PaperReading/LSQ/Load Value Prediction via Path-based Address Prediction --- Avoiding Mispredictions due to Conflicting Stores.md",
     "PaperReading/LSQ/Late-Binding --- Enabling Unordered Load-Store Queues.md",
-    "PaperReading/LSQ/Improving the accuracy and performance of memory communication through renaming.md",
     "PaperReading/IQ",
     "Untitled.canvas",
     "PaperReading/BPU/img",
     "PaperReading/BPU",
     "PaperReading/unsorted/img",
     "PaperReading/unsorted",
-    "PaperReading/LSQ/img",
-    "PaperReading/LSQ"
+    "PaperReading/LSQ/img"
   ]
 }
