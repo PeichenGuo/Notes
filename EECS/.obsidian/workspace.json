@@ -8,14 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "80a0ee4276f39c88",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
             "id": "58729fb53e3b5016",
             "type": "leaf",
             "state": {
@@ -27,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -163,22 +154,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2fd97cb827b9533c",
+  "active": "58729fb53e3b5016",
   "lastOpenFiles": [
-    "Computer Architecture in Genaral/Modern Processor Design/img",
-    "Computer Architecture in Genaral/Modern Processor Design/img/Pasted image 20230603132933.png",
+    "Computer Architecture in Genaral/Modern Processor Design/Intel P6.md",
+    "Computer Architecture in Genaral/Modern Processor Design/img/Pasted image 20230603220149.png",
     "Computer Architecture in Genaral/Modern Processor Design/PowerPC 620.md",
+    "Computer Architecture in Genaral/Modern Processor Design/img/Pasted image 20230603222245.png",
+    "Computer Architecture in Genaral/Modern Processor Design/img/Pasted image 20230603213250.png",
+    "Computer Architecture in Genaral/Modern Processor Design/img/Pasted image 20230603202114.png",
+    "Computer Architecture in Genaral/Modern Processor Design/img/Pasted image 20230603212232.png",
+    "Computer Architecture in Genaral/Modern Processor Design/img/Pasted image 20230603200715.png",
+    "Computer Architecture in Genaral/Modern Processor Design/img/Pasted image 20230603200452.png",
+    "Pasted image 20230603182435.png",
+    "Computer Architecture in Genaral/Modern Processor Design/img/Pasted image 20230603181658.png",
+    "Computer Architecture in Genaral/Modern Processor Design/img/Pasted image 20230603174650.png",
+    "Computer Architecture in Genaral/Modern Processor Design/img",
     "Computer Architecture in Genaral/Modern Processor Design",
     "Advanced Signal Processing/hw/Assignment 6.md",
-    "Advanced Signal Processing/hw/img/Pasted image 20230522125427.png",
-    "Advanced Signal Processing/hw/img/Pasted image 20230521193308.png",
     "Advanced Signal Processing/hw/Assignment 5.md",
-    "Advanced Signal Processing/hw/img/Pasted image 20230521165829.png",
     "PaperReading/core/Complexity-Effective Superscalar Processors.md",
-    "PaperReading/core/img/Pasted image 20230517210943.png",
-    "PaperReading/IQ/img/Pasted image 20230514183959.png",
-    "PaperReading/core/img/Pasted image 20230517214844.png",
-    "PaperReading/core/img/Pasted image 20230517211835.png",
     "PaperReading/IQ/A Scalable Instruction Queue Design Using Dependence Chains.md",
     "PaperReading/core/img",
     "PaperReading/core",
@@ -186,8 +180,6 @@
     "PaperReading/zlt/Discerning the Dominant Out-of-Order Performance Advantage --- Is it Speculation or Dynamism?.md",
     "PaperReading/IQ/On Pipelining Dynamic Instruction Scheduling Logic.md",
     "PaperReading/IQ/Exploring Wakeup-Free Instruction Scheduling.md",
-    "PaperReading/IQ/img/Pasted image 20230514171844.png",
-    "Pasted image 20230514171312.png",
     "PaperReading/IQ/Cyclone --- A Broadcast-Free Dynamic Instruction Scheduler with Selective Replay.md",
     "PaperReading/Brief.md",
     "PaperReading/LSQ/LSQ Brief.md",
@@ -204,13 +196,11 @@
     "PaperReading/LSQ/Memory Ordering --- A Value-Based Approach.md",
     "PaperReading/LSQ/Memory Dependence Prediction using Store Sets.md",
     "PaperReading/LSQ/Load Value Prediction via Path-based Address Prediction --- Avoiding Mispredictions due to Conflicting Stores.md",
-    "PaperReading/LSQ/Late-Binding --- Enabling Unordered Load-Store Queues.md",
     "PaperReading/IQ",
     "Untitled.canvas",
     "PaperReading/BPU/img",
     "PaperReading/BPU",
     "PaperReading/unsorted/img",
-    "PaperReading/unsorted",
-    "PaperReading/LSQ/img"
+    "PaperReading/unsorted"
   ]
 }
