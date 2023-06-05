@@ -49,3 +49,16 @@ memory比较复杂。33在agu获得地址后，就可以进行dcache访问：
 retirement比较好玩。不能retire μop，只能等着凑一整个指令再retire。在decode阶段，就会在μop上标记是不是指令开头或结尾，这样比较方便retire。
 
 # Frontend
+frontend和ooo core各跑各的。
+比较特殊的是他的misprediction recover机制。先flush frontend，等backend跑到bad branch后再flush backend
+![[Pasted image 20230605141611.png]]
+![[Pasted image 20230605142621.png]]
+上图是frontend的pipeline
+
+### Branch Prediction
+p6用的是2-level的adaptive training algorithm
+The first level is the history of the branches. 
+The second level is the branch behavior for a specific pattern of branch history
+
+### Register Alias Table
+As µops are presented to the RAT, their logical sources and destination are mapped to the corresponding physical ROB addresses where the data are found
