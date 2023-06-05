@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Architecture in Genaral/Modern Processor Design/PowerPC 620.md",
+                "file": "Computer Architecture in Genaral/Modern Processor Design/Intel P6.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Architecture in Genaral/Modern Processor Design/PowerPC 620.md",
+                "file": "Computer Architecture in Genaral/Modern Processor Design/Intel P6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Architecture in Genaral/Modern Processor Design/PowerPC 620.md",
+                "file": "Computer Architecture in Genaral/Modern Processor Design/Intel P6.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Architecture in Genaral/Modern Processor Design/PowerPC 620.md"
+                "file": "Computer Architecture in Genaral/Modern Processor Design/Intel P6.md"
               }
             }
           }
@@ -156,9 +156,11 @@
   },
   "active": "58729fb53e3b5016",
   "lastOpenFiles": [
+    "Pasted image 20230604230832.png",
+    "Computer Architecture in Genaral/Modern Processor Design/img/Pasted image 20230604215443.png",
+    "Computer Architecture in Genaral/Modern Processor Design/PowerPC 620.md",
     "Computer Architecture in Genaral/Modern Processor Design/Intel P6.md",
     "Computer Architecture in Genaral/Modern Processor Design/img/Pasted image 20230603220149.png",
-    "Computer Architecture in Genaral/Modern Processor Design/PowerPC 620.md",
     "Computer Architecture in Genaral/Modern Processor Design/img/Pasted image 20230603222245.png",
     "Computer Architecture in Genaral/Modern Processor Design/img/Pasted image 20230603213250.png",
     "Computer Architecture in Genaral/Modern Processor Design/img/Pasted image 20230603202114.png",
@@ -167,7 +169,6 @@
     "Computer Architecture in Genaral/Modern Processor Design/img/Pasted image 20230603200452.png",
     "Pasted image 20230603182435.png",
     "Computer Architecture in Genaral/Modern Processor Design/img/Pasted image 20230603181658.png",
-    "Computer Architecture in Genaral/Modern Processor Design/img/Pasted image 20230603174650.png",
     "Computer Architecture in Genaral/Modern Processor Design/img",
     "Computer Architecture in Genaral/Modern Processor Design",
     "Advanced Signal Processing/hw/Assignment 6.md",
