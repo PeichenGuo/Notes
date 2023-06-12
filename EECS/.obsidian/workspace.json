@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Architecture in Genaral/Modern Processor Design/Intel P6.md",
+                "file": "Computer Architecture in Genaral/Modern Processor Design/Advanced Instruction Flow Techniques.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Architecture in Genaral/Modern Processor Design/Intel P6.md",
+                "file": "Computer Architecture in Genaral/Modern Processor Design/Advanced Instruction Flow Techniques.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Architecture in Genaral/Modern Processor Design/Intel P6.md",
+                "file": "Computer Architecture in Genaral/Modern Processor Design/Advanced Instruction Flow Techniques.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Architecture in Genaral/Modern Processor Design/Intel P6.md"
+                "file": "Computer Architecture in Genaral/Modern Processor Design/Advanced Instruction Flow Techniques.md"
               }
             }
           }
@@ -154,11 +154,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2fd97cb827b9533c",
+  "active": "58729fb53e3b5016",
   "lastOpenFiles": [
+    "Computer Architecture in Genaral/Modern Processor Design/img/Pasted image 20230612170449.png",
+    "Computer Architecture in Genaral/Modern Processor Design/Intel P6.md",
+    "Computer Architecture in Genaral/Modern Processor Design/Advanced Instruction Flow Techniques.md",
     "Computer Architecture in Genaral/Modern Processor Design/img/Pasted image 20230605142621.png",
     "Computer Architecture in Genaral/Modern Processor Design/img/Pasted image 20230605141611.png",
-    "Computer Architecture in Genaral/Modern Processor Design/Intel P6.md",
     "Computer Architecture in Genaral/Modern Processor Design/img/Pasted image 20230604230832.png",
     "Computer Architecture in Genaral/Modern Processor Design/img/Pasted image 20230604215443.png",
     "Computer Architecture in Genaral/Modern Processor Design/PowerPC 620.md",
@@ -168,7 +170,6 @@
     "Computer Architecture in Genaral/Modern Processor Design/img/Pasted image 20230603202114.png",
     "Computer Architecture in Genaral/Modern Processor Design/img/Pasted image 20230603212232.png",
     "Computer Architecture in Genaral/Modern Processor Design/img/Pasted image 20230603200715.png",
-    "Computer Architecture in Genaral/Modern Processor Design/img/Pasted image 20230603200452.png",
     "Computer Architecture in Genaral/Modern Processor Design/img",
     "Computer Architecture in Genaral/Modern Processor Design",
     "Advanced Signal Processing/hw/Assignment 6.md",
@@ -196,7 +197,6 @@
     "PaperReading/LSQ/Memory Renaming --- Fast, Early and Accurate Processing ofMemory Communication.md",
     "PaperReading/LSQ/Memory Ordering --- A Value-Based Approach.md",
     "PaperReading/LSQ/Memory Dependence Prediction using Store Sets.md",
-    "PaperReading/LSQ/Load Value Prediction via Path-based Address Prediction --- Avoiding Mispredictions due to Conflicting Stores.md",
     "PaperReading/IQ",
     "Untitled.canvas",
     "PaperReading/BPU/img",
