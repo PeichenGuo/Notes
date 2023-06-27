@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Architecture in Genaral/Modern Processor Design/Advanced Instruction Flow Techniques.md",
+                "file": "Computer Architecture/Modern Processor Design/Advanced Instruction Flow Techniques.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "63ed5c1f871d3d8f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Digital Circuit/DDCA(ETHz & Book)/Sequential Logic and FSM.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Architecture in Genaral/Modern Processor Design/Advanced Instruction Flow Techniques.md",
+                "file": "Digital Circuit/DDCA(ETHz & Book)/Sequential Logic and FSM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Architecture in Genaral/Modern Processor Design/Advanced Instruction Flow Techniques.md",
+                "file": "Digital Circuit/DDCA(ETHz & Book)/Sequential Logic and FSM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Architecture in Genaral/Modern Processor Design/Advanced Instruction Flow Techniques.md"
+                "file": "Digital Circuit/DDCA(ETHz & Book)/Sequential Logic and FSM.md"
               }
             }
           }
@@ -156,22 +169,26 @@
   },
   "active": "2fd97cb827b9533c",
   "lastOpenFiles": [
-    "Computer Architecture in Genaral/Modern Processor Design/img/Pasted image 20230615174017.png",
-    "Computer Architecture in Genaral/Modern Processor Design/img/Pasted image 20230615173610.png",
-    "Computer Architecture in Genaral/Modern Processor Design/img/Pasted image 20230615165045.png",
-    "Computer Architecture in Genaral/Modern Processor Design/img/Pasted image 20230615162729.png",
-    "Computer Architecture in Genaral/Modern Processor Design/img/Pasted image 20230615162043.png",
-    "Computer Architecture in Genaral/Modern Processor Design/img/Pasted image 20230613121153.png",
-    "Computer Architecture in Genaral/Modern Processor Design/img/Pasted image 20230612170449.png",
-    "Computer Architecture in Genaral/Modern Processor Design/Intel P6.md",
-    "Computer Architecture in Genaral/Modern Processor Design/Advanced Instruction Flow Techniques.md",
-    "Computer Architecture in Genaral/Modern Processor Design/img/Pasted image 20230605142621.png",
-    "Computer Architecture in Genaral/Modern Processor Design/img/Pasted image 20230605141611.png",
-    "Computer Architecture in Genaral/Modern Processor Design/img/Pasted image 20230604230832.png",
-    "Computer Architecture in Genaral/Modern Processor Design/img/Pasted image 20230604215443.png",
-    "Computer Architecture in Genaral/Modern Processor Design/PowerPC 620.md",
-    "Computer Architecture in Genaral/Modern Processor Design/img",
-    "Computer Architecture in Genaral/Modern Processor Design",
+    "Digital Circuit/DDCA(ETHz & Book)/img/Pasted image 20230627134502.png",
+    "Digital Circuit/DDCA(ETHz & Book)/img/Pasted image 20230627133730.png",
+    "Digital Circuit/DDCA(ETHz & Book)/img",
+    "Digital Circuit/DDCA(ETHz & Book)",
+    "Digital Circuit/DDCA(ETHz & Book)/Sequential Logic and FSM.md",
+    "Digital Circuit",
+    "Computer Architecture/Modern Processor Design/img/Pasted image 20230615174017.png",
+    "Computer Architecture/Modern Processor Design/img/Pasted image 20230615173610.png",
+    "Computer Architecture/Modern Processor Design/img/Pasted image 20230615165045.png",
+    "Computer Architecture/Modern Processor Design/img/Pasted image 20230615162729.png",
+    "Computer Architecture/Modern Processor Design/img/Pasted image 20230615162043.png",
+    "Computer Architecture/Modern Processor Design/img/Pasted image 20230613121153.png",
+    "Computer Architecture/Modern Processor Design/img/Pasted image 20230612170449.png",
+    "Computer Architecture/Modern Processor Design/Intel P6.md",
+    "Computer Architecture/Modern Processor Design/Advanced Instruction Flow Techniques.md",
+    "Computer Architecture/Modern Processor Design/img/Pasted image 20230605142621.png",
+    "Computer Architecture/Modern Processor Design/img/Pasted image 20230605141611.png",
+    "Computer Architecture/Modern Processor Design/PowerPC 620.md",
+    "Computer Architecture/Modern Processor Design/img",
+    "Computer Architecture/Modern Processor Design",
     "Advanced Signal Processing/hw/Assignment 6.md",
     "Advanced Signal Processing/hw/Assignment 5.md",
     "PaperReading/core/Complexity-Effective Superscalar Processors.md",
@@ -196,12 +213,8 @@
     "PaperReading/LSQ/Practical data value speculation for future high-end processors.md",
     "PaperReading/LSQ/Memory Renaming --- Fast, Early and Accurate Processing ofMemory Communication.md",
     "PaperReading/LSQ/Memory Ordering --- A Value-Based Approach.md",
-    "PaperReading/LSQ/Memory Dependence Prediction using Store Sets.md",
     "PaperReading/IQ",
     "Untitled.canvas",
-    "PaperReading/BPU/img",
-    "PaperReading/BPU",
-    "PaperReading/unsorted/img",
-    "PaperReading/unsorted"
+    "PaperReading/BPU/img"
   ]
 }
