@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Digital Circuit/DDCA(ETHz & Book)/Sequential Logic and FSM.md",
+                "file": "Digital Circuit/DDCA(ETHz & Book)/HDL and Verilog.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Digital Circuit/DDCA(ETHz & Book)/Sequential Logic and FSM.md",
+                "file": "Digital Circuit/DDCA(ETHz & Book)/HDL and Verilog.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Digital Circuit/DDCA(ETHz & Book)/Sequential Logic and FSM.md",
+                "file": "Digital Circuit/DDCA(ETHz & Book)/HDL and Verilog.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Digital Circuit/DDCA(ETHz & Book)/Sequential Logic and FSM.md"
+                "file": "Digital Circuit/DDCA(ETHz & Book)/HDL and Verilog.md"
               }
             }
           }
@@ -167,14 +167,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2fd97cb827b9533c",
+  "active": "63ed5c1f871d3d8f",
   "lastOpenFiles": [
+    "Digital Circuit/DDCA(ETHz & Book)/Sequential Logic and FSM.md",
+    "Digital Circuit/DDCA(ETHz & Book)/HDL and Verilog.md",
     "Digital Circuit/DDCA(ETHz & Book)/img/Pasted image 20230627161318.png",
     "Digital Circuit/DDCA(ETHz & Book)/img/Pasted image 20230627134502.png",
     "Digital Circuit/DDCA(ETHz & Book)/img/Pasted image 20230627133730.png",
     "Digital Circuit/DDCA(ETHz & Book)/img",
     "Digital Circuit/DDCA(ETHz & Book)",
-    "Digital Circuit/DDCA(ETHz & Book)/Sequential Logic and FSM.md",
     "Digital Circuit",
     "Computer Architecture/Modern Processor Design/img/Pasted image 20230615174017.png",
     "Computer Architecture/Modern Processor Design/img/Pasted image 20230615173610.png",
@@ -185,7 +186,6 @@
     "Computer Architecture/Modern Processor Design/img/Pasted image 20230612170449.png",
     "Computer Architecture/Modern Processor Design/Intel P6.md",
     "Computer Architecture/Modern Processor Design/Advanced Instruction Flow Techniques.md",
-    "Computer Architecture/Modern Processor Design/img/Pasted image 20230605142621.png",
     "Computer Architecture/Modern Processor Design/PowerPC 620.md",
     "Computer Architecture/Modern Processor Design/img",
     "Computer Architecture/Modern Processor Design",
