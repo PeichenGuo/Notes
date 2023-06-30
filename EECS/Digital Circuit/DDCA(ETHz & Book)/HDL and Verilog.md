@@ -19,6 +19,6 @@ input到output有延迟，这些延迟构成了timing
 glitch并不是时刻都重要，因为可以被时序掩盖。
 
 ## 时序timing
-
+![[Pasted image 20230630131328.png]]
 
 # Verification 
