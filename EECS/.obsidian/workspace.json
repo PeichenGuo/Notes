@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PaperReading/Reading List.md",
+                "file": "Computer Architecture/Mutlu's CA/Memory Performance Attack.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PaperReading/Reading List.md",
+                "file": "Computer Architecture/Mutlu's CA/Memory Performance Attack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PaperReading/Reading List.md",
+                "file": "Computer Architecture/Mutlu's CA/Memory Performance Attack.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PaperReading/Reading List.md"
+                "file": "Computer Architecture/Mutlu's CA/Memory Performance Attack.md"
               }
             }
           }
@@ -167,10 +167,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2fd97cb827b9533c",
+  "active": "98ee7c1e8cd6a1dc",
   "lastOpenFiles": [
-    "PaperReading/LSQ/The Predictability of Data Values.md",
+    "Computer Architecture/Mutlu's CA/Introduction.md",
+    "Computer Architecture/Mutlu's CA/Memory Performance Attack.md",
+    "Computer Architecture/Mutlu's CA/img/Pasted image 20230705132902.png",
     "PaperReading/Reading List.md",
+    "Computer Architecture/Mutlu's CA/img",
+    "Computer Architecture/Mutlu's CA",
+    "PaperReading/LSQ/The Predictability of Data Values.md",
     "Digital Circuit/DDCA(ETHz & Book)/HDL and Verilog.md",
     "Digital Circuit/DDCA(ETHz & Book)/img/Pasted image 20230630131328.png",
     "Digital Circuit/DDCA(ETHz & Book)/img/Pasted image 20230629164646.png",
@@ -188,7 +193,6 @@
     "Digital Circuit/DDCA(ETHz & Book)",
     "Digital Circuit",
     "Computer Architecture/Modern Processor Design/img/Pasted image 20230615174017.png",
-    "Computer Architecture/Modern Processor Design/img/Pasted image 20230615173610.png",
     "Computer Architecture/Modern Processor Design/Intel P6.md",
     "Computer Architecture/Modern Processor Design/PowerPC 620.md",
     "Computer Architecture/Modern Processor Design/img",
@@ -211,10 +215,6 @@
     "PaperReading/LSQ/Using Virtual Load Store Queues (VLSQs) to Reduce the Negative Effects of Reordered Memory Instructions.md",
     "PaperReading/LSQ/Store Vulnerability Window (SVW) --- Re-Execution Filtering for Enhanced Load Optimization.md",
     "PaperReading/LSQ/Store vectors for scalable memory dependence prediction and scheduling.md",
-    "PaperReading/LSQ/Scalable Hardware Memory Disambiguation for High ILP Processors.md",
-    "PaperReading/LSQ/Reducing Design Complexity of the Load Store Queue.md",
-    "PaperReading/IQ",
-    "Untitled.canvas",
-    "PaperReading/BPU/img"
+    "Untitled.canvas"
   ]
 }
