@@ -169,6 +169,7 @@
   },
   "active": "98ee7c1e8cd6a1dc",
   "lastOpenFiles": [
+    "Computer Architecture/Mutlu's CA/img/Pasted image 20230706155418.png",
     "Computer Architecture/Mutlu's CA/Introduction.md",
     "Computer Architecture/Mutlu's CA/Memory Performance Attack.md",
     "Computer Architecture/Mutlu's CA/img/Pasted image 20230705132902.png",
@@ -214,7 +215,6 @@
     "PaperReading/LSQ/Value locality and load value prediction.md",
     "PaperReading/LSQ/Using Virtual Load Store Queues (VLSQs) to Reduce the Negative Effects of Reordered Memory Instructions.md",
     "PaperReading/LSQ/Store Vulnerability Window (SVW) --- Re-Execution Filtering for Enhanced Load Optimization.md",
-    "PaperReading/LSQ/Store vectors for scalable memory dependence prediction and scheduling.md",
     "Untitled.canvas"
   ]
 }
