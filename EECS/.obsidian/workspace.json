@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Architecture/chiplet/UCIe标准的Chiplet接口IP设计.md",
+                "file": "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence/Sequential Consistency.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Architecture/chiplet/UCIe标准的Chiplet接口IP设计.md",
+                "file": "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence/Sequential Consistency.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Architecture/chiplet/UCIe标准的Chiplet接口IP设计.md",
+                "file": "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence/Sequential Consistency.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Architecture/chiplet/UCIe标准的Chiplet接口IP设计.md"
+                "file": "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence/Sequential Consistency.md"
               }
             }
           }
@@ -167,20 +167,30 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "98ee7c1e8cd6a1dc",
+  "active": "2fd97cb827b9533c",
   "lastOpenFiles": [
-    "Pasted image 20230711181042.png",
+    "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence/img/Pasted image 20230712163153.png",
+    "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence/img/Pasted image 20230712162937.png",
+    "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence/Introduction & Coherence Basic.md",
+    "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence/Sequential Consistency.md",
+    "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence/Memory Consistency Model.md",
+    "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence/img/Pasted image 20230712141605.png",
+    "Computer Architecture/chiplet/img/Pasted image 20230711181042.png",
+    "Computer Architecture/chiplet/UCIe标准的Chiplet接口IP设计.md",
+    "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence/img",
+    "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence",
+    "Computer Architecture/courses",
+    "Computer Architecture/coherence",
     "Computer Architecture/chiplet/img/Pasted image 20230711180634.png",
     "Computer Architecture/chiplet/img",
     "Computer Architecture/chiplet",
-    "Computer Architecture/Mutlu's CA/Memory Performance Attack.md",
-    "Computer Architecture/chiplet/UCIe标准的Chiplet接口IP设计.md",
-    "Computer Architecture/Mutlu's CA/img/Pasted image 20230706155418.png",
-    "Computer Architecture/Mutlu's CA/Introduction.md",
-    "Computer Architecture/Mutlu's CA/img/Pasted image 20230705132902.png",
+    "Computer Architecture/courses/Mutlu's CA/Memory Performance Attack.md",
+    "Computer Architecture/courses/Mutlu's CA/img/Pasted image 20230706155418.png",
+    "Computer Architecture/courses/Mutlu's CA/Introduction.md",
+    "Computer Architecture/courses/Mutlu's CA/img/Pasted image 20230705132902.png",
     "PaperReading/Reading List.md",
-    "Computer Architecture/Mutlu's CA/img",
-    "Computer Architecture/Mutlu's CA",
+    "Computer Architecture/courses/Mutlu's CA/img",
+    "Computer Architecture/courses/Mutlu's CA",
     "PaperReading/LSQ/The Predictability of Data Values.md",
     "Digital Circuit/DDCA(ETHz & Book)/HDL and Verilog.md",
     "Digital Circuit/DDCA(ETHz & Book)/img/Pasted image 20230630131328.png",
@@ -188,33 +198,23 @@
     "Digital Circuit/DDCA(ETHz & Book)/img/Pasted image 20230629164454.png",
     "Pasted image 20230629164346.png.md",
     "Digital Circuit/DDCA(ETHz & Book)/img/Pasted image 20230629164346.png",
-    "Digital Circuit/DDCA(ETHz & Book)/img/Pasted image 20230629163606.png",
     "Digital Circuit/DDCA(ETHz & Book)/Sequential Logic and FSM.md",
     "Computer Architecture/Modern Processor Design/Advanced Instruction Flow Techniques.md",
     "Analog Circuit/CMOS超大规模集成电路设计/延时/路径逻辑努力.md",
-    "Digital Circuit/DDCA(ETHz & Book)/img/Pasted image 20230627161318.png",
-    "Digital Circuit/DDCA(ETHz & Book)/img/Pasted image 20230627134502.png",
     "Digital Circuit/DDCA(ETHz & Book)/img",
     "Digital Circuit/DDCA(ETHz & Book)",
-    "Digital Circuit",
     "Computer Architecture/Modern Processor Design/Intel P6.md",
     "Computer Architecture/Modern Processor Design/PowerPC 620.md",
-    "Computer Architecture/Modern Processor Design/img",
-    "Computer Architecture/Modern Processor Design",
     "Advanced Signal Processing/hw/Assignment 6.md",
     "Advanced Signal Processing/hw/Assignment 5.md",
     "PaperReading/core/Complexity-Effective Superscalar Processors.md",
     "PaperReading/IQ/A Scalable Instruction Queue Design Using Dependence Chains.md",
-    "PaperReading/core/img",
     "PaperReading/IQ/Power-and complexity-aware issue queue designs.md",
     "PaperReading/zlt/Discerning the Dominant Out-of-Order Performance Advantage --- Is it Speculation or Dynamism?.md",
     "PaperReading/IQ/On Pipelining Dynamic Instruction Scheduling Logic.md",
     "PaperReading/IQ/Exploring Wakeup-Free Instruction Scheduling.md",
     "PaperReading/IQ/Cyclone --- A Broadcast-Free Dynamic Instruction Scheduler with Selective Replay.md",
     "PaperReading/Brief.md",
-    "PaperReading/LSQ/LSQ Brief.md",
-    "PaperReading/LSQ/Value locality and load value prediction.md",
-    "PaperReading/LSQ/Using Virtual Load Store Queues (VLSQs) to Reduce the Negative Effects of Reordered Memory Instructions.md",
     "Untitled.canvas"
   ]
 }
