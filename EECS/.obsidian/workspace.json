@@ -169,9 +169,11 @@
   },
   "active": "98ee7c1e8cd6a1dc",
   "lastOpenFiles": [
-    "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence/TSO (Total Store Order).md",
+    "Pasted image 20230714122850.png",
+    "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence/img/Pasted image 20230713132821.png",
     "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence/Relaxed Memory Consistency.md",
-    "Pasted image 20230713132821.png",
+    "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence/img/Pasted image 20230714122611.png",
+    "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence/TSO (Total Store Order).md",
     "Computer Architecture/chiplet/img/Pasted image 20230713132448.png",
     "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence/img/Pasted image 20230713132434.png",
     "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence/img/Pasted image 20230713132347.png",
@@ -188,7 +190,6 @@
     "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence",
     "Computer Architecture/courses",
     "Computer Architecture/coherence",
-    "Computer Architecture/chiplet/img/Pasted image 20230711180634.png",
     "Computer Architecture/chiplet/img",
     "Computer Architecture/chiplet",
     "Computer Architecture/courses/Mutlu's CA/Memory Performance Attack.md",
@@ -214,7 +215,6 @@
     "PaperReading/zlt/Discerning the Dominant Out-of-Order Performance Advantage --- Is it Speculation or Dynamism?.md",
     "PaperReading/IQ/On Pipelining Dynamic Instruction Scheduling Logic.md",
     "PaperReading/IQ/Exploring Wakeup-Free Instruction Scheduling.md",
-    "PaperReading/IQ/Cyclone --- A Broadcast-Free Dynamic Instruction Scheduler with Selective Replay.md",
     "Untitled.canvas"
   ]
 }
