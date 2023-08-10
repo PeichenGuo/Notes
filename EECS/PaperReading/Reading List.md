@@ -89,4 +89,8 @@
 ## Memory
 ### Phase change memory
 - [ ] PHASE-CHANGE TECHNOLOGY AND THE FUTURE OF MAIN MEMORY
+
+
+## Chiplet
+- [ ]  A. Kannan, N. E. Jerger, and G. H. Loh, “Enabling interposer-based disintegration of multi-core processors,” in IEEE/ACM MICRO, 2015, pp. 546–558.
 - [ ] 
