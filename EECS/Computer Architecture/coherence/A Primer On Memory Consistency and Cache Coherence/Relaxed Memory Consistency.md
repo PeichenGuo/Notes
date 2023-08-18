@@ -7,11 +7,12 @@
 2. speculation支持更加简单。
 3. 可以更好地和coherence进行耦合，从而提升效率
 
-### an example of relaxed memory consistency
+### An example of relaxed memory consistency
 ![[Pasted image 20230714122611.png]]
 简而言之，其设计是：
 1. 后面的load可以bypass前面的store
 2. store和store，load和load，load后的store，还有RMW，如果不是同一个地址，可以随意排序。如果是同一地址，则需要保序。
 3. 任何指令都需要和fence保序
+### Sequential Consistency for Data-Race-Free (SC for DRF)
 
 
