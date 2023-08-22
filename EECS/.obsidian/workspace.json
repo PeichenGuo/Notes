@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence/Relaxed Memory Consistency.md",
+                "file": "Computer Architecture/courses/Mutlu's CA/On Chip Network.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence/Relaxed Memory Consistency.md",
+                "file": "Computer Architecture/courses/Mutlu's CA/On Chip Network.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence/Relaxed Memory Consistency.md",
+                "file": "Computer Architecture/courses/Mutlu's CA/On Chip Network.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence/Relaxed Memory Consistency.md"
+                "file": "Computer Architecture/courses/Mutlu's CA/On Chip Network.md"
               }
             }
           }
@@ -168,8 +168,11 @@
   },
   "active": "58729fb53e3b5016",
   "lastOpenFiles": [
-    "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence/img/Pasted image 20230821151845.png",
+    "Computer Architecture/courses/Mutlu's CA/img/Pasted image 20230822180431.png",
     "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence/Relaxed Memory Consistency.md",
+    "Computer Architecture/courses/Mutlu's CA/On Chip Network.md",
+    "Computer Architecture/NOC",
+    "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence/img/Pasted image 20230821151845.png",
     "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence/img/Pasted image 20230821150510.png",
     "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence/img/Pasted image 20230821145111.png",
     "Digital Circuit/DDCA(ETHz & Book)/HDL and Verilog.md",
@@ -203,7 +206,6 @@
     "Digital Circuit/DDCA(ETHz & Book)/Sequential Logic and FSM.md",
     "Computer Architecture/Modern Processor Design/Advanced Instruction Flow Techniques.md",
     "Analog Circuit/CMOS超大规模集成电路设计/延时/路径逻辑努力.md",
-    "Digital Circuit/DDCA(ETHz & Book)/img",
     "Computer Architecture/Modern Processor Design/Intel P6.md",
     "Computer Architecture/Modern Processor Design/PowerPC 620.md",
     "Advanced Signal Processing/hw/Assignment 6.md",
@@ -212,7 +214,6 @@
     "PaperReading/IQ/A Scalable Instruction Queue Design Using Dependence Chains.md",
     "PaperReading/IQ/Power-and complexity-aware issue queue designs.md",
     "PaperReading/zlt/Discerning the Dominant Out-of-Order Performance Advantage --- Is it Speculation or Dynamism?.md",
-    "PaperReading/IQ/On Pipelining Dynamic Instruction Scheduling Logic.md",
     "Untitled.canvas"
   ]
 }
