@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Architecture/courses/Mutlu's CA/On Chip Network.md",
+                "file": "Computer Architecture/courses/Mutlu's CA/Interconnection & On-Chip Network.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Architecture/courses/Mutlu's CA/On Chip Network.md",
+                "file": "Computer Architecture/courses/Mutlu's CA/Interconnection & On-Chip Network.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Architecture/courses/Mutlu's CA/On Chip Network.md",
+                "file": "Computer Architecture/courses/Mutlu's CA/Interconnection & On-Chip Network.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Architecture/courses/Mutlu's CA/On Chip Network.md"
+                "file": "Computer Architecture/courses/Mutlu's CA/Interconnection & On-Chip Network.md"
               }
             }
           }
@@ -168,9 +168,12 @@
   },
   "active": "58729fb53e3b5016",
   "lastOpenFiles": [
+    "Computer Architecture/courses/Mutlu's CA/img/Pasted image 20230823154750.png",
+    "Computer Architecture/courses/Mutlu's CA/img/Pasted image 20230823150504.png",
+    "Computer Architecture/courses/Mutlu's CA/img/Pasted image 20230823143916.png",
     "Computer Architecture/courses/Mutlu's CA/img/Pasted image 20230822180431.png",
     "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence/Relaxed Memory Consistency.md",
-    "Computer Architecture/courses/Mutlu's CA/On Chip Network.md",
+    "Computer Architecture/courses/Mutlu's CA/Interconnection & On-Chip Network.md",
     "Computer Architecture/NOC",
     "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence/img/Pasted image 20230821151845.png",
     "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence/img/Pasted image 20230821150510.png",
@@ -184,9 +187,6 @@
     "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence/img/Pasted image 20230714122611.png",
     "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence/TSO (Total Store Order).md",
     "Computer Architecture/chiplet/img/Pasted image 20230713132448.png",
-    "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence/img/Pasted image 20230713132434.png",
-    "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence/img/Pasted image 20230713132347.png",
-    "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence/img/Pasted image 20230713131839.png",
     "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence/SC (Sequential Consistency).md",
     "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence/Introduction & Coherence Basic.md",
     "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence/Memory Consistency Model.md",
