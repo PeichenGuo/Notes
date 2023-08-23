@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Architecture/courses/Mutlu's CA/Interconnection & On-Chip Network.md",
+                "file": "Computer Architecture/NOC/片上互连网络/Index.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Architecture/courses/Mutlu's CA/Interconnection & On-Chip Network.md",
+                "file": "Computer Architecture/NOC/片上互连网络/Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Architecture/courses/Mutlu's CA/Interconnection & On-Chip Network.md",
+                "file": "Computer Architecture/NOC/片上互连网络/Index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Architecture/courses/Mutlu's CA/Interconnection & On-Chip Network.md"
+                "file": "Computer Architecture/NOC/片上互连网络/Index.md"
               }
             }
           }
@@ -168,25 +168,32 @@
   },
   "active": "58729fb53e3b5016",
   "lastOpenFiles": [
+    "Computer Architecture/NOC/片上互连网络/片上网络的系统架构接口.md",
+    "Computer Architecture/NOC/片上互连网络/Intro.md",
+    "Computer Architecture/NOC/片上互连网络/Index.md",
+    "PaperReading/Reading List.md",
+    "Templates/Book Summary Template.md",
+    "Templates/PaperReadingTemplate.md",
+    "PaperReading/Brief.md",
+    "Computer Architecture/NOC/片上互连网络/img",
+    "Computer Architecture/NOC/片上互连网络",
+    "Computer Architecture/courses/Mutlu's CA/Interconnection & On-Chip Network.md",
     "Computer Architecture/courses/Mutlu's CA/img/Pasted image 20230823154750.png",
     "Computer Architecture/courses/Mutlu's CA/img/Pasted image 20230823150504.png",
     "Computer Architecture/courses/Mutlu's CA/img/Pasted image 20230823143916.png",
     "Computer Architecture/courses/Mutlu's CA/img/Pasted image 20230822180431.png",
     "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence/Relaxed Memory Consistency.md",
-    "Computer Architecture/courses/Mutlu's CA/Interconnection & On-Chip Network.md",
     "Computer Architecture/NOC",
     "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence/img/Pasted image 20230821151845.png",
     "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence/img/Pasted image 20230821150510.png",
     "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence/img/Pasted image 20230821145111.png",
     "Digital Circuit/DDCA(ETHz & Book)/HDL and Verilog.md",
-    "PaperReading/Reading List.md",
     "Computer Architecture/chiplet/Untitled.md",
     "PaperReading/chiplet",
     "Pasted image 20230714122850.png",
     "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence/img/Pasted image 20230713132821.png",
     "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence/img/Pasted image 20230714122611.png",
     "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence/TSO (Total Store Order).md",
-    "Computer Architecture/chiplet/img/Pasted image 20230713132448.png",
     "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence/SC (Sequential Consistency).md",
     "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence/Introduction & Coherence Basic.md",
     "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence/Memory Consistency Model.md",
@@ -199,8 +206,6 @@
     "Computer Architecture/chiplet",
     "Computer Architecture/courses/Mutlu's CA/Memory Performance Attack.md",
     "Computer Architecture/courses/Mutlu's CA/Introduction.md",
-    "Computer Architecture/courses/Mutlu's CA/img",
-    "Computer Architecture/courses/Mutlu's CA",
     "PaperReading/LSQ/The Predictability of Data Values.md",
     "Pasted image 20230629164346.png.md",
     "Digital Circuit/DDCA(ETHz & Book)/Sequential Logic and FSM.md",
@@ -209,11 +214,6 @@
     "Computer Architecture/Modern Processor Design/Intel P6.md",
     "Computer Architecture/Modern Processor Design/PowerPC 620.md",
     "Advanced Signal Processing/hw/Assignment 6.md",
-    "Advanced Signal Processing/hw/Assignment 5.md",
-    "PaperReading/core/Complexity-Effective Superscalar Processors.md",
-    "PaperReading/IQ/A Scalable Instruction Queue Design Using Dependence Chains.md",
-    "PaperReading/IQ/Power-and complexity-aware issue queue designs.md",
-    "PaperReading/zlt/Discerning the Dominant Out-of-Order Performance Advantage --- Is it Speculation or Dynamism?.md",
     "Untitled.canvas"
   ]
 }
