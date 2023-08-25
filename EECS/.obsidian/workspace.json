@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Architecture/NOC/片上互连网络/Index.md",
+                "file": "Computer Architecture/NOC/片上互连网络/Routing.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Architecture/NOC/片上互连网络/Index.md",
+                "file": "Computer Architecture/NOC/片上互连网络/Routing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Architecture/NOC/片上互连网络/Index.md",
+                "file": "Computer Architecture/NOC/片上互连网络/Routing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Architecture/NOC/片上互连网络/Index.md"
+                "file": "Computer Architecture/NOC/片上互连网络/Routing.md"
               }
             }
           }
@@ -166,14 +166,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "58729fb53e3b5016",
+  "active": "2fd97cb827b9533c",
   "lastOpenFiles": [
-    "Computer Architecture/NOC/片上互连网络/片上网络的系统架构接口.md",
-    "Computer Architecture/NOC/片上互连网络/Intro.md",
+    "Computer Architecture/NOC/片上互连网络/img/Pasted image 20230825165331.png",
+    "Computer Architecture/NOC/片上互连网络/img/Pasted image 20230825165203.png",
+    "Computer Architecture/NOC/片上互连网络/img/Pasted image 20230825160629.png",
+    "Computer Architecture/NOC/片上互连网络/img/Pasted image 20230825160325.png",
+    "Computer Architecture/NOC/片上互连网络/Topology.md",
     "Computer Architecture/NOC/片上互连网络/Index.md",
-    "PaperReading/Reading List.md",
+    "Computer Architecture/NOC/片上互连网络/Intro.md",
+    "Computer Architecture/NOC/片上互连网络/Routing.md",
+    "Computer Architecture/NOC/片上互连网络/img/Pasted image 20230825151712.png",
+    "Computer Architecture/NOC/片上互连网络/片上网络的系统架构接口.md",
     "Templates/Book Summary Template.md",
     "Templates/PaperReadingTemplate.md",
+    "PaperReading/Reading List.md",
     "PaperReading/Brief.md",
     "Computer Architecture/NOC/片上互连网络/img",
     "Computer Architecture/NOC/片上互连网络",
@@ -186,13 +193,9 @@
     "Computer Architecture/NOC",
     "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence/img/Pasted image 20230821151845.png",
     "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence/img/Pasted image 20230821150510.png",
-    "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence/img/Pasted image 20230821145111.png",
     "Digital Circuit/DDCA(ETHz & Book)/HDL and Verilog.md",
     "Computer Architecture/chiplet/Untitled.md",
     "PaperReading/chiplet",
-    "Pasted image 20230714122850.png",
-    "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence/img/Pasted image 20230713132821.png",
-    "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence/img/Pasted image 20230714122611.png",
     "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence/TSO (Total Store Order).md",
     "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence/SC (Sequential Consistency).md",
     "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence/Introduction & Coherence Basic.md",
@@ -211,9 +214,6 @@
     "Digital Circuit/DDCA(ETHz & Book)/Sequential Logic and FSM.md",
     "Computer Architecture/Modern Processor Design/Advanced Instruction Flow Techniques.md",
     "Analog Circuit/CMOS超大规模集成电路设计/延时/路径逻辑努力.md",
-    "Computer Architecture/Modern Processor Design/Intel P6.md",
-    "Computer Architecture/Modern Processor Design/PowerPC 620.md",
-    "Advanced Signal Processing/hw/Assignment 6.md",
     "Untitled.canvas"
   ]
 }
