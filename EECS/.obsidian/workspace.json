@@ -20,6 +20,16 @@
             }
           },
           {
+            "id": "7fe63b01ab942316",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.5"
+              }
+            }
+          },
+          {
             "id": "98ee7c1e8cd6a1dc",
             "type": "leaf",
             "state": {
@@ -31,7 +41,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -166,7 +177,7 @@
       "templates:Insert template": false
     }
   },
-  "active": "58729fb53e3b5016",
+  "active": "7fe63b01ab942316",
   "lastOpenFiles": [
     "resources/img/Pasted image 20230829155956.png",
     "resources/img/Pasted image 20230829155729.png",
