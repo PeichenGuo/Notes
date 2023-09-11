@@ -83,26 +83,21 @@
             }
           },
           {
-            "id": "29535ad4e0c271f4",
+            "id": "5f78e536ee7ec726",
             "type": "leaf",
             "state": {
-              "type": "starred",
-              "state": {}
-            }
-          },
-          {
-            "id": "bfb7efcf864efac6",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {}
+              "type": "outline",
+              "state": {
+                "file": "Programming Language/C++/Effective Modern C++.md"
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 297.5
+    "width": 206.500732421875
   },
   "right": {
     "id": "c67599e5a31e373f",
@@ -153,13 +148,19 @@
             }
           },
           {
-            "id": "5f78e536ee7ec726",
+            "id": "bfb7efcf864efac6",
             "type": "leaf",
             "state": {
-              "type": "outline",
-              "state": {
-                "file": "Programming Language/C++/Effective Modern C++.md"
-              }
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "29535ad4e0c271f4",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
             }
           }
         ]
@@ -179,9 +180,11 @@
       "templates:Insert template": false
     }
   },
-  "active": "7fe63b01ab942316",
+  "active": "5f78e536ee7ec726",
   "lastOpenFiles": [
+    "Computer Architecture/量化研究方法/Memory Hierarchy Design/Cache Optimization.md",
     "Programming Language/C++/Effective Modern C++.md",
+    "resources/img/Pasted image 20230910102531.png",
     "resources/img/Pasted image 20230829155956.png",
     "resources/img/Pasted image 20230829155729.png",
     "resources/img/Pasted image 20230829134912.png",
@@ -201,7 +204,6 @@
     "Computer Architecture/NOC/片上互连网络/Topology.md",
     "Computer Architecture/NOC/片上互连网络/Index.md",
     "Computer Architecture/NOC/片上互连网络/Intro.md",
-    "Computer Architecture/NOC/片上互连网络/img/Pasted image 20230825151712.png",
     "Computer Architecture/NOC/片上互连网络/片上网络的系统架构接口.md",
     "Templates/Book Summary Template.md",
     "Templates/PaperReadingTemplate.md",
@@ -226,7 +228,6 @@
     "Computer Architecture/courses/Mutlu's CA/Introduction.md",
     "PaperReading/LSQ/The Predictability of Data Values.md",
     "Pasted image 20230629164346.png.md",
-    "Digital Circuit/DDCA(ETHz & Book)/Sequential Logic and FSM.md",
     "Untitled.canvas"
   ]
 }

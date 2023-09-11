@@ -1,3 +1,4 @@
+## 进入modern cpp
 ####  Item5:优先考虑auto而非显式声明
 #### Item6: 有时候auto推断会奇怪，此时要用显式声明
 
@@ -126,3 +127,61 @@ public:
 	Base& operator=(const Base&) = default; 
 };
 ```
+
+## 智能指针
+#### Item17：unique pointer
+unique pointer可以自定义析构函数，此时㤇把这个方法传入unique ptr的参数列表里std::unique_ptr<Investment, decltype(delInvmt)>
+decltype可以避免去算delInvmt的类型
+```cpp
+auto delInvmt = [](Investment* pInvestment) //自定义删除器 
+{ //（lambda表达式） 
+	makeLogEntry(pInvestment); delete pInvestment; 
+};
+template<typename... Ts> std::unique_ptr<Investment, decltype(delInvmt)> //更改后的返回类型 
+makeInvestment(Ts&&... params) { 
+	std::unique_ptr<Investment, decltype(delInvmt)> 
+	pInv(nullptr, delInvmt); //应返回的指针 
+	return pInv; 
+}
+```
+自定义析构器会增大unique指针大小，变成2个word
+`std::unique_ptr`是轻量级、快速的、只可移动（_move-only_）的管理专有所有权语义资源的智能指针
+
+unique转shared
+```cpp
+std::shared_ptr<Investment> sp =            //将std::unique_ptr
+    makeInvestment(arguments);              //转为std::shared_ptr
+```
+
+#### shared ptr
+shared ptr通过引用计数实现，所以存在以下三个问题：
+- shared ptr大小是普通ptr的两倍以上
+- shared ptr需要给引用计数动态分配内存
+- shared ptr增减计数的时候需要原子操作，比较慢
+
+![[Pasted image 20230910102531.png]]
+shared ptr在内存的样子，其中绿色部分是记录引用计数和自定义析构器等东西的控制块
+
+值得注意的是，控制块在用原始指针构造shared ptr时，会创建控制块。因此，**不能用同一个东西的原始指针创建多个shared ptr**
+当类中需要用shared ptr管理this的时候，需要让类继承std::enable_shared_from_this
+
+==`std::shared_ptr`不能处理的数组==
+
+#### weak ptr
+weak ptr是shared ptr的加强版，为了解决一些shared ptr不得不面临的悬空问题
+weak ptr无法解引用，也无法测试是否为nullptr
+访问weak ptr的办法是把其转化为shared ptr，这个操作是原子的。
+方法1：
+```cpp
+std::shared_ptr<Widget> spw1 = wpw.lock();  //如果wpw过期，spw1就为空
+ 											
+auto spw2 = wpw.lock();                     //同上，但是使用auto
+
+```
+方法2：
+```CPP
+std::shared_ptr<Widget> spw3(wpw);          //如果wpw过期，抛出std::bad_weak_ptr异常
+
+```
+
+#### 优先考虑make shared和make unique而非new
