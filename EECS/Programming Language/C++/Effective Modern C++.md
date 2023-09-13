@@ -185,3 +185,92 @@ std::shared_ptr<Widget> spw3(wpw);          //如果wpw过期，抛出std::bad_w
 ```
 
 #### 优先考虑make shared和make unique而非new
+
+## 左值与右值
+#### move和forward
+move和forward的本质都是cast。move是把一个左值变成右值，foreward把一个右值初始化的参数变成右值
+
+当希望用move达成移动构造的时候，不要使用const，const很有可能隐式转成拷贝构造函数。
+
+理论上我们可以全用forward，但move好写一点
+
+#### 区分通用引用和右值引用
+有时候&&也可以左值引用，此时称为通用引用。
+两种情况：函数模板和auto声明。存在类型推导的时候存在通用引用
+````cpp 
+template <typename T> void f(T&& param); 
+auto&& val2 = var1;
+````
+#### 右值引用用move，通用引用用forward
+move可能会导致左值消失
+```cpp
+class Base{
+public:
+	string name;
+	template <typename T>
+	void set_name(T&& n){
+		this->name = forward<T>(n); // 如果这里是move main中的s会在使用会变回未定义
+	}
+};
+int main(){
+	Base b;
+	string s = "abc";
+	b.set_name(s);
+	cout << b.name << endl;
+	cout << s << endl;
+	return 0;
+}
+```
+#### 避免通用引用使用重载
+通用引用用到了模板，但是其使用时与模板无关（比如上节中我是明确知道且只期望set_name改变一个string变量），只是希望编译器推断。
+因此重载通用引用函数非常危险。比如：
+```cpp
+std::string name;
+std::vector<string> names;
+std::string get_name_from_idx(int i){
+	return names[i];
+}
+template <typename T>
+void set_name(T&& n){
+	name = forward<T>(n); 
+}
+
+void set_name(int idx){
+	name = forward<T>(get_name_from_idx(idx)); 
+}
+```
+此时如果传入了一个short，这个参数不会隐式转换调用函数2，而是调用函数1
+
+解决方案：
+- 不用重载
+- 用const T&这种c98经典方式
+- 按值传递
+- tag dispatch。类似下面
+```cpp
+template<typename T>
+void logAndAdd(T&& name)
+{
+
+  logAndAddImpl(std::forward<T>(name),
+	  std::is_instegral<typename std::remove_reference<T>::type>());
+}
+```
+
+```cpp
+template<typename T>
+void logAndAddImpl(T&& name, std::false_type) //
+{
+  auto now = std::chrono::system_clock::now();
+  log(now, "logAndAdd");
+  names.emplace(std::forward<T>(name));
+}
+```
+其中std::false_type是一个tag，是一个编译时就能决定true false的tag，从而可以提前编译
+
+#### 引用折叠
+编译器有时候会搞出来引用的引用，此时会自动折叠。右值会变成右值引用，左值会变成左值引用。
+
+#### move操作可能不廉价或没有被使用
+
+## Lambda表达式
+#### 避免使用默认捕获模式
