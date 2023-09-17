@@ -93,7 +93,7 @@ values.insert(it, 1998);
 
 #### 如果函数无异常，则使用noexcept
 noexcept可以优化编译效率和程序效率
-书中举了一个很有趣的例子。一个vector在不停pushback，当其空间不够的时候，c98会重新allocate一个地方然后进行复制操作，而c11会尝试进行move操作。但是这个move可能是不安全的，比如move到第n个的时候，突然出异常了，之前move的n-1个也不可能复原。因此在确保不会出exception前，不会用m ove操作。
+书中举了一个很有趣的例子。一个vector在不停pushback，当其空间不够的时候，c98会重新allocate一个地方然后进行复制操作，而c11会尝试进行move操作。但是这个move可能是不安全的，比如move到第n个的时候，突然出异常了，之前move的n-1个也不可能复原。因此在确保不会出exception前，不会用m  ove操作。
 
 #### 尽可能使用constexpr
 constexpr表示：不仅是常量，而且**编译器可知**
