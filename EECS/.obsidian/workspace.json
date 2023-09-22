@@ -67,7 +67,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -166,6 +167,8 @@
   },
   "active": "7fe63b01ab942316",
   "lastOpenFiles": [
+    "resources/img/Pasted image 20230922103142.png",
+    "resources/img/Pasted image 20230922103135.png",
     "Programming Language/C++/Effective Modern C++.md",
     "Programming Language/C++/多线程.md",
     "PaperReading/NOC/Simple Virtual Channel Allocation for High Throughput and High Frequency On-Chip Routers.md",
@@ -186,7 +189,6 @@
     "Computer Architecture/NOC/片上互连网络/img/Pasted image 20230825165331.png",
     "Computer Architecture/NOC/片上互连网络/img/Pasted image 20230825165203.png",
     "Computer Architecture/NOC/片上互连网络/img/Pasted image 20230825160629.png",
-    "Computer Architecture/NOC/片上互连网络/img/Pasted image 20230825160325.png",
     "Computer Architecture/NOC/片上互连网络/Topology.md",
     "Computer Architecture/NOC/片上互连网络/Index.md",
     "Computer Architecture/NOC/片上互连网络/Intro.md",
@@ -211,7 +213,6 @@
     "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence",
     "Computer Architecture/courses/Mutlu's CA/Memory Performance Attack.md",
     "Computer Architecture/courses/Mutlu's CA/Introduction.md",
-    "PaperReading/LSQ/The Predictability of Data Values.md",
     "Untitled.canvas"
   ]
 }
