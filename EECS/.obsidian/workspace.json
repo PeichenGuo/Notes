@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -76,7 +75,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming Language/C++/Effective Modern C++.md"
+                "file": "Programming Language/C++/多线程.md"
               }
             }
           }
@@ -101,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming Language/C++/Effective Modern C++.md",
+                "file": "Programming Language/C++/多线程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming Language/C++/Effective Modern C++.md",
+                "file": "Programming Language/C++/多线程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,12 +177,12 @@
       "templates:Insert template": false
     }
   },
-  "active": "5f78e536ee7ec726",
+  "active": "7fe63b01ab942316",
   "lastOpenFiles": [
+    "Programming Language/C++/Effective Modern C++.md",
     "Programming Language/C++/多线程.md",
     "resources/img/Pasted image 20230922103142.png",
     "resources/img/Pasted image 20230922103135.png",
-    "Programming Language/C++/Effective Modern C++.md",
     "PaperReading/NOC/Simple Virtual Channel Allocation for High Throughput and High Frequency On-Chip Routers.md",
     "PaperReading/Reading List.md",
     "Computer Architecture/量化研究方法/Memory Hierarchy Design/Cache Optimization.md",
