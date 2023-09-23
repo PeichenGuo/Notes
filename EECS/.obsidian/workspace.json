@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "491c11dd33f0a386",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programming Language/C++/Effective Modern C++.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -63,7 +76,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming Language/C++/多线程.md"
+                "file": "Programming Language/C++/Effective Modern C++.md"
               }
             }
           }
@@ -88,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming Language/C++/多线程.md",
+                "file": "Programming Language/C++/Effective Modern C++.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming Language/C++/多线程.md",
+                "file": "Programming Language/C++/Effective Modern C++.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,12 +178,12 @@
       "templates:Insert template": false
     }
   },
-  "active": "7fe63b01ab942316",
+  "active": "5f78e536ee7ec726",
   "lastOpenFiles": [
+    "Programming Language/C++/多线程.md",
     "resources/img/Pasted image 20230922103142.png",
     "resources/img/Pasted image 20230922103135.png",
     "Programming Language/C++/Effective Modern C++.md",
-    "Programming Language/C++/多线程.md",
     "PaperReading/NOC/Simple Virtual Channel Allocation for High Throughput and High Frequency On-Chip Routers.md",
     "PaperReading/Reading List.md",
     "Computer Architecture/量化研究方法/Memory Hierarchy Design/Cache Optimization.md",
@@ -188,7 +201,6 @@
     "PaperReading/NOC",
     "Computer Architecture/NOC/片上互连网络/img/Pasted image 20230825165331.png",
     "Computer Architecture/NOC/片上互连网络/img/Pasted image 20230825165203.png",
-    "Computer Architecture/NOC/片上互连网络/img/Pasted image 20230825160629.png",
     "Computer Architecture/NOC/片上互连网络/Topology.md",
     "Computer Architecture/NOC/片上互连网络/Index.md",
     "Computer Architecture/NOC/片上互连网络/Intro.md",
