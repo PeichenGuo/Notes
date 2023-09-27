@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming Language/C++/多线程.md",
+                "file": "Tools/gem5/GEM5.md",
                 "mode": "source",
                 "source": false
               }
@@ -75,12 +75,11 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming Language/C++/多线程.md"
+                "file": "Tools/gem5/GEM5.md"
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -100,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming Language/C++/多线程.md",
+                "file": "Tools/gem5/GEM5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming Language/C++/多线程.md",
+                "file": "Tools/gem5/GEM5.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,18 +178,20 @@
   },
   "active": "7fe63b01ab942316",
   "lastOpenFiles": [
+    "Tools/gem5",
+    "PaperReading/NOC/Simple Virtual Channel Allocation for High Throughput and High Frequency On-Chip Routers.md",
+    "Tools/gem5/GEM5.md",
+    "PaperReading/NOC/A Low Latency Router Supporting Adaptivity for On-Chip Interconnects.md",
     "Programming Language/C++/Effective Modern C++.md",
     "Programming Language/C++/多线程.md",
     "resources/img/Pasted image 20230922103142.png",
     "resources/img/Pasted image 20230922103135.png",
-    "PaperReading/NOC/Simple Virtual Channel Allocation for High Throughput and High Frequency On-Chip Routers.md",
     "PaperReading/Reading List.md",
     "Computer Architecture/量化研究方法/Memory Hierarchy Design/Cache Optimization.md",
     "resources/img/Pasted image 20230910102531.png",
     "resources/img/Pasted image 20230829155956.png",
     "resources/img/Pasted image 20230829155729.png",
     "resources/img/Pasted image 20230829134912.png",
-    "PaperReading/NOC/A Low Latency Router Supporting Adaptivity for On-Chip Interconnects.md",
     "resources/img",
     "resources",
     "PaperReading/NOC/img/Pasted image 20230829122531.png",
@@ -223,7 +224,6 @@
     "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence/img",
     "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence",
     "Computer Architecture/courses/Mutlu's CA/Memory Performance Attack.md",
-    "Computer Architecture/courses/Mutlu's CA/Introduction.md",
     "Untitled.canvas"
   ]
 }
