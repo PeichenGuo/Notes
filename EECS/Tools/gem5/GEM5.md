@@ -34,3 +34,9 @@ DPRINTF(HelloExample, "Created the hello object\n");
 
 ## SimOBJ
 ==**never use std::cout**==, use debug instead
+
+port有三种mode：timing, atomic, and functional。timing是最常用的，可以得到正确的结果。
+
+
+_Functional mode_ is better described as _debugging mode_.会直接返回最新的data，忽略memory具体架构。（估计就是个数组）
+
