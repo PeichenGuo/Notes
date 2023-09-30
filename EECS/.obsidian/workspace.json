@@ -79,7 +79,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -178,6 +179,9 @@
   },
   "active": "7fe63b01ab942316",
   "lastOpenFiles": [
+    "resources/img/Pasted image 20230930154222.png",
+    "resources/img/Pasted image 20230930153634.png",
+    "resources/img/Pasted image 20230930151729.png",
     "Tools/gem5",
     "PaperReading/NOC/Simple Virtual Channel Allocation for High Throughput and High Frequency On-Chip Routers.md",
     "Tools/gem5/GEM5.md",
@@ -199,8 +203,6 @@
     "PaperReading/NOC/img/Pasted image 20230829121955.png",
     "Computer Architecture/NOC/片上互连网络/Routing.md",
     "PaperReading/NOC",
-    "Computer Architecture/NOC/片上互连网络/img/Pasted image 20230825165331.png",
-    "Computer Architecture/NOC/片上互连网络/img/Pasted image 20230825165203.png",
     "Computer Architecture/NOC/片上互连网络/Topology.md",
     "Computer Architecture/NOC/片上互连网络/Index.md",
     "Computer Architecture/NOC/片上互连网络/Intro.md",
@@ -222,7 +224,6 @@
     "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence/Memory Consistency Model.md",
     "Computer Architecture/chiplet/UCIe标准的Chiplet接口IP设计.md",
     "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence/img",
-    "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence",
     "Computer Architecture/courses/Mutlu's CA/Memory Performance Attack.md",
     "Untitled.canvas"
   ]
