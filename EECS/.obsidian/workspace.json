@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "377bf447ec168086",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PaperReading/Batten/cheatsheet.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "491c11dd33f0a386",
             "type": "leaf",
             "state": {
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -75,12 +88,11 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools/gem5/GEM5.md"
+                "file": "PaperReading/Batten/cheatsheet.md"
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -100,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tools/gem5/GEM5.md",
+                "file": "PaperReading/Batten/cheatsheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tools/gem5/GEM5.md",
+                "file": "PaperReading/Batten/cheatsheet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,14 +189,18 @@
       "templates:Insert template": false
     }
   },
-  "active": "7fe63b01ab942316",
+  "active": "377bf447ec168086",
   "lastOpenFiles": [
+    "resources/img/Pasted image 20231011234036.png",
+    "PaperReading/Batten/CIFER -- A Cache-Coherent 12-nm 16-mm2 SoC With Four 64-Bit RISC-V Application Cores, 18 32-Bit RISC-V Compute Cores, and a 1541 LUT6 mm2 Synthesizable eFPGA.md",
+    "PaperReading/Batten/cheatsheet.md",
+    "Tools/gem5/GEM5.md",
+    "PaperReading/Batten",
     "resources/img/Pasted image 20230930154222.png",
     "resources/img/Pasted image 20230930153634.png",
     "resources/img/Pasted image 20230930151729.png",
     "Tools/gem5",
     "PaperReading/NOC/Simple Virtual Channel Allocation for High Throughput and High Frequency On-Chip Routers.md",
-    "Tools/gem5/GEM5.md",
     "PaperReading/NOC/A Low Latency Router Supporting Adaptivity for On-Chip Interconnects.md",
     "Programming Language/C++/Effective Modern C++.md",
     "Programming Language/C++/多线程.md",
@@ -200,7 +216,6 @@
     "resources",
     "PaperReading/NOC/img/Pasted image 20230829122531.png",
     "PaperReading/NOC/img",
-    "PaperReading/NOC/img/Pasted image 20230829121955.png",
     "Computer Architecture/NOC/片上互连网络/Routing.md",
     "PaperReading/NOC",
     "Computer Architecture/NOC/片上互连网络/Topology.md",
@@ -222,9 +237,6 @@
     "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence/SC (Sequential Consistency).md",
     "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence/Introduction & Coherence Basic.md",
     "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence/Memory Consistency Model.md",
-    "Computer Architecture/chiplet/UCIe标准的Chiplet接口IP设计.md",
-    "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence/img",
-    "Computer Architecture/courses/Mutlu's CA/Memory Performance Attack.md",
     "Untitled.canvas"
   ]
 }
