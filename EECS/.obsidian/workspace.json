@@ -4,47 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "95162bab60fa7524",
+        "id": "052a7eb148148258",
         "type": "tabs",
         "children": [
           {
-            "id": "7fe63b01ab942316",
+            "id": "b6c8cfdea49d2169",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/gem5/GEM5.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "377bf447ec168086",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PaperReading/Batten/cheatsheet.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "491c11dd33f0a386",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programming Language/C++/Effective Modern C++.md",
+                "file": "PaperReading/memory/DynAMO： Improving Parallelism Through Dynamic Placement of Atomic Memory Operations.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -88,7 +63,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PaperReading/Batten/cheatsheet.md"
+                "file": "PaperReading/memory/DynAMO： Improving Parallelism Through Dynamic Placement of Atomic Memory Operations.md"
               }
             }
           }
@@ -112,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PaperReading/Batten/cheatsheet.md",
+                "file": "PaperReading/memory/DynAMO： Improving Parallelism Through Dynamic Placement of Atomic Memory Operations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PaperReading/Batten/cheatsheet.md",
+                "file": "PaperReading/memory/DynAMO： Improving Parallelism Through Dynamic Placement of Atomic Memory Operations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -189,12 +164,29 @@
       "templates:Insert template": false
     }
   },
-  "active": "377bf447ec168086",
+  "active": "b6c8cfdea49d2169",
   "lastOpenFiles": [
+    "resources/img/Pasted image 20231013154718.png",
+    "resources/img/Pasted image 20231013153837.png",
+    "resources/img/Pasted image 20231013153540.png",
+    "People/EU/Miquel Moret.md",
+    "People/EU/Mateo Valero.md",
+    "Templates/PersonTemplate.md",
+    "Programming Language/C++/Effective Modern C++.md",
+    "People/Untitled.canvas",
+    "PaperReading/Batten/cheatsheet.md",
+    "PaperReading/microarchitecture/LSQ/LSQ Brief.md",
+    "PaperReading/memory/DynAMO： Improving Parallelism Through Dynamic Placement of Atomic Memory Operations.md",
+    "People/NA",
+    "People/EU",
+    "People",
+    "resources/img/Pasted image 20231013151549.png",
+    "PaperReading/core/Complexity-Effective Superscalar Processors.md",
+    "PaperReading/microarchitecture",
+    "Tools/gem5/GEM5.md",
+    "PaperReading/memory",
     "resources/img/Pasted image 20231011234036.png",
     "PaperReading/Batten/CIFER -- A Cache-Coherent 12-nm 16-mm2 SoC With Four 64-Bit RISC-V Application Cores, 18 32-Bit RISC-V Compute Cores, and a 1541 LUT6 mm2 Synthesizable eFPGA.md",
-    "PaperReading/Batten/cheatsheet.md",
-    "Tools/gem5/GEM5.md",
     "PaperReading/Batten",
     "resources/img/Pasted image 20230930154222.png",
     "resources/img/Pasted image 20230930153634.png",
@@ -202,22 +194,16 @@
     "Tools/gem5",
     "PaperReading/NOC/Simple Virtual Channel Allocation for High Throughput and High Frequency On-Chip Routers.md",
     "PaperReading/NOC/A Low Latency Router Supporting Adaptivity for On-Chip Interconnects.md",
-    "Programming Language/C++/Effective Modern C++.md",
     "Programming Language/C++/多线程.md",
     "resources/img/Pasted image 20230922103142.png",
     "resources/img/Pasted image 20230922103135.png",
     "PaperReading/Reading List.md",
     "Computer Architecture/量化研究方法/Memory Hierarchy Design/Cache Optimization.md",
     "resources/img/Pasted image 20230910102531.png",
-    "resources/img/Pasted image 20230829155956.png",
-    "resources/img/Pasted image 20230829155729.png",
-    "resources/img/Pasted image 20230829134912.png",
     "resources/img",
     "resources",
-    "PaperReading/NOC/img/Pasted image 20230829122531.png",
     "PaperReading/NOC/img",
     "Computer Architecture/NOC/片上互连网络/Routing.md",
-    "PaperReading/NOC",
     "Computer Architecture/NOC/片上互连网络/Topology.md",
     "Computer Architecture/NOC/片上互连网络/Index.md",
     "Computer Architecture/NOC/片上互连网络/Intro.md",
@@ -225,18 +211,8 @@
     "Templates/Book Summary Template.md",
     "Templates/PaperReadingTemplate.md",
     "PaperReading/Brief.md",
-    "Computer Architecture/NOC/片上互连网络/img",
-    "Computer Architecture/NOC/片上互连网络",
     "Computer Architecture/courses/Mutlu's CA/Interconnection & On-Chip Network.md",
     "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence/Relaxed Memory Consistency.md",
-    "Computer Architecture/NOC",
-    "Digital Circuit/DDCA(ETHz & Book)/HDL and Verilog.md",
-    "Computer Architecture/chiplet/Untitled.md",
-    "PaperReading/chiplet",
-    "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence/TSO (Total Store Order).md",
-    "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence/SC (Sequential Consistency).md",
-    "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence/Introduction & Coherence Basic.md",
-    "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence/Memory Consistency Model.md",
     "Untitled.canvas"
   ]
 }
