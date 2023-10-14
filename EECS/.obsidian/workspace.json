@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "052a7eb148148258",
+        "id": "62a1100e08fa58e3",
         "type": "tabs",
         "children": [
           {
-            "id": "b6c8cfdea49d2169",
+            "id": "7c998be48b4bb147",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PaperReading/memory/DynAMO： Improving Parallelism Through Dynamic Placement of Atomic Memory Operations.md",
+                "file": "PaperReading/memory/Imprecise Store Exceptions.md",
                 "mode": "source",
                 "source": false
               }
@@ -63,7 +63,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PaperReading/memory/DynAMO： Improving Parallelism Through Dynamic Placement of Atomic Memory Operations.md"
+                "file": "PaperReading/memory/Imprecise Store Exceptions.md"
               }
             }
           }
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PaperReading/memory/DynAMO： Improving Parallelism Through Dynamic Placement of Atomic Memory Operations.md",
+                "file": "PaperReading/memory/Imprecise Store Exceptions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PaperReading/memory/DynAMO： Improving Parallelism Through Dynamic Placement of Atomic Memory Operations.md",
+                "file": "PaperReading/memory/Imprecise Store Exceptions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,19 +164,32 @@
       "templates:Insert template": false
     }
   },
-  "active": "b6c8cfdea49d2169",
+  "active": "7c998be48b4bb147",
   "lastOpenFiles": [
+    "PaperReading/memory/Mechanisms for Store-wait–free MultiprocessorsUntitled.md",
+    "People/NA/Gurindar S. Sohi.md",
+    "People/NA/Andreas Moshovos.md",
+    "People/EU/Babak Falsafi.md",
+    "People/NA/Thomas F. Wenisch.md",
+    "People/EU/Miquel Moret.md",
+    "People/EU/Mathias Payer.md",
+    "People/EU/Mateo Valero.md",
+    "People/EU/Anastasia Ailamaki.md",
+    "People/NA/John L. Hennessy.md",
+    "People/EU/Thomas R Gross.md",
+    "Thomas F. Wenisch]] [[Anastasia Ailamaki.md",
+    "Templates/Book Summary Template.md",
+    "Templates/PaperReadingTemplate.md",
+    "PaperReading/memory/Imprecise Store Exceptions.md",
+    "PaperReading/memory/DynAMO： Improving Parallelism Through Dynamic Placement of Atomic Memory Operations.md",
     "resources/img/Pasted image 20231013154718.png",
     "resources/img/Pasted image 20231013153837.png",
     "resources/img/Pasted image 20231013153540.png",
-    "People/EU/Miquel Moret.md",
-    "People/EU/Mateo Valero.md",
     "Templates/PersonTemplate.md",
     "Programming Language/C++/Effective Modern C++.md",
     "People/Untitled.canvas",
     "PaperReading/Batten/cheatsheet.md",
     "PaperReading/microarchitecture/LSQ/LSQ Brief.md",
-    "PaperReading/memory/DynAMO： Improving Parallelism Through Dynamic Placement of Atomic Memory Operations.md",
     "People/NA",
     "People/EU",
     "People",
@@ -197,22 +210,9 @@
     "Programming Language/C++/多线程.md",
     "resources/img/Pasted image 20230922103142.png",
     "resources/img/Pasted image 20230922103135.png",
-    "PaperReading/Reading List.md",
-    "Computer Architecture/量化研究方法/Memory Hierarchy Design/Cache Optimization.md",
-    "resources/img/Pasted image 20230910102531.png",
     "resources/img",
     "resources",
     "PaperReading/NOC/img",
-    "Computer Architecture/NOC/片上互连网络/Routing.md",
-    "Computer Architecture/NOC/片上互连网络/Topology.md",
-    "Computer Architecture/NOC/片上互连网络/Index.md",
-    "Computer Architecture/NOC/片上互连网络/Intro.md",
-    "Computer Architecture/NOC/片上互连网络/片上网络的系统架构接口.md",
-    "Templates/Book Summary Template.md",
-    "Templates/PaperReadingTemplate.md",
-    "PaperReading/Brief.md",
-    "Computer Architecture/courses/Mutlu's CA/Interconnection & On-Chip Network.md",
-    "Computer Architecture/coherence/A Primer On Memory Consistency and Cache Coherence/Relaxed Memory Consistency.md",
     "Untitled.canvas"
   ]
 }

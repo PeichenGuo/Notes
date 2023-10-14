@@ -2,8 +2,8 @@
 Author: Miquel Moret ́
 Year: 2023
 Journel/Conference: ISCA
-Summary: BlaBlaBla
-Rate: 3
+Summary: 用predictor猜测AMO指令near和far
+Rate: 4
 Question: None
 Eureka: None
 ---
@@ -35,8 +35,22 @@ Unique Near的意思是，如果cache block没处于U态，就避免进入U态�
 
 三种提出的：
 
+
+两种predictor
+#### Metric-Based DynAMO
+记录两个数：near的访问次数和directory invalide这个cache block的次数
+这个比例越大，说明near的次数越多，访问的更密集。
+
+#### Reused-Pattern
+用一个reuse bit和一个reuse counter来算
+每次fetch到near后，reuse bit清空
+当这个被再次访问的时候，bit被设置
+
+当下一次evict或者invalidation来的时候，如果bit被set，counter++；否则--
+
 ### Evaluation
 
+有预测后确实好了
 
 ### Unsolved Question
 
