@@ -1,7 +1,7 @@
 ---
 Author: "[[Andreas Moshovos]]"
-Year: 2023
-Journel/Conference: RIOSJournel
+Year: 2007
+Journel/Conference: ISCA
 Summary: BlaBlaBla
 Rate: 3
 Question: None

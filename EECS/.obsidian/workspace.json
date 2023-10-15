@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PaperReading/memory/Imprecise Store Exceptions.md",
+                "file": "PaperReading/memory/Mechanisms for Store-wait–free MultiprocessorsUntitled.md",
                 "mode": "source",
                 "source": false
               }
@@ -63,7 +63,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PaperReading/memory/Imprecise Store Exceptions.md"
+                "file": "PaperReading/memory/Mechanisms for Store-wait–free MultiprocessorsUntitled.md"
               }
             }
           }
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PaperReading/memory/Imprecise Store Exceptions.md",
+                "file": "PaperReading/memory/Mechanisms for Store-wait–free MultiprocessorsUntitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PaperReading/memory/Imprecise Store Exceptions.md",
+                "file": "PaperReading/memory/Mechanisms for Store-wait–free MultiprocessorsUntitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,6 +166,7 @@
   },
   "active": "7c998be48b4bb147",
   "lastOpenFiles": [
+    "PaperReading/memory/Imprecise Store Exceptions.md",
     "PaperReading/memory/Mechanisms for Store-wait–free MultiprocessorsUntitled.md",
     "People/NA/Gurindar S. Sohi.md",
     "People/NA/Andreas Moshovos.md",
@@ -180,7 +181,6 @@
     "Thomas F. Wenisch]] [[Anastasia Ailamaki.md",
     "Templates/Book Summary Template.md",
     "Templates/PaperReadingTemplate.md",
-    "PaperReading/memory/Imprecise Store Exceptions.md",
     "PaperReading/memory/DynAMO： Improving Parallelism Through Dynamic Placement of Atomic Memory Operations.md",
     "resources/img/Pasted image 20231013154718.png",
     "resources/img/Pasted image 20231013153837.png",
