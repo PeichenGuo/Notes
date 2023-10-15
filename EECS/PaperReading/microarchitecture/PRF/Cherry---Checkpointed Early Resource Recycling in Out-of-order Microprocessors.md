@@ -1,12 +1,14 @@
 ---
-Author: "J.F. Martinez, Josep Torrellas"
+Author: "[[Josep Torrellas]]"
 Year: 2002
-Journel/Conference: "MICRO"
-Summary: "提前回收部分已经完成的指令的资源。在已经执行过的instr上打checkpoint，当中断异常的时候回滚到哪些checkpoint"
+Journel/Conference: MICRO
+Summary: 提前回收部分已经完成的指令的资源。在已经执行过的instr上打checkpoint，当中断异常的时候回滚到哪些checkpoint
 Rate: 4
-Question: "None"
-Eureka: "None"
+Question: None
+Eureka: None
 ---
+### Authors
+[[José F. Martínez]], [[Josep Torrellas]]
 ### Abstract
 Cherry relies on state checkpointing and rollback to service exceptions for instructions whose resources have been recycled. Cherry leverages the ROB to (1) not require in-order execution as a fallback mechanism, (2) allow memory replay traps and branch mispredictions without rolling back to the Cherry checkpoint, and (3) quickly fall back to conventional out-of-order execution without rolling back to the checkpoint or flushing the pipeline
 cherry这个东西不需要io execution来回滚，对于memory replay和branch missprediction而言是不需要回滚的，并且可以快速地回到正常ooo执行（退出cherry mode）。
@@ -22,7 +24,7 @@ cherry就decouple了回收和retirement。
 Point of No Return. 
 有四种情况会造成提前回收出问题：
 - 分支预测失败
-- memory replay。这个大概就是瞎jb发ld，发完st后发现后面有个ld已经发完了，这时候需要重新发这个取到了错误数据的ld。
+- memory replay。这个大概就是乱序发ld，发完st后发现后面有个ld已经发完了，这时候需要重新发这个取到了错误数据的ld。
 - exception
 - interrupt
 

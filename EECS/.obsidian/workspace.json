@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7c998be48b4bb147",
+            "id": "8d0e1f54e93d34ba",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PaperReading/memory/Mechanisms for Store-wait–free MultiprocessorsUntitled.md",
+                "file": "PaperReading/microarchitecture/OOO Commit/Orinoco： Ordered Issue and Unordered Commit with Non-Collapsible Queues.md",
                 "mode": "source",
                 "source": false
               }
@@ -63,7 +63,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PaperReading/memory/Mechanisms for Store-wait–free MultiprocessorsUntitled.md"
+                "file": "PaperReading/microarchitecture/OOO Commit/Orinoco： Ordered Issue and Unordered Commit with Non-Collapsible Queues.md"
               }
             }
           }
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PaperReading/memory/Mechanisms for Store-wait–free MultiprocessorsUntitled.md",
+                "file": "PaperReading/microarchitecture/OOO Commit/Orinoco： Ordered Issue and Unordered Commit with Non-Collapsible Queues.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PaperReading/memory/Mechanisms for Store-wait–free MultiprocessorsUntitled.md",
+                "file": "PaperReading/microarchitecture/OOO Commit/Orinoco： Ordered Issue and Unordered Commit with Non-Collapsible Queues.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,55 +164,55 @@
       "templates:Insert template": false
     }
   },
-  "active": "7c998be48b4bb147",
+  "active": "8d0e1f54e93d34ba",
   "lastOpenFiles": [
-    "PaperReading/memory/Imprecise Store Exceptions.md",
+    "People/CN/刘雷波.md",
+    "PaperReading/microarchitecture/OOO Commit/Orinoco： Ordered Issue and Unordered Commit with Non-Collapsible Queues.md",
     "PaperReading/memory/Mechanisms for Store-wait–free MultiprocessorsUntitled.md",
+    "People/CN",
+    "resources/img/Untitled",
+    "PaperReading/memory/MESA： Microarchitecture Extensions for Spatial Architecture Generation.md",
+    "resources/img/Pasted image 20231015142428.png",
+    "resources/img/Pasted image 20231015142155.png",
+    "resources/img/Pasted image 20231015142146.png",
+    "resources/img/Pasted image 20231015134840.png",
+    "People/NA/Hadi S. Esmaeilzadeh.md",
+    "People/NA/Luis Ceze.md",
+    "People/NA/Kanad Ghose.md",
+    "People/NA/Josep Torrellas.md",
+    "People/NA/José F. Martínez.md",
+    "People/NA/John L. Hennessy.md",
+    "People/NA/Nam Sung Kim.md",
+    "People/NA/Thomas F. Wenisch.md",
+    "People/NA/Trevor Mudge.md",
+    "PaperReading/accelerators",
+    "resources/img/Pasted image 20231015131435.png",
+    "PaperReading/microarchitecture/PRF/Cherry---Checkpointed Early Resource Recycling in Out-of-order Microprocessors.md",
+    "PaperReading/microarchitecture/PRF/Increasing processor performance through early register release.md",
+    "PaperReading/microarchitecture/PRF/Checkpoint Processing and Recovery---Towards Scalable Large Instruction Window Processors.md",
+    "PaperReading/memory/Imprecise Store Exceptions.md",
     "People/NA/Gurindar S. Sohi.md",
     "People/NA/Andreas Moshovos.md",
     "People/EU/Babak Falsafi.md",
-    "People/NA/Thomas F. Wenisch.md",
     "People/EU/Miquel Moret.md",
     "People/EU/Mathias Payer.md",
     "People/EU/Mateo Valero.md",
     "People/EU/Anastasia Ailamaki.md",
-    "People/NA/John L. Hennessy.md",
     "People/EU/Thomas R Gross.md",
     "Thomas F. Wenisch]] [[Anastasia Ailamaki.md",
-    "Templates/Book Summary Template.md",
-    "Templates/PaperReadingTemplate.md",
-    "PaperReading/memory/DynAMO： Improving Parallelism Through Dynamic Placement of Atomic Memory Operations.md",
     "resources/img/Pasted image 20231013154718.png",
     "resources/img/Pasted image 20231013153837.png",
     "resources/img/Pasted image 20231013153540.png",
-    "Templates/PersonTemplate.md",
-    "Programming Language/C++/Effective Modern C++.md",
     "People/Untitled.canvas",
-    "PaperReading/Batten/cheatsheet.md",
-    "PaperReading/microarchitecture/LSQ/LSQ Brief.md",
     "People/NA",
     "People/EU",
     "People",
     "resources/img/Pasted image 20231013151549.png",
-    "PaperReading/core/Complexity-Effective Superscalar Processors.md",
     "PaperReading/microarchitecture",
-    "Tools/gem5/GEM5.md",
     "PaperReading/memory",
     "resources/img/Pasted image 20231011234036.png",
-    "PaperReading/Batten/CIFER -- A Cache-Coherent 12-nm 16-mm2 SoC With Four 64-Bit RISC-V Application Cores, 18 32-Bit RISC-V Compute Cores, and a 1541 LUT6 mm2 Synthesizable eFPGA.md",
     "PaperReading/Batten",
-    "resources/img/Pasted image 20230930154222.png",
-    "resources/img/Pasted image 20230930153634.png",
-    "resources/img/Pasted image 20230930151729.png",
     "Tools/gem5",
-    "PaperReading/NOC/Simple Virtual Channel Allocation for High Throughput and High Frequency On-Chip Routers.md",
-    "PaperReading/NOC/A Low Latency Router Supporting Adaptivity for On-Chip Interconnects.md",
-    "Programming Language/C++/多线程.md",
-    "resources/img/Pasted image 20230922103142.png",
-    "resources/img/Pasted image 20230922103135.png",
-    "resources/img",
-    "resources",
-    "PaperReading/NOC/img",
     "Untitled.canvas"
   ]
 }

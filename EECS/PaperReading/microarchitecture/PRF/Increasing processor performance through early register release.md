@@ -1,12 +1,14 @@
 ---
-Author: "O. Ergin, D. Balkan, D. Ponomarev, and K. Ghose"
+Author: "[[Kanad Ghose]]"
 Year: 2004
-Journel/Conference: "ICCD"
-Summary: "提前做deallocation，但使用了一种checkpoint prf，其每个bitcell都做了备份"
+Journel/Conference: ICCD
+Summary: 提前做deallocation，但使用了一种checkpoint prf，其每个bitcell都做了备份
 Rate: 2
-Question: "None"
-Eureka: "None"
+Question: None
+Eureka: None
 ---
+### Authors
+O. Ergin, D. Balkan, D. Ponomarev, and [[Kanad Ghose]]
 ### Abstract
 一个寄存器从finish exec后到retire之间其实有很长的delay，可以提前释放。本文提供了两种提前释放的方法。
 主要是提出了CPR（checkpoint physical register）这种东西，每个bitcell都有一个shadow cell做备份。
