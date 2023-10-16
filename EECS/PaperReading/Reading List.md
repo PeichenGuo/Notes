@@ -93,4 +93,7 @@
 
 ## Chiplet
 - [ ]  A. Kannan, N. E. Jerger, and G. H. Loh, “Enabling interposer-based disintegration of multi-core processors,” in IEEE/ACM MICRO, 2015, pp. 546–558.
+
+
+- [ ] NOREBA: a compiler-informed non-speculative out-of-order commit processor
 - [ ] 
