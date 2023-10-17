@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PaperReading/accelerators/SPADE：A Flexible and Scalable Accelerator for SpMM and SDDMM.md",
+                "file": "Computer Architecture/量化研究方法/ILP.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,6 +43,16 @@
             }
           },
           {
+            "id": "5f78e536ee7ec726",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Computer Architecture/量化研究方法/ILP.md"
+              }
+            }
+          },
+          {
             "id": "f31f343eec283533",
             "type": "leaf",
             "state": {
@@ -56,22 +66,13 @@
                 "sortOrder": "alphabetical"
               }
             }
-          },
-          {
-            "id": "5f78e536ee7ec726",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "PaperReading/accelerators/SPADE：A Flexible and Scalable Accelerator for SpMM and SDDMM.md"
-              }
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 206.500732421875
+    "width": 200
   },
   "right": {
     "id": "c67599e5a31e373f",
@@ -87,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PaperReading/accelerators/SPADE：A Flexible and Scalable Accelerator for SpMM and SDDMM.md",
+                "file": "Computer Architecture/量化研究方法/ILP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PaperReading/accelerators/SPADE：A Flexible and Scalable Accelerator for SpMM and SDDMM.md",
+                "file": "Computer Architecture/量化研究方法/ILP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,47 +165,47 @@
       "templates:Insert template": false
     }
   },
-  "active": "8d0e1f54e93d34ba",
+  "active": "5f78e536ee7ec726",
   "lastOpenFiles": [
-    "PaperReading/microarchitecture/OOO Commit/Orinoco： Ordered Issue and Unordered Commit with Non-Collapsible Queues.md",
+    "resources/img/Pasted image 20231017154611.png",
+    "resources/img/Pasted image 20231017154420.png",
+    "resources/img/Pasted image 20231017154203.png",
+    "Computer Architecture/量化研究方法/DLP.md",
+    "Templates/Book Summary Template.md",
+    "Computer Architecture/量化研究方法/ILP.md",
+    "Computer Architecture/量化研究方法/Memory Hierarchy Design/Cache Optimization.md",
+    "PaperReading/unsorted/Supply Chain Aware Computer Architecture.md",
+    "People/NA/David Wentzlaff.md",
+    "People/NA/Anant Agarwal.md",
     "PaperReading/accelerators/SPADE：A Flexible and Scalable Accelerator for SpMM and SDDMM.md",
+    "resources/img/Pasted image 20231017144057.png",
+    "resources/img/Pasted image 20231017140250.png",
+    "Templates/PaperReadingTemplate.md",
+    "People/NA/Saman Amarasinghe.md",
+    "People/NA/Charith Mendis.md",
+    "People/NA/Josep Torrellas.md",
+    "PaperReading/microarchitecture/OOO Commit/Orinoco： Ordered Issue and Unordered Commit with Non-Collapsible Queues.md",
     "resources/img/Pasted image 20231016163021.png",
     "resources/img/Pasted image 20231016162644.png",
     "resources/img/Pasted image 20231016162429.png",
     "resources/img/Pasted image 20231016155917.png",
     "resources/img/Pasted image 20231016153532.png",
     "resources/img/Pasted image 20231016153235.png",
-    "resources/img/Pasted image 20231016152642.png",
-    "resources/img/Pasted image 20231016150522.png",
     "PaperReading/Reading List.md",
     "People/CN/刘雷波.md",
     "PaperReading/memory/Mechanisms for Store-wait–free MultiprocessorsUntitled.md",
     "People/CN",
     "resources/img/Untitled",
     "PaperReading/memory/MESA： Microarchitecture Extensions for Spatial Architecture Generation.md",
-    "resources/img/Pasted image 20231015142428.png",
-    "resources/img/Pasted image 20231015142155.png",
     "People/NA/Hadi S. Esmaeilzadeh.md",
     "People/NA/Luis Ceze.md",
     "People/NA/Kanad Ghose.md",
-    "People/NA/Josep Torrellas.md",
     "People/NA/José F. Martínez.md",
     "People/NA/John L. Hennessy.md",
     "People/NA/Nam Sung Kim.md",
     "People/NA/Thomas F. Wenisch.md",
     "People/NA/Trevor Mudge.md",
     "PaperReading/accelerators",
-    "PaperReading/microarchitecture/PRF/Cherry---Checkpointed Early Resource Recycling in Out-of-order Microprocessors.md",
-    "PaperReading/microarchitecture/PRF/Increasing processor performance through early register release.md",
-    "PaperReading/microarchitecture/PRF/Checkpoint Processing and Recovery---Towards Scalable Large Instruction Window Processors.md",
-    "PaperReading/memory/Imprecise Store Exceptions.md",
-    "People/NA/Gurindar S. Sohi.md",
-    "People/NA/Andreas Moshovos.md",
-    "People/EU/Babak Falsafi.md",
-    "People/EU/Miquel Moret.md",
-    "People/EU/Mathias Payer.md",
-    "People/EU/Mateo Valero.md",
-    "People/EU/Anastasia Ailamaki.md",
     "People/Untitled.canvas",
     "People/NA",
     "People/EU",

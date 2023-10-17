@@ -1,7 +1,7 @@
 ---
-Author: PeichenGuo
+Author: "[[David Wentzlaff]]"
 Year: 2023
-Journel/Conference: RIOSJournel
+Journel/Conference: ISCA
 Summary: BlaBlaBla
 Rate: 3
 Question: None
