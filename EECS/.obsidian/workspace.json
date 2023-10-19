@@ -25,13 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PaperReading/unsorted/Supply Chain Aware Computer Architecture.md",
+                "file": "PaperReading/cloud/𝜇Manycore： A Cloud-Native CPU for Tail at Scale.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -60,7 +61,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Architecture/量化研究方法/ILP.md"
+                "file": "PaperReading/cloud/𝜇Manycore： A Cloud-Native CPU for Tail at Scale.md"
               }
             }
           },
@@ -79,8 +80,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Architecture/量化研究方法/ILP.md",
+                "file": "PaperReading/cloud/𝜇Manycore： A Cloud-Native CPU for Tail at Scale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Architecture/量化研究方法/ILP.md",
+                "file": "PaperReading/cloud/𝜇Manycore： A Cloud-Native CPU for Tail at Scale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,14 +177,17 @@
       "templates:Insert template": false
     }
   },
-  "active": "8d0e1f54e93d34ba",
+  "active": "c08c761f14491703",
   "lastOpenFiles": [
+    "PaperReading/unsorted/Supply Chain Aware Computer Architecture.md",
+    "PaperReading/cloud/𝜇Manycore： A Cloud-Native CPU for Tail at Scale.md",
+    "PaperReading/cloud",
+    "Computer Architecture/量化研究方法/ILP.md",
+    "PaperReading/Reading List.md",
     "resources/img/Pasted image 20231018191901.png",
     "resources/img/Pasted image 20231018185248.png",
     "resources/img/Pasted image 20231018181544.png",
     "resources/img/Pasted image 20231018173550.png",
-    "PaperReading/unsorted/Supply Chain Aware Computer Architecture.md",
-    "Computer Architecture/量化研究方法/ILP.md",
     "resources/img/Pasted image 20231017154611.png",
     "resources/img/Pasted image 20231017154420.png",
     "resources/img/Pasted image 20231017154203.png",
@@ -202,8 +205,6 @@
     "People/NA/Josep Torrellas.md",
     "PaperReading/microarchitecture/OOO Commit/Orinoco： Ordered Issue and Unordered Commit with Non-Collapsible Queues.md",
     "resources/img/Pasted image 20231016163021.png",
-    "resources/img/Pasted image 20231016162644.png",
-    "PaperReading/Reading List.md",
     "People/CN/刘雷波.md",
     "PaperReading/memory/Mechanisms for Store-wait–free MultiprocessorsUntitled.md",
     "People/CN",
@@ -225,7 +226,6 @@
     "PaperReading/microarchitecture",
     "PaperReading/memory",
     "PaperReading/Batten",
-    "Tools/gem5",
     "Untitled.canvas"
   ]
 }
