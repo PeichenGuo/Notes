@@ -73,3 +73,25 @@ Loop退出很难被预测，因为有大量执行训练了loop。因此有专门
 
 ### _Speculation: Implementation Issues and Extensions_
 #### _Register Renaming Versus Reorder Buffers_
+==没看==
+
+#### _The Challenge of More Issues per Clock_
+issue逻辑很复杂，一个cycle放不下。所以issue宽度变化比较小。
+
+#### _How Much to Speculate_
+预测执行的好处之一是：==可以提前让堵住pipeline的events暴露==
+一些处理器只会预测执行low-cost exceptional events，比如L1C miss；开销更大的events会等其进入非预测执行的状态下。
+
+#### _Speculating Through Multiple Branches_
+可能一个fetch unit里有多个branch，预测多个branch有好处的情况有三种：
+1. branch很多的情景
+2. branch cluster
+3. long delay function units
+
+#### _Speculation and the Challenge of Energy Efficiency_
+![[Pasted image 20231019163553.png]]
+在int程序中很大一部分指令是预测错误执行的，在flt程序中有非常小一部分是预测错误执行的。
+因此可以看到，在int为主的程序中，使用预测执行是肯定造成更大能耗的（执行更多的不该执行的代码），因此对于低功耗cpu来看，应该慎重考虑是不是要用预测执行。
+
+#### _Address Aliasing Prediction_
+猜load、store地址之间有没有一样。
