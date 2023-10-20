@@ -95,3 +95,27 @@ issue逻辑很复杂，一个cycle放不下。所以issue宽度变化比较小�
 
 #### _Address Aliasing Prediction_
 猜load、store地址之间有没有一样。
+
+# _Multithreading_
+三种粒度：
+1. fine-grained。每个cycle都切换线程。好处是可以遮掩long stall，坏处是对于execution会延长。
+2. coarsed-grained。只在long stall的时候切换线程。缺点是没办法避免small stalls
+3. simultaneous multithreading (SMT) 最常见。
+
+![[Pasted image 20231020143315.png]]
+SMT总体上而言，对性能有较大提升，平均下来对能耗也有一定降低
+
+# 实例
+## _The ARM Cortex-A53_
+![[Pasted image 20231020143720.png]]
+AGU是adress generate unit，要么pc++，要么从四个predictor来：
+1. 1-entry的branch target cache存branch后的两条指令.no-delay
+2. 3072-entry的hybrid-predictor。优先级低于branch target cache。2-cycle delay
+3. 256-entry inderect branch predictor。3-cycle delay
+4. 8-entry return stack. 3-cycle delay
+
+Branch decisions are made in ALU pipe 0, resulting in a branch misprediction. 
+
+
+
+_penalty of 8 cycles_

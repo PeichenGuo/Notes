@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Architecture/量化研究方法/ILP.md",
+                "file": "Tools/sparta/Sparta.md",
                 "mode": "source",
                 "source": false
               }
@@ -60,7 +60,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Architecture/量化研究方法/ILP.md"
+                "file": "Tools/sparta/Sparta.md"
               }
             }
           },
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Architecture/量化研究方法/ILP.md",
+                "file": "Tools/sparta/Sparta.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Architecture/量化研究方法/ILP.md",
+                "file": "Tools/sparta/Sparta.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,11 +178,17 @@
   },
   "active": "8d0e1f54e93d34ba",
   "lastOpenFiles": [
+    "resources/img/Pasted image 20231020153841.png",
+    "Tools/sparta",
+    "Tools/gem5/GEM5.md",
+    "Tools/sparta/Sparta.md",
+    "Computer Architecture/量化研究方法/ILP.md",
+    "resources/img/Pasted image 20231020143720.png",
+    "resources/img/Pasted image 20231020143315.png",
     "resources/img/Pasted image 20231019163553.png",
     "PaperReading/cloud/𝜇Manycore： A Cloud-Native CPU for Tail at Scale.md",
     "PaperReading/unsorted/Supply Chain Aware Computer Architecture.md",
     "PaperReading/cloud",
-    "Computer Architecture/量化研究方法/ILP.md",
     "PaperReading/Reading List.md",
     "resources/img/Pasted image 20231018191901.png",
     "resources/img/Pasted image 20231018185248.png",
@@ -197,14 +203,11 @@
     "People/NA/David Wentzlaff.md",
     "People/NA/Anant Agarwal.md",
     "PaperReading/accelerators/SPADE：A Flexible and Scalable Accelerator for SpMM and SDDMM.md",
-    "resources/img/Pasted image 20231017144057.png",
-    "resources/img/Pasted image 20231017140250.png",
     "Templates/PaperReadingTemplate.md",
     "People/NA/Saman Amarasinghe.md",
     "People/NA/Charith Mendis.md",
     "People/NA/Josep Torrellas.md",
     "PaperReading/microarchitecture/OOO Commit/Orinoco： Ordered Issue and Unordered Commit with Non-Collapsible Queues.md",
-    "resources/img/Pasted image 20231016163021.png",
     "People/CN/刘雷波.md",
     "PaperReading/memory/Mechanisms for Store-wait–free MultiprocessorsUntitled.md",
     "People/CN",
@@ -215,8 +218,6 @@
     "People/NA/Kanad Ghose.md",
     "People/NA/José F. Martínez.md",
     "People/NA/John L. Hennessy.md",
-    "People/NA/Nam Sung Kim.md",
-    "People/NA/Thomas F. Wenisch.md",
     "PaperReading/accelerators",
     "People/Untitled.canvas",
     "People/NA",
@@ -224,7 +225,6 @@
     "People",
     "PaperReading/microarchitecture",
     "PaperReading/memory",
-    "PaperReading/Batten",
     "Untitled.canvas"
   ]
 }
