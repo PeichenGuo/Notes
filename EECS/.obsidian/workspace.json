@@ -4,21 +4,9 @@
     "type": "split",
     "children": [
       {
-        "id": "62a1100e08fa58e3",
+        "id": "2ad110d164159c21",
         "type": "tabs",
         "children": [
-          {
-            "id": "8d0e1f54e93d34ba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Architecture/量化研究方法/ILP.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
           {
             "id": "c08c761f14491703",
             "type": "leaf",
@@ -30,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8d0e1f54e93d34ba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Architecture/量化研究方法/DLP.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -60,7 +61,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Architecture/量化研究方法/ILP.md"
+                "file": "Computer Architecture/量化研究方法/DLP.md"
               }
             }
           },
@@ -99,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Architecture/量化研究方法/ILP.md",
+                "file": "Computer Architecture/量化研究方法/DLP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Architecture/量化研究方法/ILP.md",
+                "file": "Computer Architecture/量化研究方法/DLP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,12 +179,13 @@
   },
   "active": "8d0e1f54e93d34ba",
   "lastOpenFiles": [
-    "Tools/sparta/Sparta.md",
+    "resources/img/Pasted image 20231026145104.png",
+    "Computer Architecture/量化研究方法/ILP.md",
     "PaperReading/cloud/𝜇Manycore： A Cloud-Native CPU for Tail at Scale.md",
+    "Tools/sparta/Sparta.md",
     "resources/img/Pasted image 20231020153841.png",
     "Tools/sparta",
     "Tools/gem5/GEM5.md",
-    "Computer Architecture/量化研究方法/ILP.md",
     "resources/img/Pasted image 20231020143720.png",
     "resources/img/Pasted image 20231020143315.png",
     "resources/img/Pasted image 20231019163553.png",
