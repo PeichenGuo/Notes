@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/sparta/Sparta.md",
+                "file": "Computer Architecture/量化研究方法/ILP.md",
                 "mode": "source",
                 "source": false
               }
@@ -60,7 +60,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools/sparta/Sparta.md"
+                "file": "Computer Architecture/量化研究方法/ILP.md"
               }
             }
           },
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tools/sparta/Sparta.md",
+                "file": "Computer Architecture/量化研究方法/ILP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tools/sparta/Sparta.md",
+                "file": "Computer Architecture/量化研究方法/ILP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,15 +178,15 @@
   },
   "active": "8d0e1f54e93d34ba",
   "lastOpenFiles": [
+    "Tools/sparta/Sparta.md",
+    "PaperReading/cloud/𝜇Manycore： A Cloud-Native CPU for Tail at Scale.md",
     "resources/img/Pasted image 20231020153841.png",
     "Tools/sparta",
     "Tools/gem5/GEM5.md",
-    "Tools/sparta/Sparta.md",
     "Computer Architecture/量化研究方法/ILP.md",
     "resources/img/Pasted image 20231020143720.png",
     "resources/img/Pasted image 20231020143315.png",
     "resources/img/Pasted image 20231019163553.png",
-    "PaperReading/cloud/𝜇Manycore： A Cloud-Native CPU for Tail at Scale.md",
     "PaperReading/unsorted/Supply Chain Aware Computer Architecture.md",
     "PaperReading/cloud",
     "PaperReading/Reading List.md",
@@ -196,7 +196,6 @@
     "resources/img/Pasted image 20231018173550.png",
     "resources/img/Pasted image 20231017154611.png",
     "resources/img/Pasted image 20231017154420.png",
-    "resources/img/Pasted image 20231017154203.png",
     "Computer Architecture/量化研究方法/DLP.md",
     "Templates/Book Summary Template.md",
     "Computer Architecture/量化研究方法/Memory Hierarchy Design/Cache Optimization.md",

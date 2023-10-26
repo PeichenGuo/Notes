@@ -119,3 +119,5 @@ Branch decisions are made in ALU pipe 0, resulting in a branch misprediction.
 
 
 _penalty of 8 cycles_
+
+
