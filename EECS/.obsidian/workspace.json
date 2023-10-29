@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Architecture/量化研究方法/DLP.md",
+                "file": "Tools/docker/Docker.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Architecture/量化研究方法/DLP.md"
+                "file": "Tools/docker/Docker.md"
               }
             }
           },
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Architecture/量化研究方法/DLP.md",
+                "file": "Tools/docker/Docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Architecture/量化研究方法/DLP.md",
+                "file": "Tools/docker/Docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,6 +179,9 @@
   },
   "active": "8d0e1f54e93d34ba",
   "lastOpenFiles": [
+    "Computer Architecture/量化研究方法/DLP.md",
+    "Tools/docker/Docker.md",
+    "Tools/docker",
     "resources/img/Pasted image 20231026145104.png",
     "Computer Architecture/量化研究方法/ILP.md",
     "PaperReading/cloud/𝜇Manycore： A Cloud-Native CPU for Tail at Scale.md",
@@ -197,8 +200,6 @@
     "resources/img/Pasted image 20231018181544.png",
     "resources/img/Pasted image 20231018173550.png",
     "resources/img/Pasted image 20231017154611.png",
-    "resources/img/Pasted image 20231017154420.png",
-    "Computer Architecture/量化研究方法/DLP.md",
     "Templates/Book Summary Template.md",
     "Computer Architecture/量化研究方法/Memory Hierarchy Design/Cache Optimization.md",
     "People/NA/David Wentzlaff.md",
@@ -225,7 +226,6 @@
     "People/EU",
     "People",
     "PaperReading/microarchitecture",
-    "PaperReading/memory",
     "Untitled.canvas"
   ]
 }
