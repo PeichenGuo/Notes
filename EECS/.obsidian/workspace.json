@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/docker/Docker.md",
+                "file": "Computer Architecture/量化研究方法/DLP.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ee26d2a1d4aea2a5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tools/sparta/Sparta.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -61,7 +73,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools/docker/Docker.md"
+                "file": "Tools/sparta/Sparta.md"
               }
             }
           },
@@ -80,7 +92,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -100,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tools/docker/Docker.md",
+                "file": "Tools/sparta/Sparta.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tools/docker/Docker.md",
+                "file": "Tools/sparta/Sparta.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,14 +190,19 @@
       "templates:Insert template": false
     }
   },
-  "active": "8d0e1f54e93d34ba",
+  "active": "ee26d2a1d4aea2a5",
   "lastOpenFiles": [
+    "resources/img/Pasted image 20231031151530.png",
     "Computer Architecture/量化研究方法/DLP.md",
+    "PaperReading/cloud/𝜇Manycore： A Cloud-Native CPU for Tail at Scale.md",
+    "resources/img/Pasted image 20231031140941.png",
+    "resources/img/Pasted image 20231031140452.png",
+    "Untitled.canvas",
+    "resources/img/Pasted image 20231031124630.png",
     "Tools/docker/Docker.md",
     "Tools/docker",
     "resources/img/Pasted image 20231026145104.png",
     "Computer Architecture/量化研究方法/ILP.md",
-    "PaperReading/cloud/𝜇Manycore： A Cloud-Native CPU for Tail at Scale.md",
     "Tools/sparta/Sparta.md",
     "resources/img/Pasted image 20231020153841.png",
     "Tools/sparta",
@@ -197,9 +215,6 @@
     "PaperReading/Reading List.md",
     "resources/img/Pasted image 20231018191901.png",
     "resources/img/Pasted image 20231018185248.png",
-    "resources/img/Pasted image 20231018181544.png",
-    "resources/img/Pasted image 20231018173550.png",
-    "resources/img/Pasted image 20231017154611.png",
     "Templates/Book Summary Template.md",
     "Computer Architecture/量化研究方法/Memory Hierarchy Design/Cache Optimization.md",
     "People/NA/David Wentzlaff.md",
@@ -219,13 +234,11 @@
     "People/NA/Luis Ceze.md",
     "People/NA/Kanad Ghose.md",
     "People/NA/José F. Martínez.md",
-    "People/NA/John L. Hennessy.md",
     "PaperReading/accelerators",
     "People/Untitled.canvas",
     "People/NA",
     "People/EU",
     "People",
-    "PaperReading/microarchitecture",
-    "Untitled.canvas"
+    "PaperReading/microarchitecture"
   ]
 }
