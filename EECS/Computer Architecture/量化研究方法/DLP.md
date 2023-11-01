@@ -77,3 +77,42 @@ arithmetic intensity指的是浮点操作和memory access的比例。比如稀�
 ![[Pasted image 20231031140941.png]]
 
 # _Graphics Processing Units_
+## _NVIDIA GPU Computational Structures_
+![[Pasted image 20231101121842.png]]
+![[Pasted image 20231101133931.png]]
+一个SIMD processor。一个gpu由多个processor组成
+![[Pasted image 20231101134003.png]]
+## _NVIDA GPU Instruction Set Architecture_
+形如：
+opcode.type d, a, b, c;
+其中d是dest reg，abc是三个src reg。type是数据类型：
+![[Pasted image 20231101134430.png]]
+![[Pasted image 20231101134448.png]]
+一个实例代码：
+![[Pasted image 20231101134555.png]]
+
+## _Conditional Branching in GPUs_
+GPU会用hardware来处理if.
+主要的硬件有三个：
+1. internal mask
+2. branch synchronization stack
+3. instruction markers
+当某些lane在if上branch了，有些没有时，会把该指令push到stack里。此时称为diverge。当lane运行到同样的line时，叫converge，会pop这个stack。
+internal mask会控制lane的开关
+![[Pasted image 20231101145710.png]]
+上面是一段gpu汇编程序。
+setp设置了prediction reg p1。根据p1，一些会走then的代码，一些会走else的代码。
+
+## _NVIDIA GPU Memory Structures_
+![[Pasted image 20231101150121.png]]
+host写gpu memory，但不写local和private。
+相比使用巨大的cache，gpu用小cache和多线程来遮掩dram延时。
+
+## GPU vs vector processor
+![[Pasted image 20231101160920.png]]
+
+# _Detecting and Enhancing Loop-Level Parallelism_
+重点在检测loop-carried dependece！ 指iteration之间的data dependency
+compiler做这个更方便
+loop-carried dependecy经常以recurrence（重现）的方式出现，即某个变量的值由上次循环的值决定。
+## _Finding Dependences_

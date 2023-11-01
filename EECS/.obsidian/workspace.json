@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -73,7 +73,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools/sparta/Sparta.md"
+                "file": "Computer Architecture/量化研究方法/DLP.md"
               }
             }
           },
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tools/sparta/Sparta.md",
+                "file": "Computer Architecture/量化研究方法/DLP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tools/sparta/Sparta.md",
+                "file": "Computer Architecture/量化研究方法/DLP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,31 +190,31 @@
       "templates:Insert template": false
     }
   },
-  "active": "ee26d2a1d4aea2a5",
+  "active": "8d0e1f54e93d34ba",
   "lastOpenFiles": [
+    "resources/img/Pasted image 20231101160920.png",
+    "resources/img/Pasted image 20231101150121.png",
+    "resources/img/Pasted image 20231101145710.png",
+    "resources/img/Pasted image 20231101134555.png",
+    "resources/img/Pasted image 20231101134448.png",
+    "resources/img/Pasted image 20231101134430.png",
+    "resources/img/Pasted image 20231101134003.png",
+    "resources/img/Pasted image 20231101133931.png",
+    "resources/img/Pasted image 20231101121842.png",
+    "Tools/sparta/Sparta.md",
     "resources/img/Pasted image 20231031151530.png",
     "Computer Architecture/量化研究方法/DLP.md",
     "PaperReading/cloud/𝜇Manycore： A Cloud-Native CPU for Tail at Scale.md",
     "resources/img/Pasted image 20231031140941.png",
-    "resources/img/Pasted image 20231031140452.png",
     "Untitled.canvas",
-    "resources/img/Pasted image 20231031124630.png",
     "Tools/docker/Docker.md",
     "Tools/docker",
-    "resources/img/Pasted image 20231026145104.png",
     "Computer Architecture/量化研究方法/ILP.md",
-    "Tools/sparta/Sparta.md",
-    "resources/img/Pasted image 20231020153841.png",
     "Tools/sparta",
     "Tools/gem5/GEM5.md",
-    "resources/img/Pasted image 20231020143720.png",
-    "resources/img/Pasted image 20231020143315.png",
-    "resources/img/Pasted image 20231019163553.png",
     "PaperReading/unsorted/Supply Chain Aware Computer Architecture.md",
     "PaperReading/cloud",
     "PaperReading/Reading List.md",
-    "resources/img/Pasted image 20231018191901.png",
-    "resources/img/Pasted image 20231018185248.png",
     "Templates/Book Summary Template.md",
     "Computer Architecture/量化研究方法/Memory Hierarchy Design/Cache Optimization.md",
     "People/NA/David Wentzlaff.md",
