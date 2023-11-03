@@ -1,3 +1,8 @@
+---
+Book: A Primer On Memory Consistency and Cache Coherence
+Chapter: 5
+Summary: "-"
+---
 在多核中，只有部分操作是会引起歧义的，比如对同一个地址的操作。
 上锁可以解决这样的歧义。
 换个角度，锁之间的load和store是不会引起歧义的。

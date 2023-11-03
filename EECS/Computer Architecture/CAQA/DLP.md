@@ -1,5 +1,5 @@
 ---
-Book: CAQA
+Book: BlaBla
 Chapter: 4
 Summary: BlaBla
 ---
@@ -116,3 +116,13 @@ host写gpu memory，但不写local和private。
 compiler做这个更方便
 loop-carried dependecy经常以recurrence（重现）的方式出现，即某个变量的值由上次循环的值决定。
 ## _Finding Dependences_
+编译器会认为所有的index索引都是affine(仿射)的：a\*i+b
+因此确认dependency变成确认两个affine会不会在一个loop bound之间有一样的值
+
+# _Cross-Cutting Issues_
+## _Energy and DLP: Slow and Wide Versus Fast and Narrow_
+gpu的频率相比core会低一点，以降低功耗。
+## _Banked Memory and Graphics Memory_
+封装（HBM）对gpu很重要
+
+# _Fallacies and Pitfalls_

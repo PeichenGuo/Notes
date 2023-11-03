@@ -1,3 +1,8 @@
+---
+Book: A Primer On Memory Consistency and Cache Coherence
+Chapter: 1
+Summary: introduction
+---
 多核共享内存的情况下甚至很难定义什么是”正确”
 
 ==Consistency models define correct shared memory behavior in terms of loads and stores , without reference to caches or coherence.==

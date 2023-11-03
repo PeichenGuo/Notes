@@ -1,3 +1,9 @@
+---
+Book: CAQA
+Chapter: 2
+Summary: BlaBla
+---
+
 ### 10 advanced optimizations of Cache performance
 
 #### Small and Simple First-Level Caches

@@ -1,3 +1,8 @@
+---
+Book: A Primer On Memory Consistency and Cache Coherence
+Chapter: 4
+Summary: "-"
+---
 SPARC引入，x86使用，RISCV支持TSO扩展
 ### Motivation
 store buffer： store commit的时候进sb，写进下层cache后退出sb

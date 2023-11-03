@@ -1,3 +1,8 @@
+---
+Book: A Primer On Memory Consistency and Cache Coherence
+Chapter: 3
+Summary: "-"
+---
 ### Definition  
 The result of any execution is the same as if the op- erations of all processors (cores) were executed in some sequential order, and the operations of each individual processor (core) appear in this sequence in the order specified by its program
 符合以下约束：

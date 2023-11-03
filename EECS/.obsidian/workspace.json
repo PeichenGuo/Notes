@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Architecture/量化研究方法/DLP.md",
+                "file": "Programming Language/C++/多线程.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Architecture/量化研究方法/DLP.md"
+                "file": "Programming Language/C++/多线程.md"
               }
             }
           },
@@ -92,8 +92,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -113,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Architecture/量化研究方法/DLP.md",
+                "file": "Programming Language/C++/多线程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Architecture/量化研究方法/DLP.md",
+                "file": "Programming Language/C++/多线程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,48 +191,48 @@
   },
   "active": "8d0e1f54e93d34ba",
   "lastOpenFiles": [
-    "resources/img/Pasted image 20231101160920.png",
-    "resources/img/Pasted image 20231101150121.png",
-    "resources/img/Pasted image 20231101145710.png",
-    "resources/img/Pasted image 20231101134555.png",
-    "resources/img/Pasted image 20231101134448.png",
-    "resources/img/Pasted image 20231101134430.png",
-    "resources/img/Pasted image 20231101134003.png",
-    "resources/img/Pasted image 20231101133931.png",
-    "resources/img/Pasted image 20231101121842.png",
-    "Tools/sparta/Sparta.md",
-    "resources/img/Pasted image 20231031151530.png",
-    "Computer Architecture/量化研究方法/DLP.md",
+    "Computer Architecture/CAQA/Warehouse-Scale Computers.md",
+    "Computer Architecture/CAQA/CAQA.md",
+    "Computer Architecture/CAQA/Cache Optimization.md",
+    "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/A Primer On Memory Consistency and Cache Coherence.md",
+    "Computer Architecture/CAQA/ILP.md",
+    "Computer Architecture/CAQA/TLP.md",
+    "Computer Architecture/CAQA/DLP.md",
+    "resources/img/Pasted image 20231103140631.png",
+    "resources/img/Pasted image 20231103140531.png",
+    "resources/img/Pasted image 20231103140522.png",
+    "resources/img/Pasted image 20231103140411.png",
+    "resources/img/Pasted image 20231103134443.png",
+    "resources/img/Pasted image 20231103134233.png",
+    "resources/img/Pasted image 20231103133920.png",
+    "resources/img/Pasted image 20231103133728.png",
+    "resources/img/Pasted image 20231103120501.png",
+    "resources/img/Pasted image 20231103120423.png",
+    "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Introduction & Coherence Basic.md",
     "PaperReading/cloud/𝜇Manycore： A Cloud-Native CPU for Tail at Scale.md",
-    "resources/img/Pasted image 20231031140941.png",
+    "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Memory Consistency Model.md",
+    "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Relaxed Memory Consistency.md",
+    "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/TSO (Total Store Order).md",
+    "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/SC (Sequential Consistency).md",
+    "PaperReading/Brief.md",
+    "Tools/sparta/Sparta.md",
     "Untitled.canvas",
     "Tools/docker/Docker.md",
     "Tools/docker",
-    "Computer Architecture/量化研究方法/ILP.md",
     "Tools/sparta",
     "Tools/gem5/GEM5.md",
     "PaperReading/unsorted/Supply Chain Aware Computer Architecture.md",
     "PaperReading/cloud",
     "PaperReading/Reading List.md",
     "Templates/Book Summary Template.md",
-    "Computer Architecture/量化研究方法/Memory Hierarchy Design/Cache Optimization.md",
     "People/NA/David Wentzlaff.md",
     "People/NA/Anant Agarwal.md",
     "PaperReading/accelerators/SPADE：A Flexible and Scalable Accelerator for SpMM and SDDMM.md",
     "Templates/PaperReadingTemplate.md",
     "People/NA/Saman Amarasinghe.md",
     "People/NA/Charith Mendis.md",
-    "People/NA/Josep Torrellas.md",
-    "PaperReading/microarchitecture/OOO Commit/Orinoco： Ordered Issue and Unordered Commit with Non-Collapsible Queues.md",
-    "People/CN/刘雷波.md",
-    "PaperReading/memory/Mechanisms for Store-wait–free MultiprocessorsUntitled.md",
     "People/CN",
     "resources/img/Untitled",
-    "PaperReading/memory/MESA： Microarchitecture Extensions for Spatial Architecture Generation.md",
-    "People/NA/Hadi S. Esmaeilzadeh.md",
-    "People/NA/Luis Ceze.md",
-    "People/NA/Kanad Ghose.md",
-    "People/NA/José F. Martínez.md",
     "PaperReading/accelerators",
     "People/Untitled.canvas",
     "People/NA",
