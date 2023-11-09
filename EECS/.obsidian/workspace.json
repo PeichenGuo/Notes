@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming Language/C++/多线程.md",
+                "file": "PaperReading/core/Zen4 Microarchitecture.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming Language/C++/多线程.md"
+                "file": "PaperReading/core/Zen4 Microarchitecture.md"
               }
             }
           },
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming Language/C++/多线程.md",
+                "file": "PaperReading/core/Zen4 Microarchitecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming Language/C++/多线程.md",
+                "file": "PaperReading/core/Zen4 Microarchitecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,6 +191,13 @@
   },
   "active": "8d0e1f54e93d34ba",
   "lastOpenFiles": [
+    "resources/img/Pasted image 20231108214534.png",
+    "resources/img/Pasted image 20231107234433.png",
+    "Computer Architecture/Modern Processor Design/Advanced Instruction Flow Techniques.md",
+    "PaperReading/core/Zen4 Microarchitecture.md",
+    "Computer Architecture/Modern Processor Design/Intel P6.md",
+    "Computer Architecture/Modern Processor Design/img/Pasted image 20230603132933.png",
+    "Programming Language/C++/多线程.md",
     "Computer Architecture/CAQA/Warehouse-Scale Computers.md",
     "Computer Architecture/CAQA/CAQA.md",
     "Computer Architecture/CAQA/Cache Optimization.md",
@@ -206,8 +213,6 @@
     "resources/img/Pasted image 20231103134233.png",
     "resources/img/Pasted image 20231103133920.png",
     "resources/img/Pasted image 20231103133728.png",
-    "resources/img/Pasted image 20231103120501.png",
-    "resources/img/Pasted image 20231103120423.png",
     "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Introduction & Coherence Basic.md",
     "PaperReading/cloud/𝜇Manycore： A Cloud-Native CPU for Tail at Scale.md",
     "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Memory Consistency Model.md",
@@ -226,11 +231,6 @@
     "PaperReading/Reading List.md",
     "Templates/Book Summary Template.md",
     "People/NA/David Wentzlaff.md",
-    "People/NA/Anant Agarwal.md",
-    "PaperReading/accelerators/SPADE：A Flexible and Scalable Accelerator for SpMM and SDDMM.md",
-    "Templates/PaperReadingTemplate.md",
-    "People/NA/Saman Amarasinghe.md",
-    "People/NA/Charith Mendis.md",
     "People/CN",
     "resources/img/Untitled",
     "PaperReading/accelerators",
