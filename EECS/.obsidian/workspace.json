@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "af1c3c1aeb09f76b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programming Language/C++/多线程.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -73,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PaperReading/core/Zen4 Microarchitecture.md"
+                "file": "Programming Language/C++/多线程.md"
               }
             }
           },
@@ -112,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PaperReading/core/Zen4 Microarchitecture.md",
+                "file": "Programming Language/C++/多线程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PaperReading/core/Zen4 Microarchitecture.md",
+                "file": "Programming Language/C++/多线程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -189,12 +201,13 @@
       "templates:Insert template": false
     }
   },
-  "active": "8d0e1f54e93d34ba",
+  "active": "af1c3c1aeb09f76b",
   "lastOpenFiles": [
+    "Tools/sparta/Sparta.md",
+    "PaperReading/core/Zen4 Microarchitecture.md",
     "resources/img/Pasted image 20231108214534.png",
     "resources/img/Pasted image 20231107234433.png",
     "Computer Architecture/Modern Processor Design/Advanced Instruction Flow Techniques.md",
-    "PaperReading/core/Zen4 Microarchitecture.md",
     "Computer Architecture/Modern Processor Design/Intel P6.md",
     "Computer Architecture/Modern Processor Design/img/Pasted image 20230603132933.png",
     "Programming Language/C++/多线程.md",
@@ -212,7 +225,6 @@
     "resources/img/Pasted image 20231103134443.png",
     "resources/img/Pasted image 20231103134233.png",
     "resources/img/Pasted image 20231103133920.png",
-    "resources/img/Pasted image 20231103133728.png",
     "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Introduction & Coherence Basic.md",
     "PaperReading/cloud/𝜇Manycore： A Cloud-Native CPU for Tail at Scale.md",
     "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Memory Consistency Model.md",
@@ -220,7 +232,6 @@
     "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/TSO (Total Store Order).md",
     "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/SC (Sequential Consistency).md",
     "PaperReading/Brief.md",
-    "Tools/sparta/Sparta.md",
     "Untitled.canvas",
     "Tools/docker/Docker.md",
     "Tools/docker",
