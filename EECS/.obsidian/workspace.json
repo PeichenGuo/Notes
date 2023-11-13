@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming Language/C++/多线程.md"
+                "file": "Tools/sparta/Sparta.md"
               }
             }
           },
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming Language/C++/多线程.md",
+                "file": "Tools/sparta/Sparta.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming Language/C++/多线程.md",
+                "file": "Tools/sparta/Sparta.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -201,8 +201,9 @@
       "templates:Insert template": false
     }
   },
-  "active": "af1c3c1aeb09f76b",
+  "active": "ee26d2a1d4aea2a5",
   "lastOpenFiles": [
+    "Programming Language/C++/多线程.md",
     "Tools/sparta/Sparta.md",
     "PaperReading/core/Zen4 Microarchitecture.md",
     "resources/img/Pasted image 20231108214534.png",
@@ -210,7 +211,6 @@
     "Computer Architecture/Modern Processor Design/Advanced Instruction Flow Techniques.md",
     "Computer Architecture/Modern Processor Design/Intel P6.md",
     "Computer Architecture/Modern Processor Design/img/Pasted image 20230603132933.png",
-    "Programming Language/C++/多线程.md",
     "Computer Architecture/CAQA/Warehouse-Scale Computers.md",
     "Computer Architecture/CAQA/CAQA.md",
     "Computer Architecture/CAQA/Cache Optimization.md",
