@@ -72,3 +72,114 @@ void registerConsumerHandler_(const SpartaHandler & handler) override final
 	user_payload_delivery_ -> getScheduleable().setLabel(handler_name_.c_str());
 }
 ```
+### SyncPort
+这个port有两个作用：
+- valid-ready握手
+- 不同clk field间通信
+valid-ready握手的原理是，outport能从inport那里读到一个getReady()函数来看是否握上手
+而inport在不ready时遇到了data会reschedule到下一拍重发
+
+### SignalPort
+区别是用的PhasedUniqueEvent
+
+### ExportedPort
+![[Pasted image 20231114112027.png]]
+解决这个问题，简而言之很多顶层的接口都是submodule的forwarding，可以直接用一个假接口来转发，避免开销。下面是exportport的构造函数，可以看到，单纯把一个Port绑定到exportedport上
+```cpp
+ExportedPort(sparta::TreeNode * portset,
+	const std::string & exported_port_name,
+	sparta::Port * internal_port) :
+	Port(portset, sparta::notNull(internal_port)->getDirection(), 
+		exported_port_name),
+	internal_port_(internal_port),
+	internal_port_name_(internal_port->getName())
+{}
+```
+
+## functional
+### ArchDataSegment
+字面意思，就是ArchData的片段，不存储数据，只负责管理layout。layout（）函数会根据设置的segment或者一个size来给size_赋值。
+内部有一个ArchData的指针，指向拥有这个seg的ArchData
+
+### ArchData
+管理一片内存的结构
+#### Line
+一个方便赋值取用的结构,负责存储数据。
+Line的边际由layout决定：
+```cpp
+Line& getLine(offset_type offset) {
+	sparta_assert(containsAddress(offset),
+		"Cannot access this ArchData at offset: 0x"
+		<< std::hex << offset << " ArchData size= "
+		<< size_ << " B.");
+//...
+}
+// ...
+bool containsAddress(offset_type offset) const noexcept {
+	return offset < size_;
+}
+```
+#### layout()
+这个函数是用来把散乱的segments排列好的。
+registerSegment可以注册新的segment，把所有需要的seg注册之后使用layout排列
+layout会递归地按照注册顺序紧密排列seg
+
+### DataView
+用来看data的。
+在place时会绑定一个line到line_
+```cpp
+virtual void place_(offset_type offset) override {
+	adata_->checkSegment(offset, getSize());
+	line_ = &adata_->getLine(offset);
+	offset_ = offset - line_->getOffset(); // Store locally for faster 'read' calls
+}
+```
+这之后dataview的操作实际上是对这个line的操作。
+#### ~~Unsafe问题~~
+==这里有问题，忽略==
+safe和unsafe的区别就是查一下读的内容是不是超过了这个dataview的size
+```cpp
+template <typename T, ByteOrder BO=LE>
+T readPadded(index_type idx=0) const {
+	sparta_assert(sizeof(T) * ((uint64_t)idx) <= getSize(),
+		
+		"readPadded index " << idx << " and type " << 
+			demangle(typeid(T).name())
+		<< " (size " << sizeof(T) << ") is invalid for this DataView of size " 
+		<< getSize());
+	return readPaddedUnsafe<T, BO>(idx);
+}
+```
+
+### RegisterBits
+Register中存data的数据结构
+
+### Register
+#### Field
+reg里的field，方便访问
+通过Definition struct创建：
+```cpp
+Definition(const char* _name,
+		const char* _desc,
+		size_type _low_bit,
+		size_type _high_bit,
+		bool _read_only) :
+	name(_name),
+	desc(_desc),
+	low_bit(_low_bit),
+	high_bit(_high_bit),
+	read_only(_read_only)
+{;}
+```
+
+#### Poke / Peek
+可以绕开notification的write
+#### read/write callback
+需要注册一个callback，值得注意的事，这个callback不是spartahandler，采用的是其他函数指针，因为要有return值（必然）
+```cpp
+typedef std::function<sparta::utils::ValidValue<uint64_t>(RegisterBase*)> register_read_callback_type;
+```
+
+### RegisterSet
+#### RegisterProxy
+用来隐藏需要switching dynamically between bank的register的访问，如果不需要bank switch可以不用proxy

@@ -104,7 +104,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -203,6 +204,7 @@
   },
   "active": "ee26d2a1d4aea2a5",
   "lastOpenFiles": [
+    "resources/img/Pasted image 20231114112027.png",
     "Programming Language/C++/多线程.md",
     "Tools/sparta/Sparta.md",
     "PaperReading/core/Zen4 Microarchitecture.md",
