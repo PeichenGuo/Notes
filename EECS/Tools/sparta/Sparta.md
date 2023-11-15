@@ -201,22 +201,197 @@ CounterBehavioru有三个
 #### CycleCounter
 completely passive and not checkpointable
 用来数cycle的。startCounting()开始，stopCounting()结束
-
-### Expression
-#### ExpressionNode
+### ExpressionNode
+Expression里的item
 toperation_t定义操作类型，加减乘除
 ==没看懂compression==
 compression的支持是递归的，如果子节点都支持compression且本节点为加减乘，则支持compression
-#### ExpressionNodeType
-##### Operation
+
+有八个东西继承ExpressionNode：
+![[Pasted image 20231115210155.png]]
+
+
+### ExpressionNodeType
+五种继承于ExpressionNode的子类
+#### Operation
 内部有一个或者多个operand(ExpressionNode*) 初始化时设置type,然后使用evaluate_()获得值
-##### Contant
-放数
-##### UnaryFunction/BinaryFunction/TernaryFunction
+getStats_会调用并累加总和
+```cpp
+virtual uint32_t getStats_(std::vector<const StatisticInstance*>& results) const override {
+	uint32_t added = 0;
+	for(auto& op : operands_){
+		added += op->getStats(results);
+	}
+	return added;
+}
+```
+#### Contant
+放data
+#### UnaryFunction/BinaryFunction/TernaryFunction
 包装了一个`fxn_t = RetT (* const)(ArgT)`指针（以UnaryFunction为例），evaluate的时候会调用这个函数，类似于自定义了一个较为复杂的operation
-#### Expression
-一个ExpressionNode Tree的Proxy，`std::unique_ptr<ExpressionNode> content_;`
+
+
+### ExpressionNodeVariables
+里面有三种继承于ExpressionNode的类
+#### StatVariable
+内有一个SI
+getStats_会有实际作用，会向列表内push进新的SI并返回1（代表推入了1）
+```cpp
+virtual uint32_t getStats_(std::vector<const StatisticInstance*>& results) const override {
+	results.push_back(&stat_);
+	return 1;
+}
+```
+
+#### SimVariable
+simulation中用到的变量，存放那些可能在仿真中改变的值，但在一个expression的lifetime是const。
+创建的时候传入一个返回double的函数指针
+```cpp
+typedef double (*getter_t)();
+// ...
+/*!
+* \brief Construct with a getter function
+* \param which Name of the variable
+* \param getter Pointer to function for getting the variable as a double
+*/
+SimVariable(const std::string& which, const getter_t getter) :
+	which_(which),
+	getter_(getter)
+{ }
+```
+#### ReferenceVariable
+和SimVariable，只是这个的值是变量，构造时传入的是一个引用
+
+
+### Expression
+一个ExpressionNode的Proxy，`std::unique_ptr<ExpressionNode> content_;`。类里只有这么一个私有成员
 可以有很多构造方式，比如string，比如函数。
 还支持更多运算符，可以直接往后加
+#### parse_()
+parse_函数会根据一个string来返回一个expression，其中会用到ExpressionParser
+#### getStats() / getStats_()
+Gets the statistics present in this expression
+==我实在搞不懂statistics是个啥==
+
+
+### ExpressionParser
+里面包裹了一个ExpressionGrammar，
+```cpp
+ExpressionParser(TreeNode* n,
+	std::vector<const TreeNode*>& already_used) :
+	grammar_(n, already_used)
+{ }
+```
+实现了一个parse，~~~~具体咋实现的我不管了，~~总之传入的如果parse碰到already_used中node后会throw exp
+### ExpressionGrammar
+用到了boost::spirit::qi，~~懒得继续深入看了~~
 
 ### StatisticDef
+==deregisterAggregationFcnUponDestruction_()没懂==
+存放着 prebuilt_expr_ 和 expr_str_ 。前者是一个Expression,后者是可以转换成Expression的string
+realizeExpression可以获得StatisticDef对应的Expression。优先使用prebuilt_expr_，如果没有再用expr_str_和used vec build一个Expression
+```cpp
+sparta::statistics::expression::Expression
+realizeExpression(std::vector<const TreeNode*>& used) const {
+	if(prebuilt_expr_){
+		return *prebuilt_expr_; // Returns a copy
+	}
+	// This is deferred until this point because the expression can
+	// contain variables populated using the 'used' vector
+	return sparta::statistics::expression::Expression(expr_str_, context_, used);
+}
+```
+### StatisticInstance
+Instance of either a StatisticDef or CounterBase or an Expression
+隐藏对这三者的区分，对三者统一操作
+以下是其默认构造函数
+```cpp
+StatisticInstance(const StatisticDef* sd,
+	const CounterBase* ctr,
+	const ParameterBase* par,
+	const TreeNode* n,
+	std::vector<const TreeNode*>* used) :
+	StatisticInstance()
+{
+	const StatisticDef* stat_def;
+	if(!sd){
+		stat_def = dynamic_cast<const StatisticDef*>(n);
+		sdef_ = stat_def;
+	}else{
+		sdef_ = stat_def = sd;
+	}
+	const CounterBase* counter;
+	if(!ctr){
+		counter = dynamic_cast<const CounterBase*>(n);
+		ctr_ = counter;
+	}else{
+		ctr_ = counter = ctr;
+	}
+	const ParameterBase* param;
+	if(!par){
+		param = dynamic_cast<const ParameterBase*>(n);
+		par_ = param;
+	}else{
+		par_ = param = par;
+	}
+	
+	// Find the non-null argument
+	const TreeNode* node = n;
+	if(!node){
+		node = sd;
+		if(!node){
+			node = ctr;
+			if(!node){
+				node = par;
+				sparta_assert(node,
+				"StatisticInstance was constructed with all null arguments. "
+				"This is not allowed");
+			}
+		}
+	}
+	// ...
+	if(sdef_){
+		node_ref_ = stat_def->getWeakPtr();
+		//..
+	}
+	}else if(ctr_){
+		node_ref_ = counter->getWeakPtr();
+	}else if(par_){
+		node_ref_ = param->getWeakPtr();
+	}else{
+		// Should not have been able to call constructor without 1 or
+		// the 3 args being non-null
+		throw SpartaException("Cannot instantiate a StatisticInstance without a statistic "
+			"definition or counter pointer");
+	}
+	start();
+	sparta_assert(false == node_ref_.expired());
+}
+```
+SI可以有一下几种构造方式
+- Expression左值
+- 已有的counter或者StatisticDef
+	- 直接传入TN
+	- TN+used
+
+#### accumulateStatistic
+==accumulateStatistic 没懂==
+accumulateStatistic会递归地调用stat_expr_.getStats()
+```cpp
+void accumulateStatistic() const {
+	initial_.setIsCumulative(true);
+	std::vector<const StatisticInstance*> stats_in_expr;
+	stat_expr_.getStats(stats_in_expr);// 当前stat_expr_调用，会填充stats_in_expr
+	for (const auto & stat : stats_in_expr) {// 递归调用
+		stat->accumulateStatistic();
+	}
+}
+```
+
+
+如果si是statistickDef，stat_expr_是其代表的exp；如果si是expression初始化的，则是expression
+
+#### start() / end() / computeValue_() / getValue()
+start开始统计 end结束统计
+computeValue计算统计数据
+getValue 获得值
