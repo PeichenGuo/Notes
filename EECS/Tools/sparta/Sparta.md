@@ -183,3 +183,40 @@ typedef std::function<sparta::utils::ValidValue<uint64_t>(RegisterBase*)> regist
 ### RegisterSet
 #### RegisterProxy
 用来隐藏需要switching dynamically between bank的register的访问，如果不需要bank switch可以不用proxy
+
+## statistics
+### InstrumentationNode
+Visibility
+Class
+Type
+### CounterBase
+CounterBehavioru有三个
+- COUNT_NORMAL。 正常累加
+- COUNT_INTEGRAL。 跟踪某个整数累加。比如某个queue的值，如果在5cycle里是3，6，1，1，1，那么在5cycle里就分别累加3，6，1，1，1
+- COUNT_LATEST。可set可clear。类似一个寄存器，而非counter
+- 
+### Counter
+==我没看出COUNT_NORMAL和COUNT_INTEGRAL的区别==
+
+#### CycleCounter
+completely passive and not checkpointable
+用来数cycle的。startCounting()开始，stopCounting()结束
+
+### Expression
+#### ExpressionNode
+toperation_t定义操作类型，加减乘除
+==没看懂compression==
+compression的支持是递归的，如果子节点都支持compression且本节点为加减乘，则支持compression
+#### ExpressionNodeType
+##### Operation
+内部有一个或者多个operand(ExpressionNode*) 初始化时设置type,然后使用evaluate_()获得值
+##### Contant
+放数
+##### UnaryFunction/BinaryFunction/TernaryFunction
+包装了一个`fxn_t = RetT (* const)(ArgT)`指针（以UnaryFunction为例），evaluate的时候会调用这个函数，类似于自定义了一个较为复杂的operation
+#### Expression
+一个ExpressionNode Tree的Proxy，`std::unique_ptr<ExpressionNode> content_;`
+可以有很多构造方式，比如string，比如函数。
+还支持更多运算符，可以直接往后加
+
+### StatisticDef
