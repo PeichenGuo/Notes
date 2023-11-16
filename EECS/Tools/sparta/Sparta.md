@@ -1,3 +1,5 @@
+# Index
+
 ![[Pasted image 20231020153841.png]]
 ![[Pasted image 20231031151530.png]]
 
@@ -395,3 +397,25 @@ void accumulateStatistic() const {
 start开始统计 end结束统计
 computeValue计算统计数据
 getValue 获得值
+
+### Histogram
+#### HistogramBase
+三个关键值：
+- lower_val：直方图横轴min，低于min的进入underflow bin
+- upper_val：直方图横轴max，高于max的进入overflow bin
+- num_vals_per_bin：每个bin里的值
+直方的数量： number_of_bins = (upper_limit - lower_limit) / values_per_bin + 1
+每个bin都是一个counter `std::vector<sparta::Counter> bin_; //!< Regular bins`
+用`initializeStats_()`挂在一个StatisticSet下。
+underflow bin和overflow bin被挂在StatisticSet下，其余的放在histogram里
+#### HistogramStandalone / HistogramTreeNode
+前者不作为一个treenode，需要传入一个挂靠的StatisticSet；后者是一个tn，直接挂在parent上，自己作为自己的StatisticSet
+HistogramTreeNode的别名是Histogram、`typedef HistogramTreeNode Histogram;`
+
+## collection
+### Collector / CollectableTreeNode
+Collector提供了基类。
+CollectableTreeNode提供了多个函数接口
+
+## pipeview
+### 
