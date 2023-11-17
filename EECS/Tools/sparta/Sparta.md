@@ -417,5 +417,158 @@ HistogramTreeNode的别名是Histogram、`typedef HistogramTreeNode Histogram;`
 Collector提供了基类。
 CollectableTreeNode提供了多个函数接口
 
+### PipelineCollector
+必须用PipelineCollector::getPipelineCollector()->init(...)初始化
+在结束程序前需要用destroy()
+#### CollectablesByClock
+在一个phase创建一个unique event,delay是1，存放在ev_collect_里。event里是performCollection的handler
+enable的时候会在下一拍schedule ev_collect_，并把传入collectableTN加到enabled_ctns_里：
+disable会从enabled_ctns_里删掉传入的collectableTN
+
+performCollection()：
+```cpp
+void performCollection() {
+	for(auto & ctn : enabled_ctns_) {
+		if(ctn->isCollected()) {
+			ctn->collect();
+		}
+	}
+	if(!enabled_ctns_.empty()) {
+		ev_collect_->schedule(); // ? 应该也是到下一拍
+	}
+}
+```
+
+#### HeartBeat机制
+ev_heartbeat_ 是一个UniqueEvent`UniqueEvent<SchedulingPhase::PostTick> ev_heartbeat_;`,其phase是posttick
+其包含了一个这个collector的performHeartBeat_handler:`ev_heartbeat_(&collector_events_, Collector::getName() + "_heartbeat_event", CREATE_SPARTA_HANDLER(PipelineCollector, performHeartBeat_), 0)` 
+heartbeatgop在构造的时候被移到了post_tick_gop之后，确保收尾
+```cpp
+//...
+DAG* dag = scheduler_->getDAG(); // Get a handle to the DAG
+sparta_assert(dag);
+Vertex* post_tick_gop = dag->getGOPoint("PostTick"); // Get a handle to the PostTick GOP
+sparta_assert(post_tick_gop);
+dag->unlink(ev_heartbeat_.getVertex(), post_tick_gop); // Undo the ev_heartbeat_ >> heartbeat_gop link
+post_tick_gop->precedes(ev_heartbeat_); // Set post_tick_gop >> heartbeat_gop 
+//...
+```
+performHeartBeat_():
+```cpp
+void performHeartBeat_()
+{
+	if(collection_active_) {
+	// Close all transactions
+		for(auto & ctn : registered_collectables_) {
+			if(ctn->isCollected()) {
+				ctn->restartRecord();
+			}
+		}
+		// write an index
+		writer_->writeIndex();
+		// Remember the last time we recorded a heartbeat
+		last_heartbeat_ = scheduler_->getCurrentTick();
+		// Schedule another heartbeat
+		ev_heartbeat_.schedule(heartbeat_interval_);
+	}
+}
+```
+
+
+#### startCollection/stopCollection
+从某个TN开始collect`void startCollection(sparta::TreeNode* starting_node)`
+递归地collect
+```cpp
+// ....
+std::function<void (sparta::TreeNode* starting_node)> recursiveCollect;
+recursiveCollect = [&recursiveCollect, this] (sparta::TreeNode* starting_node)
+	{
+	// First turn on this node if it's actually a CollectableTreeNode
+		CollectableTreeNode* c_node = dynamic_cast<CollectableTreeNode*>(starting_node);
+		if(c_node != nullptr) {
+			c_node->startCollecting(this);
+			registered_collectables_.insert(c_node);
+		}
+		// Recursive step. Go through the children and turn them on as well.
+		for(sparta::TreeNode* node : sparta::TreeNodePrivateAttorney::getAllChildren(starting_node))
+		{
+			recursiveCollect(node);
+		}
+	};
+recursiveCollect(starting_node);
+//...
+```
+
+stopCollection也是从开始的点结束。类似start的实现
+#### addToAutoCollection/removeFromAutoCollection
+通过clock_ctn_map_ pair来enable disable collection
+```cpp
+std::map<const sparta::Clock *,
+	std::array<std::unique_ptr<CollectablesByClock>,
+		sparta::NUM_SCHEDULING_PHASES>> clock_ctn_map_;
+```
+
+### IterableCollector
+A collector of any iterable type (std::vector, std::list, sparta::Buffer, etc)
+
+
+
+
 ## pipeview
-### 
+### transaction_t
+操作的基类
+
+### Outputter
+管理输出的工具，writeTransaction可以写record file。
+
+### ClockfileWriter
+输出clk信息，recursWriteClock_可以递归输出
+
+### LocationFileWriter
+写location信息
+
+### InformationWriter
+A class that allows the simulation developer to write data to an information file stored near pipeline collection output files about the simulation.
+
+## log
+### NotificationSource
+#### NotificationSourceBase
+##### ObservationStateChange
+ObservationStateChange是一个enum，可以注册一个ObservationStateChange type的callback，
+用registerObservationStateChangeCallback_和deregisterObservationStateChangeCallback_注册和取消注册ObservationStateChangeCallback
+在调用`void invokeObservationStateChangeCallbacks_(ObservationStateChange to_call)`时会根据to_call来callback对应type的ObservationStateChangeCallback
+##### obs_nodes_
+所有observe的node，可以通过`notificationObserverAdded_`和`notificationObserverRemoved_`添加或移除
+##### dels_
+delegate的vec，delegate类似Spartahandler，在添加ob对象的时候会添加这个cb。
+
+#### NotificationSource
+##### registerForThis
+调用TreeNode的registerForNotification
+```cpp
+template <typename T, void (T::*TMethod)(const TreeNode&, const TreeNode&, const_data_type&)>
+void registerForThis(T* obj) {
+	sparta::TreeNode::registerForNotification<data_type, T, TMethod>(obj, *noti_id_);
+}
+```
+registerForNotification的实现：
+```cpp
+template <typename DataT, typename T, void (T::*TMethod)(const TreeNode&, const TreeNode&, const DataT&)>
+void registerForNotification_(T* obj, const std::string& name, bool ensure_possible=true, bool allow_private=false)
+{
+	(void)allow_private;
+	const std::type_info& data_type = typeid(DataT);
+	if(true == ensure_possible && false == canSubtreeGenerateNotification(data_type, name)){
+		// throw a exception
+	}
+	DelegateVector& observers = obs_local_[data_type]; // Create notification map
+	
+	if(findDelegate_<DataT, T, TMethod>(observers, obj, name) != observers.end()){
+		// throw a exception
+	}
+	delegate d = delegate::from_method<DataT, T, TMethod>(obj, *this, name);
+	observers.push_back(std::move(d));
+	// Let children know
+	broadcastRegistrationForNotificationListStringToChildren_(typeid(DataT), name, this, &observers.back(), allow_private);
+}
+```
