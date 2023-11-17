@@ -576,10 +576,51 @@ void registerForNotification_(T* obj, const std::string& name, bool ensure_possi
 在`TreeNode::invokeDelegates_`中可以被invoke
 在`TreeNode::propagateNotification_`中`TreeNode::invokeDelegates_`会被调用，起到传播notification的作用
 
-## Destination
+## Destination/DestinationManager
+### Destination
+Generic Logging destination stream interface which writes sparta::log::Message structures to some output (file)stream.
+members：
+```cpp
+uint64_t num_msgs_received_; //!< Total messages received
+uint64_t num_msgs_written_; //!< Total messages written to the destination (received - duplicates)
+uint64_t num_msg_duplicates_; //!< Total number of messages which were already written
+std::map<thread_id_type, seq_num_type> last_seq_map_; //!< Mapping of thread IDs to latest sequence IDs
+std::mutex write_mutex_; //!< Mutex for writing and checking/setting sequence numbers within this destination onl
+```
+### Formatter
+File writer formatting interface
+内涵一个ostream：`std::ostream& stream_;`
+用write来写message，writeHeader写simulationInfo
+有几个继承Formatter的实现。没什么差别，多写一点少写一点的差别
+- VerboseFormatter：
+- DefaultFormatter：
+- BasicFormatter：
+- RawFormatter：
+### DestinationInstance
+```cpp
+template <typename DestType>
+class DestinationInstance : public Destination
+{
+};
+```
+有多个实例，分别对应了不同的destination：
+- DestinationInstance<std::ostream>
+- DestinationInstance<std::string>: filename,直接输出到文件
+
+### DestinationManager
+用来管理Desination，防止重复打开。
+有DestinationVector：`typedef std::vector<std::unique_ptr<Destination>> DestinationVector;`
+有一个static成员管理所有的destination`static DestinationVector dests_;`、
+调用getDestination()可以不重复地获得destination对象
 
 
 
 ## Tap
 Attach to a TreeNode to intercept logging messages from any NotificationSource nodes in the subtree of that node. 拦截器 窃听器
-
+有一个指向监听node的weakptr `TreeNode::WeakPtr node_wptr_;`
+内部还有一个Destination指针指向一个DestinationInstance
+```cpp
+Destination* d = DestinationManager::getDestination(dest); // Can instantiate new
+sparta_assert(d != nullptr);
+dest_ = d;
+```
