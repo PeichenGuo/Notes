@@ -572,3 +572,14 @@ void registerForNotification_(T* obj, const std::string& name, bool ensure_possi
 	broadcastRegistrationForNotificationListStringToChildren_(typeid(DataT), name, this, &observers.back(), allow_private);
 }
 ```
+其中obs_local_是一个<type_info, DelegateVector>的map：`typedef std::map<type_info_container, DelegateVector> NotificationObserverMap;`
+在`TreeNode::invokeDelegates_`中可以被invoke
+在`TreeNode::propagateNotification_`中`TreeNode::invokeDelegates_`会被调用，起到传播notification的作用
+
+## Destination
+
+
+
+## Tap
+Attach to a TreeNode to intercept logging messages from any NotificationSource nodes in the subtree of that node. 拦截器 窃听器
+
