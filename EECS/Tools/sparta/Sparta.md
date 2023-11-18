@@ -809,4 +809,37 @@ protected:
 ```
 
 ### SingleTrigger
-#### TriggerEvent
+This method accepts a SpartaHandler to use as a callback to fire when requested.
+```cpp
+SingleTrigger(const std::string& name, const SpartaHandler & callback) :
+	callback_(callback),
+	name_(name),
+	has_fired_(false)
+{;}
+```
+==和uniqueevent有啥区别==
+几种继承：
+- CounterTrigger：超过一个数fire
+- cycleTrigger：几个cycle后fire。还是通过插入event的方法
+- TimerTrigger：一定simulation time后trigger。通过scheduleRelativeTick方法
+
+### Trigger
+A class that can be used to set scheduled callback events, such as an event to trigger logging or pipeline collection on the scheduler.
+有一个SingleTrigger数组:`std::array<std::unique_ptr<SingleTrigger>, 3> triggers_;`，3的原因是因为有一个enum代表三种trigger状态：```
+```cpp
+enum SubTriggers {
+	START,
+	STOP,
+	REPEAT
+};
+```
+初始化的时候会设置两个CycleTrigger:
+```cpp
+Trigger(const std::string& name, const Clock * clk = nullptr) :
+	name_(name)
+{
+// No initial start trigger
+	triggers_[STOP] .reset(new CycleTrigger(name, CREATE_SPARTA_HANDLER(Trigger, onStopTrigger_), clk));
+	triggers_[REPEAT].reset(new CycleTrigger(name, CREATE_SPARTA_HANDLER(Trigger, onRepeatTrigger_), clk));
+}
+```
