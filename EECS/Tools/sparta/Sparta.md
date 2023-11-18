@@ -4,6 +4,165 @@
 ![[Pasted image 20231031151530.png]]
 
 # Interface
+## Kernel
+### Scheduleable
+#### Scheduleable
+A class that defines the basic scheduling interface to the Scheduler.
+constructor如下。需要传入一个handler作为callback对象，一个delay作为schedule延迟，一个phase和是否是unique event（是否重新schedule）
+```cpp
+Scheduleable(const SpartaHandler & consumer_event_handler,
+		Clock::Cycle delay, SchedulingPhase sched_phase,
+		bool is_unique_event = false);
+```
+
+schedule四种重载，最后都会调用scheduleRelativeTick。区别在于，如果没有指定delay，用delay_；如果没指定clock，用local_clk_
+```cpp
+void schedule(Clock::Cycle delay, const Clock *clk)
+
+{
+	sparta_assert(clk != nullptr);
+	this->scheduleRelativeTick(clk->getTick(delay),
+								clk->getScheduler());
+}
+```
+scheduleRelativeTick会调用传入的schedular的schedule event，将this进行schedule
+```cpp
+virtual void scheduleRelativeTick(const Scheduler::Tick rel_tick,
+	Scheduler * const scheduler)
+{
+	sparta_assert(scheduler != nullptr);
+	scheduler->scheduleEvent(this, rel_tick, pgid_,
+			continuing_, is_unique_event_);
+}
+```
+
+reclaim函数主要由payload event调用
+
+#### ScheduleableHandle
+A light-weight reference counting handle for Scheduleables
+connect()增加计数，disconnect减少计数，如果计数清空，则调用schelable对象的reclaim，类似引用计数。
+```cpp
+//! Disconnect
+void disconnect_() {
+	if(scheduleable_ && --scheduleable_->scheduleable_handle_count_ 
+		== 0) 
+	{
+		scheduleable_->reclaim_();
+	}
+}
+//! Connect
+void connect_() {
+	if(scheduleable_) {
+		++scheduleable_->scheduleable_handle_count_;
+	}
+}
+```
+构造的时候connect，析构的时候disconnect。
+
+### Scheduler
+The sparta::Scheduler class simply schedules callback methods for some time in the future
+继承的RootTreeNode
+#### scheduleEvent/scheduleAsyncEvent
+scheduleEvent可以由本线程调用：
+```cpp
+void scheduleEvent(Scheduleable * scheduleable,
+		Tick rel_time,
+		uint32_t dag_group=0,
+		bool continuing=true,
+		bool add_if_not_scheduled=false);
+```
+scheduleAsyncEvent可以由其他线程调用。具体原理是锁住一个list，加event，然后run的时候临时添加到time_quantum里
+scheduleEvent中，会自动把Event排到下一个group里：
+```cpp
+const uint32_t firing_group =
+		(dag_group != 0) ? dag_group + 1 : group_zero_;
+```
+
+#### TickQuantum
+The internal structure the Scheduler uses to maintain event lists
+一个TickQuantum代表一个tick，或者一个tick的一部分
+里面有一个ScheduleableGroup，就是个std::vector<Scheduleable \*>数组
+TickQuantum里管理了一个ScheduleableGroup的成员作为firing_group。每次加入event都按照firing_group作为index加入
+```cpp
+void addEvent(uint32_t firing_group, Scheduleable * scheduleable) {
+	sparta_assert(firing_group > 0);
+	sparta_assert(firing_group < groups.size());
+	groups[firing_group].addScheduleable(scheduleable);
+	first_group_idx = std::min(first_group_idx, firing_group);
+}
+```
+有一个next指针指向后续的的TickQuantum，构成一个列表
+
+在schedular中，有一个tick_quantum_allocator_来维护所有的tickquantum。在别人调用determineTickQuantum_时，会获得一个新的TickQuantum。
+determineTickQuantum_的实现很简单，就是列表顺着找，找到了就是，没找到就插入一个新的。
+determineTickQuantum_会在scheduleEvent中调用。
+
+#### run
+run可以开始跑events直到跑空或者跑到num_ticks。定时结束的方式是插入一个stop_event：`stop_event_(new Scheduleable(CREATE_SPARTA_HANDLER(Scheduler, stopRunning), 0, SchedulingPhase::Trigger))`
+跑的时候是按照current_tick_quantum_里的跑，逐个firing group遍历，然后group内也遍历。跑完一个group就将该group clear掉，然后跑下一个
+```cpp
+while(current_group_firing_ < grp_cnt)
+{
+	TickQuantum::ScheduleableGroup & events 
+		= quantum->groups[current_group_firing_]; // ref to this group
+	// The design of this for loop is important to keep as is.
+	// The events array can grow in size after firing the
+	// current event.
+	//
+	// XXX To do this for loop backwards, have
+	// current_group_firing_ = size() - 1 and count down to 0.
+	// Once at zero, reset it to size and have it count down
+	// to the _previous_ size(). If neither have changed, the
+	// loop will exit.
+	for(current_event_firing_ = 0;
+		current_event_firing_ < events.size();
+		++current_event_firing_)
+	{
+		const Scheduleable * sched = events[current_event_firing_];
+		current_scheduling_phase_ 
+			= sched->getSchedulingPhase();//update phase
+		// some debug code, omit it.
+		if(SPARTA_EXPECT_FALSE(call_trace_logger_)) {
+			call_trace_stream_ << sched->getLabel() << " ";
+		}
+		sched->getHandler()(); // callback the handler
+		++events_fired_;
+	}
+	events.clear();
+	++current_group_firing_;
+}
+```
+一个quantum跑完会跑下一个，并free掉空间
+### DAG
+DAG里包含很多vertex和edge，是一个图。其目的是分析event间依赖关系，分成不同的group，确保各个group之间无依赖关系。
+#### sort()
+sort函数会对其中所有vertex进行遍历，区分其依赖性，然后添加group id
+首先是初始化，reset会把所有的groupid都设成1（最小），然后把入度为0的点放入遍历的list里
+```cpp
+for (auto & vi : alloc_vertices_) {
+	vi->reset();
+	// If this vertex has no producers (sources, i.e. nothing
+	// coming into it), add it to the zlist
+	if (vi->degreeZero()) {
+		zlist.push_back(vi);
+	}
+}
+```
+其中reset会把所有的
+```cpp
+void reset()
+{
+	sorted_num_inbound_edges_ = num_inbound_edges_;
+	// sorting_edges_ = outbound_edge_map_;
+	setGroupID(1);
+	resetMarker();
+}
+```
+
+
+
+
+
 ## Port
 ### DataPort
 #### Dataport 数据传递方式
@@ -576,8 +735,8 @@ void registerForNotification_(T* obj, const std::string& name, bool ensure_possi
 在`TreeNode::invokeDelegates_`中可以被invoke
 在`TreeNode::propagateNotification_`中`TreeNode::invokeDelegates_`会被调用，起到传播notification的作用
 
-## Destination/DestinationManager
-### Destination
+### Destination/DestinationManager
+#### Destination
 Generic Logging destination stream interface which writes sparta::log::Message structures to some output (file)stream.
 members：
 ```cpp
@@ -587,7 +746,7 @@ uint64_t num_msg_duplicates_; //!< Total number of messages which were already w
 std::map<thread_id_type, seq_num_type> last_seq_map_; //!< Mapping of thread IDs to latest sequence IDs
 std::mutex write_mutex_; //!< Mutex for writing and checking/setting sequence numbers within this destination onl
 ```
-### Formatter
+#### Formatter
 File writer formatting interface
 内涵一个ostream：`std::ostream& stream_;`
 用write来写message，writeHeader写simulationInfo
@@ -596,7 +755,7 @@ File writer formatting interface
 - DefaultFormatter：
 - BasicFormatter：
 - RawFormatter：
-### DestinationInstance
+#### DestinationInstance
 ```cpp
 template <typename DestType>
 class DestinationInstance : public Destination
@@ -607,7 +766,7 @@ class DestinationInstance : public Destination
 - DestinationInstance<std::ostream>
 - DestinationInstance<std::string>: filename,直接输出到文件
 
-### DestinationManager
+#### DestinationManager
 用来管理Desination，防止重复打开。
 有DestinationVector：`typedef std::vector<std::unique_ptr<Destination>> DestinationVector;`
 有一个static成员管理所有的destination`static DestinationVector dests_;`、
@@ -615,7 +774,7 @@ class DestinationInstance : public Destination
 
 
 
-## Tap
+### Tap
 Attach to a TreeNode to intercept logging messages from any NotificationSource nodes in the subtree of that node. 拦截器 窃听器
 有一个指向监听node的weakptr `TreeNode::WeakPtr node_wptr_;`
 内部还有一个Destination指针指向一个DestinationInstance
@@ -624,3 +783,30 @@ Destination* d = DestinationManager::getDestination(dest); // Can instantiate ne
 sparta_assert(d != nullptr);
 dest_ = d;
 ```
+
+
+
+## trigger
+### Trigerable
+base class of trigger
+```cpp
+class Triggerable
+{
+public:
+	//! Virtually destroy
+	virtual ~Triggerable(){}
+	//! The method called when the trigger fires a turn on.
+	virtual void go() {}
+	//! The method called when a trigger fires a turn off.
+	virtual void stop() {}
+	//! The method to call on periodic repeats of the trigger.
+	virtual void repeat() {}
+	//! Has been triggered?
+	bool isTriggered() const { return triggered_; }
+protected:
+	bool triggered_ = false;
+};
+```
+
+### SingleTrigger
+#### TriggerEvent
