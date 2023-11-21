@@ -204,8 +204,9 @@
   },
   "active": "ee26d2a1d4aea2a5",
   "lastOpenFiles": [
-    "PaperReading/core/Zen4 Microarchitecture.md",
+    "PaperReading/cloud/𝜇Manycore： A Cloud-Native CPU for Tail at Scale.md",
     "Tools/sparta/Sparta.md",
+    "PaperReading/core/Zen4 Microarchitecture.md",
     "resources/img/Pasted image 20231115210207.png",
     "resources/img/Pasted image 20231115210155.png",
     "resources/img/Pasted image 20231114112027.png",
@@ -227,7 +228,6 @@
     "resources/img/Pasted image 20231103140522.png",
     "resources/img/Pasted image 20231103140411.png",
     "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Introduction & Coherence Basic.md",
-    "PaperReading/cloud/𝜇Manycore： A Cloud-Native CPU for Tail at Scale.md",
     "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Memory Consistency Model.md",
     "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Relaxed Memory Consistency.md",
     "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/TSO (Total Store Order).md",

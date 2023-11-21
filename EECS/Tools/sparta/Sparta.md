@@ -843,3 +843,22 @@ Trigger(const std::string& name, const Clock * clk = nullptr) :
 	triggers_[REPEAT].reset(new CycleTrigger(name, CREATE_SPARTA_HANDLER(Trigger, onRepeatTrigger_), clk));
 }
 ```
+
+## Simulation
+### Resource/ResourceContainer
+ResourceContainer是Treenode的基类。
+ResourceContiner里包含了一个指向Resource的指针resource_
+Resource的继承者有Unit和MirrorNotification里的几种
+### TreeNode
+有基于字符串的查找findChildren，很6
+
+### RootTreeNode / GlobalTreeNode
+RTN就是root，没有parent
+It provides an interface for updating tree phases as well.`void enterFinalized(sparta::python::PythonInterpreter* pyshell = nullptr);`
+内部有一个sim_指向这个root关联的simulator
+
+GlobalTreeNode:Has special behavior in that it contains all RootTreeNodes as children but is not a parent of any node. 用来做search的
+
+### Clock / ClockManager
+ClockManager有一堆clock，`typedef std::list<Clock::Handle> ClockList;`
+clockManager负责根据现有的clock创建rootclock，工厂模式创建clock
