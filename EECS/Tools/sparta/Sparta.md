@@ -862,3 +862,33 @@ GlobalTreeNode:Has special behavior in that it contains all RootTreeNodes as chi
 ### Clock / ClockManager
 ClockManager有一堆clock，`typedef std::list<Clock::Handle> ClockList;`
 clockManager负责根据现有的clock创建rootclock，工厂模式创建clock
+
+### Parameter / ParameterSet
+#### ParameterBase
+Parameter的基类，里面有个iterator：
+```cpp
+const ParameterBase* p_; //! Parameter referenced by this iterator
+size_t idx_; //! Index into p_. Constrained to [0, number of elements in p_]
+```
+只有一个实例const_iterator
+base的一个功能是提供读写计数的接口`incrementReadCount_()`和`incrementWriteCount_()`，后者会清空read的次数。read只追踪一个副本的读次数
+base的另一个功能是提供validation的接口
+base最重要的功能是规定设置value的各种方式
+#### ValidationCheckCallback
+delegates
+
+#### Parameter<>
+成员：
+```cpp
+OneWayBool<false> default_override_; //!< Has this parameter's default been overridden
+ParameterAttribute param_attr_ {ParameterAttribute::DEFAULT}; //!< Attribute for special status of LOCKED, HIDDEN
+ValueType def_val_; //!< Default value
+ValueType val_; //!< Current value
+sparta::utils::DisplayBase disp_base_; //!< Display base used when rendering current or default value as a string Dec/Hex/Bin
+std::vector<ValidationCheckCallback<ValueType> > bounds_; //!< Validation methods which operate only on the current value
+std::vector<ValidationCheckCallback<ValueType> > dependencies_; //!< Validations methods to call which require tree information
+```
+val不管是可以遍历的还是不可遍历的，都实现了const_iterator，很方便，不需要解包，直接begin(),end()就能用
+
+#### ParameterSet
+里面还有一些用来新建parameter的宏
