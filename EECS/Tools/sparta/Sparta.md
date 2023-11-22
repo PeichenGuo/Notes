@@ -574,7 +574,10 @@ HistogramTreeNode的别名是Histogram、`typedef HistogramTreeNode Histogram;`
 ## collection
 ### Collector / CollectableTreeNode
 Collector提供了基类。
-CollectableTreeNode提供了多个函数接口
+CollectableTreeNode提供了多个函数接口:
+- `void collect()`:调用时通知可以进行collection
+- `void restartRecord()`：
+- `void closeRecord(const bool & simulation_ending = false)`:
 
 ### PipelineCollector
 必须用PipelineCollector::getPipelineCollector()->init(...)初始化
@@ -599,6 +602,7 @@ void performCollection() {
 ```
 
 #### HeartBeat机制
+定期收集数据
 ev_heartbeat_ 是一个UniqueEvent`UniqueEvent<SchedulingPhase::PostTick> ev_heartbeat_;`,其phase是posttick
 其包含了一个这个collector的performHeartBeat_handler:`ev_heartbeat_(&collector_events_, Collector::getName() + "_heartbeat_event", CREATE_SPARTA_HANDLER(PipelineCollector, performHeartBeat_), 0)` 
 heartbeatgop在构造的时候被移到了post_tick_gop之后，确保收尾
@@ -620,7 +624,7 @@ void performHeartBeat_()
 	// Close all transactions
 		for(auto & ctn : registered_collectables_) {
 			if(ctn->isCollected()) {
-				ctn->restartRecord();
+				ctn->restartRecord(); // renew record and write the old one
 			}
 		}
 		// write an index
@@ -670,6 +674,9 @@ std::map<const sparta::Clock *,
 ### IterableCollector
 A collector of any iterable type (std::vector, std::list, sparta::Buffer, etc)
 
+### Collectable<>
+内部有一个pipelinecollector，collectable会往里写record
+里面的collect()会调用`collect(const DataT & val)`，后者会开一个新的record。
 
 
 
@@ -892,3 +899,8 @@ val不管是可以遍历的还是不可遍历的，都实现了const_iterator，
 
 #### ParameterSet
 里面还有一些用来新建parameter的宏
+
+### ResourceFactory
+ResourceFactoryBase定义了很多接口
+ResourceFactory就是对应resource的工厂
+可以调用createResource创建一个Resource`Resource* createResource(TreeNode* node, const ParameterSet* params)`
