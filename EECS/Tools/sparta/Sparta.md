@@ -904,3 +904,38 @@ val不管是可以遍历的还是不可遍历的，都实现了const_iterator，
 ResourceFactoryBase定义了很多接口
 ResourceFactory就是对应resource的工厂
 可以调用createResource创建一个Resource`Resource* createResource(TreeNode* node, const ParameterSet* params)`
+
+## Util
+### SpartaSharedPointer
+Not thread safe
+much faster than std::shared_ptr
+#### SpartaSharedPointerBaseAllocator / SpartaSharedPointerAllocator
+BaseAllocator是基类，定义了MemBlockBase这个struct。MemBlockBase中有一个指向拥有它的allocator的指针
+MemBlock继承了MemBlockBase，内部有一个数据指针，一个ref_count指针，和两个对齐连续的storage地址
+```cpp
+using RefCountAlignedStorage =
+	typename std::aligned_storage<sizeof(RefCountType), alignof(RefCountType)>::type;
+
+  
+
+using PointerTAlignedStorage =
+	typename std::aligned_storage<sizeof(PointerT), alignof(PointerT)>::type;
+
+PointerT * object = nullptr;
+RefCountType * ref_count = nullptr;
+
+RefCountAlignedStorage ref_count_storage;
+PointerTAlignedStorage object_storage;**
+```
+在construct的时候就会把new的东西放入对应地址中
+```cpp
+template<typename ...ObjArgs>
+MemBlock(SpartaSharedPointerAllocator * alloc_in, ObjArgs&&...obj_args) :
+MemBlockBase(alloc_in)
+{
+// Build the new object using the inplacement new.
+	object = new (&object_storage) PointerT(std::forward<ObjArgs>(obj_args)...);
+	// Build the reference count using that object
+	ref_count = new (&ref_count_storage) RefCountType(object, (void*)this);
+}
+```
