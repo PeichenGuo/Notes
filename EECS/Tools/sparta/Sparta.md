@@ -362,6 +362,9 @@ CounterBehavioru有三个
 #### CycleCounter
 completely passive and not checkpointable
 用来数cycle的。startCounting()开始，stopCounting()结束
+
+#### ContextCounter
+
 ### ExpressionNode
 Expression里的item
 toperation_t定义操作类型，加减乘除
