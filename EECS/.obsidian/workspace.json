@@ -61,36 +61,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/spike/Spike.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6b513543412cace7",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.3"
-              }
-            }
-          },
-          {
-            "id": "292e267efc2845e9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled.md",
+                "file": "Templates/Book Summary Template.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -119,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "Templates/Book Summary Template.md"
               }
             }
           },
@@ -158,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "Templates/Book Summary Template.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
+                "file": "Templates/Book Summary Template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -237,13 +215,14 @@
       "templates:Insert template": false
     }
   },
-  "active": "292e267efc2845e9",
+  "active": "cd5d5a7dd6de7f1d",
   "lastOpenFiles": [
+    "Tools/spike/Spike.md",
     "Untitled.md",
+    "Untitled 1.md",
     "lecture",
     "resources/img/Pasted image 20231204130634.png",
     "Programming Language/C++/Effective Modern C++.md",
-    "Tools/spike/Spike.md",
     "Tools/spike",
     "Tools/sparta/Sparta.md",
     "PaperReading/cloud/𝜇Manycore： A Cloud-Native CPU for Tail at Scale.md",
@@ -280,7 +259,6 @@
     "Tools/gem5/GEM5.md",
     "PaperReading/unsorted/Supply Chain Aware Computer Architecture.md",
     "PaperReading/cloud",
-    "PaperReading/Reading List.md",
     "People/CN",
     "resources/img/Untitled",
     "PaperReading/accelerators",
