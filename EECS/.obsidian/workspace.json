@@ -71,9 +71,11 @@
             "id": "29682b00788da9a0",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.5.8"
+                "file": "thesis/Overall Note.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -107,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Templates/Book Summary Template.md"
+                "file": "thesis/Overall Note.md"
               }
             }
           },
@@ -146,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Templates/Book Summary Template.md",
+                "file": "thesis/Overall Note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Templates/Book Summary Template.md",
+                "file": "thesis/Overall Note.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -227,9 +229,11 @@
   },
   "active": "29682b00788da9a0",
   "lastOpenFiles": [
-    "Tools/spike/Spike.md",
     "Untitled.md",
+    "thesis/Overall Note.md",
     "Untitled 1.md",
+    "thesis",
+    "Tools/spike/Spike.md",
     "lecture",
     "resources/img/Pasted image 20231204130634.png",
     "Programming Language/C++/Effective Modern C++.md",
@@ -267,13 +271,11 @@
     "Tools/docker",
     "Tools/sparta",
     "Tools/gem5/GEM5.md",
-    "PaperReading/unsorted/Supply Chain Aware Computer Architecture.md",
     "PaperReading/cloud",
     "People/CN",
     "resources/img/Untitled",
     "PaperReading/accelerators",
     "People/Untitled.canvas",
-    "People/NA",
-    "People/EU"
+    "People/NA"
   ]
 }
