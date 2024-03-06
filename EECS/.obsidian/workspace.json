@@ -66,9 +66,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "29682b00788da9a0",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.8"
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -215,7 +225,7 @@
       "templates:Insert template": false
     }
   },
-  "active": "cd5d5a7dd6de7f1d",
+  "active": "29682b00788da9a0",
   "lastOpenFiles": [
     "Tools/spike/Spike.md",
     "Untitled.md",
