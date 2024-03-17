@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "thesis/Overall Note.md",
+                "file": "Computer Architecture/NOC/片上互连网络/Routing.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "thesis/Overall Note.md"
+                "file": "Computer Architecture/NOC/片上互连网络/Routing.md"
               }
             }
           },
@@ -148,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "thesis/Overall Note.md",
+                "file": "Computer Architecture/NOC/片上互连网络/Routing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "thesis/Overall Note.md",
+                "file": "Computer Architecture/NOC/片上互连网络/Routing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -227,10 +227,15 @@
       "templates:Insert template": false
     }
   },
-  "active": "29682b00788da9a0",
+  "active": "2fd97cb827b9533c",
   "lastOpenFiles": [
-    "Untitled.md",
+    "Computer Architecture/NOC/片上互连网络/Topology.md",
+    "Computer Architecture/NOC/片上互连网络/Routing.md",
+    "Computer Architecture/NOC/片上互连网络/Index.md",
+    "Computer Architecture/NOC/片上互连网络/片上网络的系统架构接口.md",
+    "Computer Architecture/NOC/片上互连网络/Intro.md",
     "thesis/Overall Note.md",
+    "Untitled.md",
     "Untitled 1.md",
     "thesis",
     "Tools/spike/Spike.md",
@@ -263,14 +268,9 @@
     "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Introduction & Coherence Basic.md",
     "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Memory Consistency Model.md",
     "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Relaxed Memory Consistency.md",
-    "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/TSO (Total Store Order).md",
-    "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/SC (Sequential Consistency).md",
-    "PaperReading/Brief.md",
     "Untitled.canvas",
-    "Tools/docker/Docker.md",
     "Tools/docker",
     "Tools/sparta",
-    "Tools/gem5/GEM5.md",
     "PaperReading/cloud",
     "People/CN",
     "resources/img/Untitled",
