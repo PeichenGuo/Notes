@@ -109,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Architecture/NOC/片上互连网络/Routing.md"
+                "file": "PaperReading/cloud/𝜇Manycore： A Cloud-Native CPU for Tail at Scale.md"
               }
             }
           },
@@ -148,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Architecture/NOC/片上互连网络/Routing.md",
+                "file": "PaperReading/cloud/𝜇Manycore： A Cloud-Native CPU for Tail at Scale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Architecture/NOC/片上互连网络/Routing.md",
+                "file": "PaperReading/cloud/𝜇Manycore： A Cloud-Native CPU for Tail at Scale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
