@@ -61,6 +61,10 @@ prefetch的关键在于，可以一边执行prefetch 一边处理器继续流水
 编译器要控制的prefetch要注意nonfaulting，也就是不要产生exception也不产生violation
 
 #### 加HBM来拓宽memory heirarchy
-
+问题：巨大的l4如果block和line size一样，就需要巨大的tag ram，因此block不能很小
+带来两个问题：
+第一个是大块中由很多用不到的内容。这回导致存了太多没用的东西，让传输效率降低，污染dram缓存。可以通过子块的方式，让一部分block内容没用
+还有个解决方案就是把tag和data放在hbm sdram的同一行里，这样打开一次就可以看到tag和data。这个需要特殊设计的dram。（L-H缓存），延迟较大，毕竟还是需要打开行。
+还有融合缓存(alloy cache)的方法，直接把tag和data放在一起，并direct map。miss rate会很高，但一个HBM周期就能访问到
 
 ![[Pasted image 20230310211054.png]]
