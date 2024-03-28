@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Architecture/CAQA/Cache Optimization.md",
+                "file": "Computer Architecture/CAQA/ILP.md",
                 "mode": "source",
                 "source": false
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Architecture/CAQA/Cache Optimization.md"
+                "file": "Computer Architecture/CAQA/ILP.md"
               }
             }
           },
@@ -147,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Architecture/CAQA/Cache Optimization.md",
+                "file": "Computer Architecture/CAQA/ILP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Architecture/CAQA/Cache Optimization.md",
+                "file": "Computer Architecture/CAQA/ILP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -228,7 +228,10 @@
   },
   "active": "c08c761f14491703",
   "lastOpenFiles": [
+    "resources/img/Pasted image 20240328173716.png",
     "Computer Architecture/CAQA/DLP.md",
+    "Computer Architecture/CAQA/CAQA.md",
+    "Computer Architecture/CAQA/Cache Optimization.md",
     "PaperReading/cloud/𝜇Manycore： A Cloud-Native CPU for Tail at Scale.md",
     "Untitled 2.md",
     "Computer Architecture/NOC/片上互连网络/Topology.md",
@@ -257,8 +260,6 @@
     "Computer Architecture/Modern Processor Design/Intel P6.md",
     "Computer Architecture/Modern Processor Design/img/Pasted image 20230603132933.png",
     "Computer Architecture/CAQA/Warehouse-Scale Computers.md",
-    "Computer Architecture/CAQA/CAQA.md",
-    "Computer Architecture/CAQA/Cache Optimization.md",
     "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/A Primer On Memory Consistency and Cache Coherence.md",
     "Computer Architecture/CAQA/ILP.md",
     "Computer Architecture/CAQA/TLP.md",
@@ -266,7 +267,6 @@
     "resources/img/Pasted image 20231103140531.png",
     "resources/img/Pasted image 20231103140522.png",
     "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Introduction & Coherence Basic.md",
-    "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Memory Consistency Model.md",
     "Untitled.canvas",
     "Tools/docker",
     "Tools/sparta",

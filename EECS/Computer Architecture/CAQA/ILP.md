@@ -49,7 +49,8 @@ pc的一段(tag)+history的一段(h)的hash做index。
 
 # Dynamic Scheduling: Overcoming Data Hazards With Dynamic Scheduling
 
-==跳过tomasulo算法==
+![[Pasted image 20240328173716.png]]
+ 
 
 # Hardware-Based Speculation
 ==跳过，讲预测执行的==
