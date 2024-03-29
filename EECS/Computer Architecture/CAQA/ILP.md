@@ -50,7 +50,7 @@ pc的一段(tag)+history的一段(h)的hash做index。
 # Dynamic Scheduling: Overcoming Data Hazards With Dynamic Scheduling
 
 ![[Pasted image 20240328173716.png]]
- 
+ 这个CDB比较重要，是一个后传的data path，开销可能很大
 
 # Hardware-Based Speculation
 ==跳过，讲预测执行的==
