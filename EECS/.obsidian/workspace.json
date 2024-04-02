@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Architecture/CAQA/ILP.md",
+                "file": "Circuit/Digital Circuit/vlsi-expert.com/STA.md",
                 "mode": "source",
                 "source": false
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Architecture/CAQA/ILP.md"
+                "file": "Circuit/Digital Circuit/vlsi-expert.com/STA.md"
               }
             }
           },
@@ -147,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Architecture/CAQA/ILP.md",
+                "file": "Circuit/Digital Circuit/vlsi-expert.com/STA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Architecture/CAQA/ILP.md",
+                "file": "Circuit/Digital Circuit/vlsi-expert.com/STA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -228,6 +228,16 @@
   },
   "active": "c08c761f14491703",
   "lastOpenFiles": [
+    "resources/img/Pasted image 20240402133926.png",
+    "resources/img/Pasted image 20240402133919.png",
+    "resources/img/Pasted image 20240402133842.png",
+    "resources/img/Pasted image 20240402133603.png",
+    "Circuit/Digital Circuit/DDCA(ETHz & Book)/Sequential Logic and FSM.md",
+    "Circuit/Digital Circuit/vlsi-expert.com/STA.md",
+    "Circuit/Digital Circuit/vlsi-expert.com",
+    "Circuit/Digital Circuit/DDCA(ETHz & Book)/HDL and Verilog.md",
+    "Computer Architecture/CAQA/ILP.md",
+    "Circuit/Analog Circuit",
     "resources/img/Pasted image 20240328173716.png",
     "Computer Architecture/CAQA/DLP.md",
     "Computer Architecture/CAQA/CAQA.md",
@@ -258,23 +268,13 @@
     "resources/img/Pasted image 20231107234433.png",
     "Computer Architecture/Modern Processor Design/Advanced Instruction Flow Techniques.md",
     "Computer Architecture/Modern Processor Design/Intel P6.md",
-    "Computer Architecture/Modern Processor Design/img/Pasted image 20230603132933.png",
     "Computer Architecture/CAQA/Warehouse-Scale Computers.md",
-    "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/A Primer On Memory Consistency and Cache Coherence.md",
-    "Computer Architecture/CAQA/ILP.md",
-    "Computer Architecture/CAQA/TLP.md",
-    "resources/img/Pasted image 20231103140631.png",
-    "resources/img/Pasted image 20231103140531.png",
-    "resources/img/Pasted image 20231103140522.png",
-    "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Introduction & Coherence Basic.md",
     "Untitled.canvas",
     "Tools/docker",
     "Tools/sparta",
     "PaperReading/cloud",
     "People/CN",
     "resources/img/Untitled",
-    "PaperReading/accelerators",
-    "People/Untitled.canvas",
-    "People/NA"
+    "People/Untitled.canvas"
   ]
 }
