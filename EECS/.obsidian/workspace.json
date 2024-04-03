@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Circuit/Digital Circuit/vlsi-expert.com/STA.md",
+                "file": "PaperReading/thesis/sta/A Path Selection Algorithm for Timing Analysis.md",
                 "mode": "source",
                 "source": false
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Circuit/Digital Circuit/vlsi-expert.com/STA.md"
+                "file": "PaperReading/thesis/sta/A Path Selection Algorithm for Timing Analysis.md"
               }
             }
           },
@@ -147,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Circuit/Digital Circuit/vlsi-expert.com/STA.md",
+                "file": "PaperReading/thesis/sta/A Path Selection Algorithm for Timing Analysis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Circuit/Digital Circuit/vlsi-expert.com/STA.md",
+                "file": "PaperReading/thesis/sta/A Path Selection Algorithm for Timing Analysis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -228,6 +228,11 @@
   },
   "active": "c08c761f14491703",
   "lastOpenFiles": [
+    "PaperReading/thesis/sta/A NOVEL APPROACH TO ACCURATE TIMING VERIFICATION USING RTL DESCRIPTIONS.md",
+    "PaperReading/thesis/sta/A Path Selection Algorithm for Timing Analysis.md",
+    "Circuit/Digital Circuit/vlsi-expert.com/STA.md",
+    "PaperReading/thesis/sta",
+    "PaperReading/thesis",
     "resources/img/Pasted image 20240402183911.png",
     "resources/img/Pasted image 20240402183837.png",
     "resources/img/Pasted image 20240402183327.png",
@@ -236,7 +241,6 @@
     "resources/img/Pasted image 20240402133842.png",
     "resources/img/Pasted image 20240402133603.png",
     "Circuit/Digital Circuit/DDCA(ETHz & Book)/Sequential Logic and FSM.md",
-    "Circuit/Digital Circuit/vlsi-expert.com/STA.md",
     "Circuit/Digital Circuit/vlsi-expert.com",
     "Circuit/Digital Circuit/DDCA(ETHz & Book)/HDL and Verilog.md",
     "Computer Architecture/CAQA/ILP.md",
@@ -264,17 +268,13 @@
     "Tools/sparta/Sparta.md",
     "PaperReading/core/Zen4 Microarchitecture.md",
     "resources/img/Pasted image 20231115210207.png",
-    "resources/img/Pasted image 20231115210155.png",
     "Programming Language/C++/多线程.md",
     "Computer Architecture/Modern Processor Design/Advanced Instruction Flow Techniques.md",
     "Computer Architecture/Modern Processor Design/Intel P6.md",
-    "Computer Architecture/CAQA/Warehouse-Scale Computers.md",
     "Untitled.canvas",
     "Tools/docker",
     "Tools/sparta",
     "PaperReading/cloud",
-    "People/CN",
-    "resources/img/Untitled",
     "People/Untitled.canvas"
   ]
 }
