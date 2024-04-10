@@ -4,76 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "2ad110d164159c21",
+        "id": "8cb5661f4a257a0f",
         "type": "tabs",
         "children": [
           {
-            "id": "c08c761f14491703",
+            "id": "8cd615841baef024",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PaperReading/thesis/sta/A Path Selection Algorithm for Timing Analysis.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8d0e1f54e93d34ba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PaperReading/core/Zen4 Microarchitecture.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ee26d2a1d4aea2a5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tools/sparta/Sparta.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "af1c3c1aeb09f76b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programming Language/C++/多线程.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cd5d5a7dd6de7f1d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Templates/Book Summary Template.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "29682b00788da9a0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Architecture/NOC/片上互连网络/Routing.md",
+                "file": "PaperReading/microarchitecture/LSQ/Store vectors for scalable memory dependence prediction and scheduling.md",
                 "mode": "source",
                 "source": false
               }
@@ -108,7 +48,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PaperReading/thesis/sta/A Path Selection Algorithm for Timing Analysis.md"
+                "file": "PaperReading/microarchitecture/LSQ/Store vectors for scalable memory dependence prediction and scheduling.md"
               }
             }
           },
@@ -118,7 +58,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "no store q",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -127,11 +67,12 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 272.500732421875
   },
   "right": {
     "id": "c67599e5a31e373f",
@@ -147,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PaperReading/thesis/sta/A Path Selection Algorithm for Timing Analysis.md",
+                "file": "PaperReading/microarchitecture/LSQ/Store vectors for scalable memory dependence prediction and scheduling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PaperReading/thesis/sta/A Path Selection Algorithm for Timing Analysis.md",
+                "file": "PaperReading/microarchitecture/LSQ/Store vectors for scalable memory dependence prediction and scheduling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -226,10 +167,14 @@
       "templates:Insert template": false
     }
   },
-  "active": "c08c761f14491703",
+  "active": "f31f343eec283533",
   "lastOpenFiles": [
-    "PaperReading/thesis/sta/A NOVEL APPROACH TO ACCURATE TIMING VERIFICATION USING RTL DESCRIPTIONS.md",
+    "PaperReading/microarchitecture/LSQ/Practical data value speculation for future high-end processors.md",
+    "Computer Architecture/CAQA/ILP.md",
+    "Computer Architecture/CAQA/CAQA.md",
     "PaperReading/thesis/sta/A Path Selection Algorithm for Timing Analysis.md",
+    "Tools/sparta/Sparta.md",
+    "PaperReading/thesis/sta/A NOVEL APPROACH TO ACCURATE TIMING VERIFICATION USING RTL DESCRIPTIONS.md",
     "Circuit/Digital Circuit/vlsi-expert.com/STA.md",
     "PaperReading/thesis/sta",
     "PaperReading/thesis",
@@ -243,11 +188,9 @@
     "Circuit/Digital Circuit/DDCA(ETHz & Book)/Sequential Logic and FSM.md",
     "Circuit/Digital Circuit/vlsi-expert.com",
     "Circuit/Digital Circuit/DDCA(ETHz & Book)/HDL and Verilog.md",
-    "Computer Architecture/CAQA/ILP.md",
     "Circuit/Analog Circuit",
     "resources/img/Pasted image 20240328173716.png",
     "Computer Architecture/CAQA/DLP.md",
-    "Computer Architecture/CAQA/CAQA.md",
     "Computer Architecture/CAQA/Cache Optimization.md",
     "PaperReading/cloud/𝜇Manycore： A Cloud-Native CPU for Tail at Scale.md",
     "Untitled 2.md",
@@ -265,12 +208,10 @@
     "resources/img/Pasted image 20231204130634.png",
     "Programming Language/C++/Effective Modern C++.md",
     "Tools/spike",
-    "Tools/sparta/Sparta.md",
     "PaperReading/core/Zen4 Microarchitecture.md",
     "resources/img/Pasted image 20231115210207.png",
     "Programming Language/C++/多线程.md",
     "Computer Architecture/Modern Processor Design/Advanced Instruction Flow Techniques.md",
-    "Computer Architecture/Modern Processor Design/Intel P6.md",
     "Untitled.canvas",
     "Tools/docker",
     "Tools/sparta",
