@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5b9d6d7de4105635",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Architecture/CAQA/ILP.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -48,7 +61,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PaperReading/thesis/sta/A NOVEL APPROACH TO ACCURATE TIMING VERIFICATION USING RTL DESCRIPTIONS.md"
+                "file": "Computer Architecture/CAQA/ILP.md"
               }
             }
           },
@@ -87,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PaperReading/thesis/sta/A NOVEL APPROACH TO ACCURATE TIMING VERIFICATION USING RTL DESCRIPTIONS.md",
+                "file": "Computer Architecture/CAQA/ILP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PaperReading/thesis/sta/A NOVEL APPROACH TO ACCURATE TIMING VERIFICATION USING RTL DESCRIPTIONS.md",
+                "file": "Computer Architecture/CAQA/ILP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,8 +179,9 @@
       "templates:Insert template": false
     }
   },
-  "active": "e2d66dd2ff0320e5",
+  "active": "5b9d6d7de4105635",
   "lastOpenFiles": [
+    "PaperReading/thesis/sta/A NOVEL APPROACH TO ACCURATE TIMING VERIFICATION USING RTL DESCRIPTIONS.md",
     "resources/img/Pasted image 20240410143333.png",
     "resources/img/Pasted image 20240410142446.png",
     "PaperReading/thesis/sta/A Path Selection Algorithm for Timing Analysis.md",
@@ -177,7 +191,6 @@
     "Computer Architecture/CAQA/ILP.md",
     "Computer Architecture/CAQA/CAQA.md",
     "Tools/sparta/Sparta.md",
-    "PaperReading/thesis/sta/A NOVEL APPROACH TO ACCURATE TIMING VERIFICATION USING RTL DESCRIPTIONS.md",
     "Circuit/Digital Circuit/vlsi-expert.com/STA.md",
     "PaperReading/thesis/sta",
     "PaperReading/thesis",
@@ -208,7 +221,6 @@
     "thesis",
     "Tools/spike/Spike.md",
     "lecture",
-    "resources/img/Pasted image 20231204130634.png",
     "Programming Language/C++/Effective Modern C++.md",
     "Tools/spike",
     "Untitled.canvas",

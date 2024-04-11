@@ -106,7 +106,7 @@ issue逻辑很复杂，一个cycle放不下。所以issue宽度变化比较小�
 三种粒度：
 1. fine-grained。每个cycle都切换线程。好处是可以遮掩long stall，坏处是对于execution会延长。
 2. coarsed-grained。只在long stall的时候切换线程。缺点是没办法避免small stalls
-3. simultaneous multithreading (SMT) 最常见。
+3. simultaneous multithreading (SMT) 最常见。通过renaming和调度的方式来执行独立现成的多条指令
 
 ![[Pasted image 20231020143315.png]]
 SMT总体上而言，对性能有较大提升，平均下来对能耗也有一定降低
