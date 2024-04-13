@@ -13,7 +13,7 @@ Eureka: "None"
 ### Motivation
 ![[Pasted image 20230421132237.png]]
 这张图很有意思。
-Naive speculation指的是ooo执行然后解决trap。这回导致较多的violation然后带来penalty。但其实还好。
+Naive speculation指的是ooo执行然后解决trap。这会导致较多的violation然后带来penalty。但其实还好。
 不做specutlation就是所有load等store执行结束后再执行，可以看出有巨多false dependency，这会造成很大的性能减弱。
 
 ### Solution

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PaperReading/thesis/sta/A NOVEL APPROACH TO ACCURATE TIMING VERIFICATION USING RTL DESCRIPTIONS.md",
+                "file": "PaperReading/microarchitecture/prediction/mem prediction/Store Vulnerability Window (SVW) --- Re-Execution Filtering for Enhanced Load Optimization.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +60,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Architecture/CAQA/ILP.md"
+                "file": "PaperReading/microarchitecture/prediction/mem prediction/Store Vulnerability Window (SVW) --- Re-Execution Filtering for Enhanced Load Optimization.md"
               }
             }
           },
@@ -84,7 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 272.500732421875
+    "width": 343.5086555480957
   },
   "right": {
     "id": "c67599e5a31e373f",
@@ -100,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Architecture/CAQA/ILP.md",
+                "file": "PaperReading/microarchitecture/prediction/mem prediction/Store Vulnerability Window (SVW) --- Re-Execution Filtering for Enhanced Load Optimization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Architecture/CAQA/ILP.md",
+                "file": "PaperReading/microarchitecture/prediction/mem prediction/Store Vulnerability Window (SVW) --- Re-Execution Filtering for Enhanced Load Optimization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,16 +178,24 @@
       "templates:Insert template": false
     }
   },
-  "active": "5b9d6d7de4105635",
+  "active": "e2d66dd2ff0320e5",
   "lastOpenFiles": [
+    "PaperReading/microarchitecture/prediction/mem prediction/NoSQ： Store-Load Communication without a Store Queue.md",
+    "PaperReading/microarchitecture/prediction/mem prediction/Store Vulnerability Window (SVW) --- Re-Execution Filtering for Enhanced Load Optimization.md",
+    "PaperReading/microarchitecture/prediction/mem prediction/Memory Ordering --- A Value-Based Approach.md",
+    "PaperReading/microarchitecture/prediction/mem prediction/Two Techniques to Enhance the Performance of Memory Consistency Models.md",
+    "PaperReading/microarchitecture/prediction/mem prediction/Memory Dependence Prediction using Store Sets.md",
+    "PaperReading/microarchitecture/prediction/mem prediction/Store vectors for scalable memory dependence prediction and scheduling.md",
+    "PaperReading/unsorted/Select-free instruction scheduling logic.md",
     "PaperReading/thesis/sta/A NOVEL APPROACH TO ACCURATE TIMING VERIFICATION USING RTL DESCRIPTIONS.md",
+    "PaperReading/microarchitecture/prediction/mem prediction",
+    "PaperReading/microarchitecture/prediction",
+    "Computer Architecture/CAQA/ILP.md",
     "resources/img/Pasted image 20240410143333.png",
     "resources/img/Pasted image 20240410142446.png",
     "PaperReading/thesis/sta/A Path Selection Algorithm for Timing Analysis.md",
     "2024-04-10.md",
-    "PaperReading/microarchitecture/LSQ/Store vectors for scalable memory dependence prediction and scheduling.md",
     "PaperReading/microarchitecture/LSQ/Practical data value speculation for future high-end processors.md",
-    "Computer Architecture/CAQA/ILP.md",
     "Computer Architecture/CAQA/CAQA.md",
     "Tools/sparta/Sparta.md",
     "Circuit/Digital Circuit/vlsi-expert.com/STA.md",
@@ -215,18 +222,11 @@
     "Computer Architecture/NOC/片上互连网络/Index.md",
     "Computer Architecture/NOC/片上互连网络/片上网络的系统架构接口.md",
     "Computer Architecture/NOC/片上互连网络/Intro.md",
-    "thesis/Overall Note.md",
-    "Untitled.md",
-    "Untitled 1.md",
     "thesis",
-    "Tools/spike/Spike.md",
     "lecture",
-    "Programming Language/C++/Effective Modern C++.md",
     "Tools/spike",
     "Untitled.canvas",
     "Tools/docker",
-    "Tools/sparta",
-    "PaperReading/cloud",
     "People/Untitled.canvas"
   ]
 }
