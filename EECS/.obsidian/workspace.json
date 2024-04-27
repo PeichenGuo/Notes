@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Circuit/Digital Circuit/vlsi-expert.com/STA.md",
+                "file": "Circuit/Backend/Physical Design Flow.md",
                 "mode": "source",
                 "source": false
               }
@@ -60,7 +60,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Circuit/Digital Circuit/vlsi-expert.com/STA.md"
+                "file": "Circuit/Backend/Physical Design Flow.md"
               }
             }
           },
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Circuit/Digital Circuit/vlsi-expert.com/STA.md",
+                "file": "Circuit/Backend/Physical Design Flow.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Circuit/Digital Circuit/vlsi-expert.com/STA.md",
+                "file": "Circuit/Backend/Physical Design Flow.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,6 +180,10 @@
   },
   "active": "e2d66dd2ff0320e5",
   "lastOpenFiles": [
+    "Circuit/Backend/vlsi-expert.com/STA.md",
+    "Circuit/Backend/Physical Design Flow.md",
+    "thesis/Overall Note.md",
+    "Circuit/Backend",
     "PaperReading/microarchitecture/prediction/mem prediction/Store Vulnerability Window (SVW) --- Re-Execution Filtering for Enhanced Load Optimization.md",
     "PaperReading/microarchitecture/prediction/mem prediction/NoSQ： Store-Load Communication without a Store Queue.md",
     "PaperReading/microarchitecture/prediction/mem prediction/Memory Ordering --- A Value-Based Approach.md",
@@ -198,7 +202,6 @@
     "PaperReading/microarchitecture/LSQ/Practical data value speculation for future high-end processors.md",
     "Computer Architecture/CAQA/CAQA.md",
     "Tools/sparta/Sparta.md",
-    "Circuit/Digital Circuit/vlsi-expert.com/STA.md",
     "PaperReading/thesis/sta",
     "PaperReading/thesis",
     "resources/img/Pasted image 20240402183911.png",
@@ -209,7 +212,7 @@
     "resources/img/Pasted image 20240402133842.png",
     "resources/img/Pasted image 20240402133603.png",
     "Circuit/Digital Circuit/DDCA(ETHz & Book)/Sequential Logic and FSM.md",
-    "Circuit/Digital Circuit/vlsi-expert.com",
+    "Circuit/Backend/vlsi-expert.com",
     "Circuit/Digital Circuit/DDCA(ETHz & Book)/HDL and Verilog.md",
     "Circuit/Analog Circuit",
     "resources/img/Pasted image 20240328173716.png",
@@ -220,13 +223,10 @@
     "Computer Architecture/NOC/片上互连网络/Topology.md",
     "Computer Architecture/NOC/片上互连网络/Routing.md",
     "Computer Architecture/NOC/片上互连网络/Index.md",
-    "Computer Architecture/NOC/片上互连网络/片上网络的系统架构接口.md",
-    "Computer Architecture/NOC/片上互连网络/Intro.md",
     "thesis",
     "lecture",
     "Tools/spike",
     "Untitled.canvas",
-    "Tools/docker",
     "People/Untitled.canvas"
   ]
 }
