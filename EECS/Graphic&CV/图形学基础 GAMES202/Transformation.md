@@ -66,3 +66,18 @@ n是旋转轴，alpha是旋转角
 为了简化，让object动。相机固定在原点，y轴是up，看向-z方向
 ![[Pasted image 20240430190517.png]]
 先求旋转的逆变换，再求逆。求逆很简单，就是转置。
+
+# Projection transformation
+![[Pasted image 20240502151225.png]]
+正交：有平行线
+透视：没平行线
+
+正交不会有近大远小的
+![[Pasted image 20240502151423.png]]
+
+## Orthographic projection 正交投影
+simple put：
+![[Pasted image 20240502151533.png]]
+最关键的：不要z坐标。 不考虑z的话得到的就是正交投影
+
+## Perspective projection 透视投影
