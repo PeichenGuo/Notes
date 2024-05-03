@@ -4,7 +4,7 @@ Chapter: 0
 
 ```dataview
 table Summary
-from "Graphic&CV/图形学基础 GAMES202"
+from "Graphic&CV/图形学基础 GAMES101"
 sort Chapter asc
 ```
 

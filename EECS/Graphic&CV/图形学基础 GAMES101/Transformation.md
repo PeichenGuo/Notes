@@ -79,5 +79,23 @@ n是旋转轴，alpha是旋转角
 simple put：
 ![[Pasted image 20240502151533.png]]
 最关键的：不要z坐标。 不考虑z的话得到的就是正交投影
-
+![[Pasted image 20240503133454.png]]
+left right bottom up far near
+沿-z观察
+移到原点，然后scale成标准立方体：scale translate
+![[Pasted image 20240503133558.png]]
 ## Perspective projection 透视投影
+![[Pasted image 20240503134039.png]]
+在squish的时候n和f面上的点还在该平面上，中心点也不变
+已知n，x，y，z算投影面的x' y' z'
+![[Pasted image 20240503134514.png]]
+
+先不管z:
+![[Pasted image 20240503134630.png]]
+此时能猜到矩阵大概这样：
+![[Pasted image 20240503134712.png]]
+综合两个insight：n面上点不变，f面上z不变。（f面垂直于z）。将insight代入
+![[Pasted image 20240503142605.png]]
+![[Pasted image 20240503142644.png]]
+这时可算出AB
+![[Pasted image 20240503142831.png]]
