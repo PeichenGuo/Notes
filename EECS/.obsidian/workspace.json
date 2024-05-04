@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graphic&CV/图形学基础 GAMES101/Rasterizaion.md",
+                "file": "Tools/Synopsys/PrimeTime/chapters/Constraining multiple clocks.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Graphic&CV/图形学基础 GAMES101/Rasterizaion.md"
+                "file": "Tools/Synopsys/PrimeTime/chapters/Constraining multiple clocks.md"
               }
             }
           },
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Graphic&CV/图形学基础 GAMES101/Rasterizaion.md",
+                "file": "Tools/Synopsys/PrimeTime/chapters/Constraining multiple clocks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Graphic&CV/图形学基础 GAMES101/Rasterizaion.md",
+                "file": "Tools/Synopsys/PrimeTime/chapters/Constraining multiple clocks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,9 +168,18 @@
   },
   "active": "8efce816488c542d",
   "lastOpenFiles": [
-    "Graphic&CV/图形学基础 GAMES101/Transformation.md",
+    "resources/img/Pasted image 20240504154227.png",
+    "resources/img/Pasted image 20240504154201.png",
+    "resources/img/Pasted image 20240504154152.png",
+    "resources/img/Pasted image 20240504154143.png",
+    "Tools/Synopsys/PrimeTime/Index.md",
+    "Tools/Synopsys/PrimeTime/chapters/Constraining multiple clocks.md",
+    "Tools/Synopsys/PrimeTime/chapters",
     "Graphic&CV/图形学基础 GAMES101/Index.md",
+    "Tools/Synopsys/PrimeTime",
     "Graphic&CV/图形学基础 GAMES101/Rasterizaion.md",
+    "Tools/Synopsys",
+    "Graphic&CV/图形学基础 GAMES101/Transformation.md",
     "resources/img/Pasted image 20240503142831.png",
     "resources/img/Pasted image 20240503142644.png",
     "resources/img/Pasted image 20240503142618.png",
@@ -178,9 +187,6 @@
     "resources/img/Pasted image 20240503134712.png",
     "resources/img/Pasted image 20240503134630.png",
     "resources/img/Pasted image 20240503134514.png",
-    "resources/img/Pasted image 20240503134039.png",
-    "resources/img/Pasted image 20240503133558.png",
-    "resources/img/Pasted image 20240503133454.png",
     "Graphic&CV/图形学基础 GAMES202/a.md",
     "2024-05-03.md",
     "Graphic&CV/图形学基础 GAMES101/Review of Linear Algebra.md",
@@ -204,16 +210,10 @@
     "PaperReading/microarchitecture/prediction/mem prediction/Memory Dependence Prediction using Store Sets.md",
     "PaperReading/microarchitecture/prediction/mem prediction/Store vectors for scalable memory dependence prediction and scheduling.md",
     "PaperReading/unsorted/Select-free instruction scheduling logic.md",
-    "PaperReading/thesis/sta/A NOVEL APPROACH TO ACCURATE TIMING VERIFICATION USING RTL DESCRIPTIONS.md",
     "PaperReading/microarchitecture/prediction/mem prediction",
     "PaperReading/microarchitecture/prediction",
-    "PaperReading/thesis/sta/A Path Selection Algorithm for Timing Analysis.md",
-    "PaperReading/microarchitecture/LSQ/Practical data value speculation for future high-end processors.md",
     "PaperReading/thesis/sta",
     "PaperReading/thesis",
-    "Circuit/Backend/vlsi-expert.com",
-    "Circuit/Analog Circuit",
-    "thesis",
     "Untitled.canvas",
     "People/Untitled.canvas"
   ]
