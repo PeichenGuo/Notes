@@ -32,4 +32,4 @@ rise-rise和rise-fall不行，fall-rise和fall-fall可以
 serve as reference for input and output
 
 # asynchronous, synchronous, and exclusive clock
-同一个PLL(phased-lock loop)产生的时钟就是同步，不同pll产生的就是异步
+同一个PLL(phased-lock loop)产生的时钟就是同步，不同pll产生的就 是异步
