@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EE/Backend/Digital VLSI Design (RTL to GDS)/Index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8e38926e0efaf55d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Logic Synthesis.md",
+                "file": "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Timing Analysis.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +48,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Logic Synthesis.md"
+                "file": "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Timing Analysis.md"
               }
             }
           },
@@ -100,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Logic Synthesis.md",
+                "file": "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Timing Analysis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Logic Synthesis.md",
+                "file": "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Timing Analysis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,23 +166,30 @@
       "templates:Insert template": false
     }
   },
-  "active": "8e38926e0efaf55d",
+  "active": "8efce816488c542d",
   "lastOpenFiles": [
-    "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Timing Analysis.md",
-    "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Logic Synthesis.md",
-    "resources/img/Pasted image 20240506191118.png",
-    "resources/img/Pasted image 20240506185801.png",
-    "resources/img/Pasted image 20240506185132.png",
-    "resources/img/Pasted image 20240506185130.png",
-    "resources/img/Pasted image 20240506184713.png",
-    "resources/img/Pasted image 20240506184307.png",
-    "resources/img/Pasted image 20240506173031.png",
-    "resources/img/Pasted image 20240506173023.png",
-    "resources/img/Pasted image 20240506172858.png",
-    "resources/img/Pasted image 20240506172857.png",
-    "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Introduction.md",
-    "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/RTL.md",
     "EE/Backend/Digital VLSI Design (RTL to GDS)/Index.md",
+    "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Timing Analysis.md",
+    "Tools/spike/Spike.md",
+    "resources/img/Pasted image 20240507185553.png",
+    "resources/img/Pasted image 20240507185524.png",
+    "resources/img/Pasted image 20240507185321.png",
+    "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Clock Tree Synthesis (CTS).md",
+    "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Logic Synthesis.md",
+    "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Introduction.md",
+    "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Chip Finishing and Signoff.md",
+    "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Packaging.md",
+    "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Routing.md",
+    "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Moving to Physical Domain.md",
+    "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Placement.md",
+    "resources/img/Pasted image 20240507183226.png",
+    "resources/img/Pasted image 20240507183037.png",
+    "resources/img/Pasted image 20240507182252.png",
+    "resources/img/Pasted image 20240507174537.png",
+    "resources/img/Pasted image 20240507174509.png",
+    "resources/img/Pasted image 20240507174447.png",
+    "resources/img/Pasted image 20240507172638.png",
+    "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/RTL.md",
     "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters",
     "Tools/Synopsys/PrimeTime/Index.md",
     "Tools/Synopsys/PrimeTime/chapters/Constraining multiple clocks.md",
@@ -215,16 +209,9 @@
     "Computer Architecture/CAQA/ILP.md",
     "2024-04-10.md",
     "Untitled 1.md",
-    "Untitled 2.md",
-    "Untitled.md",
     "Graphic&CV/图形学基础 GAMES101",
     "Graphic&CV",
-    "EE/Backend/vlsi-expert.com/STA.md",
-    "thesis/Overall Note.md",
     "EE/Backend",
-    "PaperReading/microarchitecture/prediction/mem prediction/Store Vulnerability Window (SVW) --- Re-Execution Filtering for Enhanced Load Optimization.md",
-    "PaperReading/microarchitecture/prediction/mem prediction/NoSQ： Store-Load Communication without a Store Queue.md",
-    "PaperReading/microarchitecture/prediction/mem prediction/Memory Ordering --- A Value-Based Approach.md",
     "PaperReading/microarchitecture/prediction/mem prediction",
     "PaperReading/microarchitecture/prediction",
     "Untitled.canvas",

@@ -1,5 +1,5 @@
 ---
-Chapter: 3
+Chapter: 2
 ---
 # Introduction
 三种输入：
@@ -152,21 +152,3 @@ skip
 # Timing Optimization
 skip
 
-# Timing Analysis
-## Intro
-### FF三个关键parameter
-- $t_{cq}$：clk到q的延迟，一般就是ff的传播延迟
-- $t_{su}$: setup delay
-- $t_hd$：hold delay
-### Timing Constraint
-max delay：时间不够传到下一个reg，即传播延迟 >时钟周期-setup时间
-min delay：同一个上升沿穿透多个reg，即传播延迟<hold时间
-
-## STA
-优点：
-- fast：比timing-driven, gate-level simulation都快
-- exhaustive：穷举，所有情况都会被考虑
-- vector generation not required：不需要考虑input vector
-缺点：
-- 不管functionality
-- 需要define timing requirement：如果设置错了，STA也不会对
