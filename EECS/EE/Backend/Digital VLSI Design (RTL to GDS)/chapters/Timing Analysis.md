@@ -117,3 +117,8 @@ report_timing -path_type full_clock
 剩下在教具体用法了 skip
 
 ## Multi-Mode Multi-Corner (MMMC)
+综合的时候经常用worst case来做，但除了functional mode之外会有很多mode，可能有几百个，比如不同的functional，不同的test mode，他们的vdd和frequency都不太一样
+给每个case都写个sdc工作量很大，MMMC就是为了解决这个问题。
+MMMC设置analysis view
+![[Pasted image 20240508131937.png]]
+==具体skip了，在讲syntax==
