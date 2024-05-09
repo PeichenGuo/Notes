@@ -70,3 +70,35 @@ pin 不要放在边角和narrow channel，不好布线
 
 # Hierarchical Design
 巨大的design需要hierarchical的
+缺点：
+- time closure 更难
+- planning更难
+Time Budget： io constraint留下的冗余 
+Pin assignment：macro的pin assignment要注意，corner上的pin可能不好routing。要给pin guide来布局
+feedthrough：一些pin可能会穿过一些macro链接远处的模块，这部分也要提前考虑。比如IOpin要连B模块，但要经过A模块，可以绕过A也可以穿过A，后者叫feedthrough
+![[Pasted image 20240509140419.png]]
+
+# Power Planning
+## Power Consumption and Reliability
+power planning考虑dynamic power，static power 和 floorplan和grid design
+处理两种问题：
+- average or instantaneous power problem: IR drop, voltage Droop
+- power density problem in the long run: electromigration(EM)
+![[Pasted image 20240509141629.png]]
+### IR Drop
+由于wire有电阻，v=ir，会分摊一部分电压，导致supply voltage突然变低。
+可以通过构建power grid的resistance matrix来模拟，从而寻找ir drop
+![[Pasted image 20240509142039.png]]
+一般通过hotspot方式看看ir drop问题
+![[Pasted image 20240509143035.png]]
+### EM
+电流密度很大的情况下，金属原子可能会跟随电流迁移，导致metal wire破损
+可以在power distribution解决
+power line更宽，ir drop更少，em更少，dynamic drop更少，但开销更大，面积更大
+![[Pasted image 20240509142719.png]]
+
+## Power and Ground Routing
+会使用PG mesh,让PG source到达destination间有多条路径，从而可以降低resistance
+decoupling capacitors：PG之间的电容，防止电压波动
+![[Pasted image 20240509143537.png]]
+在走routing的时候主要还是做trade-off：em/ir drop和routing resource。
