@@ -102,3 +102,5 @@ power line更宽，ir drop更少，em更少，dynamic drop更少，但开销更�
 decoupling capacitors：PG之间的电容，防止电压波动
 ![[Pasted image 20240509143537.png]]
 在走routing的时候主要还是做trade-off：em/ir drop和routing resource。
+![[Pasted image 20240509171121.png]]
+功耗较大的组件要放在边角，这样ir drop会低一点

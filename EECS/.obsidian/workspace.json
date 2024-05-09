@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Moving to Physical Domain.md",
+                "file": "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Clock Tree Synthesis (CTS).md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Moving to Physical Domain.md"
+                "file": "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Clock Tree Synthesis (CTS).md"
               }
             }
           },
@@ -67,8 +67,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -88,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Moving to Physical Domain.md",
+                "file": "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Clock Tree Synthesis (CTS).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Moving to Physical Domain.md",
+                "file": "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Clock Tree Synthesis (CTS).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,8 +166,11 @@
       "templates:Insert template": false
     }
   },
-  "active": "8efce816488c542d",
+  "active": "2fd97cb827b9533c",
   "lastOpenFiles": [
+    "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Placement.md",
+    "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Moving to Physical Domain.md",
+    "resources/img/Pasted image 20240509171121.png",
     "resources/img/Pasted image 20240509143537.png",
     "resources/img/Pasted image 20240509143452.png",
     "resources/img/Pasted image 20240509143035.png",
@@ -178,9 +180,6 @@
     "resources/img/Pasted image 20240509140419.png",
     "resources/img/Pasted image 20240508145944.png",
     "resources/img/Pasted image 20240508144110.png",
-    "resources/img/Pasted image 20240508143951.png",
-    "resources/img/Pasted image 20240508143231.png",
-    "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Moving to Physical Domain.md",
     "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Timing Analysis.md",
     "EE/Backend/Digital VLSI Design (RTL to GDS)/Index.md",
     "Tools/spike/Spike.md",
@@ -190,7 +189,6 @@
     "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Chip Finishing and Signoff.md",
     "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Packaging.md",
     "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Routing.md",
-    "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Placement.md",
     "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/RTL.md",
     "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters",
     "Tools/Synopsys/PrimeTime/Index.md",
