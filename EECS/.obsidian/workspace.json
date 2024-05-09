@@ -166,8 +166,10 @@
       "templates:Insert template": false
     }
   },
-  "active": "2fd97cb827b9533c",
+  "active": "8efce816488c542d",
   "lastOpenFiles": [
+    "resources/img/Pasted image 20240509201815.png",
+    "resources/img/Pasted image 20240509201248.png",
     "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Placement.md",
     "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Moving to Physical Domain.md",
     "resources/img/Pasted image 20240509171121.png",
@@ -179,7 +181,6 @@
     "resources/img/Pasted image 20240509141629.png",
     "resources/img/Pasted image 20240509140419.png",
     "resources/img/Pasted image 20240508145944.png",
-    "resources/img/Pasted image 20240508144110.png",
     "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Timing Analysis.md",
     "EE/Backend/Digital VLSI Design (RTL to GDS)/Index.md",
     "Tools/spike/Spike.md",
