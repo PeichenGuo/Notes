@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Clock Tree Synthesis (CTS).md",
+                "file": "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Introduction.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Clock Tree Synthesis (CTS).md"
+                "file": "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Introduction.md"
               }
             }
           },
@@ -58,7 +58,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "a path",
+                "query": "tag:#Q",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Clock Tree Synthesis (CTS).md",
+                "file": "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Clock Tree Synthesis (CTS).md",
+                "file": "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,27 +168,26 @@
   },
   "active": "8efce816488c542d",
   "lastOpenFiles": [
+    "EE/Backend/Digital VLSI Design (RTL to GDS)/Index.md",
+    "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Chip Finishing and Signoff.md",
+    "resources/img/Pasted image 20240510130401.png",
+    "resources/img/Pasted image 20240510125949.png",
+    "resources/img/Pasted image 20240510125840.png",
+    "resources/img/Pasted image 20240510124051.png",
+    "resources/img/Pasted image 20240510123431.png",
+    "resources/img/Pasted image 20240510122322.png",
+    "resources/img/Pasted image 20240510122311.png",
+    "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Packaging.md",
+    "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Placement.md",
+    "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Clock Tree Synthesis (CTS).md",
     "resources/img/Pasted image 20240509201815.png",
     "resources/img/Pasted image 20240509201248.png",
-    "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Placement.md",
     "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Moving to Physical Domain.md",
     "resources/img/Pasted image 20240509171121.png",
-    "resources/img/Pasted image 20240509143537.png",
-    "resources/img/Pasted image 20240509143452.png",
-    "resources/img/Pasted image 20240509143035.png",
-    "resources/img/Pasted image 20240509142719.png",
-    "resources/img/Pasted image 20240509142039.png",
-    "resources/img/Pasted image 20240509141629.png",
-    "resources/img/Pasted image 20240509140419.png",
-    "resources/img/Pasted image 20240508145944.png",
     "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Timing Analysis.md",
-    "EE/Backend/Digital VLSI Design (RTL to GDS)/Index.md",
     "Tools/spike/Spike.md",
-    "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Clock Tree Synthesis (CTS).md",
     "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Logic Synthesis.md",
     "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Introduction.md",
-    "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Chip Finishing and Signoff.md",
-    "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Packaging.md",
     "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Routing.md",
     "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/RTL.md",
     "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters",
