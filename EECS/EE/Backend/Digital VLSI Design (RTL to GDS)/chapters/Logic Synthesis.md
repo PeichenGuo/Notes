@@ -144,11 +144,11 @@ sm可以推断到register+comb的一个逻辑电路，
 ==skip了==
 
 # Constraint Definition
-skip
+#skip 
 
 # Technology Mapping
-skip
+#skip 
 
 # Timing Optimization
-skip
+#skip 
 

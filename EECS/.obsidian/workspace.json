@@ -42,8 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1515764164ce6dd8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Routing.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -72,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Chip Finishing and Signoff.md"
+                "file": "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Routing.md"
               }
             }
           },
@@ -112,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Chip Finishing and Signoff.md",
+                "file": "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Routing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Chip Finishing and Signoff.md",
+                "file": "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Routing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,29 +204,30 @@
       "templates:Insert template": false
     }
   },
-  "active": "8efce816488c542d",
+  "active": "1515764164ce6dd8",
   "lastOpenFiles": [
+    "resources/img/Pasted image 20240511173420.png",
+    "resources/img/Pasted image 20240511173225.png",
+    "resources/img/Pasted image 20240511173211.png",
+    "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Timing Analysis.md",
+    "EE/Backend/Digital VLSI Design (RTL to GDS)/Index.md",
+    "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Clock Tree Synthesis (CTS).md",
+    "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Routing.md",
+    "resources/img/Pasted image 20240511171246.png",
+    "resources/img/Pasted image 20240511171234.png",
+    "resources/img/Pasted image 20240511171010.png",
+    "resources/img/Pasted image 20240511170652.png",
+    "resources/img/Pasted image 20240511161550.png",
+    "resources/img/Pasted image 20240511144743.png",
+    "resources/img/Pasted image 20240511144517.png",
+    "resources/img/Pasted image 20240511143507.png",
     "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Logic Synthesis.md",
     "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Chip Finishing and Signoff.md",
     "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Moving to Physical Domain.md",
-    "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Clock Tree Synthesis (CTS).md",
     "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Placement.md",
-    "resources/img/Pasted image 20240510183109.png",
-    "resources/img/Pasted image 20240510174754.png",
-    "resources/img/Pasted image 20240510174717.png",
-    "resources/img/Pasted image 20240510174331.png",
-    "resources/img/Pasted image 20240510173712.png",
-    "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Timing Analysis.md",
-    "EE/Backend/Digital VLSI Design (RTL to GDS)/Index.md",
     "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Introduction.md",
-    "resources/img/Pasted image 20240510130401.png",
-    "resources/img/Pasted image 20240510125949.png",
-    "resources/img/Pasted image 20240510125840.png",
-    "resources/img/Pasted image 20240510124051.png",
-    "resources/img/Pasted image 20240510123431.png",
     "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Packaging.md",
     "Tools/spike/Spike.md",
-    "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Routing.md",
     "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/RTL.md",
     "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters",
     "Tools/Synopsys/PrimeTime/Index.md",
