@@ -4,83 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "e08835277b262031",
+        "id": "36ac328aad08485b",
         "type": "tabs",
         "children": [
           {
-            "id": "8efce816488c542d",
+            "id": "bbf61e77b8af743c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Chip Finishing and Signoff.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a3e491896a23d934",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Logic Synthesis.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5fc221a1c4874d54",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Clock Tree Synthesis (CTS).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1515764164ce6dd8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Packaging.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d36b93921e6397e0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Moving to Physical Domain.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "079a4d942af0bb1d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Chip Finishing and Signoff.md",
+                "file": "Computer Architecture/CAQA/DLP.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +48,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Packaging.md"
+                "file": "Computer Architecture/CAQA/DLP.md"
               }
             }
           },
@@ -128,7 +67,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -148,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Packaging.md",
+                "file": "Computer Architecture/CAQA/DLP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Packaging.md",
+                "file": "Computer Architecture/CAQA/DLP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -227,12 +167,13 @@
       "templates:Insert template": false
     }
   },
-  "active": "1515764164ce6dd8",
+  "active": "bbf61e77b8af743c",
   "lastOpenFiles": [
+    "resources/img/Pasted image 20240527170936.png",
+    "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Packaging.md",
     "Untitled.md",
     "resources/img/Pasted image 20240516160103.png",
     "resources/img/Pasted image 20240516155936.png",
-    "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Packaging.md",
     "resources/img/Pasted image 20240516142618.png",
     "resources/img/Pasted image 20240515163414.png",
     "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Routing.md",

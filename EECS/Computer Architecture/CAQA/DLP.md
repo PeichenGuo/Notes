@@ -33,6 +33,33 @@ _vsub v0,v0,v1 # Subtract under vector mask_
 _vst v0,x5 # Store the result in X_
 _vdisable # Disable vector registers_
 _vpdisable # Disable predicate registers_
+## Execution Time
+主要分为三个部分：
+- 操作数长度
+- 和其他操作之间的结构冒险
+- 和其他操作之间的数据冒险
+（其实所有操作的执行时间都可以分为这三个部分）
+
+所有vector machine都有多条流水线称为lane
+
+convey是一组内部不包含结构冒险的指令 ，即可以一起执行。convey的多少可以体现代码的性能。
+RAW的操作序列应该在一个convey里，这样可以做chaining操作，在不同的function unit之间可以做forwarding。最近的实现都是flexible chaining，有依赖的指令间可以任意链接。
+
+chime是执行一个convey需要的时间。（chime可以理解为一种时间单位）
+
+chime模型忽略了start up开销。
+
+## Multiple Lanes
+RVV重要假设：一个向量寄存器的第N个元素只能和另一个向量寄存器的第N个元素进行运算。极大简化运算，使lanes实现成为可能。一个4lanes设计可以让32周期的chime变为8周期。
+![[Pasted image 20240527170936.png]]
+## Vector-Length Register（vl reg）：处理长度不等于max vector length的循环
+添加一个vl寄存器来控制运算长度。
+但有时候长度是编译时未知的，有可能大于mvl，因此用到了strip mining。strip mining是生成两个循环，一个处理mvl整数倍数的迭代，一个处理剩下的迭代。
+
+## Predicate register：处理if
+用来处理循环体中if。
+实现方式是vector mask control。用一个mask来表示一个循环中控制流，然后运算的时候根据mask来选择是否写回寄存器
+向量处理器和GPU之间的一个区别就是，向量处理器的predicate register是软件可见的，显式由编译器调用的。 
 
 ## _Memory Banks: Supplying Bandwidth for Vector Load/Store Units_
 大部分vector processor有多个memory bank，原因有三：
