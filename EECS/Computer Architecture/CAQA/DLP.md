@@ -59,7 +59,7 @@ RVV重要假设：一个向量寄存器的第N个元素只能和另一个向量�
 ## Predicate register：处理if
 用来处理循环体中if。
 实现方式是vector mask control。用一个mask来表示一个循环中控制流，然后运算的时候根据mask来选择是否写回寄存器
-向量处理器和GPU之间的一个区别就是，向量处理器的predicate register是软件可见的，显式由编译器调用的。 
+向量处理器和GPU之间的一个区别就是，向量处理器的predicate register是软件可见的，显式由编译器调用的。  
 
 ## _Memory Banks: Supplying Bandwidth for Vector Load/Store Units_
 大部分vector processor有多个memory bank，原因有三：
