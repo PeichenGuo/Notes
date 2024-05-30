@@ -106,10 +106,21 @@ arithmetic intensity指的是浮点操作和memory access的比例。比如稀�
 # _Graphics Processing Units_
 ## _NVIDIA GPU Computational Structures_
 ![[Pasted image 20231101121842.png]]
+注意memory那里的术语有较大差距。
+![[Pasted image 20231101134003.png]]
+对于这个8192个元素的向量乘法的代码块，被称为一个grid。
+它分为了多个thread block。由于每个thread block最多512个元素，因此分为了16个thread block。thread block是被调度到一个SIMD processor的单元。
+每个thread block中有多个SIMD thread(Wrap)。只有同一个thread block中的simd thread可以通过local memory做communication
+
 ![[Pasted image 20231101133931.png]]
 一个SIMD processor。一个gpu由多个processor组成
-![[Pasted image 20231101134003.png]]
+gpu有两级调度器，第一级将thread block调度给simd processor，后一级调度simd thread (warp)。
+一个SIMD thread中包含多个SIMD instruction。图中thread宽度是32，也就是32条指令，被映射到16个物理lane，因此一个thread需要2个chime运行。
+warp内部会有一个scoreboard来跟踪多条simd thread，由于不同thread之间是并行的，哪个ready就可以issue哪个。
+gpu会有巨大的sram，图中例子每个lane就有1024个32位reg。
+在创建SIMD thread的时候就会分配一组物理寄存器，在SIMD thread exit时释放。
 ## _NVIDA GPU Instruction Set Architecture_
+PTX指令集描述的是对单个cuda thread的操作，隐藏了很多具体的硬件指令。一个PTX指令可以扩展到多个机器指令。
 形如：
 opcode.type d, a, b, c;
 其中d是dest reg，abc是三个src reg。type是数据类型：
