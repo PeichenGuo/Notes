@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Architecture/CAQA/DLP.md",
+                "file": "Computer Architecture/CAQA/TLP.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Architecture/CAQA/DLP.md"
+                "file": "Computer Architecture/CAQA/TLP.md"
               }
             }
           },
@@ -67,8 +67,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -88,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Architecture/CAQA/DLP.md",
+                "file": "Computer Architecture/CAQA/TLP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Architecture/CAQA/DLP.md",
+                "file": "Computer Architecture/CAQA/TLP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,6 +168,9 @@
   },
   "active": "bbf61e77b8af743c",
   "lastOpenFiles": [
+    "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/A Primer On Memory Consistency and Cache Coherence.md",
+    "Computer Architecture/CAQA/TLP.md",
+    "Computer Architecture/CAQA/DLP.md",
     "resources/img/Pasted image 20240527170936.png",
     "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Packaging.md",
     "Untitled.md",
@@ -185,7 +187,6 @@
     "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Chip Finishing and Signoff.md",
     "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Moving to Physical Domain.md",
     "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Logic Synthesis.md",
-    "resources/img/Pasted image 20240512140143.png",
     "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Timing Analysis.md",
     "EE/Backend/Digital VLSI Design (RTL to GDS)/Index.md",
     "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Clock Tree Synthesis (CTS).md",
@@ -208,8 +209,6 @@
     "2024-05-03.md",
     "Graphic&CV/图形学基础 GAMES101/Review of Linear Algebra.md",
     "Graphic&CV/图形学基础 GAMES101/Introduction.md",
-    "Computer Architecture/NOC/片上互连网络/Index.md",
-    "Computer Architecture/CAQA/ILP.md",
     "Graphic&CV/图形学基础 GAMES101",
     "Graphic&CV",
     "EE/Backend",

@@ -144,9 +144,10 @@ setp设置了prediction reg p1。根据p1，一些会走then的代码，一些�
 ## _NVIDIA GPU Memory Structures_
 ![[Pasted image 20231101150121.png]]
 host写gpu memory，但不写local和private。
-相比使用巨大的cache，gpu用小cache和多线程来遮掩dram延时。
+相比使用巨大的cache，gpu用小cache和多线程来遮掩dram延时。用streaming替代package来遮掩dram delay。
 
 ## GPU vs vector processor
+主要区别是gpu是多线程的，vector machine不是
 ![[Pasted image 20231101160920.png]]
 
 # _Detecting and Enhancing Loop-Level Parallelism_

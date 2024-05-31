@@ -8,11 +8,11 @@ parallel processing:一个任务多个线程
 request-level parallelism。多个任务多个线程
 ## _Multiprocessor Architecture: Issues and Approach_
 现在的multiprocessor分为两种：
-1. SMP： _symmetric (shared-memory) multiprocessors_：也叫 _centralized shared-memory multiprocessors_ 核少 有一个shared的memory
+1. SMP： _symmetric (shared-memory) multiprocessors_：也叫 _centralized shared-memory multiprocessors_ 核少 有一个shared的memory，访问不同存储器的延迟是一致的，因此也被称为UMA(Uniform Memory Access)。与之相对的是NUCA(NonUniform Cache Access)。
 2. DSM：_distributed shared memory (DSM)._ 核多。访问local的bandwidth高，lantency小
 ![[Pasted image 20231103110708.png]]
 ![[Pasted image 20231103110716.png]]
-
+两种模式下线程通信都是用共享地址做的，因此地址空间都是共享的。
 ## _Challenges of Parallel Processing_
 两个主要challenges：
 1. 程序并行度不够
@@ -20,8 +20,13 @@ request-level parallelism。多个任务多个线程
 体系结构主要解决第二个，第一个大多由软件解决。
 
 # _Centralized Shared-Memory Architectures_
-这部分讲的是cache coherence，直接看[[A Primer On Memory Consistency and Cache Coherence]]
-
+也就是SMP构型。
+这部分讲的是cache coherence，可参考[[A Primer On Memory Consistency and Cache Coherence]]
+## 基本解决方案
+主要有两类：
+- directory。内存块的共享状态放在一个directory里。SMP和DSM的directory实现方式很不一样。SMP使用集中目录，DSM使用分布式目录
+- snooping。通过广播-监听的方式来实现。每个缓存都监听自己关注的内存块。
+## Snooping
 
 snoop bandwidth 可能不够用
 
