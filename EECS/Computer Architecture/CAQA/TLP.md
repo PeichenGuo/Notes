@@ -27,7 +27,8 @@ request-level parallelism。多个任务多个线程
 - directory。内存块的共享状态放在一个directory里。SMP和DSM的directory实现方式很不一样。SMP使用集中目录，DSM使用分布式目录
 - snooping。通过广播-监听的方式来实现。每个缓存都监听自己关注的内存块。
 ## Snooping
-
+现在多是write invalid protocol。写的时候会让其他副本无效
+另一种是write update protocol。每次写都更新所有该条目的共享cacheline，因此占用很多带宽，不常用。
 snoop bandwidth 可能不够用
 
 # _Performance of Symmetric Shared-Memory Multiprocessors_
