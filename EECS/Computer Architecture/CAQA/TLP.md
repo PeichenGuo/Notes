@@ -30,6 +30,10 @@ request-level parallelism。多个任务多个线程
 现在多是write invalid protocol。写的时候会让其他副本无效
 另一种是write update protocol。每次写都更新所有该条目的共享cacheline，因此占用很多带宽，不常用。
 snoop bandwidth 可能不够用
+最基本的MSI协议：
+![[Pasted image 20240604155844.png]]
+在此之上有MESI，加了一个exclusive，代表clean且独占。可以进行写入，升级为M态。
+此外还有MOESI，加了一个owned态，代表已修改且memory中的副本过期，其他核read miss时由owned提供副本。原本M态下别的核要read shared，需要把m态内容写回然后降级为S，加入O了之后是将副本发到对应核然后从M态降级为O态，减少了写回的过程。
 
 # _Performance of Symmetric Shared-Memory Multiprocessors_
 两种miss：

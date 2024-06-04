@@ -67,7 +67,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -168,8 +169,9 @@
   },
   "active": "bbf61e77b8af743c",
   "lastOpenFiles": [
-    "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/A Primer On Memory Consistency and Cache Coherence.md",
+    "resources/img/Pasted image 20240604155844.png",
     "Computer Architecture/CAQA/TLP.md",
+    "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/A Primer On Memory Consistency and Cache Coherence.md",
     "Computer Architecture/CAQA/DLP.md",
     "resources/img/Pasted image 20240527170936.png",
     "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Packaging.md",
@@ -208,7 +210,6 @@
     "Graphic&CV/图形学基础 GAMES202/a.md",
     "2024-05-03.md",
     "Graphic&CV/图形学基础 GAMES101/Review of Linear Algebra.md",
-    "Graphic&CV/图形学基础 GAMES101/Introduction.md",
     "Graphic&CV/图形学基础 GAMES101",
     "Graphic&CV",
     "EE/Backend",
