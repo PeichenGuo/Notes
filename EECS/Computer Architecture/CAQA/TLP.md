@@ -40,15 +40,17 @@ snoop bandwidth 可能不够用
 1. _true sharing misses_: write获得权限时的miss和read一个被更改的word时产生的miss
 2. _false sharing misses_：读一个没有被更改，但该block其他word dirty导致整个block invalidate。这种情况是可以通过改变颗粒度解决的
 ### online transaction-processing (OLTP) workload
+这个workload是一组发出请求的客户端进程和一组处理这些请求的服务器组成。71%的时间在用户模式下花费，18%在os系统中，11%是idle（等IO）
 ![[Pasted image 20231103115908.png]]
-这是一个online transaction-processing (OLTP) workload的结果，比较有意思的是，大部分的gain来自1mb->2mb的扩大
+这是一个online transaction-processing (OLTP) workload的结果，比较有意思的是，大部分的gain来自1mb->2mb的扩大，L3再大对性能的增强就不多了。
 ![[Pasted image 20231103120133.png]]
 可以看出，1mb时最大的两个latency来源是instruction和capacity/conflict。当cache变大后，这两个source会变得很少，少于sharing miss。但两种sharing miss跟cache大小关系不大，因此cache再变大也不会减少延迟了。
+
 那sharing miss跟什么有关呢？
 ![[Pasted image 20231103120423.png]]
 可以看出，核数越多，true sharing越多。
 ![[Pasted image 20231103120501.png]]
-block size越大，true sharing越小，false sharing越大，但大的幅度很小。
+block size越大，true sharing越小；在false sharing越大，但大的幅度很小。
 
 ### OS workload
 ![[Pasted image 20231103133728.png]]
