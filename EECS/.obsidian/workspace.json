@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Architecture/CAQA/TLP.md",
+                "file": "Computer Architecture/CAQA/Warehouse-Scale Computers.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Architecture/CAQA/TLP.md"
+                "file": "Computer Architecture/CAQA/Warehouse-Scale Computers.md"
               }
             }
           },
@@ -67,8 +67,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -88,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Architecture/CAQA/TLP.md",
+                "file": "Computer Architecture/CAQA/Warehouse-Scale Computers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Architecture/CAQA/TLP.md",
+                "file": "Computer Architecture/CAQA/Warehouse-Scale Computers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,8 +168,8 @@
   },
   "active": "bbf61e77b8af743c",
   "lastOpenFiles": [
-    "resources/img/Pasted image 20240604155844.png",
     "Computer Architecture/CAQA/TLP.md",
+    "resources/img/Pasted image 20240604155844.png",
     "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/A Primer On Memory Consistency and Cache Coherence.md",
     "Computer Architecture/CAQA/DLP.md",
     "resources/img/Pasted image 20240527170936.png",
@@ -185,7 +184,6 @@
     "resources/img/Pasted image 20240515152304.png",
     "resources/img/Pasted image 20240515152251.png",
     "resources/img/Pasted image 20240515151152.png",
-    "resources/img/Pasted image 20240515150930.png",
     "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Chip Finishing and Signoff.md",
     "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Moving to Physical Domain.md",
     "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Logic Synthesis.md",

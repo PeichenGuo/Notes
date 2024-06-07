@@ -66,6 +66,46 @@ os的kernel代码更少，但会有更多的miss，原因有二：
 # _Distributed Shared-Memory and Directory-Based Coherence_
 这部分讲的是cache coherence，直接看[[A Primer On Memory Consistency and Cache Coherence]]
 
+# Synchronization: The Basic
+主要讲lock和unlock的实现
+构建同步操作的操作拥有的共同特性：读取和更新存储器值的方式可以判断是不是以原子形式执行。比如test-and-set这种。
+riscv用的是lrsc机制。lr会创建一个reservation，如果在sc操作前有store对该单元进行了修改，则reservation失效，或者进行了context switch，那么sc失败；否则sc成功，并返回0。
+lr sc实现一般是使用reserved register来实现。这个reg会跟踪lr的地址，sc会核查该地址和reserved reg之间的差异来看是否sc成功。context switch，interrupt，或者其他lrsc会让该寄存器失效。因此在lrsc之间插指令要万分小心，如果出现interrupt或者exception就会deadlock
+
+# Memory consistency
+这部分讲的是Memory consistency，具体看[[A Primer On Memory Consistency and Cache Coherence]]
+
+sequential consistency:每次执行结果一样，仿佛按顺序处理所有memory req，不同处理器的req任意交错。
+
+程序员视角：
+如果对共享数据的所有访问都是由同步操作进行排序的，那么就称这个程序是synchronized。什么是同步操作排序？就是在读前写后用同步操作隔离。
+当没有同步操作排序的时候，称为data race，否则就是 data race free。
+
+## relaxed consistency model 
+允许读写乱序进行，用同步操作保序。一共有四种冲突，RAR，RAW，WAR，WAW。
+- 如果只放松RAW顺序，就是TSO(total store order)
+- 放松WAR和WAW得到PSO(Partial Store Order)
+- 放松四个冲突的有多重模型。powerpc的weak ordering（WO）和RISCV使用的release consistency。
+release consistency区分了acquire和release。这样的区分基于一个insight：acquire在使用共享数据前执行，release在使用共享数据后执行。因此我们发现，aq之前的sl不需要在aq之前完成，rl之后的的sl不需要等rl结束。换句话说，aq后的sl需要等待aq结束，rl需要再之前的sl结束后开始。
+FENCE指令用于确保其之前的指令全部完成，即aq和rl一起的效果。
+# Cross-Cutting Issue
+## 编译器与consistency model
+实际上编译器优化和consistency有很大关系。在没有显式同步操作的时候，编译器不能随意交换读写操作
+## 用speculation来hide strict consistency model的latency
+ 乱序执行ls，如果发现执行后的结果和sc结果不一样，就rollback重执行。好处有三：
+ - 这种方式下的sc和更宽松的内存模型类似
+ - 对于支持预测执行和ooo的core而言实现没有太大overhead
+ - 程序员面对的是简单的sc模型，需要考虑的事情少很多
+这个解决方案遇到的主要是：编译器可以从宽松consistency model中获利。
+
+## Inclusion and its implementation
+多级缓存之间可能是inclusive的，即上层是下层的子集。
+这会导致下层的invalidation需要转发上层。
+当不同层级的cache的block size不一样时会比较麻烦，因为可能出现下层一次invalidation需要上层多次invalidation的情况。
+现在主流实现还是inclusion+多级block size一致。
+
+
+
 # _Putting It All Together: Multicore Processors and Their Performance_
 三种multiprocessor
 ![[Pasted image 20231103140411.png]]
