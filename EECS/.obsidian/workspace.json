@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "79fb483de37fef7a",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.3"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -166,7 +177,7 @@
       "templates:Insert template": false
     }
   },
-  "active": "bbf61e77b8af743c",
+  "active": "79fb483de37fef7a",
   "lastOpenFiles": [
     "Computer Architecture/CAQA/TLP.md",
     "resources/img/Pasted image 20240604155844.png",
