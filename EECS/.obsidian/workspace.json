@@ -23,9 +23,11 @@
             "id": "79fb483de37fef7a",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.6.3"
+                "file": "EE/Digital Circuit/大道至简fpga/chapters/计数器架构.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -59,7 +61,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Architecture/CAQA/Warehouse-Scale Computers.md"
+                "file": "EE/Digital Circuit/大道至简fpga/chapters/计数器架构.md"
               }
             }
           },
@@ -98,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Architecture/CAQA/Warehouse-Scale Computers.md",
+                "file": "EE/Digital Circuit/大道至简fpga/chapters/计数器架构.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Architecture/CAQA/Warehouse-Scale Computers.md",
+                "file": "EE/Digital Circuit/大道至简fpga/chapters/计数器架构.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,13 +181,17 @@
   },
   "active": "79fb483de37fef7a",
   "lastOpenFiles": [
+    "EE/Digital Circuit/大道至简fpga/Index.md",
+    "EE/Digital Circuit/大道至简fpga/chapters/计数器架构.md",
+    "Graphic&CV/图形学基础 GAMES101/Index.md",
+    "EE/Digital Circuit/大道至简fpga/chapters",
+    "EE/Digital Circuit/大道至简fpga",
     "Computer Architecture/CAQA/TLP.md",
     "resources/img/Pasted image 20240604155844.png",
     "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/A Primer On Memory Consistency and Cache Coherence.md",
     "Computer Architecture/CAQA/DLP.md",
     "resources/img/Pasted image 20240527170936.png",
     "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Packaging.md",
-    "Untitled.md",
     "resources/img/Pasted image 20240516160103.png",
     "resources/img/Pasted image 20240516155936.png",
     "resources/img/Pasted image 20240516142618.png",
@@ -211,19 +217,15 @@
     "EE/Backend/Physical Design Flow.md",
     "EE/Backend/Digital VLSI Design (RTL to GDS)",
     "Tools/Synopsys/PrimeTime/chapters",
-    "Graphic&CV/图形学基础 GAMES101/Index.md",
     "Tools/Synopsys/PrimeTime",
     "Graphic&CV/图形学基础 GAMES101/Rasterizaion.md",
     "Tools/Synopsys",
     "Graphic&CV/图形学基础 GAMES101/Transformation.md",
     "Graphic&CV/图形学基础 GAMES202/a.md",
     "2024-05-03.md",
-    "Graphic&CV/图形学基础 GAMES101/Review of Linear Algebra.md",
     "Graphic&CV/图形学基础 GAMES101",
     "Graphic&CV",
     "EE/Backend",
-    "PaperReading/microarchitecture/prediction/mem prediction",
-    "PaperReading/microarchitecture/prediction",
     "Untitled.canvas",
     "People/Untitled.canvas"
   ]
