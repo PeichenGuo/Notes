@@ -30,6 +30,16 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3bb2a04a1ce63a7a",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.5"
+              }
+            }
           }
         ],
         "currentTab": 1
