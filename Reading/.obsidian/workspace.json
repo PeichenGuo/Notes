@@ -13,9 +13,41 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "社科/20世纪的美国.md",
+                "file": "社科/维京风云.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "082bfc75ae1fd4d7",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "社科/家谱.canvas",
+                "viewState": {
+                  "x": -605,
+                  "y": 66.5,
+                  "zoom": -0.3791124541255594
+                }
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "b261c11386b37222",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3b50c348d4e9bca4",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/维京风云家谱.md"
               }
             }
           }
@@ -71,12 +103,11 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "社科/20世纪的美国.md"
+                "file": "社科/家谱.canvas"
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -96,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "社科/20世纪的美国.md",
+                "file": "社科/家谱.canvas",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -113,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "社科/20世纪的美国.md",
+                "file": "社科/家谱.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,14 +176,20 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9259d19aac7f14a5",
+  "active": "6e0d77ca3783fc98",
   "lastOpenFiles": [
+    "欧洲",
+    "Excalidraw/维京风云家谱.md",
+    "社科/家谱.canvas",
+    "社科/维京风云.md",
+    "Excalidraw",
+    "社科/20世纪的美国.md",
     "Templates",
     "Templates/ReadingTemplate.md",
-    "社科/20世纪的美国.md",
     "Welcome.md",
     "社科"
   ]
