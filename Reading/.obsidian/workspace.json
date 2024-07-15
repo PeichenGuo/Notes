@@ -4,45 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d28eab1651a38c73",
+        "id": "d05976fd238fb0c4",
         "type": "tabs",
         "children": [
           {
-            "id": "9259d19aac7f14a5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "社科/维京风云.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "082bfc75ae1fd4d7",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "社科/家谱.canvas",
-                "viewState": {
-                  "x": -605,
-                  "y": 66.5,
-                  "zoom": -0.3791124541255594
-                }
-              }
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "b261c11386b37222",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "3b50c348d4e9bca4",
+            "id": "1e8339d4647c9777",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
@@ -103,7 +69,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "社科/家谱.canvas"
+                "file": "Excalidraw/维京风云家谱.md"
               }
             }
           }
@@ -127,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "社科/家谱.canvas",
+                "file": "Excalidraw/维京风云家谱.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -144,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "社科/家谱.canvas",
+                "file": "Excalidraw/维京风云家谱.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,17 +146,27 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6e0d77ca3783fc98",
+  "active": "1e8339d4647c9777",
   "lastOpenFiles": [
-    "欧洲",
+    "EuropeanFamilyTree/grampsdb.bak/欧洲王室-2024-07-15-10-25-50.gramps",
+    "EuropeanFamilyTree/家谱.canvas",
     "Excalidraw/维京风云家谱.md",
-    "社科/家谱.canvas",
+    "EuropeanFamilyTree/grampsdb/66924853/lock",
+    "EuropeanFamilyTree/grampsdb/66924853/sqlite.db",
+    "EuropeanFamilyTree/grampsdb/66924853/name.txt",
+    "EuropeanFamilyTree/grampsdb/66924853/meta_data.db",
+    "EuropeanFamilyTree/grampsdb/66924853/database.txt",
+    "EuropeanFamilyTree/grampsdb/66924853",
+    "EuropeanFamilyTree/grampsdb.bak/欧洲王室-2024-07-13-18-56-49.gramps",
+    "EuropeanFamilyTree/grampsdb.bak",
+    "EuropeanFamilyTree/未命名文件夹",
+    "欧洲贵族家谱/家谱.canvas",
+    "EuropeanFamilyTree/诺曼底/”征服者“ 威廉.md",
+    "EuropeanFamilyTree/诺曼底",
+    "欧洲贵族家谱/诺曼底/”征服者“ 威廉.md",
     "社科/维京风云.md",
-    "Excalidraw",
     "社科/20世纪的美国.md",
-    "Templates",
     "Templates/ReadingTemplate.md",
-    "Welcome.md",
-    "社科"
+    "Welcome.md"
   ]
 }
