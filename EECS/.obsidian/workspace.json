@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EE/Digital Circuit/大道至简fpga/chapters/计数器架构.md",
+                "file": "EE/Digital Circuit/大道至简fpga/chapters/状态机架构.md",
                 "mode": "source",
                 "source": false
               }
@@ -71,7 +71,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "EE/Digital Circuit/大道至简fpga/chapters/计数器架构.md"
+                "file": "EE/Digital Circuit/大道至简fpga/chapters/状态机架构.md"
               }
             }
           },
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "EE/Digital Circuit/大道至简fpga/chapters/计数器架构.md",
+                "file": "EE/Digital Circuit/大道至简fpga/chapters/状态机架构.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "EE/Digital Circuit/大道至简fpga/chapters/计数器架构.md",
+                "file": "EE/Digital Circuit/大道至简fpga/chapters/状态机架构.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,8 +191,9 @@
   },
   "active": "79fb483de37fef7a",
   "lastOpenFiles": [
-    "EE/Digital Circuit/大道至简fpga/Index.md",
     "EE/Digital Circuit/大道至简fpga/chapters/计数器架构.md",
+    "EE/Digital Circuit/大道至简fpga/chapters/状态机架构.md",
+    "EE/Digital Circuit/大道至简fpga/Index.md",
     "Graphic&CV/图形学基础 GAMES101/Index.md",
     "EE/Digital Circuit/大道至简fpga/chapters",
     "EE/Digital Circuit/大道至简fpga",
