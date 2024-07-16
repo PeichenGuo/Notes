@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EE/Digital Circuit/大道至简fpga/chapters/状态机架构.md",
+                "file": "EE/Digital Circuit/大道至简fpga/chapters/FIFO.md",
                 "mode": "source",
                 "source": false
               }
@@ -71,7 +71,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "EE/Digital Circuit/大道至简fpga/chapters/状态机架构.md"
+                "file": "EE/Digital Circuit/大道至简fpga/chapters/FIFO.md"
               }
             }
           },
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "EE/Digital Circuit/大道至简fpga/chapters/状态机架构.md",
+                "file": "EE/Digital Circuit/大道至简fpga/chapters/FIFO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "EE/Digital Circuit/大道至简fpga/chapters/状态机架构.md",
+                "file": "EE/Digital Circuit/大道至简fpga/chapters/FIFO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,8 +191,10 @@
   },
   "active": "79fb483de37fef7a",
   "lastOpenFiles": [
-    "EE/Digital Circuit/大道至简fpga/chapters/计数器架构.md",
     "EE/Digital Circuit/大道至简fpga/chapters/状态机架构.md",
+    "EE/Digital Circuit/大道至简fpga/chapters/计数器架构.md",
+    "Graphic&CV/图形学基础 GAMES101/Introduction.md",
+    "EE/Digital Circuit/大道至简fpga/chapters/FIFO.md",
     "EE/Digital Circuit/大道至简fpga/Index.md",
     "Graphic&CV/图形学基础 GAMES101/Index.md",
     "EE/Digital Circuit/大道至简fpga/chapters",
@@ -232,8 +234,6 @@
     "Graphic&CV/图形学基础 GAMES101/Rasterizaion.md",
     "Tools/Synopsys",
     "Graphic&CV/图形学基础 GAMES101/Transformation.md",
-    "Graphic&CV/图形学基础 GAMES202/a.md",
-    "2024-05-03.md",
     "Graphic&CV/图形学基础 GAMES101",
     "Graphic&CV",
     "EE/Backend",
