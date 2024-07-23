@@ -32,6 +32,18 @@
             }
           },
           {
+            "id": "07c502355b91de65",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PaperReading/microarchitecture/error-resilience/Turnpike --- Lightweight Soft Error Resilience for In-Order Cores.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "3bb2a04a1ce63a7a",
             "type": "leaf",
             "state": {
@@ -42,7 +54,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -71,7 +83,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "EE/Digital Circuit/大道至简fpga/chapters/FIFO.md"
+                "file": "PaperReading/microarchitecture/error-resilience/Turnpike --- Lightweight Soft Error Resilience for In-Order Cores.md"
               }
             }
           },
@@ -94,7 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 343.5086555480957
+    "width": 200
   },
   "right": {
     "id": "c67599e5a31e373f",
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "EE/Digital Circuit/大道至简fpga/chapters/FIFO.md",
+                "file": "PaperReading/microarchitecture/error-resilience/Turnpike --- Lightweight Soft Error Resilience for In-Order Cores.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "EE/Digital Circuit/大道至简fpga/chapters/FIFO.md",
+                "file": "PaperReading/microarchitecture/error-resilience/Turnpike --- Lightweight Soft Error Resilience for In-Order Cores.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -189,8 +201,14 @@
       "templates:Insert template": false
     }
   },
-  "active": "79fb483de37fef7a",
+  "active": "07c502355b91de65",
   "lastOpenFiles": [
+    "PaperReading/microarchitecture/cache/Write-Light Cache for Energy Harvesting Systems.md",
+    "PaperReading/microarchitecture/error-resilience/Turnpike --- Lightweight Soft Error Resilience for In-Order Cores.md",
+    "PaperReading/microarchitecture/error-resilience",
+    "resources/img/Pasted image 20240723124338.png",
+    "PaperReading/Batten/cheatsheet.md",
+    "PaperReading/microarchitecture/cache",
     "EE/Digital Circuit/大道至简fpga/chapters/状态机架构.md",
     "EE/Digital Circuit/大道至简fpga/chapters/计数器架构.md",
     "Graphic&CV/图形学基础 GAMES101/Introduction.md",
@@ -213,7 +231,6 @@
     "resources/img/Pasted image 20240515160045.png",
     "resources/img/Pasted image 20240515152304.png",
     "resources/img/Pasted image 20240515152251.png",
-    "resources/img/Pasted image 20240515151152.png",
     "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Chip Finishing and Signoff.md",
     "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Moving to Physical Domain.md",
     "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Logic Synthesis.md",
@@ -227,16 +244,11 @@
     "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters",
     "Tools/Synopsys/PrimeTime/Index.md",
     "Tools/Synopsys/PrimeTime/chapters/Constraining multiple clocks.md",
-    "EE/Backend/Physical Design Flow.md",
     "EE/Backend/Digital VLSI Design (RTL to GDS)",
     "Tools/Synopsys/PrimeTime/chapters",
     "Tools/Synopsys/PrimeTime",
-    "Graphic&CV/图形学基础 GAMES101/Rasterizaion.md",
     "Tools/Synopsys",
-    "Graphic&CV/图形学基础 GAMES101/Transformation.md",
     "Graphic&CV/图形学基础 GAMES101",
-    "Graphic&CV",
-    "EE/Backend",
     "Untitled.canvas",
     "People/Untitled.canvas"
   ]
