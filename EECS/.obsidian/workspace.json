@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PaperReading/microarchitecture/cache/Write-Light Cache for Energy Harvesting Systems.md",
+                "file": "Programming/程序员的自我修养.md",
                 "mode": "source",
                 "source": false
               }
@@ -83,7 +83,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PaperReading/microarchitecture/cache/Write-Light Cache for Energy Harvesting Systems.md"
+                "file": "Programming/程序员的自我修养.md"
               }
             }
           },
@@ -102,11 +102,13 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "c67599e5a31e373f",
@@ -122,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PaperReading/microarchitecture/cache/Write-Light Cache for Energy Harvesting Systems.md",
+                "file": "Programming/程序员的自我修养.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PaperReading/microarchitecture/cache/Write-Light Cache for Energy Harvesting Systems.md",
+                "file": "Programming/程序员的自我修养.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -203,11 +205,32 @@
   },
   "active": "07c502355b91de65",
   "lastOpenFiles": [
-    "PaperReading/microarchitecture/error-resilience/Turnpike --- Lightweight Soft Error Resilience for In-Order Cores.md",
-    "resources/img/Pasted image 20240723194016.png",
+    "resources/img/Pasted image 20240816153636.png",
+    "resources/img/Pasted image 20240816145148.png",
+    "resources/img/Pasted image 20240816142900.png",
+    "resources/img/Pasted image 20240816141409.png",
+    "resources/img/Pasted image 20240816140103.png",
+    "resources/img/Pasted image 20240816135748.png",
+    "resources/img/Pasted image 20240816124408.png",
+    "resources/img/Pasted image 20240816124016.png",
+    "resources/img/Pasted image 20240816123650.png",
+    "resources/img/Pasted image 20240816122250.png",
+    "resources/img/Pasted image 20240816100409.png",
+    "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Chip Finishing and Signoff.md",
+    "Programming/程序员的自我修养.md",
+    "Programming/程序员的自我修养/Index.md",
+    "Programming/程序员的自我修养",
+    "EE/Backend/Digital VLSI Design (RTL to GDS)/Index.md",
+    "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Clock Tree Synthesis (CTS).md",
+    "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Placement.md",
+    "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Moving to Physical Domain.md",
+    "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Routing.md",
+    "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Packaging.md",
+    "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Timing Analysis.md",
+    "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/RTL.md",
     "PaperReading/microarchitecture/cache/Write-Light Cache for Energy Harvesting Systems.md",
+    "PaperReading/microarchitecture/error-resilience/Turnpike --- Lightweight Soft Error Resilience for In-Order Cores.md",
     "PaperReading/microarchitecture/error-resilience",
-    "resources/img/Pasted image 20240723124338.png",
     "PaperReading/Batten/cheatsheet.md",
     "PaperReading/microarchitecture/cache",
     "EE/Digital Circuit/大道至简fpga/chapters/状态机架构.md",
@@ -219,35 +242,15 @@
     "EE/Digital Circuit/大道至简fpga/chapters",
     "EE/Digital Circuit/大道至简fpga",
     "Computer Architecture/CAQA/TLP.md",
-    "resources/img/Pasted image 20240604155844.png",
     "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/A Primer On Memory Consistency and Cache Coherence.md",
     "Computer Architecture/CAQA/DLP.md",
-    "resources/img/Pasted image 20240527170936.png",
-    "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Packaging.md",
-    "resources/img/Pasted image 20240516160103.png",
-    "resources/img/Pasted image 20240516155936.png",
-    "resources/img/Pasted image 20240516142618.png",
-    "resources/img/Pasted image 20240515163414.png",
-    "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Routing.md",
-    "resources/img/Pasted image 20240515160045.png",
-    "resources/img/Pasted image 20240515152304.png",
-    "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Chip Finishing and Signoff.md",
-    "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Moving to Physical Domain.md",
     "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Logic Synthesis.md",
-    "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Timing Analysis.md",
-    "EE/Backend/Digital VLSI Design (RTL to GDS)/Index.md",
-    "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Clock Tree Synthesis (CTS).md",
-    "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Placement.md",
     "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Introduction.md",
-    "Tools/spike/Spike.md",
-    "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/RTL.md",
     "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters",
-    "Tools/Synopsys/PrimeTime/Index.md",
     "EE/Backend/Digital VLSI Design (RTL to GDS)",
     "Tools/Synopsys/PrimeTime/chapters",
     "Tools/Synopsys/PrimeTime",
     "Tools/Synopsys",
-    "Graphic&CV/图形学基础 GAMES101",
     "Untitled.canvas",
     "People/Untitled.canvas"
   ]

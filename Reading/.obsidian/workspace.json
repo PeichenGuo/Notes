@@ -11,9 +11,11 @@
             "id": "1e8339d4647c9777",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/维京风云家谱.md"
+                "file": "历史/罗马/罗马史.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -69,11 +71,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/维京风云家谱.md"
+                "file": "历史/罗马/罗马史.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -93,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/维京风云家谱.md",
+                "file": "历史/罗马/罗马史.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -110,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/维京风云家谱.md",
+                "file": "历史/罗马/罗马史.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,25 +151,27 @@
   },
   "active": "1e8339d4647c9777",
   "lastOpenFiles": [
-    "EuropeanFamilyTree/grampsdb.bak/欧洲王室-2024-07-15-10-25-50.gramps",
+    "Pasted image 20240816130907.png",
+    "Pasted image 20240816130254.png",
+    "Templates/ReadingTemplate.md",
+    "历史/罗马/罗马史.md",
+    "历史/罗马",
+    "EuropeanFamilyTree/诺曼底/”征服者“ 威廉.md",
     "EuropeanFamilyTree/家谱.canvas",
-    "Excalidraw/维京风云家谱.md",
+    "历史/维京风云/维京风云家谱.md",
+    "历史/维京风云",
+    "历史/维京风云/维京风云.md",
+    "历史",
+    "EuropeanFamilyTree/grampsdb.bak/欧洲王室-2024-07-15-10-25-50.gramps",
     "EuropeanFamilyTree/grampsdb/66924853/lock",
     "EuropeanFamilyTree/grampsdb/66924853/sqlite.db",
     "EuropeanFamilyTree/grampsdb/66924853/name.txt",
     "EuropeanFamilyTree/grampsdb/66924853/meta_data.db",
     "EuropeanFamilyTree/grampsdb/66924853/database.txt",
     "EuropeanFamilyTree/grampsdb/66924853",
-    "EuropeanFamilyTree/grampsdb.bak/欧洲王室-2024-07-13-18-56-49.gramps",
-    "EuropeanFamilyTree/grampsdb.bak",
-    "EuropeanFamilyTree/未命名文件夹",
     "欧洲贵族家谱/家谱.canvas",
-    "EuropeanFamilyTree/诺曼底/”征服者“ 威廉.md",
-    "EuropeanFamilyTree/诺曼底",
     "欧洲贵族家谱/诺曼底/”征服者“ 威廉.md",
-    "社科/维京风云.md",
     "社科/20世纪的美国.md",
-    "Templates/ReadingTemplate.md",
     "Welcome.md"
   ]
 }
