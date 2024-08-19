@@ -107,8 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "c67599e5a31e373f",
@@ -205,17 +204,17 @@
   },
   "active": "07c502355b91de65",
   "lastOpenFiles": [
+    "resources/img/Pasted image 20240819131859.png",
+    "resources/img/Pasted image 20240819131519.png",
+    "resources/img/Pasted image 20240819125621.png",
+    "resources/img/Pasted image 20240819125616.png",
+    "resources/img/Pasted image 20240819124820.png",
+    "resources/img/Pasted image 20240819124302.png",
+    "resources/img/Pasted image 20240819123352.png",
+    "resources/img/Pasted image 20240819121225.png",
+    "resources/img/Pasted image 20240819114902.png",
     "resources/img/Pasted image 20240816153636.png",
     "resources/img/Pasted image 20240816145148.png",
-    "resources/img/Pasted image 20240816142900.png",
-    "resources/img/Pasted image 20240816141409.png",
-    "resources/img/Pasted image 20240816140103.png",
-    "resources/img/Pasted image 20240816135748.png",
-    "resources/img/Pasted image 20240816124408.png",
-    "resources/img/Pasted image 20240816124016.png",
-    "resources/img/Pasted image 20240816123650.png",
-    "resources/img/Pasted image 20240816122250.png",
-    "resources/img/Pasted image 20240816100409.png",
     "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Chip Finishing and Signoff.md",
     "Programming/程序员的自我修养.md",
     "Programming/程序员的自我修养/Index.md",
