@@ -102,8 +102,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -202,7 +201,7 @@
       "templates:Insert template": false
     }
   },
-  "active": "07c502355b91de65",
+  "active": "2fd97cb827b9533c",
   "lastOpenFiles": [
     "resources/img/Pasted image 20240819131859.png",
     "resources/img/Pasted image 20240819131519.png",
