@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EE/Analog Circuit/Semiconductor Memory Device and Circuit.md",
+                "file": "Programming/DSA/面试复习.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "EE/Analog Circuit/Semiconductor Memory Device and Circuit.md"
+                "file": "Programming/DSA/面试复习.md"
               }
             }
           },
@@ -92,7 +92,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -112,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "EE/Analog Circuit/Semiconductor Memory Device and Circuit.md",
+                "file": "Programming/DSA/面试复习.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "EE/Analog Circuit/Semiconductor Memory Device and Circuit.md",
+                "file": "Programming/DSA/面试复习.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,10 +194,13 @@
   },
   "active": "07c502355b91de65",
   "lastOpenFiles": [
+    "resources/img/Pasted image 20240826160411.png",
+    "EE/Analog Circuit/Semiconductor Memory Device and Circuit.md",
+    "Programming/DSA/面试复习.md",
+    "Programming/DSA",
     "resources/img/Pasted image 20240826112914.png",
     "resources/img/Pasted image 20240826112828.png",
     "Templates/Book Summary Template.md",
-    "EE/Analog Circuit/Semiconductor Memory Device and Circuit.md",
     "EE/Digital Circuit/DDCA(ETHz & Book)/HDL and Verilog.md",
     "EE/Backend/Physical Design Flow.md",
     "Computer Architecture/CAQA/Warehouse-Scale Computers.md",
@@ -208,7 +212,6 @@
     "resources/img/Pasted image 20240819124302.png",
     "resources/img/Pasted image 20240819123352.png",
     "resources/img/Pasted image 20240819121225.png",
-    "resources/img/Pasted image 20240819114902.png",
     "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Chip Finishing and Signoff.md",
     "Programming/程序员的自我修养.md",
     "Programming/程序员的自我修养/Index.md",
@@ -231,14 +234,12 @@
     "Graphic&CV/图形学基础 GAMES101/Introduction.md",
     "EE/Digital Circuit/大道至简fpga/chapters/FIFO.md",
     "EE/Digital Circuit/大道至简fpga/Index.md",
-    "Graphic&CV/图形学基础 GAMES101/Index.md",
     "EE/Digital Circuit/大道至简fpga/chapters",
     "EE/Digital Circuit/大道至简fpga",
     "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters",
     "EE/Backend/Digital VLSI Design (RTL to GDS)",
     "Tools/Synopsys/PrimeTime/chapters",
     "Tools/Synopsys/PrimeTime",
-    "Tools/Synopsys",
     "Untitled.canvas",
     "People/Untitled.canvas"
   ]
