@@ -37,19 +37,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/程序员的自我修养.md",
+                "file": "EE/Analog Circuit/Semiconductor Memory Device and Circuit.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "3bb2a04a1ce63a7a",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.5"
               }
             }
           }
@@ -83,7 +73,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/程序员的自我修养.md"
+                "file": "EE/Analog Circuit/Semiconductor Memory Device and Circuit.md"
               }
             }
           },
@@ -106,7 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 285.5086555480957
   },
   "right": {
     "id": "c67599e5a31e373f",
@@ -122,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/程序员的自我修养.md",
+                "file": "EE/Analog Circuit/Semiconductor Memory Device and Circuit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/程序员的自我修养.md",
+                "file": "EE/Analog Circuit/Semiconductor Memory Device and Circuit.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -201,8 +191,15 @@
       "templates:Insert template": false
     }
   },
-  "active": "2fd97cb827b9533c",
+  "active": "07c502355b91de65",
   "lastOpenFiles": [
+    "resources/img/Pasted image 20240826112914.png",
+    "resources/img/Pasted image 20240826112828.png",
+    "Templates/Book Summary Template.md",
+    "EE/Analog Circuit/Semiconductor Memory Device and Circuit.md",
+    "EE/Digital Circuit/DDCA(ETHz & Book)/HDL and Verilog.md",
+    "EE/Backend/Physical Design Flow.md",
+    "Computer Architecture/CAQA/Warehouse-Scale Computers.md",
     "resources/img/Pasted image 20240819131859.png",
     "resources/img/Pasted image 20240819131519.png",
     "resources/img/Pasted image 20240819125621.png",
@@ -212,8 +209,6 @@
     "resources/img/Pasted image 20240819123352.png",
     "resources/img/Pasted image 20240819121225.png",
     "resources/img/Pasted image 20240819114902.png",
-    "resources/img/Pasted image 20240816153636.png",
-    "resources/img/Pasted image 20240816145148.png",
     "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Chip Finishing and Signoff.md",
     "Programming/程序员的自我修养.md",
     "Programming/程序员的自我修养/Index.md",
@@ -239,11 +234,6 @@
     "Graphic&CV/图形学基础 GAMES101/Index.md",
     "EE/Digital Circuit/大道至简fpga/chapters",
     "EE/Digital Circuit/大道至简fpga",
-    "Computer Architecture/CAQA/TLP.md",
-    "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/A Primer On Memory Consistency and Cache Coherence.md",
-    "Computer Architecture/CAQA/DLP.md",
-    "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Logic Synthesis.md",
-    "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Introduction.md",
     "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters",
     "EE/Backend/Digital VLSI Design (RTL to GDS)",
     "Tools/Synopsys/PrimeTime/chapters",

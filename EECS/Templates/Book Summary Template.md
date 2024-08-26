@@ -1,5 +1,5 @@
 ---
-Book: "BlaBla"
-Chapter : 0
-Summary: "BlaBla"
+Book: BlaBla
+Author: 
+Summary: BlaBla
 ---
