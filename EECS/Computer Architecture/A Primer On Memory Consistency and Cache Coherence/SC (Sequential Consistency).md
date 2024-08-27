@@ -22,7 +22,7 @@ prefetch下一个块
 与之有关的是speculative造成的squash，这个squash也会带来prefetch的效果
 
 #### Dynamically Scheduled Cores
-在ooo的情况下就会出现很多violation，所以有些ooo的core会做memory consistency speculation
+在ooo的情况下如果允许预测执行load，就会出现很多violation，所以有些ooo的core会做memory consistency speculation来预测执行load
 两种check是不是有violation的方式：
 1. commit load 前看眼对应的load的block是不是还在。如果不在了，说明L2前有个store改了这个block，block被invalid了。这个load squash掉重做。
 2. commit的时候replay speculative load。[[Memory Ordering --- A Value-Based Approach]]

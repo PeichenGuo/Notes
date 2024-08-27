@@ -34,6 +34,7 @@ pc hash成m位，索引一个counter，这个counter决定是否take
 
 #### Two-Level Prediction Tables.
 用最近的branch历史，放在branch history register (BHR)中。第二层就是装saturation counter的pattern history table (PHT)。PHT依靠pc和BHR的索引。
+![[Pasted image 20240826235300.png]]
 ![[Pasted image 20230615162043.png]]
 因此PC的位数和bhr的历史宽度是一个tradeoff。
 与global history 类似的是local history. 区别在于BHR变成了一个table(BHT)。
@@ -58,12 +59,14 @@ Patt还用xAy来表示寻址方式。x是GPS，y是gps
 其实PHT就是一个cache类似的东西，cache的3C原则也适用于它。这一部分的方法都是来解决branch aliasing的。
 
 #### The Bi-Mode Predictor
+解决bias的方式
 两个PHT，再多一个choice predictor来选择哪个PHT提供结果。choice predictor是一个用pc索引的2-bit saturation counter。
 有taken bias的branch放一个PHT，not-taken bias的branch放另一个pht。这样即使发生alias，两个不同的branch映射到同一个PHT，这两个branch还是更可能有一样的bias。
 被选中的pht更新，不选中的不更新。choice updater永远更新。
 ![[Pasted image 20230615173610.png]]
 
 #### The gskewed Predictor.
+解决bias的方式
 有多个bank，每个bank都用不同的hash选中。最后的结果是多个bank投票产生。
 原理很简单，不同的hash方法让同一个pc+history一样概率很小，换句话说，两个指令只会在一个bank上产生conflict，总有另两个bank有正确的值。
 ![[Pasted image 20230615174017.png]]

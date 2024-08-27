@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/DSA/面试复习.md",
+                "file": "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/TSO (Total Store Order).md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/DSA/面试复习.md"
+                "file": "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/TSO (Total Store Order).md"
               }
             }
           },
@@ -92,12 +92,11 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 285.5086555480957
+    "width": 347.50271224975586
   },
   "right": {
     "id": "c67599e5a31e373f",
@@ -113,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/DSA/面试复习.md",
+                "file": "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/TSO (Total Store Order).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/DSA/面试复习.md",
+                "file": "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/TSO (Total Store Order).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,24 +193,33 @@
   },
   "active": "07c502355b91de65",
   "lastOpenFiles": [
-    "resources/img/Pasted image 20240826160411.png",
-    "EE/Analog Circuit/Semiconductor Memory Device and Circuit.md",
+    "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/SC (Sequential Consistency).md",
+    "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Relaxed Memory Consistency.md",
+    "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Memory Consistency Model.md",
+    "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/A Primer On Memory Consistency and Cache Coherence.md",
+    "Computer Architecture/CAQA/Cache Optimization.md",
+    "Computer Architecture/CAQA/CAQA.md",
+    "Computer Architecture/CAQA/Warehouse-Scale Computers.md",
+    "resources/img/Pasted image 20240827004727.png",
+    "resources/img/Pasted image 20240827003811.png",
+    "resources/img/Pasted image 20240827003657.png",
+    "resources/img/Pasted image 20240827003422.png",
+    "resources/img/Pasted image 20240827002343.png",
+    "Computer Architecture/Modern Processor Design/PowerPC 620.md",
+    "Computer Architecture/Modern Processor Design/Intel P6.md",
+    "Computer Architecture/Modern Processor Design/Advanced Instruction Flow Techniques.md",
+    "resources/img/Pasted image 20240826235300.png",
+    "Computer Architecture/NOC/片上互连网络/Index.md",
     "Programming/DSA/面试复习.md",
+    "resources/img/Pasted image 20240826215104.png",
+    "resources/img/Pasted image 20240826213515.png",
+    "resources/img/Pasted image 20240826211700.png",
+    "resources/img/Pasted image 20240826211351.png",
+    "EE/Analog Circuit/Semiconductor Memory Device and Circuit.md",
     "Programming/DSA",
-    "resources/img/Pasted image 20240826112914.png",
-    "resources/img/Pasted image 20240826112828.png",
     "Templates/Book Summary Template.md",
     "EE/Digital Circuit/DDCA(ETHz & Book)/HDL and Verilog.md",
     "EE/Backend/Physical Design Flow.md",
-    "Computer Architecture/CAQA/Warehouse-Scale Computers.md",
-    "resources/img/Pasted image 20240819131859.png",
-    "resources/img/Pasted image 20240819131519.png",
-    "resources/img/Pasted image 20240819125621.png",
-    "resources/img/Pasted image 20240819125616.png",
-    "resources/img/Pasted image 20240819124820.png",
-    "resources/img/Pasted image 20240819124302.png",
-    "resources/img/Pasted image 20240819123352.png",
-    "resources/img/Pasted image 20240819121225.png",
     "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Chip Finishing and Signoff.md",
     "Programming/程序员的自我修养.md",
     "Programming/程序员的自我修养/Index.md",
@@ -223,17 +231,8 @@
     "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Routing.md",
     "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Packaging.md",
     "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Timing Analysis.md",
-    "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/RTL.md",
-    "PaperReading/microarchitecture/cache/Write-Light Cache for Energy Harvesting Systems.md",
-    "PaperReading/microarchitecture/error-resilience/Turnpike --- Lightweight Soft Error Resilience for In-Order Cores.md",
     "PaperReading/microarchitecture/error-resilience",
-    "PaperReading/Batten/cheatsheet.md",
     "PaperReading/microarchitecture/cache",
-    "EE/Digital Circuit/大道至简fpga/chapters/状态机架构.md",
-    "EE/Digital Circuit/大道至简fpga/chapters/计数器架构.md",
-    "Graphic&CV/图形学基础 GAMES101/Introduction.md",
-    "EE/Digital Circuit/大道至简fpga/chapters/FIFO.md",
-    "EE/Digital Circuit/大道至简fpga/Index.md",
     "EE/Digital Circuit/大道至简fpga/chapters",
     "EE/Digital Circuit/大道至简fpga",
     "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters",

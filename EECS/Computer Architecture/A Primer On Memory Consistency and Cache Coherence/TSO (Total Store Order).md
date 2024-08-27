@@ -14,6 +14,7 @@ TSO的关键在于利用了这个**FIFO Store Buffer**
 ![[Pasted image 20230713131839.png]]
 图中这种执行方式在tso中是正确的
 为了保证L1可以加载到正确的值，程序员需要手动**Fence**来确保store和load的顺序。图中需要再S1和L1、S2和L2之间放fence，确保L1和L2不会超过S1和S2
+这样只能保证r1 r2不全是0
 #### formalization
 三个主要change：
 1. 允许后面的loadbypass前面的store
