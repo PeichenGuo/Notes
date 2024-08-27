@@ -32,3 +32,16 @@ TSO的关键在于利用了这个**FIFO Store Buffer**
 注意：**stb对coherence是不可见的**
 ##### Atomic RMW (Read-Modify-Write)
 注意：rmw中read可以bypass前面的store，但其紧随其后的atomic store不能bypass。因此**TSO RMW整体不能bypass store**
+
+### SC vs TSO
+SC是TSO的子集，不管是在执行上还是实现上。
+评判consistency model的4p：
+- programmability：对于程序员的编程性
+- performance：在合理cost下有合理的性能
+- portability：可以向下兼容，比如TSO退化为RC
+- precision：需要被准确定义
+这么看sc 对比 TSO：
+- SC可编程性更好，但差不太多
+- 在简单核的情况下，TSO会比SC性能好；但如果预测执行比较多，这个性能提升就不足了
+- 这两个都比较广泛被使用
+- 这两个都被准确定义

@@ -13,8 +13,6 @@ Eureka: "None"
 [[Banked Multiported Register Files for High-Frequency Superscalar Microprocessors]]. 
 	简单的多bank，每个bank端口也不多，证明这种情况下也能有还可以的性能。但实现上加了一个周期。
 
-
-
 ### multi-level
 [[Multiple-Banked Register File Architectures]]
 	做两层prf，把bypass数据放在L2，非bypass数据放在L1。并设计了一些机制把L2的fetch到L1上来减少access lantency。
