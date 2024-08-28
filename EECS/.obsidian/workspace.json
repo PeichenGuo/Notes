@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PaperReading/microarchitecture/LSQ/Value locality and load value prediction.md",
+                "file": "PaperReading/microarchitecture/IQ/Exploring Wakeup-Free Instruction Scheduling.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PaperReading/microarchitecture/LSQ/Value locality and load value prediction.md"
+                "file": "PaperReading/microarchitecture/IQ/Exploring Wakeup-Free Instruction Scheduling.md"
               }
             }
           },
@@ -116,8 +116,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -137,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PaperReading/microarchitecture/LSQ/Value locality and load value prediction.md",
+                "file": "PaperReading/microarchitecture/IQ/Exploring Wakeup-Free Instruction Scheduling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PaperReading/microarchitecture/LSQ/Value locality and load value prediction.md",
+                "file": "PaperReading/microarchitecture/IQ/Exploring Wakeup-Free Instruction Scheduling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -216,41 +215,41 @@
       "templates:Insert template": false
     }
   },
-  "active": "07c502355b91de65",
+  "active": "2fd97cb827b9533c",
   "lastOpenFiles": [
-    "PaperReading/microarchitecture/LSQ/LSQ Brief.md",
-    "PaperReading/microarchitecture/LSQ/Scalable Hardware Memory Disambiguation for High ILP Processors.md",
-    "PaperReading/microarchitecture/prediction/mem prediction/Store Vulnerability Window (SVW) --- Re-Execution Filtering for Enhanced Load Optimization.md",
-    "PaperReading/microarchitecture/prediction/mem prediction/Memory Ordering --- A Value-Based Approach.md",
-    "PaperReading/microarchitecture/LSQ/Fire-and-Forget --- Load Store Scheduling with No Store Queue at All.md",
-    "Computer Architecture/CAQA/ILP.md",
-    "PaperReading/microarchitecture/LSQ/Using Virtual Load Store Queues (VLSQs) to Reduce the Negative Effects of Reordered Memory Instructions.md",
-    "PaperReading/microarchitecture/LSQ/Load Value Prediction via Path-based Address Prediction --- Avoiding Mispredictions due to Conflicting Stores.md",
-    "PaperReading/microarchitecture/LSQ/Correlated Load-Address Predictors.md",
-    "PaperReading/microarchitecture/IQ/A Scalable Instruction Queue Design Using Dependence Chains.md",
     "PaperReading/microarchitecture/IQ/Cyclone --- A Broadcast-Free Dynamic Instruction Scheduler with Selective Replay.md",
-    "PaperReading/microarchitecture/IQ/Exploring Wakeup-Free Instruction Scheduling.md",
-    "PaperReading/microarchitecture/error-resilience/Turnpike --- Lightweight Soft Error Resilience for In-Order Cores.md",
+    "PaperReading/microarchitecture/IQ/A Scalable Instruction Queue Design Using Dependence Chains.md",
+    "PaperReading/Reading List.md",
+    "PaperReading/microarchitecture/prediction/mem prediction/Store Vulnerability Window (SVW) --- Re-Execution Filtering for Enhanced Load Optimization.md",
+    "PaperReading/microarchitecture/PRF/PRF Brief.md",
+    "PaperReading/microarchitecture/PRF/Cherry---Checkpointed Early Resource Recycling in Out-of-order Microprocessors.md",
+    "PaperReading/microarchitecture/PRF/Checkpoint Processing and Recovery---Towards Scalable Large Instruction Window Processors.md",
+    "PaperReading/microarchitecture/PRF/Reducing the Complexity of the Register File in Dynamic Superscalar Processor.md",
+    "PaperReading/microarchitecture/PRF/Multiple-Banked Register File Architectures.md",
+    "PaperReading/microarchitecture/prediction/mem prediction/Store vectors for scalable memory dependence prediction and scheduling.md",
+    "PaperReading/microarchitecture/prediction/mem prediction/NoSQ： Store-Load Communication without a Store Queue.md",
+    "PaperReading/microarchitecture/prediction/mem prediction/Memory Ordering --- A Value-Based Approach.md",
+    "PaperReading/microarchitecture/prediction/mem prediction/Memory Dependence Prediction using Store Sets.md",
+    "PaperReading/microarchitecture/LSQ/LSQ Brief.md",
+    "PaperReading/microarchitecture/LSQ/Reducing Design Complexity of the Load Store Queue.md",
+    "PaperReading/microarchitecture/LSQ/Memory Renaming --- Fast, Early and Accurate Processing ofMemory Communication.md",
+    "PaperReading/microarchitecture/LSQ/Dynamic Speculation and Synchronization of Data Dependences.md",
+    "Computer Architecture/CAQA/ILP.md",
+    "PaperReading/microarchitecture/LSQ/Load Value Prediction via Path-based Address Prediction --- Avoiding Mispredictions due to Conflicting Stores.md",
     "PaperReading/microarchitecture/BPU/Probabilistic Counter Updates for Predictor Hysteresis and Stratification.md",
+    "PaperReading/microarchitecture/LSQ/Practical data value speculation for future high-end processors.md",
     "PaperReading/microarchitecture/BPU/A case for (partially) TAgged GEometric history length branch prediction.md",
-    "Computer Architecture/CAQA/Cache.md",
-    "EE/Analog Circuit/Semiconductor Memory Device and Circuit.md",
+    "PaperReading/microarchitecture/LSQ/Efficient Load Value Prediction using Multiple Predictors and Filters.md",
+    "PaperReading/microarchitecture/LSQ/Correlated Load-Address Predictors.md",
+    "PaperReading/microarchitecture/LSQ/The Predictability of Data Values.md",
+    "PaperReading/microarchitecture/LSQ/Improving the accuracy and performance of memory communication through renaming.md",
     "resources/img/Pasted image 20240827212242.png",
     "resources/img/Pasted image 20240827211800.png",
     "resources/img/Pasted image 20240827205001.png",
     "resources/img/Pasted image 20240827204954.png",
-    "Computer Architecture/NOC/片上互连网络/Topology.md",
-    "Computer Architecture/NOC/片上互连网络/Intro.md",
-    "Computer Architecture/NOC/片上互连网络/Index.md",
-    "Computer Architecture/NOC/片上互连网络/Routing.md",
-    "Computer Architecture/CAQA/DLP.md",
-    "Computer Architecture/CAQA/TLP.md",
-    "Computer Architecture/CAQA/CAQA.md",
-    "Computer Architecture/超标量流水线设计.md",
     "resources/img/Pasted image 20240827202335.png",
     "resources/img/Pasted image 20240827194204.png",
     "resources/img/Pasted image 20240827173728.png",
-    "Computer Architecture/Modern Processor Design/Advanced Instruction Flow Techniques.md",
     "resources/img/Pasted image 20240827173358.png",
     "resources/img/Pasted image 20240827173332.png",
     "resources/img/Pasted image 20240827173015.png",

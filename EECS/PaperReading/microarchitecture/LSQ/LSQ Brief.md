@@ -30,7 +30,13 @@ in-order重新执行load指令，并对比第一次执行和重新执行时的�
 通过hashing的方式来减少search能耗。只有在hash hit的时候才进行search，从而避免了绝大部分不需要search的load进行search。
 
 
-## prediction
+### dependency prediction
+[[Reducing Design Complexity of the Load Store Queue]]
+本篇有两个工作：
+1. 预测store-load pair来减少sdq的search
+2. 记录所有ooo load，因为只有ooo load才会发生load-load conflict，从而减少ldq的search
+
+## load-value time 问题
 ### value prediction
 [[Value locality and load value prediction]]
 这篇提出了value prediction
@@ -66,12 +72,8 @@ DLVP：用预测load的地址来代替预测load的值，从而减少load-store 
 通过store set(每个load的所有历史dependency)来预测load-store依赖。这个store set记录了多个store，因为本文相信1ld-多st或者多ld-1st的预测是有价值的。
 
 [[Memory Renaming --- Fast, Early and Accurate Processing ofMemory Communication]]
-用类似preg的renaming方式来处理memory Dependency。
+用类似preg的renaming方式来处理memory Dependency
 
-[[Reducing Design Complexity of the Load Store Queue]]
-本篇有两个工作：
-1. 预测store-load pair来减少sdq的search
-2. 记录所有ooo load，因为只有ooo load才会发生load-load conflict，从而减少ldq的search
 
 [[Store vectors for scalable memory dependence prediction and scheduling]]
 通过存load-store相对位置+bit matrix的方式来简化之前memory dependency prediction的CAM结构
