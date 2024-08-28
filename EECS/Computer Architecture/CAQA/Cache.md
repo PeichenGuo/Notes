@@ -3,6 +3,44 @@ Book: CAQA
 Chapter: 2
 Summary: BlaBla
 ---
+# 基本组成
+参见[[超标量流水线设计]]的cache章节
+## 地址转换问题
+https://zhuanlan.zhihu.com/p/107096130
+由于在MMU前使用的都是虚拟地址，而实际访存用的是物理地址，因此存在一个地址转换问题。即索引cacheline的是virtual的还是physica的，存储的tag是virtual的还是physic的。
+这个问题就产生了三种cache。VIVT，VIPT，PIPT。（PIVT没有实际意义）
+在介绍三种cache前要介绍两种问题：ambiguity和alias
+### ambiguity和alias：歧义与别名
+**Amibiguity 歧义** 指的是不同的数据在cache中有相同的tag和index，这样就没法区分该cacheline是否对应正确的数据。这种情况只会发生在同一个虚拟地址对应不同的物理地址的情况，也就是不同进程间切换时会发生的问题。
+因此在切进程的时候，OS会flush掉所有的cache进入memory。
+
+**alias 别名**指的是同一个数据在cache中有不同的tag和index，这样写一个cacheline的时候无法更新另一份副本。这种情况会发生在不同虚拟地址对应同一个物理地址的情况，也就是不同进程间通信（使用同一变量）的情况。
+可以通过直接访问不走cache的办法。
+
+### VIVT
+![[Pasted image 20240827143148.png]]
+ 主要的问题是只能通过flush的办法解决ambiguity问题。
+
+### PIPT
+![[Pasted image 20240827143816.png]]
+由于要先经过MMU换算，因此hit time增加。但优点是绝对没有ambiguity和alias的问题，不需要软件维护
+
+### VIPT
+![[Pasted image 20240827144000.png]]
+**VIPT不存在ambiguity问题。**
+因为VIPT的tag长度是根据物理页对应的，也就是出去物理页offset外的那个页码，就是ptag。因此一个tag只对应一个页，不可能出现同一个tag对应两个页的情况，再加上offset唯一，因此VIPT每个cacheline只能对应一个物理地址。
+
+**VIPT可能存在alias问题。**
+当cache一路的大小小于等于页大小的时候，就不会出现alias问题。
+我们现在假设直接映射cache是8k，cachline是256byte，页大小是4k。<7:0>是cacheline offset，<12:8>是VI。此时<11:0>是页内偏移，因此VI的<11:8>是等于PI的，但第12位VI不一定等于PI。因此就会出现两个VI对应一个PI的情况，即指向同一物理地址的不同虚拟地址同时存在在cache之中。
+解决方案就是在操作系统固定分配地址的时候，确保不会有两个VI对应一个PI。以上一个例子而言，就是第12位要固定一个数，1或者0，这样一个VI就对应一个PI。
+硬件的解决方案就是让当cache一路的大小小于等于页大小（一般是4k）的时候。
+VIPT 除了使用cache大小对齐的方式还可以使用cache bank的方式来解决；  
+在8K的cache中，被分为bank0和bank1；使用\[11:0\]来寻址index，同时命中bank0和bank1的cache line；  
+tag使用\[31:12\]来做MMU转换，hit后，通过Paddr\[12\]来选择选择bank0或bank1的cache line；
+
+### 总结
+VIVT Cache问题太多，软件维护成本过高，是最难管理的高速缓存。所以现在基本只存在历史的文章中。现在我们基本看不到硬件还在使用这种方式的cache。现在使用的方式是PIPT或者VIPT。如果多路组相连高速缓存的一路的大小小于等于4KB，一般硬件采用VIPT方式，因为这样相当于PIPT，岂不美哉。当然，如果一路大小大于4KB，一般采用PIPT方式，也不排除VIPT方式，这就需要操作系统多操点心了
 # 优化方式
 ## 基本优化方式
 ![[Pasted image 20240827003657.png]]

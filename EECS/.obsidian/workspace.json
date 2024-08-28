@@ -37,7 +37,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Relaxed Memory Consistency.md",
+                "file": "PaperReading/microarchitecture/LSQ/Value locality and load value prediction.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b63da0d6a78d81fa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Architecture/CAQA/ILP.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a5db0169801d5d89",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Architecture/Modern Processor Design/Advanced Instruction Flow Techniques.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Relaxed Memory Consistency.md"
+                "file": "PaperReading/microarchitecture/LSQ/Value locality and load value prediction.md"
               }
             }
           },
@@ -92,11 +116,12 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 573.5086555480957
+    "width": 230.50271224975586
   },
   "right": {
     "id": "c67599e5a31e373f",
@@ -112,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Relaxed Memory Consistency.md",
+                "file": "PaperReading/microarchitecture/LSQ/Value locality and load value prediction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Relaxed Memory Consistency.md",
+                "file": "PaperReading/microarchitecture/LSQ/Value locality and load value prediction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,45 +218,45 @@
   },
   "active": "07c502355b91de65",
   "lastOpenFiles": [
-    "resources/img/Pasted image 20240827114034.png",
-    "resources/img/Pasted image 20240827113935.png",
-    "resources/img/Pasted image 20240827113405.png",
-    "resources/img/Pasted image 20240827112148.png",
-    "PaperReading/microarchitecture/PRF/PRF Brief.md",
     "PaperReading/microarchitecture/LSQ/LSQ Brief.md",
-    "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Relaxed Memory Consistency.md",
-    "Untitled.canvas",
-    "PaperReading/microarchitecture/LSQ/Dynamic Speculation and Synchronization of Data Dependences.md",
-    "PaperReading/memory/Imprecise Store Exceptions.md",
-    "Programming/程序员的自我修养.md",
-    "resources/img/Pasted image 20240827103917.png",
-    "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/TSO (Total Store Order).md",
-    "resources/img/Pasted image 20240827094219.png",
-    "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/SC (Sequential Consistency).md",
-    "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Memory Consistency Model.md",
-    "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/A Primer On Memory Consistency and Cache Coherence.md",
-    "Computer Architecture/CAQA/Cache Optimization.md",
-    "Computer Architecture/CAQA/CAQA.md",
-    "Computer Architecture/CAQA/Warehouse-Scale Computers.md",
-    "resources/img/Pasted image 20240827004727.png",
-    "resources/img/Pasted image 20240827003811.png",
-    "resources/img/Pasted image 20240827003657.png",
-    "resources/img/Pasted image 20240827003422.png",
-    "resources/img/Pasted image 20240827002343.png",
-    "Computer Architecture/Modern Processor Design/PowerPC 620.md",
-    "Computer Architecture/Modern Processor Design/Intel P6.md",
-    "Computer Architecture/Modern Processor Design/Advanced Instruction Flow Techniques.md",
-    "Computer Architecture/NOC/片上互连网络/Index.md",
-    "Programming/DSA/面试复习.md",
+    "PaperReading/microarchitecture/LSQ/Scalable Hardware Memory Disambiguation for High ILP Processors.md",
+    "PaperReading/microarchitecture/prediction/mem prediction/Store Vulnerability Window (SVW) --- Re-Execution Filtering for Enhanced Load Optimization.md",
+    "PaperReading/microarchitecture/prediction/mem prediction/Memory Ordering --- A Value-Based Approach.md",
+    "PaperReading/microarchitecture/LSQ/Fire-and-Forget --- Load Store Scheduling with No Store Queue at All.md",
+    "Computer Architecture/CAQA/ILP.md",
+    "PaperReading/microarchitecture/LSQ/Using Virtual Load Store Queues (VLSQs) to Reduce the Negative Effects of Reordered Memory Instructions.md",
+    "PaperReading/microarchitecture/LSQ/Load Value Prediction via Path-based Address Prediction --- Avoiding Mispredictions due to Conflicting Stores.md",
+    "PaperReading/microarchitecture/LSQ/Correlated Load-Address Predictors.md",
+    "PaperReading/microarchitecture/IQ/A Scalable Instruction Queue Design Using Dependence Chains.md",
+    "PaperReading/microarchitecture/IQ/Cyclone --- A Broadcast-Free Dynamic Instruction Scheduler with Selective Replay.md",
+    "PaperReading/microarchitecture/IQ/Exploring Wakeup-Free Instruction Scheduling.md",
+    "PaperReading/microarchitecture/error-resilience/Turnpike --- Lightweight Soft Error Resilience for In-Order Cores.md",
+    "PaperReading/microarchitecture/BPU/Probabilistic Counter Updates for Predictor Hysteresis and Stratification.md",
+    "PaperReading/microarchitecture/BPU/A case for (partially) TAgged GEometric history length branch prediction.md",
+    "Computer Architecture/CAQA/Cache.md",
     "EE/Analog Circuit/Semiconductor Memory Device and Circuit.md",
+    "resources/img/Pasted image 20240827212242.png",
+    "resources/img/Pasted image 20240827211800.png",
+    "resources/img/Pasted image 20240827205001.png",
+    "resources/img/Pasted image 20240827204954.png",
+    "Computer Architecture/NOC/片上互连网络/Topology.md",
+    "Computer Architecture/NOC/片上互连网络/Intro.md",
+    "Computer Architecture/NOC/片上互连网络/Index.md",
+    "Computer Architecture/NOC/片上互连网络/Routing.md",
+    "Computer Architecture/CAQA/DLP.md",
+    "Computer Architecture/CAQA/TLP.md",
+    "Computer Architecture/CAQA/CAQA.md",
+    "Computer Architecture/超标量流水线设计.md",
+    "resources/img/Pasted image 20240827202335.png",
+    "resources/img/Pasted image 20240827194204.png",
+    "resources/img/Pasted image 20240827173728.png",
+    "Computer Architecture/Modern Processor Design/Advanced Instruction Flow Techniques.md",
+    "resources/img/Pasted image 20240827173358.png",
+    "resources/img/Pasted image 20240827173332.png",
+    "resources/img/Pasted image 20240827173015.png",
+    "Untitled.canvas",
     "Programming/DSA",
-    "Templates/Book Summary Template.md",
-    "EE/Digital Circuit/DDCA(ETHz & Book)/HDL and Verilog.md",
-    "EE/Backend/Physical Design Flow.md",
-    "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Chip Finishing and Signoff.md",
-    "Programming/程序员的自我修养/Index.md",
     "Programming/程序员的自我修养",
-    "EE/Backend/Digital VLSI Design (RTL to GDS)/Index.md",
     "PaperReading/microarchitecture/error-resilience",
     "PaperReading/microarchitecture/cache",
     "EE/Digital Circuit/大道至简fpga/chapters",
