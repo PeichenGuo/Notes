@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PaperReading/microarchitecture/IQ/Exploring Wakeup-Free Instruction Scheduling.md",
+                "file": "PaperReading/microarchitecture/PRF/Energy Efficient Register File Design.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PaperReading/microarchitecture/IQ/Exploring Wakeup-Free Instruction Scheduling.md"
+                "file": "PaperReading/microarchitecture/PRF/Energy Efficient Register File Design.md"
               }
             }
           },
@@ -116,7 +116,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -136,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PaperReading/microarchitecture/IQ/Exploring Wakeup-Free Instruction Scheduling.md",
+                "file": "PaperReading/microarchitecture/PRF/Energy Efficient Register File Design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PaperReading/microarchitecture/IQ/Exploring Wakeup-Free Instruction Scheduling.md",
+                "file": "PaperReading/microarchitecture/PRF/Energy Efficient Register File Design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -215,8 +216,20 @@
       "templates:Insert template": false
     }
   },
-  "active": "2fd97cb827b9533c",
+  "active": "07c502355b91de65",
   "lastOpenFiles": [
+    "resources/img/Pasted image 20240828183852.png",
+    "resources/img/Pasted image 20240828183245.png",
+    "resources/img/Pasted image 20240828182722.png",
+    "resources/img/Pasted image 20240828172512.png",
+    "resources/img/Pasted image 20240828165551.png",
+    "resources/img/Pasted image 20240828164620.png",
+    "resources/img/Pasted image 20240828163916.png",
+    "resources/img/Pasted image 20240828162916.png",
+    "resources/img/Pasted image 20240828161011.png",
+    "PaperReading/microarchitecture/IQ/Exploring Wakeup-Free Instruction Scheduling.md",
+    "PaperReading/microarchitecture/PRF/Energy Efficient Register File Design.md",
+    "PaperReading/sram",
     "PaperReading/microarchitecture/IQ/Cyclone --- A Broadcast-Free Dynamic Instruction Scheduler with Selective Replay.md",
     "PaperReading/microarchitecture/IQ/A Scalable Instruction Queue Design Using Dependence Chains.md",
     "PaperReading/Reading List.md",
@@ -240,19 +253,8 @@
     "PaperReading/microarchitecture/LSQ/Practical data value speculation for future high-end processors.md",
     "PaperReading/microarchitecture/BPU/A case for (partially) TAgged GEometric history length branch prediction.md",
     "PaperReading/microarchitecture/LSQ/Efficient Load Value Prediction using Multiple Predictors and Filters.md",
-    "PaperReading/microarchitecture/LSQ/Correlated Load-Address Predictors.md",
-    "PaperReading/microarchitecture/LSQ/The Predictability of Data Values.md",
-    "PaperReading/microarchitecture/LSQ/Improving the accuracy and performance of memory communication through renaming.md",
     "resources/img/Pasted image 20240827212242.png",
     "resources/img/Pasted image 20240827211800.png",
-    "resources/img/Pasted image 20240827205001.png",
-    "resources/img/Pasted image 20240827204954.png",
-    "resources/img/Pasted image 20240827202335.png",
-    "resources/img/Pasted image 20240827194204.png",
-    "resources/img/Pasted image 20240827173728.png",
-    "resources/img/Pasted image 20240827173358.png",
-    "resources/img/Pasted image 20240827173332.png",
-    "resources/img/Pasted image 20240827173015.png",
     "Untitled.canvas",
     "Programming/DSA",
     "Programming/程序员的自我修养",
@@ -263,7 +265,6 @@
     "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters",
     "EE/Backend/Digital VLSI Design (RTL to GDS)",
     "Tools/Synopsys/PrimeTime/chapters",
-    "Tools/Synopsys/PrimeTime",
     "People/Untitled.canvas"
   ]
 }
