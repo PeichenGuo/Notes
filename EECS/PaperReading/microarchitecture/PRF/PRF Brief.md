@@ -55,3 +55,13 @@ Eureka: "None"
 
 [[Register Packing --- Exploiting Narrow-Width Operands for Reducing Register File Pressure]]
 	把短的数据放在同一个reg的不同片段，从而可以让多个数据共用一个preg。
+
+## 优化能耗
+[[Energy Efficient Register File Design]]
+这篇文章主要讲了三种方式来减少reg access，一种方式来降低bitline switch activity，一种方式来降低bitline switching capacitance。具体而言是：
+- Precise Read Control。不同的指令有不同的source operand，可以根据此来仅fetch有用的operand
+- Bypass Skip。bypass后就不从reg里读了
+- 单独的x0
+- 改变storage cell。根据1和0的分布不确定性来修改storage cell从而减少bitline的transition
+- Split Bitline。有些reg经常被用到，有些reg不常被用到。可以把这些分开，从而减少电容。
+

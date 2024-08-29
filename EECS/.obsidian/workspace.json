@@ -8,24 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "bbf61e77b8af743c",
+            "id": "6b9a8733bb22597d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Architecture/CAQA/Warehouse-Scale Computers.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "79fb483de37fef7a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "EE/Digital Circuit/大道至简fpga/chapters/FIFO.md",
+                "file": "PaperReading/microarchitecture/PRF/Banked Multiported Register Files for High-Frequency Superscalar Microprocessors.md",
                 "mode": "source",
                 "source": false
               }
@@ -42,33 +30,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "b63da0d6a78d81fa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Architecture/CAQA/ILP.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a5db0169801d5d89",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Architecture/Modern Processor Design/Advanced Instruction Flow Techniques.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -116,8 +80,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -218,6 +181,15 @@
   },
   "active": "07c502355b91de65",
   "lastOpenFiles": [
+    "PaperReading/microarchitecture/PRF/Banked Multiported Register Files for High-Frequency Superscalar Microprocessors.md",
+    "PaperReading/microarchitecture/PRF/PRF Brief.md",
+    "PaperReading/microarchitecture/PRF/Reducing the Complexity of the Register File in Dynamic Superscalar Processor.md",
+    "PaperReading/microarchitecture/PRF/Reducing the Complexity of the Register File in Dynamic Superscalar Processors.md",
+    "PaperReading/microarchitecture/PRF/Energy Efficient Register File Design.md",
+    "Computer Architecture/CAQA/ILP.md",
+    "Computer Architecture/Modern Processor Design/Advanced Instruction Flow Techniques.md",
+    "Computer Architecture/CAQA/Warehouse-Scale Computers.md",
+    "EE/Digital Circuit/大道至简fpga/chapters/FIFO.md",
     "resources/img/Pasted image 20240828183852.png",
     "resources/img/Pasted image 20240828183245.png",
     "resources/img/Pasted image 20240828182722.png",
@@ -228,16 +200,13 @@
     "resources/img/Pasted image 20240828162916.png",
     "resources/img/Pasted image 20240828161011.png",
     "PaperReading/microarchitecture/IQ/Exploring Wakeup-Free Instruction Scheduling.md",
-    "PaperReading/microarchitecture/PRF/Energy Efficient Register File Design.md",
     "PaperReading/sram",
     "PaperReading/microarchitecture/IQ/Cyclone --- A Broadcast-Free Dynamic Instruction Scheduler with Selective Replay.md",
     "PaperReading/microarchitecture/IQ/A Scalable Instruction Queue Design Using Dependence Chains.md",
     "PaperReading/Reading List.md",
     "PaperReading/microarchitecture/prediction/mem prediction/Store Vulnerability Window (SVW) --- Re-Execution Filtering for Enhanced Load Optimization.md",
-    "PaperReading/microarchitecture/PRF/PRF Brief.md",
     "PaperReading/microarchitecture/PRF/Cherry---Checkpointed Early Resource Recycling in Out-of-order Microprocessors.md",
     "PaperReading/microarchitecture/PRF/Checkpoint Processing and Recovery---Towards Scalable Large Instruction Window Processors.md",
-    "PaperReading/microarchitecture/PRF/Reducing the Complexity of the Register File in Dynamic Superscalar Processor.md",
     "PaperReading/microarchitecture/PRF/Multiple-Banked Register File Architectures.md",
     "PaperReading/microarchitecture/prediction/mem prediction/Store vectors for scalable memory dependence prediction and scheduling.md",
     "PaperReading/microarchitecture/prediction/mem prediction/NoSQ： Store-Load Communication without a Store Queue.md",
@@ -247,14 +216,8 @@
     "PaperReading/microarchitecture/LSQ/Reducing Design Complexity of the Load Store Queue.md",
     "PaperReading/microarchitecture/LSQ/Memory Renaming --- Fast, Early and Accurate Processing ofMemory Communication.md",
     "PaperReading/microarchitecture/LSQ/Dynamic Speculation and Synchronization of Data Dependences.md",
-    "Computer Architecture/CAQA/ILP.md",
     "PaperReading/microarchitecture/LSQ/Load Value Prediction via Path-based Address Prediction --- Avoiding Mispredictions due to Conflicting Stores.md",
-    "PaperReading/microarchitecture/BPU/Probabilistic Counter Updates for Predictor Hysteresis and Stratification.md",
-    "PaperReading/microarchitecture/LSQ/Practical data value speculation for future high-end processors.md",
-    "PaperReading/microarchitecture/BPU/A case for (partially) TAgged GEometric history length branch prediction.md",
-    "PaperReading/microarchitecture/LSQ/Efficient Load Value Prediction using Multiple Predictors and Filters.md",
     "resources/img/Pasted image 20240827212242.png",
-    "resources/img/Pasted image 20240827211800.png",
     "Untitled.canvas",
     "Programming/DSA",
     "Programming/程序员的自我修养",
