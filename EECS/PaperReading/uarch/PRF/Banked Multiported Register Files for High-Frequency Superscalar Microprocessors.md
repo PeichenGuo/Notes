@@ -18,12 +18,14 @@ prf太大
 insight：bypass的数据较多，可以不抢读口
 
 ### Solution
-每个bank 2r 2w。而且把rs分成了rs left和rs right，2个rd port，一个是left 一个是right，这简化了逻辑。
+每个bank 2r 2w。
+而且把rs分成了rs left和rs right，2个rd port，一个是left 一个是right，相当于一边负责提供一个指令的rs1，一边负责提供指令的rs2。 这简化了mux逻辑。
 2个w是因为他们发现2个w是 性能和面积时序的最佳tradeoff点，可以解决大部分write conflict但也不至于过多port。
 支持read sharing，即多个读公用一个port读同一个寄存器
+![[Pasted image 20240829161750.png]]
 
+多加了一个allocate stage。如果上一阶段发现conflict，直接kill掉下一次issue的group。其实就是多一个周期后不得不把正在issue的group给干掉，从而resolve conflict
 ![[Pasted image 20230414134608.png]]
-多加了一个allocate阶段。如果上一阶段发现conflict，直接kill掉下一次issue的group。
 
 
 但有一段没太懂，decode那段。
