@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PaperReading/uarch/PRF/Banked Multiported Register Files for High-Frequency Superscalar Microprocessors.md",
+                "file": "PaperReading/overview/The Landscape of Parallel Computing Research： A View from Berkeley.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,14 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PaperReading/uarch/PRF/Banked Multiported Register Files for High-Frequency Superscalar Microprocessors.md",
+                "file": "PaperReading/uarch/PRF/Multiple-Banked Register File Architectures.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +60,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PaperReading/uarch/PRF/Banked Multiported Register Files for High-Frequency Superscalar Microprocessors.md"
+                "file": "PaperReading/overview/The Landscape of Parallel Computing Research： A View from Berkeley.md"
               }
             }
           },
@@ -80,7 +79,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PaperReading/uarch/PRF/Banked Multiported Register Files for High-Frequency Superscalar Microprocessors.md",
+                "file": "PaperReading/overview/The Landscape of Parallel Computing Research： A View from Berkeley.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PaperReading/uarch/PRF/Banked Multiported Register Files for High-Frequency Superscalar Microprocessors.md",
+                "file": "PaperReading/overview/The Landscape of Parallel Computing Research： A View from Berkeley.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,12 +179,19 @@
       "templates:Insert template": false
     }
   },
-  "active": "07c502355b91de65",
+  "active": "6b9a8733bb22597d",
   "lastOpenFiles": [
-    "resources/img/Pasted image 20240829161750.png",
+    "resources/img/Pasted image 20240905003247.png",
+    "resources/img/Pasted image 20240905002602.png",
+    "resources/img/Pasted image 20240905001511.png",
+    "resources/img/Pasted image 20240905000539.png",
+    "PaperReading/overview",
+    "PaperReading/uarch/PRF/PRF Brief.md",
+    "PaperReading/overview/The Landscape of Parallel Computing Research： A View from Berkeley.md",
+    "PaperReading/uarch/PRF/Multiple-Banked Register File Architectures.md",
     "PaperReading/uarch/PRF/Energy Efficient Register File Design.md",
     "PaperReading/uarch/PRF/Banked Multiported Register Files for High-Frequency Superscalar Microprocessors.md",
-    "PaperReading/uarch/PRF/PRF Brief.md",
+    "resources/img/Pasted image 20240829161750.png",
     "PaperReading/uarch/PRF/Reducing the Complexity of the Register File in Dynamic Superscalar Processor.md",
     "PaperReading/microarchitecture/PRF/Reducing the Complexity of the Register File in Dynamic Superscalar Processors.md",
     "Computer Architecture/CAQA/ILP.md",
@@ -197,9 +204,6 @@
     "resources/img/Pasted image 20240828172512.png",
     "resources/img/Pasted image 20240828165551.png",
     "resources/img/Pasted image 20240828164620.png",
-    "resources/img/Pasted image 20240828163916.png",
-    "resources/img/Pasted image 20240828162916.png",
-    "resources/img/Pasted image 20240828161011.png",
     "PaperReading/uarch/IQ/Exploring Wakeup-Free Instruction Scheduling.md",
     "PaperReading/sram",
     "PaperReading/uarch/IQ/Cyclone --- A Broadcast-Free Dynamic Instruction Scheduler with Selective Replay.md",
@@ -208,7 +212,6 @@
     "PaperReading/uarch/prediction/mem prediction/Store Vulnerability Window (SVW) --- Re-Execution Filtering for Enhanced Load Optimization.md",
     "PaperReading/uarch/PRF/Cherry---Checkpointed Early Resource Recycling in Out-of-order Microprocessors.md",
     "PaperReading/uarch/PRF/Checkpoint Processing and Recovery---Towards Scalable Large Instruction Window Processors.md",
-    "PaperReading/uarch/PRF/Multiple-Banked Register File Architectures.md",
     "PaperReading/uarch/prediction/mem prediction/Store vectors for scalable memory dependence prediction and scheduling.md",
     "PaperReading/uarch/prediction/mem prediction/NoSQ： Store-Load Communication without a Store Queue.md",
     "PaperReading/uarch/prediction/mem prediction/Memory Ordering --- A Value-Based Approach.md",
@@ -216,8 +219,6 @@
     "PaperReading/uarch/LSQ/LSQ Brief.md",
     "PaperReading/uarch/LSQ/Reducing Design Complexity of the Load Store Queue.md",
     "PaperReading/uarch/LSQ/Memory Renaming --- Fast, Early and Accurate Processing ofMemory Communication.md",
-    "PaperReading/uarch/LSQ/Dynamic Speculation and Synchronization of Data Dependences.md",
-    "resources/img/Pasted image 20240827212242.png",
     "Untitled.canvas",
     "Programming/DSA",
     "Programming/程序员的自我修养",
@@ -227,7 +228,6 @@
     "EE/Digital Circuit/大道至简fpga",
     "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters",
     "EE/Backend/Digital VLSI Design (RTL to GDS)",
-    "Tools/Synopsys/PrimeTime/chapters",
     "People/Untitled.canvas"
   ]
 }
