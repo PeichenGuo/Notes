@@ -86,3 +86,18 @@ ILP很好找到
 - 小核好开发
 - 每个都低功耗，而且在设计的时候容易被计算出来
 
+### 多大合适？
+假设并行度很高而且area无限大，我们应该看的是energy per instruction，但显示不是这样的。
+我们要寻找的方式是尽可能不增加energy per instruction或者energy per area的手段
+
+总体而言，如果用energy-delay product(SPEC^2 / W)来衡量微架构的energy-delay，那么可以说，流水线是更划算的，而ooo会不可避免的使energy-delay product变坏。
+
+目前来看，比较短的顺序处理器是area-energy最划算的（不是性能！）
+5-9级的流水线，加上FPU，Vector，SIMD处理单元，看上去是比较合适的未来处理器单元。
+
+### 我们真的会有1000多核的commercial chip吗
+因为最优架构固定了，因此manycore的数量可能是随着工艺而指数增长的
+
+答案是可能的 多核系统的数量可以赶上工艺进步
+
+### One size fits all？
