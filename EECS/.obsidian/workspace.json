@@ -80,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -181,13 +181,14 @@
   },
   "active": "6b9a8733bb22597d",
   "lastOpenFiles": [
+    "2024-09-07.md",
+    "PaperReading/overview/The Landscape of Parallel Computing Research： A View from Berkeley.md",
     "resources/img/Pasted image 20240905003247.png",
     "resources/img/Pasted image 20240905002602.png",
     "resources/img/Pasted image 20240905001511.png",
     "resources/img/Pasted image 20240905000539.png",
     "PaperReading/overview",
     "PaperReading/uarch/PRF/PRF Brief.md",
-    "PaperReading/overview/The Landscape of Parallel Computing Research： A View from Berkeley.md",
     "PaperReading/uarch/PRF/Multiple-Banked Register File Architectures.md",
     "PaperReading/uarch/PRF/Energy Efficient Register File Design.md",
     "PaperReading/uarch/PRF/Banked Multiported Register Files for High-Frequency Superscalar Microprocessors.md",
@@ -203,7 +204,6 @@
     "resources/img/Pasted image 20240828182722.png",
     "resources/img/Pasted image 20240828172512.png",
     "resources/img/Pasted image 20240828165551.png",
-    "resources/img/Pasted image 20240828164620.png",
     "PaperReading/uarch/IQ/Exploring Wakeup-Free Instruction Scheduling.md",
     "PaperReading/sram",
     "PaperReading/uarch/IQ/Cyclone --- A Broadcast-Free Dynamic Instruction Scheduler with Selective Replay.md",

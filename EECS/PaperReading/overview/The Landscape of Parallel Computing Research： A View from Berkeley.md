@@ -101,3 +101,36 @@ ILP很好找到
 答案是可能的 多核系统的数量可以赶上工艺进步
 
 ### One size fits all？
+并不
+异构：可以用ooo核跑并行度低的代码
+
+## memory unbound
+DRAM的latency就到这里了，但是可以提高带宽
+
+## NOC
+#skip 没看完
+
+## Communication primitives
+传统的symmetric multiprocessors (SMPs)因其对称性放弃了很多优化可能，因此chip-scale multiprocessors (CMPs)出现了：
+- inter-core bandwidth比正常smp要大得多
+- inter-core latency要小得多
+- 同core内的coherence处理简单的多，
+#skip 
+
+## Dependability
+#skip 
+
+## Performance and Energy Counters
+
+
+# Programming Models
+就是硬件抽象层，OpenMP那种
+Programming Models必须在性能和实现便利性上做折中。
+#skip
+
+# system software
+#skip 
+
+# Metric of success
+
+后面 #skip 了
