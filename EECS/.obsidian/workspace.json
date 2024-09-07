@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PaperReading/overview/The Landscape of Parallel Computing Research： A View from Berkeley.md",
+                "file": "PaperReading/HLS/An Introduction to High-Level Synthesis.md",
                 "mode": "source",
                 "source": false
               }
@@ -60,7 +60,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PaperReading/overview/The Landscape of Parallel Computing Research： A View from Berkeley.md"
+                "file": "PaperReading/HLS/An Introduction to High-Level Synthesis.md"
               }
             }
           },
@@ -80,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PaperReading/overview/The Landscape of Parallel Computing Research： A View from Berkeley.md",
+                "file": "PaperReading/HLS/An Introduction to High-Level Synthesis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PaperReading/overview/The Landscape of Parallel Computing Research： A View from Berkeley.md",
+                "file": "PaperReading/HLS/An Introduction to High-Level Synthesis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,8 +181,15 @@
   },
   "active": "6b9a8733bb22597d",
   "lastOpenFiles": [
-    "2024-09-07.md",
+    "EE/HLS/HLS：introduction to chip and system design.md",
+    "resources/img/Pasted image 20240908004912.png",
+    "resources/img/Pasted image 20240908004808.png",
+    "resources/img/Pasted image 20240908004037.png",
+    "PaperReading/HLS/An Introduction to High-Level Synthesis.md",
+    "EE/HLS",
     "PaperReading/overview/The Landscape of Parallel Computing Research： A View from Berkeley.md",
+    "PaperReading/HLS",
+    "2024-09-07.md",
     "resources/img/Pasted image 20240905003247.png",
     "resources/img/Pasted image 20240905002602.png",
     "resources/img/Pasted image 20240905001511.png",
@@ -201,9 +208,6 @@
     "EE/Digital Circuit/大道至简fpga/chapters/FIFO.md",
     "resources/img/Pasted image 20240828183852.png",
     "resources/img/Pasted image 20240828183245.png",
-    "resources/img/Pasted image 20240828182722.png",
-    "resources/img/Pasted image 20240828172512.png",
-    "resources/img/Pasted image 20240828165551.png",
     "PaperReading/uarch/IQ/Exploring Wakeup-Free Instruction Scheduling.md",
     "PaperReading/sram",
     "PaperReading/uarch/IQ/Cyclone --- A Broadcast-Free Dynamic Instruction Scheduler with Selective Replay.md",
@@ -216,9 +220,6 @@
     "PaperReading/uarch/prediction/mem prediction/NoSQ： Store-Load Communication without a Store Queue.md",
     "PaperReading/uarch/prediction/mem prediction/Memory Ordering --- A Value-Based Approach.md",
     "PaperReading/uarch/prediction/mem prediction/Memory Dependence Prediction using Store Sets.md",
-    "PaperReading/uarch/LSQ/LSQ Brief.md",
-    "PaperReading/uarch/LSQ/Reducing Design Complexity of the Load Store Queue.md",
-    "PaperReading/uarch/LSQ/Memory Renaming --- Fast, Early and Accurate Processing ofMemory Communication.md",
     "Untitled.canvas",
     "Programming/DSA",
     "Programming/程序员的自我修养",
@@ -226,8 +227,6 @@
     "PaperReading/uarch/cache",
     "EE/Digital Circuit/大道至简fpga/chapters",
     "EE/Digital Circuit/大道至简fpga",
-    "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters",
-    "EE/Backend/Digital VLSI Design (RTL to GDS)",
     "People/Untitled.canvas"
   ]
 }
