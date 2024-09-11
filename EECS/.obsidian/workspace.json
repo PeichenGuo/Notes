@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PaperReading/HLS/An Introduction to High-Level Synthesis.md",
+                "file": "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Relaxed Memory Consistency.md",
                 "mode": "source",
                 "source": false
               }
@@ -60,7 +60,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PaperReading/HLS/An Introduction to High-Level Synthesis.md"
+                "file": "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Relaxed Memory Consistency.md"
               }
             }
           },
@@ -79,8 +79,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -100,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PaperReading/HLS/An Introduction to High-Level Synthesis.md",
+                "file": "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Relaxed Memory Consistency.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PaperReading/HLS/An Introduction to High-Level Synthesis.md",
+                "file": "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Relaxed Memory Consistency.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,11 +180,16 @@
   },
   "active": "6b9a8733bb22597d",
   "lastOpenFiles": [
+    "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/TSO (Total Store Order).md",
+    "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/SC (Sequential Consistency).md",
+    "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Introduction & Coherence Basic.md",
+    "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Memory Consistency Model.md",
+    "PaperReading/uarch/LSQ/LSQ Brief.md",
+    "PaperReading/HLS/An Introduction to High-Level Synthesis.md",
     "EE/HLS/HLS：introduction to chip and system design.md",
     "resources/img/Pasted image 20240908004912.png",
     "resources/img/Pasted image 20240908004808.png",
     "resources/img/Pasted image 20240908004037.png",
-    "PaperReading/HLS/An Introduction to High-Level Synthesis.md",
     "EE/HLS",
     "PaperReading/overview/The Landscape of Parallel Computing Research： A View from Berkeley.md",
     "PaperReading/HLS",
@@ -216,10 +220,6 @@
     "PaperReading/uarch/prediction/mem prediction/Store Vulnerability Window (SVW) --- Re-Execution Filtering for Enhanced Load Optimization.md",
     "PaperReading/uarch/PRF/Cherry---Checkpointed Early Resource Recycling in Out-of-order Microprocessors.md",
     "PaperReading/uarch/PRF/Checkpoint Processing and Recovery---Towards Scalable Large Instruction Window Processors.md",
-    "PaperReading/uarch/prediction/mem prediction/Store vectors for scalable memory dependence prediction and scheduling.md",
-    "PaperReading/uarch/prediction/mem prediction/NoSQ： Store-Load Communication without a Store Queue.md",
-    "PaperReading/uarch/prediction/mem prediction/Memory Ordering --- A Value-Based Approach.md",
-    "PaperReading/uarch/prediction/mem prediction/Memory Dependence Prediction using Store Sets.md",
     "Untitled.canvas",
     "Programming/DSA",
     "Programming/程序员的自我修养",

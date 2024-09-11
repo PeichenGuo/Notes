@@ -37,6 +37,10 @@ in-order重新执行load指令，并对比第一次执行和重新执行时的�
 2. 记录所有ooo load，因为只有ooo load才会发生load-load conflict，从而减少ldq的search
 
 ## load-value time 问题
+有三种解决方案：
+解决load-store ambiguity问题——早点发
+解决回滚问题——降低随便发的panelty
+直接预测结果——从根源上降低load value time问题
 ### value prediction
 [[Value locality and load value prediction]]
 这篇提出了value prediction
