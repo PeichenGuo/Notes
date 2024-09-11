@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PaperReading/uarch/PRF/Register Cache System not for Latency Reduction Purpose.md",
+                "file": "PaperReading/uarch/PRF/PRF Brief.md",
                 "mode": "source",
                 "source": false
               }
@@ -60,7 +60,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PaperReading/uarch/PRF/Register Cache System not for Latency Reduction Purpose.md"
+                "file": "PaperReading/uarch/PRF/PRF Brief.md"
               }
             }
           },
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PaperReading/uarch/PRF/Register Cache System not for Latency Reduction Purpose.md",
+                "file": "PaperReading/uarch/PRF/PRF Brief.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PaperReading/uarch/PRF/Register Cache System not for Latency Reduction Purpose.md",
+                "file": "PaperReading/uarch/PRF/PRF Brief.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,12 +178,19 @@
       "templates:Insert template": false
     }
   },
-  "active": "6b9a8733bb22597d",
+  "active": "2fd97cb827b9533c",
   "lastOpenFiles": [
-    "resources/img/Pasted image 20240911202203.png",
-    "PaperReading/uarch/PRF/PRF Brief.md",
     "PaperReading/uarch/PRF/Register Cache System not for Latency Reduction Purpose.md",
+    "PaperReading/uarch/PRF/PRF Brief.md",
     "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Relaxed Memory Consistency.md",
+    "resources/img/Pasted image 20240912001020.png",
+    "resources/img/Pasted image 20240912000915.png",
+    "resources/img/Pasted image 20240912000906.png",
+    "resources/img/Pasted image 20240911235758.png",
+    "resources/img/Pasted image 20240911235325.png",
+    "resources/img/Pasted image 20240911235225.png",
+    "resources/img/Pasted image 20240911235139.png",
+    "resources/img/Pasted image 20240911202203.png",
     "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/TSO (Total Store Order).md",
     "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/SC (Sequential Consistency).md",
     "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Introduction & Coherence Basic.md",
@@ -193,28 +200,20 @@
     "EE/HLS/HLS：introduction to chip and system design.md",
     "resources/img/Pasted image 20240908004912.png",
     "resources/img/Pasted image 20240908004808.png",
-    "resources/img/Pasted image 20240908004037.png",
     "EE/HLS",
     "PaperReading/overview/The Landscape of Parallel Computing Research： A View from Berkeley.md",
     "PaperReading/HLS",
     "2024-09-07.md",
-    "resources/img/Pasted image 20240905003247.png",
-    "resources/img/Pasted image 20240905002602.png",
-    "resources/img/Pasted image 20240905001511.png",
-    "resources/img/Pasted image 20240905000539.png",
     "PaperReading/overview",
     "PaperReading/uarch/PRF/Multiple-Banked Register File Architectures.md",
     "PaperReading/uarch/PRF/Energy Efficient Register File Design.md",
     "PaperReading/uarch/PRF/Banked Multiported Register Files for High-Frequency Superscalar Microprocessors.md",
-    "resources/img/Pasted image 20240829161750.png",
     "PaperReading/uarch/PRF/Reducing the Complexity of the Register File in Dynamic Superscalar Processor.md",
     "PaperReading/microarchitecture/PRF/Reducing the Complexity of the Register File in Dynamic Superscalar Processors.md",
     "Computer Architecture/CAQA/ILP.md",
     "Computer Architecture/Modern Processor Design/Advanced Instruction Flow Techniques.md",
     "Computer Architecture/CAQA/Warehouse-Scale Computers.md",
     "EE/Digital Circuit/大道至简fpga/chapters/FIFO.md",
-    "resources/img/Pasted image 20240828183852.png",
-    "resources/img/Pasted image 20240828183245.png",
     "PaperReading/uarch/IQ/Exploring Wakeup-Free Instruction Scheduling.md",
     "PaperReading/sram",
     "PaperReading/uarch/IQ/Cyclone --- A Broadcast-Free Dynamic Instruction Scheduler with Selective Replay.md",

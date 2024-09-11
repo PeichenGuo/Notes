@@ -65,3 +65,5 @@ Eureka: "None"
 - 改变storage cell。根据1和0的分布不确定性来修改storage cell从而减少bitline的transition
 - Split Bitline。有些reg经常被用到，有些reg不常被用到。可以把这些分开，从而减少电容。
 
+[[Register Cache System not for Latency Reduction Purpose]]
+通过将prf cache的访问周期拉长到和main prf一样，让流水线bubble更少。
