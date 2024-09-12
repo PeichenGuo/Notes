@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PaperReading/uarch/PRF/PRF Brief.md",
+                "file": "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Relaxed Memory Consistency.md",
                 "mode": "source",
                 "source": false
               }
@@ -60,7 +60,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PaperReading/uarch/PRF/PRF Brief.md"
+                "file": "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Relaxed Memory Consistency.md"
               }
             }
           },
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PaperReading/uarch/PRF/PRF Brief.md",
+                "file": "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Relaxed Memory Consistency.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PaperReading/uarch/PRF/PRF Brief.md",
+                "file": "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Relaxed Memory Consistency.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,11 +178,12 @@
       "templates:Insert template": false
     }
   },
-  "active": "2fd97cb827b9533c",
+  "active": "6b9a8733bb22597d",
   "lastOpenFiles": [
-    "PaperReading/uarch/PRF/Register Cache System not for Latency Reduction Purpose.md",
-    "PaperReading/uarch/PRF/PRF Brief.md",
+    "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Introduction & Coherence Basic.md",
     "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Relaxed Memory Consistency.md",
+    "PaperReading/uarch/PRF/PRF Brief.md",
+    "PaperReading/uarch/PRF/Register Cache System not for Latency Reduction Purpose.md",
     "resources/img/Pasted image 20240912001020.png",
     "resources/img/Pasted image 20240912000915.png",
     "resources/img/Pasted image 20240912000906.png",
@@ -193,7 +194,6 @@
     "resources/img/Pasted image 20240911202203.png",
     "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/TSO (Total Store Order).md",
     "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/SC (Sequential Consistency).md",
-    "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Introduction & Coherence Basic.md",
     "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Memory Consistency Model.md",
     "PaperReading/uarch/LSQ/LSQ Brief.md",
     "PaperReading/HLS/An Introduction to High-Level Synthesis.md",

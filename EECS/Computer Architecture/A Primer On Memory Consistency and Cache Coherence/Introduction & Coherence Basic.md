@@ -7,10 +7,12 @@ Summary: introduction
 
 ==Consistency models define correct shared memory behavior in terms of loads and stores , without reference to caches or coherence.==
 consistency只用load和store定义memory behaviour而忽略其他内容，比如cache和coherence。
-consistency是单线程问题，是在处理load和store的顺序问题
+consistency旨在定义一个什么是正确的shared memory behavior，是上层程序员可见的。
+
 
 ==a coherence problem can arise if multiple actors  have access to multiple copies of a datum and at least one access is a write.==
-coherence涉及到多核，多个核一起访问一个datum的情况
+coherence涉及到多核，多个核一起访问一个datum的情况。
+coherence的目的是为了让单核的写对所有的核透明，因此coherence对上层程序员是不可见的。
 
 Last level Cache (LLC) 可以看做是memory side的cache，而非core side的cache。这样就有很多事情好解释了
 ![[Pasted image 20230712141605.png]]
