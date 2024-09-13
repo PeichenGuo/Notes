@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PaperReading/uarch/cache/Write-Light Cache for Energy Harvesting Systems.md",
+                "file": "PaperReading/uarch/PRF/Doubling Memory Bandwidth for Network Buffers.md",
                 "mode": "source",
                 "source": false
               }
@@ -60,7 +60,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PaperReading/uarch/cache/Write-Light Cache for Energy Harvesting Systems.md"
+                "file": "PaperReading/uarch/PRF/Doubling Memory Bandwidth for Network Buffers.md"
               }
             }
           },
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PaperReading/uarch/cache/Write-Light Cache for Energy Harvesting Systems.md",
+                "file": "PaperReading/uarch/PRF/Doubling Memory Bandwidth for Network Buffers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PaperReading/uarch/cache/Write-Light Cache for Energy Harvesting Systems.md",
+                "file": "PaperReading/uarch/PRF/Doubling Memory Bandwidth for Network Buffers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,6 +180,8 @@
   },
   "active": "6b9a8733bb22597d",
   "lastOpenFiles": [
+    "PaperReading/uarch/cache/Write-Light Cache for Energy Harvesting Systems.md",
+    "PaperReading/uarch/PRF/Doubling Memory Bandwidth for Network Buffers.md",
     "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Relaxed Memory Consistency.md",
     "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Introduction & Coherence Basic.md",
     "PaperReading/uarch/PRF/PRF Brief.md",
@@ -218,7 +220,6 @@
     "PaperReading/sram",
     "PaperReading/uarch/IQ/Cyclone --- A Broadcast-Free Dynamic Instruction Scheduler with Selective Replay.md",
     "PaperReading/uarch/IQ/A Scalable Instruction Queue Design Using Dependence Chains.md",
-    "PaperReading/Reading List.md",
     "Untitled.canvas",
     "Programming/DSA",
     "Programming/程序员的自我修养",
