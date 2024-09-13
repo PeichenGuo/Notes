@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Relaxed Memory Consistency.md",
+                "file": "PaperReading/uarch/cache/Write-Light Cache for Energy Harvesting Systems.md",
                 "mode": "source",
                 "source": false
               }
@@ -60,7 +60,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Relaxed Memory Consistency.md"
+                "file": "PaperReading/uarch/cache/Write-Light Cache for Energy Harvesting Systems.md"
               }
             }
           },
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Relaxed Memory Consistency.md",
+                "file": "PaperReading/uarch/cache/Write-Light Cache for Energy Harvesting Systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Relaxed Memory Consistency.md",
+                "file": "PaperReading/uarch/cache/Write-Light Cache for Energy Harvesting Systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,8 +180,8 @@
   },
   "active": "6b9a8733bb22597d",
   "lastOpenFiles": [
-    "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Introduction & Coherence Basic.md",
     "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Relaxed Memory Consistency.md",
+    "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Introduction & Coherence Basic.md",
     "PaperReading/uarch/PRF/PRF Brief.md",
     "PaperReading/uarch/PRF/Register Cache System not for Latency Reduction Purpose.md",
     "resources/img/Pasted image 20240912001020.png",
