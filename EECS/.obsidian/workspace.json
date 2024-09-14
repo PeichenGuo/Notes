@@ -30,8 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4e110373ff1253e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Relaxed Memory Consistency.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -60,7 +73,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PaperReading/uarch/PRF/Doubling Memory Bandwidth for Network Buffers.md"
+                "file": "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Relaxed Memory Consistency.md"
               }
             }
           },
@@ -99,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PaperReading/uarch/PRF/Doubling Memory Bandwidth for Network Buffers.md",
+                "file": "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Relaxed Memory Consistency.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PaperReading/uarch/PRF/Doubling Memory Bandwidth for Network Buffers.md",
+                "file": "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Relaxed Memory Consistency.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,30 +191,32 @@
       "templates:Insert template": false
     }
   },
-  "active": "6b9a8733bb22597d",
+  "active": "4e110373ff1253e5",
   "lastOpenFiles": [
-    "PaperReading/uarch/cache/Write-Light Cache for Energy Harvesting Systems.md",
-    "PaperReading/uarch/PRF/Doubling Memory Bandwidth for Network Buffers.md",
+    "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/SC (Sequential Consistency).md",
     "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Relaxed Memory Consistency.md",
     "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Introduction & Coherence Basic.md",
+    "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Memory Consistency Model.md",
+    "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/A Primer On Memory Consistency and Cache Coherence.md",
+    "Computer Architecture/CAQA/DLP.md",
+    "resources/img/Pasted image 20240914133928.png",
+    "resources/img/Pasted image 20240914133919.png",
+    "resources/img/Pasted image 20240914133356.png",
+    "resources/img/Pasted image 20240914132631.png",
+    "resources/img/Pasted image 20240914132227.png",
+    "resources/img/Pasted image 20240914131829.png",
+    "resources/img/Pasted image 20240914131650.png",
+    "resources/img/Pasted image 20240914131359.png",
+    "resources/img/Pasted image 20240914124617.png",
+    "resources/img/Pasted image 20240914124551.png",
+    "PaperReading/uarch/PRF/Doubling Memory Bandwidth for Network Buffers.md",
+    "PaperReading/uarch/cache/Write-Light Cache for Energy Harvesting Systems.md",
     "PaperReading/uarch/PRF/PRF Brief.md",
     "PaperReading/uarch/PRF/Register Cache System not for Latency Reduction Purpose.md",
-    "resources/img/Pasted image 20240912001020.png",
-    "resources/img/Pasted image 20240912000915.png",
-    "resources/img/Pasted image 20240912000906.png",
-    "resources/img/Pasted image 20240911235758.png",
-    "resources/img/Pasted image 20240911235325.png",
-    "resources/img/Pasted image 20240911235225.png",
-    "resources/img/Pasted image 20240911235139.png",
-    "resources/img/Pasted image 20240911202203.png",
     "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/TSO (Total Store Order).md",
-    "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/SC (Sequential Consistency).md",
-    "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Memory Consistency Model.md",
     "PaperReading/uarch/LSQ/LSQ Brief.md",
     "PaperReading/HLS/An Introduction to High-Level Synthesis.md",
     "EE/HLS/HLS：introduction to chip and system design.md",
-    "resources/img/Pasted image 20240908004912.png",
-    "resources/img/Pasted image 20240908004808.png",
     "EE/HLS",
     "PaperReading/overview/The Landscape of Parallel Computing Research： A View from Berkeley.md",
     "PaperReading/HLS",
@@ -218,8 +233,6 @@
     "EE/Digital Circuit/大道至简fpga/chapters/FIFO.md",
     "PaperReading/uarch/IQ/Exploring Wakeup-Free Instruction Scheduling.md",
     "PaperReading/sram",
-    "PaperReading/uarch/IQ/Cyclone --- A Broadcast-Free Dynamic Instruction Scheduler with Selective Replay.md",
-    "PaperReading/uarch/IQ/A Scalable Instruction Queue Design Using Dependence Chains.md",
     "Untitled.canvas",
     "Programming/DSA",
     "Programming/程序员的自我修养",
