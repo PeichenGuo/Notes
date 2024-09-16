@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Relaxed Memory Consistency.md",
+                "file": "PaperReading/storage/G10： Enabling An Efficient Unified GPU Memory and Storage Architecture with Smart Tensor Migrations.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Relaxed Memory Consistency.md"
+                "file": "PaperReading/storage/G10： Enabling An Efficient Unified GPU Memory and Storage Architecture with Smart Tensor Migrations.md"
               }
             }
           },
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Relaxed Memory Consistency.md",
+                "file": "PaperReading/storage/G10： Enabling An Efficient Unified GPU Memory and Storage Architecture with Smart Tensor Migrations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Relaxed Memory Consistency.md",
+                "file": "PaperReading/storage/G10： Enabling An Efficient Unified GPU Memory and Storage Architecture with Smart Tensor Migrations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,8 +193,10 @@
   },
   "active": "4e110373ff1253e5",
   "lastOpenFiles": [
-    "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/SC (Sequential Consistency).md",
+    "PaperReading/storage",
     "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Relaxed Memory Consistency.md",
+    "PaperReading/storage/G10： Enabling An Efficient Unified GPU Memory and Storage Architecture with Smart Tensor Migrations.md",
+    "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/SC (Sequential Consistency).md",
     "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Introduction & Coherence Basic.md",
     "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Memory Consistency Model.md",
     "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/A Primer On Memory Consistency and Cache Coherence.md",
@@ -230,8 +232,6 @@
     "Computer Architecture/CAQA/ILP.md",
     "Computer Architecture/Modern Processor Design/Advanced Instruction Flow Techniques.md",
     "Computer Architecture/CAQA/Warehouse-Scale Computers.md",
-    "EE/Digital Circuit/大道至简fpga/chapters/FIFO.md",
-    "PaperReading/uarch/IQ/Exploring Wakeup-Free Instruction Scheduling.md",
     "PaperReading/sram",
     "Untitled.canvas",
     "Programming/DSA",
