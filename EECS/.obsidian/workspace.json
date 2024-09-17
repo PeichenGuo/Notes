@@ -13,38 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PaperReading/uarch/PRF/Doubling Memory Bandwidth for Network Buffers.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "07c502355b91de65",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PaperReading/uarch/PRF/Multiple-Banked Register File Architectures.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4e110373ff1253e5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PaperReading/memory/DynAMO： Improving Parallelism Through Dynamic Placement of Atomic Memory Operations.md",
+                "file": "PaperReading/people/Jian Huang/Scaling Deep Learning Computation over the Inter-Core Connected Intelligence Processor.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -73,7 +48,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PaperReading/memory/DynAMO： Improving Parallelism Through Dynamic Placement of Atomic Memory Operations.md"
+                "file": "PaperReading/people/Jian Huang/Scaling Deep Learning Computation over the Inter-Core Connected Intelligence Processor.md"
               }
             }
           },
@@ -112,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PaperReading/memory/DynAMO： Improving Parallelism Through Dynamic Placement of Atomic Memory Operations.md",
+                "file": "PaperReading/people/Jian Huang/Scaling Deep Learning Computation over the Inter-Core Connected Intelligence Processor.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PaperReading/memory/DynAMO： Improving Parallelism Through Dynamic Placement of Atomic Memory Operations.md",
+                "file": "PaperReading/people/Jian Huang/Scaling Deep Learning Computation over the Inter-Core Connected Intelligence Processor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,8 +166,20 @@
       "templates:Insert template": false
     }
   },
-  "active": "2fd97cb827b9533c",
+  "active": "6b9a8733bb22597d",
   "lastOpenFiles": [
+    "PaperReading/uarch/PRF/Doubling Memory Bandwidth for Network Buffers.md",
+    "PaperReading/people/Jian Huang/Scaling Deep Learning Computation over the Inter-Core Connected Intelligence Processor.md",
+    "PaperReading/people/Jian Huang/IceClave： A Trusted Execution Environment for In-Storage Computing.md",
+    "Templates/PaperReadingTemplate.md",
+    "Templates/Book Summary Template.md",
+    "PaperReading/people/Jian Huang/HOOP：Efficient Hardware-Assisted Out-of-Place Update for Non-Volatile Memory.md",
+    "resources/img/Pasted image 20240917182113.png",
+    "resources/img/Pasted image 20240917181915.png",
+    "resources/img/Pasted image 20240917181627.png",
+    "resources/img/Pasted image 20240917180640.png",
+    "PaperReading/uarch/PRF/Multiple-Banked Register File Architectures.md",
+    "PaperReading/memory/DynAMO： Improving Parallelism Through Dynamic Placement of Atomic Memory Operations.md",
     "PaperReading/people/Jian Huang/G10： Enabling An Efficient Unified GPU Memory and Storage Architecture with Smart Tensor Migrations.md",
     "PaperReading/people/Jian Huang",
     "PaperReading/people",
@@ -202,9 +189,6 @@
     "resources/img/Pasted image 20240917111714.png",
     "resources/img/Pasted image 20240917110040.png",
     "resources/img/Pasted image 20240917105513.png",
-    "resources/img/Pasted image 20240917105050.png",
-    "resources/img/Pasted image 20240917105044.png",
-    "resources/img/Pasted image 20240917104835.png",
     "PaperReading/storage",
     "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Relaxed Memory Consistency.md",
     "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/SC (Sequential Consistency).md",
@@ -212,8 +196,6 @@
     "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Memory Consistency Model.md",
     "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/A Primer On Memory Consistency and Cache Coherence.md",
     "Computer Architecture/CAQA/DLP.md",
-    "resources/img/Pasted image 20240914133928.png",
-    "PaperReading/uarch/PRF/Doubling Memory Bandwidth for Network Buffers.md",
     "PaperReading/uarch/cache/Write-Light Cache for Energy Harvesting Systems.md",
     "PaperReading/uarch/PRF/PRF Brief.md",
     "PaperReading/uarch/PRF/Register Cache System not for Latency Reduction Purpose.md",
@@ -226,14 +208,8 @@
     "PaperReading/HLS",
     "2024-09-07.md",
     "PaperReading/overview",
-    "PaperReading/uarch/PRF/Multiple-Banked Register File Architectures.md",
     "PaperReading/uarch/PRF/Energy Efficient Register File Design.md",
     "PaperReading/uarch/PRF/Banked Multiported Register Files for High-Frequency Superscalar Microprocessors.md",
-    "PaperReading/uarch/PRF/Reducing the Complexity of the Register File in Dynamic Superscalar Processor.md",
-    "PaperReading/microarchitecture/PRF/Reducing the Complexity of the Register File in Dynamic Superscalar Processors.md",
-    "Computer Architecture/CAQA/ILP.md",
-    "Computer Architecture/Modern Processor Design/Advanced Instruction Flow Techniques.md",
-    "Computer Architecture/CAQA/Warehouse-Scale Computers.md",
     "PaperReading/sram",
     "Untitled.canvas",
     "Programming/DSA",
