@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PaperReading/storage/G10： Enabling An Efficient Unified GPU Memory and Storage Architecture with Smart Tensor Migrations.md",
+                "file": "PaperReading/memory/DynAMO： Improving Parallelism Through Dynamic Placement of Atomic Memory Operations.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PaperReading/storage/G10： Enabling An Efficient Unified GPU Memory and Storage Architecture with Smart Tensor Migrations.md"
+                "file": "PaperReading/memory/DynAMO： Improving Parallelism Through Dynamic Placement of Atomic Memory Operations.md"
               }
             }
           },
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PaperReading/storage/G10： Enabling An Efficient Unified GPU Memory and Storage Architecture with Smart Tensor Migrations.md",
+                "file": "PaperReading/memory/DynAMO： Improving Parallelism Through Dynamic Placement of Atomic Memory Operations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PaperReading/storage/G10： Enabling An Efficient Unified GPU Memory and Storage Architecture with Smart Tensor Migrations.md",
+                "file": "PaperReading/memory/DynAMO： Improving Parallelism Through Dynamic Placement of Atomic Memory Operations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,26 +191,28 @@
       "templates:Insert template": false
     }
   },
-  "active": "4e110373ff1253e5",
+  "active": "2fd97cb827b9533c",
   "lastOpenFiles": [
+    "PaperReading/people/Jian Huang/G10： Enabling An Efficient Unified GPU Memory and Storage Architecture with Smart Tensor Migrations.md",
+    "PaperReading/people/Jian Huang",
+    "PaperReading/people",
+    "resources/img/Pasted image 20240917114043.png",
+    "resources/img/Pasted image 20240917113722.png",
+    "resources/img/Pasted image 20240917112245.png",
+    "resources/img/Pasted image 20240917111714.png",
+    "resources/img/Pasted image 20240917110040.png",
+    "resources/img/Pasted image 20240917105513.png",
+    "resources/img/Pasted image 20240917105050.png",
+    "resources/img/Pasted image 20240917105044.png",
+    "resources/img/Pasted image 20240917104835.png",
     "PaperReading/storage",
     "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Relaxed Memory Consistency.md",
-    "PaperReading/storage/G10： Enabling An Efficient Unified GPU Memory and Storage Architecture with Smart Tensor Migrations.md",
     "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/SC (Sequential Consistency).md",
     "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Introduction & Coherence Basic.md",
     "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Memory Consistency Model.md",
     "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/A Primer On Memory Consistency and Cache Coherence.md",
     "Computer Architecture/CAQA/DLP.md",
     "resources/img/Pasted image 20240914133928.png",
-    "resources/img/Pasted image 20240914133919.png",
-    "resources/img/Pasted image 20240914133356.png",
-    "resources/img/Pasted image 20240914132631.png",
-    "resources/img/Pasted image 20240914132227.png",
-    "resources/img/Pasted image 20240914131829.png",
-    "resources/img/Pasted image 20240914131650.png",
-    "resources/img/Pasted image 20240914131359.png",
-    "resources/img/Pasted image 20240914124617.png",
-    "resources/img/Pasted image 20240914124551.png",
     "PaperReading/uarch/PRF/Doubling Memory Bandwidth for Network Buffers.md",
     "PaperReading/uarch/cache/Write-Light Cache for Energy Harvesting Systems.md",
     "PaperReading/uarch/PRF/PRF Brief.md",
@@ -237,9 +239,6 @@
     "Programming/DSA",
     "Programming/程序员的自我修养",
     "PaperReading/uarch/error-resilience",
-    "PaperReading/uarch/cache",
-    "EE/Digital Circuit/大道至简fpga/chapters",
-    "EE/Digital Circuit/大道至简fpga",
     "People/Untitled.canvas"
   ]
 }
