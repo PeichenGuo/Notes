@@ -3,7 +3,6 @@ Book: CAQA
 Chapter: 2
 Summary: BlaBla
 ---
-# 基本组成
 参见[[超标量流水线设计]]的cache章节
 ## 地址转换问题
 https://zhuanlan.zhihu.com/p/107096130
@@ -54,6 +53,7 @@ VIVT Cache问题太多，软件维护成本过高，是最难管理的高速缓�
 两个经验规律：
 1. 对于特定大小的缓存，8路和全相连差不多
 2. 2：1规律。N的直接映射和N/2的两路组相联类似
+
 
 ### 多级缓存——减少miss penalty
 

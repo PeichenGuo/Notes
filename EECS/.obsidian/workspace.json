@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PaperReading/people/Jian Huang/LeaFTL：A Learning-based Flash Translation Layer for Solid-State Drives.md",
+                "file": "Computer Architecture/CAQA/Cache.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PaperReading/people/Jian Huang/LeaFTL：A Learning-based Flash Translation Layer for Solid-State Drives.md"
+                "file": "Computer Architecture/CAQA/Cache.md"
               }
             }
           },
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PaperReading/people/Jian Huang/LeaFTL：A Learning-based Flash Translation Layer for Solid-State Drives.md",
+                "file": "Computer Architecture/CAQA/Cache.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PaperReading/people/Jian Huang/LeaFTL：A Learning-based Flash Translation Layer for Solid-State Drives.md",
+                "file": "Computer Architecture/CAQA/Cache.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,10 +168,10 @@
   },
   "active": "6b9a8733bb22597d",
   "lastOpenFiles": [
+    "PaperReading/people/Jian Huang/LeaFTL：A Learning-based Flash Translation Layer for Solid-State Drives.md",
     "resources/img/Pasted image 20240918000112.png",
     "resources/img/Pasted image 20240917232910.png",
     "PaperReading/people/Jian Huang/G10： Enabling An Efficient Unified GPU Memory and Storage Architecture with Smart Tensor Migrations.md",
-    "PaperReading/people/Jian Huang/LeaFTL：A Learning-based Flash Translation Layer for Solid-State Drives.md",
     "PaperReading/people/Jian Huang/Hardware-Assisted Virtualization of Neural Processing Units for Cloud Platforms.md",
     "resources/img/Pasted image 20240917214312.png",
     "resources/img/Pasted image 20240917213702.png",
@@ -182,7 +182,6 @@
     "resources/img/Pasted image 20240917212014.png",
     "PaperReading/people/Jian Huang/Scaling Deep Learning Computation over the Inter-Core Connected Intelligence Processor.md",
     "resources/img/Pasted image 20240917205919.png",
-    "resources/img/Pasted image 20240917205615.png",
     "PaperReading/uarch/PRF/Doubling Memory Bandwidth for Network Buffers.md",
     "PaperReading/people/Jian Huang/IceClave： A Trusted Execution Environment for In-Storage Computing.md",
     "Templates/PaperReadingTemplate.md",
