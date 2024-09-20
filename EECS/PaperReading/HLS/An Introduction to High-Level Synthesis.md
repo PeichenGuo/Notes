@@ -18,7 +18,16 @@ Eureka: None
 
 
 ## Solution
-
+### 关键概念
+HLS关键的七步：
+- 编译spec
+- allocate hardware resource
+- schedule operation to clock
+- bind operation to functional units
+- bind variables to storage
+- bind tansfers to bus
+- generate RTL
+![[Pasted image 20240920010443.png]]
 
 ## Evaluation
 
