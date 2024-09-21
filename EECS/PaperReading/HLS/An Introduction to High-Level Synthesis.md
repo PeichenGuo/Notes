@@ -26,7 +26,7 @@ HLS关键的七步：
 - bind operation to functional units
 - bind variables to storage
 - bind tansfers to bus
-- generate RTL
+- generate RTL·
 ![[Pasted image 20240920010443.png]]
 
 ## Evaluation

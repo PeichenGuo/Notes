@@ -70,7 +70,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "long",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -79,7 +79,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -178,7 +179,7 @@
       "templates:Insert template": false
     }
   },
-  "active": "6b9a8733bb22597d",
+  "active": "f31f343eec283533",
   "lastOpenFiles": [
     "resources/img/Pasted image 20240920010443.png",
     "PaperReading/uarch/LSQ/LSQ Brief.md",
