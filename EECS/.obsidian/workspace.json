@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PaperReading/HLS/An Introduction to High-Level Synthesis.md",
+                "file": "PaperReading/people/Nigam/Predictable Accelerator Design with Time-Sensitive Affine Types.md",
                 "mode": "source",
                 "source": false
               }
@@ -60,7 +60,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PaperReading/HLS/An Introduction to High-Level Synthesis.md"
+                "file": "PaperReading/people/Nigam/Predictable Accelerator Design with Time-Sensitive Affine Types.md"
               }
             }
           },
@@ -70,7 +70,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "long",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -79,8 +79,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -100,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PaperReading/HLS/An Introduction to High-Level Synthesis.md",
+                "file": "PaperReading/people/Nigam/Predictable Accelerator Design with Time-Sensitive Affine Types.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PaperReading/HLS/An Introduction to High-Level Synthesis.md",
+                "file": "PaperReading/people/Nigam/Predictable Accelerator Design with Time-Sensitive Affine Types.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,33 +178,37 @@
       "templates:Insert template": false
     }
   },
-  "active": "f31f343eec283533",
+  "active": "6b9a8733bb22597d",
   "lastOpenFiles": [
+    "resources/img/Pasted image 20240928003248.png",
+    "resources/img/Pasted image 20240928003025.png",
+    "resources/img/Pasted image 20240928002929.png",
+    "PaperReading/uarch/PRF/Energy Efficient Register File Design.md",
+    "PaperReading/people/Nigam/Predictable Accelerator Design with Time-Sensitive Affine Types.md",
+    "PaperReading/people/Nigam",
+    "PaperReading/people/Jian Huang/HOOP：Efficient Hardware-Assisted Out-of-Place Update for Non-Volatile Memory.md",
+    "PaperReading/people/Jian Huang/IceClave： A Trusted Execution Environment for In-Storage Computing.md",
+    "PaperReading/people/Jian Huang/LeaFTL：A Learning-based Flash Translation Layer for Solid-State Drives.md",
+    "PaperReading/people/Jian Huang/Scaling Deep Learning Computation over the Inter-Core Connected Intelligence Processor.md",
+    "PaperReading/people/Jian Huang/Hardware-Assisted Virtualization of Neural Processing Units for Cloud Platforms.md",
+    "PaperReading/people/Jian Huang/G10： Enabling An Efficient Unified GPU Memory and Storage Architecture with Smart Tensor Migrations.md",
+    "PaperReading/HLS/An Introduction to High-Level Synthesis.md",
     "resources/img/Pasted image 20240920010443.png",
     "PaperReading/uarch/LSQ/LSQ Brief.md",
     "PaperReading/uarch/LSQ/Practical data value speculation for future high-end processors.md",
     "PaperReading/uarch/LSQ/Fire-and-Forget --- Load Store Scheduling with No Store Queue at All.md",
     "PaperReading/uarch/LSQ/Correlated Load-Address Predictors.md",
     "Computer Architecture/CAQA/Cache.md",
-    "PaperReading/people/Jian Huang/LeaFTL：A Learning-based Flash Translation Layer for Solid-State Drives.md",
     "resources/img/Pasted image 20240918000112.png",
     "resources/img/Pasted image 20240917232910.png",
-    "PaperReading/people/Jian Huang/G10： Enabling An Efficient Unified GPU Memory and Storage Architecture with Smart Tensor Migrations.md",
-    "PaperReading/people/Jian Huang/Hardware-Assisted Virtualization of Neural Processing Units for Cloud Platforms.md",
     "resources/img/Pasted image 20240917214312.png",
     "resources/img/Pasted image 20240917213702.png",
     "resources/img/Pasted image 20240917212549.png",
     "resources/img/Pasted image 20240917212235.png",
     "resources/img/Pasted image 20240917212116.png",
-    "resources/img/Pasted image 20240917212109.png",
-    "resources/img/Pasted image 20240917212014.png",
-    "PaperReading/people/Jian Huang/Scaling Deep Learning Computation over the Inter-Core Connected Intelligence Processor.md",
-    "resources/img/Pasted image 20240917205919.png",
     "PaperReading/uarch/PRF/Doubling Memory Bandwidth for Network Buffers.md",
-    "PaperReading/people/Jian Huang/IceClave： A Trusted Execution Environment for In-Storage Computing.md",
     "Templates/PaperReadingTemplate.md",
     "Templates/Book Summary Template.md",
-    "PaperReading/people/Jian Huang/HOOP：Efficient Hardware-Assisted Out-of-Place Update for Non-Volatile Memory.md",
     "PaperReading/uarch/PRF/Multiple-Banked Register File Architectures.md",
     "PaperReading/memory/DynAMO： Improving Parallelism Through Dynamic Placement of Atomic Memory Operations.md",
     "PaperReading/people/Jian Huang",
@@ -217,9 +220,6 @@
     "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Memory Consistency Model.md",
     "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/A Primer On Memory Consistency and Cache Coherence.md",
     "Computer Architecture/CAQA/DLP.md",
-    "PaperReading/uarch/cache/Write-Light Cache for Energy Harvesting Systems.md",
-    "PaperReading/uarch/PRF/PRF Brief.md",
-    "PaperReading/uarch/PRF/Register Cache System not for Latency Reduction Purpose.md",
     "EE/HLS",
     "PaperReading/HLS",
     "PaperReading/overview",
@@ -227,7 +227,6 @@
     "Untitled.canvas",
     "Programming/DSA",
     "Programming/程序员的自我修养",
-    "PaperReading/uarch/error-resilience",
     "People/Untitled.canvas"
   ]
 }
