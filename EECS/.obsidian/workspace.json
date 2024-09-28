@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PaperReading/people/Nigam/Predictable Accelerator Design with Time-Sensitive Affine Types.md",
+                "file": "PaperReading/people/Nigam/Correct and Compositional Hardware Generators.md",
                 "mode": "source",
                 "source": false
               }
@@ -60,7 +60,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PaperReading/people/Nigam/Predictable Accelerator Design with Time-Sensitive Affine Types.md"
+                "file": "PaperReading/people/Nigam/Correct and Compositional Hardware Generators.md"
               }
             }
           },
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PaperReading/people/Nigam/Predictable Accelerator Design with Time-Sensitive Affine Types.md",
+                "file": "PaperReading/people/Nigam/Correct and Compositional Hardware Generators.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PaperReading/people/Nigam/Predictable Accelerator Design with Time-Sensitive Affine Types.md",
+                "file": "PaperReading/people/Nigam/Correct and Compositional Hardware Generators.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,11 +180,14 @@
   },
   "active": "6b9a8733bb22597d",
   "lastOpenFiles": [
+    "PaperReading/people/Nigam/Modular Hardware Design with Timeline Types.md",
+    "PaperReading/people/Nigam/Correct and Compositional Hardware Generators.md",
+    "resources/img/Pasted image 20240928162651.png",
+    "PaperReading/people/Nigam/Predictable Accelerator Design with Time-Sensitive Affine Types.md",
     "resources/img/Pasted image 20240928003248.png",
     "resources/img/Pasted image 20240928003025.png",
     "resources/img/Pasted image 20240928002929.png",
     "PaperReading/uarch/PRF/Energy Efficient Register File Design.md",
-    "PaperReading/people/Nigam/Predictable Accelerator Design with Time-Sensitive Affine Types.md",
     "PaperReading/people/Nigam",
     "PaperReading/people/Jian Huang/HOOP：Efficient Hardware-Assisted Out-of-Place Update for Non-Volatile Memory.md",
     "PaperReading/people/Jian Huang/IceClave： A Trusted Execution Environment for In-Storage Computing.md",
@@ -204,8 +207,6 @@
     "resources/img/Pasted image 20240917214312.png",
     "resources/img/Pasted image 20240917213702.png",
     "resources/img/Pasted image 20240917212549.png",
-    "resources/img/Pasted image 20240917212235.png",
-    "resources/img/Pasted image 20240917212116.png",
     "PaperReading/uarch/PRF/Doubling Memory Bandwidth for Network Buffers.md",
     "Templates/PaperReadingTemplate.md",
     "Templates/Book Summary Template.md",
@@ -219,7 +220,6 @@
     "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Introduction & Coherence Basic.md",
     "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Memory Consistency Model.md",
     "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/A Primer On Memory Consistency and Cache Coherence.md",
-    "Computer Architecture/CAQA/DLP.md",
     "EE/HLS",
     "PaperReading/HLS",
     "PaperReading/overview",
