@@ -20,3 +20,13 @@ store会先进入stq等wakeup，load则可以直接进入agu。
 
 # Alpha 21264
 见[[Alpha 21264]]的LSU章节
+
+
+core0 (a1 a2是地址)
+sd a1 r1
+sd a2 r2
+
+core1
+load  r3 a2
+load r4 a1
+
