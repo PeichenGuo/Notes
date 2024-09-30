@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PaperReading/people/Nigam/Correct and Compositional Hardware Generators.md",
+                "file": "Computer Architecture/Summaries/LSU Summary.md",
                 "mode": "source",
                 "source": false
               }
@@ -26,6 +26,30 @@
               "type": "markdown",
               "state": {
                 "file": "PaperReading/uarch/LSQ/Practical data value speculation for future high-end processors.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "68b8dcb7d2feb9d6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/TSO (Total Store Order).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f1ef44ba4ffa968c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Relaxed Memory Consistency.md",
                 "mode": "source",
                 "source": false
               }
@@ -60,7 +84,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PaperReading/people/Nigam/Correct and Compositional Hardware Generators.md"
+                "file": "Computer Architecture/Summaries/LSU Summary.md"
               }
             }
           },
@@ -99,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PaperReading/people/Nigam/Correct and Compositional Hardware Generators.md",
+                "file": "Computer Architecture/Summaries/LSU Summary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PaperReading/people/Nigam/Correct and Compositional Hardware Generators.md",
+                "file": "Computer Architecture/Summaries/LSU Summary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,8 +204,23 @@
   },
   "active": "6b9a8733bb22597d",
   "lastOpenFiles": [
-    "PaperReading/people/Nigam/Modular Hardware Design with Timeline Types.md",
+    "Computer Architecture/Summaries/Cache Summary.md",
+    "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/TSO (Total Store Order).md",
+    "PaperReading/uarch/LSQ/Practical data value speculation for future high-end processors.md",
+    "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Relaxed Memory Consistency.md",
+    "resources/img/Pasted image 20240930142915.png",
+    "resources/img/Pasted image 20240930142649.png",
+    "Computer Architecture/Summaries/LSU Summary.md",
+    "Computer Architecture/超标量流水线设计.md",
+    "Computer Architecture/real designs/Alpha 21264.md",
+    "Computer Architecture/Summaries",
+    "Computer Architecture/real designs",
+    "resources/img/Pasted image 20240930132325.png",
+    "resources/img/下载.png",
+    "Tools/sparta/Sparta.md",
+    "Computer Architecture/CAQA/DLP.md",
     "PaperReading/people/Nigam/Correct and Compositional Hardware Generators.md",
+    "PaperReading/people/Nigam/Modular Hardware Design with Timeline Types.md",
     "resources/img/Pasted image 20240928162651.png",
     "PaperReading/people/Nigam/Predictable Accelerator Design with Time-Sensitive Affine Types.md",
     "resources/img/Pasted image 20240928003248.png",
@@ -198,35 +237,19 @@
     "PaperReading/HLS/An Introduction to High-Level Synthesis.md",
     "resources/img/Pasted image 20240920010443.png",
     "PaperReading/uarch/LSQ/LSQ Brief.md",
-    "PaperReading/uarch/LSQ/Practical data value speculation for future high-end processors.md",
     "PaperReading/uarch/LSQ/Fire-and-Forget --- Load Store Scheduling with No Store Queue at All.md",
     "PaperReading/uarch/LSQ/Correlated Load-Address Predictors.md",
     "Computer Architecture/CAQA/Cache.md",
     "resources/img/Pasted image 20240918000112.png",
-    "resources/img/Pasted image 20240917232910.png",
-    "resources/img/Pasted image 20240917214312.png",
-    "resources/img/Pasted image 20240917213702.png",
-    "resources/img/Pasted image 20240917212549.png",
     "PaperReading/uarch/PRF/Doubling Memory Bandwidth for Network Buffers.md",
-    "Templates/PaperReadingTemplate.md",
-    "Templates/Book Summary Template.md",
-    "PaperReading/uarch/PRF/Multiple-Banked Register File Architectures.md",
-    "PaperReading/memory/DynAMO： Improving Parallelism Through Dynamic Placement of Atomic Memory Operations.md",
     "PaperReading/people/Jian Huang",
     "PaperReading/people",
     "PaperReading/storage",
-    "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Relaxed Memory Consistency.md",
-    "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/SC (Sequential Consistency).md",
-    "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Introduction & Coherence Basic.md",
-    "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Memory Consistency Model.md",
-    "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/A Primer On Memory Consistency and Cache Coherence.md",
     "EE/HLS",
     "PaperReading/HLS",
     "PaperReading/overview",
     "PaperReading/sram",
     "Untitled.canvas",
-    "Programming/DSA",
-    "Programming/程序员的自我修养",
     "People/Untitled.canvas"
   ]
 }
