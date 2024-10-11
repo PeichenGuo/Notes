@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Architecture/Summaries/LSU Summary.md",
+                "file": "Computer Architecture/real designs/P800_core_lsu_MAS_0_7.md",
                 "mode": "source",
                 "source": false
               }
@@ -84,7 +84,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Architecture/Summaries/LSU Summary.md"
+                "file": "Computer Architecture/real designs/P800_core_lsu_MAS_0_7.md"
               }
             }
           },
@@ -103,7 +103,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -123,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Architecture/Summaries/LSU Summary.md",
+                "file": "Computer Architecture/real designs/P800_core_lsu_MAS_0_7.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Architecture/Summaries/LSU Summary.md",
+                "file": "Computer Architecture/real designs/P800_core_lsu_MAS_0_7.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -202,15 +203,16 @@
       "templates:Insert template": false
     }
   },
-  "active": "6b9a8733bb22597d",
+  "active": "5f78e536ee7ec726",
   "lastOpenFiles": [
+    "Computer Architecture/Summaries/LSU Summary.md",
+    "Computer Architecture/real designs/P800_core_lsu_MAS_0_7.md",
     "Computer Architecture/Summaries/Cache Summary.md",
     "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/TSO (Total Store Order).md",
     "PaperReading/uarch/LSQ/Practical data value speculation for future high-end processors.md",
     "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Relaxed Memory Consistency.md",
     "resources/img/Pasted image 20240930142915.png",
     "resources/img/Pasted image 20240930142649.png",
-    "Computer Architecture/Summaries/LSU Summary.md",
     "Computer Architecture/超标量流水线设计.md",
     "Computer Architecture/real designs/Alpha 21264.md",
     "Computer Architecture/Summaries",
