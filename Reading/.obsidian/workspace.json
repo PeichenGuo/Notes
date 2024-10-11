@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "历史/罗马/罗马史.md",
+                "file": "toefl/口语.md",
                 "mode": "source",
                 "source": false
               }
@@ -71,7 +71,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "历史/罗马/罗马史.md"
+                "file": "toefl/口语.md"
               }
             }
           }
@@ -80,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "2dbe32b5cfc93208",
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "历史/罗马/罗马史.md",
+                "file": "toefl/口语.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "历史/罗马/罗马史.md",
+                "file": "toefl/口语.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,10 +151,23 @@
   },
   "active": "1e8339d4647c9777",
   "lastOpenFiles": [
-    "Pasted image 20240816130907.png",
-    "Pasted image 20240816130254.png",
-    "Templates/ReadingTemplate.md",
+    "img/Pasted image 20241011100142.png",
+    "img/Pasted image 20241011084006.png",
+    "img/Pasted image 20241008151320.png",
+    "img/Pasted image 20241008151316.png",
+    "img/Pasted image 20241008103132.png",
+    "img/Pasted image 20241008102645.png",
+    "img/Pasted image 20241008102525.png",
+    "img/Pasted image 20241008100713.png",
+    "img/Pasted image 20241008100537.png",
+    "img/Pasted image 20241008100356.png",
+    "img/Pasted image 20241008100248.png",
+    "toefl/口语.md",
     "历史/罗马/罗马史.md",
+    "toefl/Untitled",
+    "img",
+    "toefl",
+    "Templates/ReadingTemplate.md",
     "历史/罗马",
     "EuropeanFamilyTree/诺曼底/”征服者“ 威廉.md",
     "EuropeanFamilyTree/家谱.canvas",
@@ -166,9 +179,6 @@
     "EuropeanFamilyTree/grampsdb/66924853/lock",
     "EuropeanFamilyTree/grampsdb/66924853/sqlite.db",
     "EuropeanFamilyTree/grampsdb/66924853/name.txt",
-    "EuropeanFamilyTree/grampsdb/66924853/meta_data.db",
-    "EuropeanFamilyTree/grampsdb/66924853/database.txt",
-    "EuropeanFamilyTree/grampsdb/66924853",
     "欧洲贵族家谱/家谱.canvas",
     "欧洲贵族家谱/诺曼底/”征服者“ 威廉.md",
     "社科/20世纪的美国.md",
