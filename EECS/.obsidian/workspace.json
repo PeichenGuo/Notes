@@ -13,10 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Architecture/real designs/P800_core_lsu_MAS_0_7.md",
+                "file": "Computer Architecture/CAQA/Cache.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Cache"
             }
           },
           {
@@ -28,7 +30,9 @@
                 "file": "PaperReading/uarch/LSQ/Practical data value speculation for future high-end processors.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Practical data value speculation for future high-end processors"
             }
           },
           {
@@ -40,7 +44,9 @@
                 "file": "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/TSO (Total Store Order).md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "TSO (Total Store Order)"
             }
           },
           {
@@ -52,7 +58,9 @@
                 "file": "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Relaxed Memory Consistency.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Relaxed Memory Consistency"
             }
           }
         ]
@@ -75,7 +83,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -84,8 +94,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Architecture/real designs/P800_core_lsu_MAS_0_7.md"
-              }
+                "file": "Computer Architecture/CAQA/Cache.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Cache"
             }
           },
           {
@@ -100,16 +112,16 @@
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 230.50271224975586,
-    "collapsed": true
+    "width": 230.50271224975586
   },
   "right": {
     "id": "c67599e5a31e373f",
@@ -125,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Architecture/real designs/P800_core_lsu_MAS_0_7.md",
+                "file": "Computer Architecture/CAQA/Cache.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +145,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Cache"
             }
           },
           {
@@ -142,10 +156,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Architecture/real designs/P800_core_lsu_MAS_0_7.md",
+                "file": "Computer Architecture/CAQA/Cache.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Cache"
             }
           },
           {
@@ -156,7 +172,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -164,7 +182,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           },
           {
@@ -172,7 +192,9 @@
             "type": "leaf",
             "state": {
               "type": "starred",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -184,7 +206,9 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              }
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           }
         ]
@@ -206,8 +230,9 @@
   },
   "active": "6b9a8733bb22597d",
   "lastOpenFiles": [
-    "Computer Architecture/Summaries/LSU Summary.md",
+    "Computer Architecture/CAQA/CAQA.md",
     "Computer Architecture/real designs/P800_core_lsu_MAS_0_7.md",
+    "Computer Architecture/Summaries/LSU Summary.md",
     "Computer Architecture/Summaries/Cache Summary.md",
     "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/TSO (Total Store Order).md",
     "PaperReading/uarch/LSQ/Practical data value speculation for future high-end processors.md",
@@ -244,7 +269,6 @@
     "PaperReading/uarch/LSQ/Correlated Load-Address Predictors.md",
     "Computer Architecture/CAQA/Cache.md",
     "resources/img/Pasted image 20240918000112.png",
-    "PaperReading/uarch/PRF/Doubling Memory Bandwidth for Network Buffers.md",
     "PaperReading/people/Jian Huang",
     "PaperReading/people",
     "PaperReading/storage",
