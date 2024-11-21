@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Architecture/CAQA/Cache.md",
+                "file": "Computer Architecture/PaperReading/PIM/A Modern Primer on Processing in Memory.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cache"
+              "title": "A Modern Primer on Processing in Memory"
             }
           },
           {
@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PaperReading/uarch/LSQ/Practical data value speculation for future high-end processors.md",
+                "file": "Computer Architecture/PaperReading/uarch/LSQ/Practical data value speculation for future high-end processors.md",
                 "mode": "source",
                 "source": false
               },
@@ -94,10 +94,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Architecture/CAQA/Cache.md"
+                "file": "Computer Architecture/PaperReading/PIM/A Modern Primer on Processing in Memory.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Cache"
+              "title": "Outline of A Modern Primer on Processing in Memory"
             }
           },
           {
@@ -117,7 +117,8 @@
               "title": "Search"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -137,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Architecture/CAQA/Cache.md",
+                "file": "Computer Architecture/PaperReading/PIM/A Modern Primer on Processing in Memory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +148,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Cache"
+              "title": "Backlinks for A Modern Primer on Processing in Memory"
             }
           },
           {
@@ -156,12 +157,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Architecture/CAQA/Cache.md",
+                "file": "Computer Architecture/PaperReading/PIM/A Modern Primer on Processing in Memory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Cache"
+              "title": "Outgoing links from A Modern Primer on Processing in Memory"
             }
           },
           {
@@ -228,14 +229,19 @@
       "templates:Insert template": false
     }
   },
-  "active": "6b9a8733bb22597d",
+  "active": "f31f343eec283533",
   "lastOpenFiles": [
+    "resources/img/Pasted image 20241121160246.png",
+    "resources/img/Pasted image 20241121150610.png",
+    "Computer Architecture/CAQA/Cache.md",
+    "Computer Architecture/PaperReading/PIM/A Modern Primer on Processing in Memory.md",
+    "Computer Architecture/PaperReading/PIM",
     "Computer Architecture/CAQA/CAQA.md",
     "Computer Architecture/real designs/P800_core_lsu_MAS_0_7.md",
     "Computer Architecture/Summaries/LSU Summary.md",
     "Computer Architecture/Summaries/Cache Summary.md",
     "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/TSO (Total Store Order).md",
-    "PaperReading/uarch/LSQ/Practical data value speculation for future high-end processors.md",
+    "Computer Architecture/PaperReading/uarch/LSQ/Practical data value speculation for future high-end processors.md",
     "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Relaxed Memory Consistency.md",
     "resources/img/Pasted image 20240930142915.png",
     "resources/img/Pasted image 20240930142649.png",
@@ -247,35 +253,30 @@
     "resources/img/下载.png",
     "Tools/sparta/Sparta.md",
     "Computer Architecture/CAQA/DLP.md",
-    "PaperReading/people/Nigam/Correct and Compositional Hardware Generators.md",
-    "PaperReading/people/Nigam/Modular Hardware Design with Timeline Types.md",
+    "Computer Architecture/PaperReading/people/Nigam/Correct and Compositional Hardware Generators.md",
+    "Computer Architecture/PaperReading/people/Nigam/Modular Hardware Design with Timeline Types.md",
     "resources/img/Pasted image 20240928162651.png",
-    "PaperReading/people/Nigam/Predictable Accelerator Design with Time-Sensitive Affine Types.md",
+    "Computer Architecture/PaperReading/people/Nigam/Predictable Accelerator Design with Time-Sensitive Affine Types.md",
     "resources/img/Pasted image 20240928003248.png",
     "resources/img/Pasted image 20240928003025.png",
     "resources/img/Pasted image 20240928002929.png",
-    "PaperReading/uarch/PRF/Energy Efficient Register File Design.md",
-    "PaperReading/people/Nigam",
-    "PaperReading/people/Jian Huang/HOOP：Efficient Hardware-Assisted Out-of-Place Update for Non-Volatile Memory.md",
-    "PaperReading/people/Jian Huang/IceClave： A Trusted Execution Environment for In-Storage Computing.md",
-    "PaperReading/people/Jian Huang/LeaFTL：A Learning-based Flash Translation Layer for Solid-State Drives.md",
-    "PaperReading/people/Jian Huang/Scaling Deep Learning Computation over the Inter-Core Connected Intelligence Processor.md",
-    "PaperReading/people/Jian Huang/Hardware-Assisted Virtualization of Neural Processing Units for Cloud Platforms.md",
-    "PaperReading/people/Jian Huang/G10： Enabling An Efficient Unified GPU Memory and Storage Architecture with Smart Tensor Migrations.md",
-    "PaperReading/HLS/An Introduction to High-Level Synthesis.md",
+    "Computer Architecture/PaperReading/uarch/PRF/Energy Efficient Register File Design.md",
+    "Computer Architecture/PaperReading/people/Nigam",
+    "Computer Architecture/PaperReading/people/Jian Huang/HOOP：Efficient Hardware-Assisted Out-of-Place Update for Non-Volatile Memory.md",
+    "Computer Architecture/PaperReading/people/Jian Huang/IceClave： A Trusted Execution Environment for In-Storage Computing.md",
+    "Computer Architecture/PaperReading/people/Jian Huang/LeaFTL：A Learning-based Flash Translation Layer for Solid-State Drives.md",
+    "Computer Architecture/PaperReading/people/Jian Huang/Scaling Deep Learning Computation over the Inter-Core Connected Intelligence Processor.md",
+    "Computer Architecture/PaperReading/people/Jian Huang/Hardware-Assisted Virtualization of Neural Processing Units for Cloud Platforms.md",
+    "Computer Architecture/PaperReading/people/Jian Huang/G10： Enabling An Efficient Unified GPU Memory and Storage Architecture with Smart Tensor Migrations.md",
+    "Computer Architecture/PaperReading/HLS/An Introduction to High-Level Synthesis.md",
     "resources/img/Pasted image 20240920010443.png",
-    "PaperReading/uarch/LSQ/LSQ Brief.md",
-    "PaperReading/uarch/LSQ/Fire-and-Forget --- Load Store Scheduling with No Store Queue at All.md",
-    "PaperReading/uarch/LSQ/Correlated Load-Address Predictors.md",
-    "Computer Architecture/CAQA/Cache.md",
-    "resources/img/Pasted image 20240918000112.png",
-    "PaperReading/people/Jian Huang",
-    "PaperReading/people",
-    "PaperReading/storage",
+    "Computer Architecture/PaperReading/uarch/LSQ/LSQ Brief.md",
+    "Computer Architecture/PaperReading/people/Jian Huang",
+    "Computer Architecture/PaperReading/people",
+    "Computer Architecture/PaperReading/storage",
     "EE/HLS",
-    "PaperReading/HLS",
-    "PaperReading/overview",
-    "PaperReading/sram",
+    "Computer Architecture/PaperReading/HLS",
+    "Computer Architecture/PaperReading/overview",
     "Untitled.canvas",
     "People/Untitled.canvas"
   ]
