@@ -13,13 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "toefl/口语.md",
+                "file": "toefl/托福学习笔记.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "托福学习笔记"
+            }
+          },
+          {
+            "id": "4191a5bcd177ba0c",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.7"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.7"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -39,7 +54,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -54,7 +71,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -62,7 +81,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           },
           {
@@ -70,9 +91,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "toefl/口语.md"
-              }
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Outline"
             }
           }
         ],
@@ -96,7 +117,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "toefl/口语.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -104,7 +124,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
             }
           },
           {
@@ -113,10 +135,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "toefl/口语.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
             }
           },
           {
@@ -127,7 +150,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           }
         ],
@@ -149,20 +174,20 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1e8339d4647c9777",
+  "active": "4191a5bcd177ba0c",
   "lastOpenFiles": [
-    "img/Pasted image 20241011100142.png",
-    "img/Pasted image 20241011084006.png",
-    "img/Pasted image 20241008151320.png",
-    "img/Pasted image 20241008151316.png",
-    "img/Pasted image 20241008103132.png",
-    "img/Pasted image 20241008102645.png",
-    "img/Pasted image 20241008102525.png",
-    "img/Pasted image 20241008100713.png",
-    "img/Pasted image 20241008100537.png",
-    "img/Pasted image 20241008100356.png",
-    "img/Pasted image 20241008100248.png",
-    "toefl/口语.md",
+    "img/Pasted image 20241101103538.png",
+    "img/Pasted image 20241101101218.png",
+    "img/Pasted image 20241101101207.png",
+    "img/Pasted image 20241024085510.png",
+    "img/Pasted image 20241024085435.png",
+    "img/Pasted image 20241024085206.png",
+    "img/Pasted image 20241024000947.png",
+    "img/Pasted image 20241024000908.png",
+    "img/Pasted image 20241024000749.png",
+    "img/Pasted image 20241024000644.png",
+    "img/Pasted image 20241024000548.png",
+    "toefl/托福学习笔记.md",
     "历史/罗马/罗马史.md",
     "toefl/Untitled",
     "img",

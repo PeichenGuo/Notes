@@ -108,7 +108,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 230.50271224975586
+    "width": 230.50271224975586,
+    "collapsed": true
   },
   "right": {
     "id": "c67599e5a31e373f",
@@ -203,7 +204,7 @@
       "templates:Insert template": false
     }
   },
-  "active": "5f78e536ee7ec726",
+  "active": "6b9a8733bb22597d",
   "lastOpenFiles": [
     "Computer Architecture/Summaries/LSU Summary.md",
     "Computer Architecture/real designs/P800_core_lsu_MAS_0_7.md",
