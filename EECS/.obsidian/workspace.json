@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Architecture/PaperReading/security/side-channel/Binoculars： Contention-Based Side-Channel Attacks Exploiting the Page Walker.md",
+                "file": "Computer Architecture/PaperReading/security/side-channel/Half&Half：Demystifying Intel’s Directional Branch Predictors for Fast, Secure Partitioned Execution.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Binoculars： Contention-Based Side-Channel Attacks Exploiting the Page Walker"
+              "title": "Half&Half：Demystifying Intel’s Directional Branch Predictors for Fast, Secure Partitioned Execution"
             }
           }
         ]
@@ -52,10 +52,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Architecture/PaperReading/security/side-channel/Binoculars： Contention-Based Side-Channel Attacks Exploiting the Page Walker.md"
+                "file": "Computer Architecture/PaperReading/security/side-channel/Half&Half：Demystifying Intel’s Directional Branch Predictors for Fast, Secure Partitioned Execution.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Binoculars： Contention-Based Side-Channel Attacks Exploiting the Page Walker"
+              "title": "Outline of Half&Half：Demystifying Intel’s Directional Branch Predictors for Fast, Secure Partitioned Execution"
             }
           },
           {
@@ -188,9 +188,10 @@
   },
   "active": "6b9a8733bb22597d",
   "lastOpenFiles": [
+    "Computer Architecture/PaperReading/security/side-channel/Binoculars： Contention-Based Side-Channel Attacks Exploiting the Page Walker.md",
+    "Computer Architecture/PaperReading/security/side-channel/Half&Half：Demystifying Intel’s Directional Branch Predictors for Fast, Secure Partitioned Execution.md",
     "Computer Architecture/PaperReading/security/side-channel/Pinned Loads： Taming Speculative Loads in Secure Processors.md",
     "Computer Architecture/PaperReading/security/side-channel/Speculation Invariance (InvarSpec)： Faster Safe Execution Through Program Analysis.md",
-    "Computer Architecture/PaperReading/security/side-channel/Binoculars： Contention-Based Side-Channel Attacks Exploiting the Page Walker.md",
     "resources/img/Pasted image 20241126003144.png",
     "resources/img/Pasted image 20241126002935.png",
     "resources/img/Pasted image 20241126002847.png",
@@ -229,7 +230,6 @@
     "Computer Architecture/PaperReading/people/Jian Huang/IceClave： A Trusted Execution Environment for In-Storage Computing.md",
     "Computer Architecture/PaperReading/people/Jian Huang/LeaFTL：A Learning-based Flash Translation Layer for Solid-State Drives.md",
     "Computer Architecture/PaperReading/people/Jian Huang/Scaling Deep Learning Computation over the Inter-Core Connected Intelligence Processor.md",
-    "Computer Architecture/PaperReading/people/Jian Huang/Hardware-Assisted Virtualization of Neural Processing Units for Cloud Platforms.md",
     "Computer Architecture/PaperReading/people/Jian Huang",
     "Computer Architecture/PaperReading/people",
     "Computer Architecture/PaperReading/storage",
