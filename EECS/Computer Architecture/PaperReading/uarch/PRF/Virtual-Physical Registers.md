@@ -27,7 +27,7 @@ general map table (GMT)
 physical map table (PMT).
 记录VP reg到P reg的mapping。可以是CAM，用P reg的大小；也可以用VP reg的数量。
 
-decode阶段如果GMT中Lreg对应的valid是0，也就是没有preg映射，就先分一个VP Reg，然后执行后再分一个P reg；如果valid是1，直接分preg。
+decode阶段如果GMT中preg对应的valid是0，也就是没有preg映射，就先分一个VP Reg，然后执行后再分一个P reg；如果valid是1，直接分preg。
 非常好理解的东西。
 
 ##### deadlock
