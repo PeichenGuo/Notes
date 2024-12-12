@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Architecture/PaperReading/security/side-channel/Half&Half：Demystifying Intel’s Directional Branch Predictors for Fast, Secure Partitioned Execution.md",
+                "file": "Computer Architecture/CAQA/DLP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Half&Half：Demystifying Intel’s Directional Branch Predictors for Fast, Secure Partitioned Execution"
+              "title": "DLP"
             }
           }
         ]
@@ -52,10 +52,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Architecture/PaperReading/security/side-channel/Half&Half：Demystifying Intel’s Directional Branch Predictors for Fast, Secure Partitioned Execution.md"
+                "file": "Computer Architecture/CAQA/DLP.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Half&Half：Demystifying Intel’s Directional Branch Predictors for Fast, Secure Partitioned Execution"
+              "title": "Outline of DLP"
             }
           },
           {
@@ -188,8 +188,8 @@
   },
   "active": "6b9a8733bb22597d",
   "lastOpenFiles": [
-    "Computer Architecture/PaperReading/security/side-channel/Binoculars： Contention-Based Side-Channel Attacks Exploiting the Page Walker.md",
     "Computer Architecture/PaperReading/security/side-channel/Half&Half：Demystifying Intel’s Directional Branch Predictors for Fast, Secure Partitioned Execution.md",
+    "Computer Architecture/PaperReading/security/side-channel/Binoculars： Contention-Based Side-Channel Attacks Exploiting the Page Walker.md",
     "Computer Architecture/PaperReading/security/side-channel/Pinned Loads： Taming Speculative Loads in Secure Processors.md",
     "Computer Architecture/PaperReading/security/side-channel/Speculation Invariance (InvarSpec)： Faster Safe Execution Through Program Analysis.md",
     "resources/img/Pasted image 20241126003144.png",
