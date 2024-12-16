@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Architecture/PaperReading/uarch/PRF/Multiple-Banked Register File Architectures.md",
+                "file": "People/Tullsen.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Multiple-Banked Register File Architectures"
+              "title": "Tullsen"
             }
           }
         ]
@@ -188,11 +188,15 @@
   },
   "active": "6b9a8733bb22597d",
   "lastOpenFiles": [
+    "People/NA/Luis Ceze.md",
+    "People/NA/Anant Agarwal.md",
+    "People/Tullsen.md",
+    "People/NA/Josep Torrellas.md",
+    "Computer Architecture/PaperReading/uarch/PRF/Multiple-Banked Register File Architectures.md",
     "Computer Architecture/PaperReading/uarch/PRF/Doubling Memory Bandwidth for Network Buffers.md",
     "Computer Architecture/PaperReading/uarch/PRF/Dynamic Register Renaming Through Virtual-Physical Registers.md",
     "Computer Architecture/PaperReading/uarch/PRF/Delaying Physical Register Allocation Through Virtual-Physical Registers.md",
     "Computer Architecture/PaperReading/uarch/PRF/Virtual-Physical Registers.md",
-    "Computer Architecture/PaperReading/uarch/PRF/Multiple-Banked Register File Architectures.md",
     "Computer Architecture/PaperReading/uarch/PRF/PRF Brief.md",
     "Computer Architecture/CAQA/DLP.md",
     "Computer Architecture/PaperReading/security/side-channel/Half&Half：Demystifying Intel’s Directional Branch Predictors for Fast, Secure Partitioned Execution.md",
@@ -222,13 +226,9 @@
     "resources/img/Pasted image 20240930142915.png",
     "resources/img/Pasted image 20240930142649.png",
     "Computer Architecture/超标量流水线设计.md",
-    "Computer Architecture/real designs/Alpha 21264.md",
     "Computer Architecture/Summaries",
     "Computer Architecture/real designs",
     "resources/img/Pasted image 20240930132325.png",
-    "Tools/sparta/Sparta.md",
-    "Computer Architecture/PaperReading/people/Nigam/Correct and Compositional Hardware Generators.md",
-    "Computer Architecture/PaperReading/people/Nigam/Modular Hardware Design with Timeline Types.md",
     "Computer Architecture/PaperReading/people/Nigam",
     "Computer Architecture/PaperReading/people/Jian Huang",
     "Computer Architecture/PaperReading/people",
