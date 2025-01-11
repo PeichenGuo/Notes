@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "People/Tullsen.md",
+                "file": "Computer Architecture/Quantum Computing/Quantum Control Hardware.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tullsen"
+              "title": "Quantum Control Hardware"
             }
           }
         ]
@@ -188,8 +188,17 @@
   },
   "active": "6b9a8733bb22597d",
   "lastOpenFiles": [
-    "Computer Architecture/PaperReading/security/side-channel/Half&Half：Demystifying Intel’s Directional Branch Predictors for Fast, Secure Partitioned Execution.md",
+    "resources/img/Pasted image 20250111201450.png",
+    "resources/img/Pasted image 20250111201140.png",
+    "resources/img/Pasted image 20250111200847.png",
+    "resources/img/Pasted image 20250111200804.png",
+    "resources/img/Pasted image 20250111200455.png",
+    "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Logic Synthesis.md",
+    "Computer Architecture/Quantum Computing/Quantum Control Hardware.md",
+    "Computer Architecture/Quantum Computing",
+    "EE/Backend/Digital VLSI Design (RTL to GDS)/chapters/Routing.md",
     "People/Tullsen.md",
+    "Computer Architecture/PaperReading/security/side-channel/Half&Half：Demystifying Intel’s Directional Branch Predictors for Fast, Secure Partitioned Execution.md",
     "People/NA/Luis Ceze.md",
     "People/NA/Anant Agarwal.md",
     "People/NA/Josep Torrellas.md",
@@ -213,27 +222,18 @@
     "Computer Architecture/PaperReading/security",
     "Computer Architecture/PaperReading/PIM/A Modern Primer on Processing in Memory.md",
     "resources/img/Pasted image 20241121160246.png",
-    "resources/img/Pasted image 20241121150610.png",
     "Computer Architecture/CAQA/Cache.md",
     "Computer Architecture/PaperReading/PIM",
     "Computer Architecture/CAQA/CAQA.md",
     "Computer Architecture/real designs/P800_core_lsu_MAS_0_7.md",
     "Computer Architecture/Summaries/LSU Summary.md",
     "Computer Architecture/Summaries/Cache Summary.md",
-    "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/TSO (Total Store Order).md",
-    "Computer Architecture/PaperReading/uarch/LSQ/Practical data value speculation for future high-end processors.md",
-    "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Relaxed Memory Consistency.md",
-    "resources/img/Pasted image 20240930142915.png",
-    "resources/img/Pasted image 20240930142649.png",
-    "Computer Architecture/超标量流水线设计.md",
     "Computer Architecture/Summaries",
     "Computer Architecture/real designs",
-    "resources/img/Pasted image 20240930132325.png",
     "Computer Architecture/PaperReading/people/Nigam",
     "Computer Architecture/PaperReading/people/Jian Huang",
     "Computer Architecture/PaperReading/people",
     "Computer Architecture/PaperReading/storage",
-    "EE/HLS",
     "Untitled.canvas",
     "People/Untitled.canvas"
   ]
