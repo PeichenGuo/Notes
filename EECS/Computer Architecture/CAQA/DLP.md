@@ -127,7 +127,7 @@ arithmetic intensity指的是浮点操作和memory access的比例，相当于�
 # _Graphics Processing Units_
 ## GPU编程
 CUDA是为了让程序员克服易购计算和多重并行而开发的编程框架
-NVIDIA的并行形式的同一主题是CUDA线程，CUDA线程会被聚合然后分块，成为线程块；执行线程块的硬件叫做多线程SIMD处理器。
+NVIDIA的并行形式的同一主题是CUDA线程，CUDA线程会被聚合然后分块，成为线程块Thread Block；执行线程块的硬件叫做多线程SIMD处理器。
 在CUDA下，DAXPY编程如下：
 ![[Pasted image 20240914133356.png]]
 每个向量元素是一个线程，256个线程是一个线程块。
@@ -136,9 +136,25 @@ GPU会根据自己的线程块id x 线程块线程数量 再加上线程id，来
 ## _NVIDIA GPU Computational Structures_
 ![[Pasted image 20240914133919.png]]
 ![[Pasted image 20240914133928.png]]
-
+grid、block是programming层的理解，warp是硬件的理解，thread在两个理解中医院。
+一个grid里有很多block，一个block里有若干线程，这些是软件定义的。在硬件调度上，硬件会把一个block分给多个sm，这部分是giga thread engine干的事情。
+每个sm会得到很多warp，再让sm各自调度
+一个SM可以有很多warp，像cpu发射指令那样发射warp；每一个warp都有固定的thread，每个thread都会分配到不同的thread processor(lane)里执行。而一个thread中会有若干条指令，这些指令是串行的，会在lane中串行执行；而不同thread间是没有data dependency的。
+**Warp 调度的核心目标**是隐藏内存访问延迟：当某个 Warp 因为内存访问被阻塞时，SM 可以快速切换到另一个就绪的 Warp 继续执行。
 ![[Pasted image 20231101121842.png]]
 注意memory那里的术语有较大差距。
+![[Pasted image 20250123014123.png]]
+- 每个 **SM** 都有自己的 Shared Memory，是片上存储（on-chip memory），在物理上与该 SM 绑定。
+- 一个 SM 上可以同时处理多个线程块（Thread Block），这些线程块中的线程会共同使用该 SM 的 Shared Memory，但不同线程块之间的 Shared Memory 是相互隔离的。
+- 当一个线程块被分配到 SM 后，该线程块会占用 Shared Memory 中的一部分容量。
+- 线程块中的所有线程（包括多个 Warp）可以访问相同的 Shared Memory。
+- Shared Memory 的大小是有限的（通常几十 KB，例如 48 KB 或 96 KB），如果多个线程块同时在一个 SM 上执行，它们必须共享这块有限的 Shared Memory。
+- **Warp** 是 GPU 中线程的调度单位，每个 Warp 包含固定数量的线程（通常是 32 个）。
+- 一个 Warp 的所有线程可以访问 Shared Memory，用于数据共享或缓存。
+- Shared Memory 的访问是以 Bank 的形式组织的，Warp 中的线程在访问 Shared Memory 时，如果访问模式不当，可能会发生 **Bank Conflict**，导致性能下降。
+- **Lane** 是指 Warp 内线程对应的硬件单元，每个线程在自己的 Lane 中运行。
+- Warp 中的线程会将数据加载到 Lane 中的寄存器，但如果线程需要共享数据，它们会将数据写入 Shared Memory，而其他线程则从 Shared Memory 中读取。
+- 换句话说，**Shared Memory 是 Warp 内所有线程的共享存储器，所有 Lane 都可以访问 Shared Memory**。
 ![[Pasted image 20231101134003.png]]
 对于这个8192个元素的向量乘法的代码块，被称为一个grid。
 它分为了多个thread block。由于每个thread block最多512个元素，因此分为了16个thread block。thread block是被调度到一个SIMD processor的单元。
@@ -147,6 +163,8 @@ GPU会根据自己的线程块id x 线程块线程数量 再加上线程id，来
 有一个thread block scheduler分配thread block给simd处理器。
 下面是SIMD处理器的简化框架。它运行的是被分配的一个thread block
 ![[Pasted image 20231101133931.png]]
+**Address Coalescing Unit** 是 GPU 架构中的一个硬件单元，用于优化内存访问。它的主要功能是将线程访问的分散地址请求合并成连续的内存访问请求，从而提高带宽利用率并降低访问延迟。
+
 一个SIMD processor。一个gpu由多个processor组成
 gpu有两级调度器，第一级将thread block调度给simd processor，后一级调度simd thread (warp)。
 一个SIMD thread中包含多个SIMD instruction。图中thread宽度是32，也就是32条指令，被映射到16个物理lane，因此一个thread需要2个chime运行。
@@ -186,7 +204,7 @@ host写gpu memory，但不写local和private。
 2. Vec显式单位步幅载入和存储。
 主要区别是gpu是多线程的，vector machine不是
 ![[Pasted image 20231101160920.png]]
-
+![[Pasted image 20250123020806.png]]
 # _Detecting and Enhancing Loop-Level Parallelism_
 重点在检测loop-carried dependece！ 指iteration之间的data dependency
 compiler做这个更方便
