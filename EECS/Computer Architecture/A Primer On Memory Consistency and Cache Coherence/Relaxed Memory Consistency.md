@@ -31,6 +31,8 @@ aquire只需要后续的fence，rl只需要前向的fence
 - aq和rl之间的顺序
 aq在访问资源前执行，保证aq之后的内存操作不会超过aq。aq能保证一个线程看到的共享数据是组新的
 rl在访问资源后执行 ，保证rl之前的内存操作不会重排到rl后面。
+
+acquire可以确保之后的操作不会被重排在acquire之前，因此acquire后面的操作一定是aq前面所有操作结束之后
 ![[Pasted image 20240827094219.png]]
 #### Causality and Write Atomicity
 ##### Causality：因果性
