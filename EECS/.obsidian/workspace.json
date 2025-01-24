@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Relaxed Memory Consistency.md",
+                "file": "Computer Architecture/In-Near-Memory Computing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Relaxed Memory Consistency"
+              "title": "In-Near-Memory Computing"
             }
           }
         ]
@@ -52,10 +52,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Architecture/PaperReading/people/Andre DeHon.md"
+                "file": "Computer Architecture/In-Near-Memory Computing.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Andre DeHon"
+              "title": "Outline of In-Near-Memory Computing"
             }
           },
           {
@@ -75,11 +75,12 @@
               "title": "Search"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 335.5026054382324
+    "width": 208.50260543823242
   },
   "right": {
     "id": "c67599e5a31e373f",
@@ -188,8 +189,14 @@
   },
   "active": "22e912234223fd9e",
   "lastOpenFiles": [
-    "Computer Architecture/PaperReading/people/Sinclair.md",
+    "resources/img/Pasted image 20250124134706.png",
+    "resources/img/Pasted image 20250124132711.png",
+    "resources/img/Pasted image 20250124124547.png",
+    "resources/img/Pasted image 20250124123921.png",
+    "resources/img/Pasted image 20250124122959.png",
     "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Relaxed Memory Consistency.md",
+    "Computer Architecture/In-Near-Memory Computing.md",
+    "Computer Architecture/PaperReading/people/Sinclair.md",
     "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Memory Consistency Model.md",
     "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/TSO (Total Store Order).md",
     "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/SC (Sequential Consistency).md",
@@ -204,11 +211,7 @@
     "resources/img/Pasted image 20250120222549.png",
     "resources/img/Pasted image 20250120222050.png",
     "resources/img/Pasted image 20250120221846.png",
-    "resources/img/Pasted image 20250120221751.png",
-    "resources/img/Pasted image 20250120221742.png",
     "Computer Architecture/PaperReading/people/Calvin Lin.md",
-    "resources/img/Pasted image 20250119223539.png",
-    "resources/img/Pasted image 20250119223033.png",
     "Computer Architecture/PaperReading/uarch/LSQ/Correlated Load-Address Predictors.md",
     "EE/Physical design/vlsi-expert.com/STA.md",
     "EE/Physical design/Digital VLSI Design (RTL to GDS)/chapters/Logic Synthesis.md",
@@ -224,8 +227,6 @@
     "Computer Architecture/PaperReading/uarch/PRF/Dynamic Register Renaming Through Virtual-Physical Registers.md",
     "Computer Architecture/PaperReading/uarch/PRF/Delaying Physical Register Allocation Through Virtual-Physical Registers.md",
     "Computer Architecture/PaperReading/uarch/PRF/Virtual-Physical Registers.md",
-    "Computer Architecture/PaperReading/uarch/PRF/PRF Brief.md",
-    "Computer Architecture/PaperReading/security/side-channel/Binoculars： Contention-Based Side-Channel Attacks Exploiting the Page Walker.md",
     "Computer Architecture/PaperReading/security/side-channel",
     "Computer Architecture/PaperReading/security",
     "Computer Architecture/PaperReading/PIM",
