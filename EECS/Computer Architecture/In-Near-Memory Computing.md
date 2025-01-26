@@ -71,3 +71,37 @@ TRA-based computing主要有四个问题：
 ## 4.1 SRAM basic
 skip
 ## 4.2 Digital Computing Approach
+一般在LLC进行运算
+三个优点：
+1. 不需要data movement
+2. area efficient
+3. power efficient
+基本运算：
+![[Pasted image 20250126170725.png]]
+and和nor。都是直接激活两个word line
+只有都是1才能保持BL precharge后电压上升，这就是and。同理对于BLB来说，只有两个bitline都是0，才能让BLB是1
+计算用SRAM需要设计，否则不够balanced
+![[Pasted image 20250126171544.png]]
+采用bit-serial的运算方式。
+为了达到这个目的，data和正常sram不一样，是transposed layout，也就是一行data被映射到一列（bitline）而非一行（wordline）。然后每次运算都是像上述and和nor一样操控不同的wordline，然后写回到其中一个bit
+上图是一个加法，每cycle激活一位，然后串行计算
+
+浮点加法也可以做，书中说了 但我没看、
+
+pitfall：in-sram computing的density减小，而且会增加访问延迟
+错误的，IMA会更改cell的设计，导致density会小很多；但IMP不更改array，实际density和delay不会有太大变化，一些work生成可以直接embedded into cache
+
+## 4.3 数模混合方法
+skip了 不懂模电
+
+## 4.4 near SRAM computing
+
+
+# 5. Computing with NVM
+ skip
+
+# 6. Domain-Specific Accelerator
+## 6.1 ML
+### 6.1.1 ML with NVM
+pass
+### 6.1.2 ML with In-SRAM Computing
