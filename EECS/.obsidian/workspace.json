@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "In-Near-Memory Computing"
             }
+          },
+          {
+            "id": "422cb7a0ebd84b18",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.4"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -52,10 +65,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Architecture/In-Near-Memory Computing.md"
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of In-Near-Memory Computing"
+              "title": "Outline"
             }
           },
           {
@@ -187,7 +202,7 @@
       "templates:Insert template": false
     }
   },
-  "active": "22e912234223fd9e",
+  "active": "422cb7a0ebd84b18",
   "lastOpenFiles": [
     "resources/img/Pasted image 20250126171544.png",
     "resources/img/Pasted image 20250126170725.png",
