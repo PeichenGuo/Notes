@@ -25,12 +25,14 @@
             "id": "422cb7a0ebd84b18",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.8.4"
+                "file": "EE/Physical design/Digital VLSI Design (RTL to GDS)/chapters/Chip Finishing and Signoff.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.4"
+              "icon": "lucide-file",
+              "title": "Chip Finishing and Signoff"
             }
           }
         ],
@@ -53,7 +55,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -65,12 +68,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "EE/Physical design/Digital VLSI Design (RTL to GDS)/chapters/Chip Finishing and Signoff.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Chip Finishing and Signoff"
             }
           },
           {
@@ -79,7 +83,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "sta",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -90,12 +94,11 @@
               "title": "Search"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 208.50260543823242
+    "width": 424.5026054382324
   },
   "right": {
     "id": "c67599e5a31e373f",
@@ -202,8 +205,18 @@
       "templates:Insert template": false
     }
   },
-  "active": "422cb7a0ebd84b18",
+  "active": "2fd97cb827b9533c",
   "lastOpenFiles": [
+    "EE/Physical design/vlsi-expert.com/STA.md",
+    "EE/Physical design/Digital VLSI Design (RTL to GDS)/chapters/Timing Analysis.md",
+    "EE/Physical design/Digital VLSI Design (RTL to GDS)/chapters/Routing.md",
+    "EE/Physical design/Digital VLSI Design (RTL to GDS)/chapters/Clock Tree Synthesis (CTS).md",
+    "EE/Physical design/Digital VLSI Design (RTL to GDS)/chapters/Placement.md",
+    "EE/Physical design/Digital VLSI Design (RTL to GDS)/chapters/Logic Synthesis.md",
+    "EE/Physical design/Digital VLSI Design (RTL to GDS)/chapters/Introduction.md",
+    "Computer Architecture/Modern Processor Design/Advanced Instruction Flow Techniques.md",
+    "EE/Physical design/Digital VLSI Design (RTL to GDS)/chapters/Chip Finishing and Signoff.md",
+    "Computer Architecture/In-Near-Memory Computing.md",
     "resources/img/Pasted image 20250126171544.png",
     "resources/img/Pasted image 20250126170725.png",
     "resources/img/Pasted image 20250124141320.png",
@@ -215,33 +228,23 @@
     "resources/img/Pasted image 20250124123921.png",
     "resources/img/Pasted image 20250124122959.png",
     "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Relaxed Memory Consistency.md",
-    "Computer Architecture/In-Near-Memory Computing.md",
     "Computer Architecture/PaperReading/people/Sinclair.md",
     "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Memory Consistency Model.md",
     "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/TSO (Total Store Order).md",
     "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/SC (Sequential Consistency).md",
     "Computer Architecture/CAQA/DLP.md",
-    "resources/img/Pasted image 20250123020806.png",
     "People/Tullsen.md",
     "Computer Architecture/PaperReading/people/sinclair",
-    "EE/Physical design/Digital VLSI Design (RTL to GDS)/chapters/Timing Analysis.md",
     "Computer Architecture/PaperReading/people/Andre DeHon.md",
     "Computer Architecture/PaperReading/people/Calvin Lin.md",
     "Computer Architecture/PaperReading/uarch/LSQ/Correlated Load-Address Predictors.md",
-    "EE/Physical design/vlsi-expert.com/STA.md",
-    "EE/Physical design/Digital VLSI Design (RTL to GDS)/chapters/Logic Synthesis.md",
     "Computer Architecture/Quantum Computing/Quantum Control Hardware.md",
     "Computer Architecture/Quantum Computing",
-    "EE/Physical design/Digital VLSI Design (RTL to GDS)/chapters/Routing.md",
     "Computer Architecture/PaperReading/security/side-channel/Half&Half：Demystifying Intel’s Directional Branch Predictors for Fast, Secure Partitioned Execution.md",
     "People/NA/Luis Ceze.md",
     "People/NA/Anant Agarwal.md",
     "People/NA/Josep Torrellas.md",
     "Computer Architecture/PaperReading/uarch/PRF/Multiple-Banked Register File Architectures.md",
-    "Computer Architecture/PaperReading/uarch/PRF/Doubling Memory Bandwidth for Network Buffers.md",
-    "Computer Architecture/PaperReading/uarch/PRF/Dynamic Register Renaming Through Virtual-Physical Registers.md",
-    "Computer Architecture/PaperReading/uarch/PRF/Delaying Physical Register Allocation Through Virtual-Physical Registers.md",
-    "Computer Architecture/PaperReading/uarch/PRF/Virtual-Physical Registers.md",
     "Computer Architecture/PaperReading/security/side-channel",
     "Computer Architecture/PaperReading/security",
     "Computer Architecture/PaperReading/PIM",
