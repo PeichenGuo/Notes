@@ -39,12 +39,14 @@
             "id": "beb97f0b5747dd1d",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.8.7"
+                "file": "Computer Architecture/PaperReading/security/side-channel/Indirector： High-Precision Branch Target Injection Attacks Exploiting the Indirect Branch Predictor.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.7"
+              "icon": "lucide-file",
+              "title": "Indirector： High-Precision Branch Target Injection Attacks Exploiting the Indirect Branch Predictor"
             }
           }
         ],
@@ -80,13 +82,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "EE/Physical design/Digital VLSI Design (RTL to GDS)/chapters/Chip Finishing and Signoff.md",
+                "file": "Computer Architecture/PaperReading/security/side-channel/Indirector： High-Precision Branch Target Injection Attacks Exploiting the Indirect Branch Predictor.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Chip Finishing and Signoff"
+              "title": "Outline of Indirector： High-Precision Branch Target Injection Attacks Exploiting the Indirect Branch Predictor"
             }
           },
           {
@@ -110,7 +112,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 424.5026054382324
+    "width": 238.50260543823242
   },
   "right": {
     "id": "c67599e5a31e373f",
@@ -219,6 +221,20 @@
   },
   "active": "beb97f0b5747dd1d",
   "lastOpenFiles": [
+    "resources/img/Pasted image 20250220022702.png",
+    "resources/img/Pasted image 20250220022656.png",
+    "resources/img/Pasted image 20250220022232.png",
+    "resources/img/Pasted image 20250220022221.png",
+    "resources/img/Pasted image 20250220022206.png",
+    "resources/img/Pasted image 20250220021339.png",
+    "People/Tullsen.md",
+    "Computer Architecture/PaperReading/security/side-channel/Indirector： High-Precision Branch Target Injection Attacks Exploiting the Indirect Branch Predictor.md",
+    "resources/img/Pasted image 20250220011934.png",
+    "resources/img/Pasted image 20250220003944.png",
+    "Computer Architecture/PaperReading/security/side-channel/Half&Half：Demystifying Intel’s Directional Branch Predictors for Fast, Secure Partitioned Execution.md",
+    "resources/img/Pasted image 20250219234458.png",
+    "resources/img/Pasted image 20250219234448.png",
+    "resources/img/Pasted image 20250219230715.png",
     "EE/Physical design/vlsi-expert.com/STA.md",
     "EE/Physical design/Digital VLSI Design (RTL to GDS)/chapters/Timing Analysis.md",
     "EE/Physical design/Digital VLSI Design (RTL to GDS)/chapters/Routing.md",
@@ -229,34 +245,20 @@
     "Computer Architecture/Modern Processor Design/Advanced Instruction Flow Techniques.md",
     "EE/Physical design/Digital VLSI Design (RTL to GDS)/chapters/Chip Finishing and Signoff.md",
     "Computer Architecture/In-Near-Memory Computing.md",
-    "resources/img/Pasted image 20250126171544.png",
-    "resources/img/Pasted image 20250126170725.png",
-    "resources/img/Pasted image 20250124141320.png",
-    "resources/img/Pasted image 20250124141047.png",
-    "resources/img/Pasted image 20250124140244.png",
-    "resources/img/Pasted image 20250124134706.png",
-    "resources/img/Pasted image 20250124132711.png",
-    "resources/img/Pasted image 20250124124547.png",
-    "resources/img/Pasted image 20250124123921.png",
-    "resources/img/Pasted image 20250124122959.png",
     "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Relaxed Memory Consistency.md",
     "Computer Architecture/PaperReading/people/Sinclair.md",
     "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/Memory Consistency Model.md",
     "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/TSO (Total Store Order).md",
     "Computer Architecture/A Primer On Memory Consistency and Cache Coherence/SC (Sequential Consistency).md",
     "Computer Architecture/CAQA/DLP.md",
-    "People/Tullsen.md",
     "Computer Architecture/PaperReading/people/sinclair",
     "Computer Architecture/PaperReading/people/Andre DeHon.md",
     "Computer Architecture/PaperReading/people/Calvin Lin.md",
     "Computer Architecture/PaperReading/uarch/LSQ/Correlated Load-Address Predictors.md",
     "Computer Architecture/Quantum Computing/Quantum Control Hardware.md",
     "Computer Architecture/Quantum Computing",
-    "Computer Architecture/PaperReading/security/side-channel/Half&Half：Demystifying Intel’s Directional Branch Predictors for Fast, Secure Partitioned Execution.md",
     "People/NA/Luis Ceze.md",
     "People/NA/Anant Agarwal.md",
-    "People/NA/Josep Torrellas.md",
-    "Computer Architecture/PaperReading/uarch/PRF/Multiple-Banked Register File Architectures.md",
     "Computer Architecture/PaperReading/security/side-channel",
     "Computer Architecture/PaperReading/security",
     "Computer Architecture/PaperReading/PIM",
