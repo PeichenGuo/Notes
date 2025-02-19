@@ -34,9 +34,21 @@
               "icon": "lucide-file",
               "title": "Chip Finishing and Signoff"
             }
+          },
+          {
+            "id": "beb97f0b5747dd1d",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.7"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -205,7 +217,7 @@
       "templates:Insert template": false
     }
   },
-  "active": "2fd97cb827b9533c",
+  "active": "beb97f0b5747dd1d",
   "lastOpenFiles": [
     "EE/Physical design/vlsi-expert.com/STA.md",
     "EE/Physical design/Digital VLSI Design (RTL to GDS)/chapters/Timing Analysis.md",
