@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "sta",
+                "query": "WLM",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -79,7 +79,8 @@
               "title": "Search"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -192,6 +193,8 @@
   },
   "active": "beb97f0b5747dd1d",
   "lastOpenFiles": [
+    "EE/Physical design/Digital VLSI Design (RTL to GDS)/chapters/Logic Synthesis.md",
+    "People/Tullsen.md",
     "Computer Architecture/PaperReading/security/side-channel/Indirector： High-Precision Branch Target Injection Attacks Exploiting the Indirect Branch Predictor.md",
     "EE/Physical design/Digital VLSI Design (RTL to GDS)/chapters/Chip Finishing and Signoff.md",
     "resources/img/Pasted image 20250220022702.png",
@@ -200,7 +203,6 @@
     "resources/img/Pasted image 20250220022221.png",
     "resources/img/Pasted image 20250220022206.png",
     "resources/img/Pasted image 20250220021339.png",
-    "People/Tullsen.md",
     "resources/img/Pasted image 20250220011934.png",
     "resources/img/Pasted image 20250220003944.png",
     "Computer Architecture/PaperReading/security/side-channel/Half&Half：Demystifying Intel’s Directional Branch Predictors for Fast, Secure Partitioned Execution.md",
@@ -211,7 +213,6 @@
     "EE/Physical design/Digital VLSI Design (RTL to GDS)/chapters/Routing.md",
     "EE/Physical design/Digital VLSI Design (RTL to GDS)/chapters/Clock Tree Synthesis (CTS).md",
     "EE/Physical design/Digital VLSI Design (RTL to GDS)/chapters/Placement.md",
-    "EE/Physical design/Digital VLSI Design (RTL to GDS)/chapters/Logic Synthesis.md",
     "EE/Physical design/Digital VLSI Design (RTL to GDS)/chapters/Introduction.md",
     "Computer Architecture/Modern Processor Design/Advanced Instruction Flow Techniques.md",
     "Computer Architecture/In-Near-Memory Computing.md",
